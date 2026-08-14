@@ -45,8 +45,11 @@ inferred from the `.svg` or `.pdf` suffix):
 
 ```console
 periodisk render periodic-table.pdf --language en_GB --page-size A3
-periodisk render periodesystemet.pdf --language nb_NO \
-  --content simplified --classification broad --colour-scheme broad-light
+```
+or to change the language and style:
+
+```console
+periodisk render periodesystemet.pdf --language nb_NO --content simplified --classification broad --colour-scheme broad-light
 ```
 
 The equivalent Python API is:
