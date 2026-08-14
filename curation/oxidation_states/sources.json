@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "reviewed": "2026-08-11",
+  "sources": {
+    "housecroft-sharpe-2018": {
+      "title": "Inorganic Chemistry",
+      "citation": "Housecroft, C. E. & Sharpe, A. G., Inorganic Chemistry, 5th ed., Pearson, 2018.",
+      "isbn": "978-1-292-13414-7",
+      "access": "print textbook",
+      "license": "copyrighted; citation only",
+      "redistributable": false,
+      "note": "Primary general-inorganic teaching reference for representative compounds and pedagogical selection."
+    },
+    "greenwood-earnshaw-1997": {
+      "title": "Chemistry of the Elements",
+      "citation": "Greenwood, N. N. & Earnshaw, A., Chemistry of the Elements, 2nd ed., Butterworth-Heinemann, 1997.",
+      "isbn": "978-0-7506-3365-9",
+      "access": "print textbook",
+      "license": "copyrighted; citation only",
+      "redistributable": false,
+      "note": "Element-by-element reference used for cases needing detail beyond the general teaching text."
+    },
+    "iupac-oxidation-state-2016": {
+      "title": "Comprehensive definition of oxidation state",
+      "citation": "Karen, P., McArdle, P. & Takats, J., Pure and Applied Chemistry 88, 831–839 (2016).",
+      "doi": "10.1515/pac-2015-1204",
+      "url": "https://doi.org/10.1515/pac-2015-1204",
+      "access": "open IUPAC recommendation",
+      "redistributable": false,
+      "note": "Defines oxidation state by ionic approximation and uses Allen electronegativity for practical bond assignment."
+    },
+    "wikipedia-oxidation-states": {
+      "title": "Template:List of oxidation states of the elements",
+      "url": "https://en.wikipedia.org/wiki/Template:List_of_oxidation_states_of_the_elements",
+      "access": "MediaWiki API revision snapshot",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Wikipedia contributors",
+      "redistributable": true,
+      "note": "Comparison source only. The local snapshot records its exact revision and the template's distinction between bold main states and other reported states."
+    }
+  }
+}

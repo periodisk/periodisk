@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "periodisk"
+version = "2026.1"
+description = "Generate accessible, source-traceable periodic tables."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-CONTENT.md", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "Periodisk contributors" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = ["CairoSVG>=2.7"]
+
+[project.urls]
+Homepage = "https://github.com/periodisk/periodisk"
+Repository = "https://github.com/periodisk/periodisk"
+Documentation = "https://github.com/periodisk/periodisk#readme"
+Issues = "https://github.com/periodisk/periodisk/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pypdf>=5"]
+dev = ["pytest>=8", "pypdf>=5", "ruff"]
+
+[project.scripts]
+periodisk = "periodisk.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+periodisk = ["resources/**/*.json"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B", "C4", "RUF100"]

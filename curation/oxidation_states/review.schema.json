@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/periodisk/oxidation-state-review.schema.json",
+  "title": "Periodic-table oxidation-state review",
+  "type": "object",
+  "required": ["schema", "policy", "source", "elements"],
+  "properties": {
+    "schema": {"const": 1},
+    "policy": {"const": "README.md"},
+    "source": {"type": "string"},
+    "elements": {
+      "type": "array",
+      "minItems": 118,
+      "maxItems": 118,
+      "items": {"$ref": "#/$defs/review"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "stateList": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": -8, "maximum": 9},
+      "uniqueItems": true
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["representative", "reason", "source"],
+      "properties": {
+        "representative": {"type": "string"},
+        "reason": {"type": "string"},
+        "source": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "atomic_number", "symbol", "mendeleev_main",
+        "mendeleev_additional", "wikipedia_main", "wikipedia_additional",
+        "print", "principal", "evidence", "status",
+        "reviewer", "reviewed_date", "notes"
+      ],
+      "properties": {
+        "atomic_number": {"type": "integer", "minimum": 1, "maximum": 118},
+        "symbol": {"type": "string", "pattern": "^[A-Z][a-z]?$"},
+        "mendeleev_main": {"$ref": "#/$defs/stateList"},
+        "mendeleev_additional": {"$ref": "#/$defs/stateList"},
+        "wikipedia_main": {"$ref": "#/$defs/stateList"},
+        "wikipedia_additional": {"$ref": "#/$defs/stateList"},
+        "print": {"$ref": "#/$defs/stateList"},
+        "principal": {"$ref": "#/$defs/stateList"},
+        "evidence": {
+          "type": "object",
+          "additionalProperties": {"$ref": "#/$defs/evidence"}
+        },
+        "status": {"enum": ["pending", "reviewed", "needs-research"]},
+        "reviewer": {"type": "string"},
+        "reviewed_date": {"type": ["string", "null"], "format": "date"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

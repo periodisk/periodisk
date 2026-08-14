@@ -1,0 +1,1672 @@
+{
+  "schema": 1,
+  "source": "wikipedia-oxidation-states",
+  "title": "Template:List of oxidation states of the elements",
+  "revision": 1340524841,
+  "permanent_url": "https://en.wikipedia.org/w/index.php?title=Template:List_of_oxidation_states_of_the_elements&oldid=1340524841",
+  "retrieved_at": "2026-08-12T06:01:56+00:00",
+  "license": "CC BY-SA 4.0",
+  "attribution": "Wikipedia contributors",
+  "scope_note": "Occurrences in compounds and complexes; elemental standard states and allotropes are excluded. Bold values in the source are recorded as main.",
+  "elements": [
+    {
+      "atomic_number": 1,
+      "symbol": "H",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        -1,
+        1
+      ]
+    },
+    {
+      "atomic_number": 2,
+      "symbol": "He",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 3,
+      "symbol": "Li",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 4,
+      "symbol": "Be",
+      "states": [
+        -2,
+        0,
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 5,
+      "symbol": "B",
+      "states": [
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 6,
+      "symbol": "C",
+      "states": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "atomic_number": 7,
+      "symbol": "N",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        -3,
+        3,
+        5
+      ]
+    },
+    {
+      "atomic_number": 8,
+      "symbol": "O",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "main": [
+        -2
+      ]
+    },
+    {
+      "atomic_number": 9,
+      "symbol": "F",
+      "states": [
+        -1,
+        0
+      ],
+      "main": [
+        -1
+      ]
+    },
+    {
+      "atomic_number": 10,
+      "symbol": "Ne",
+      "states": [
+        0
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 11,
+      "symbol": "Na",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 12,
+      "symbol": "Mg",
+      "states": [
+        0,
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 13,
+      "symbol": "Al",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 14,
+      "symbol": "Si",
+      "states": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        -4,
+        4
+      ]
+    },
+    {
+      "atomic_number": 15,
+      "symbol": "P",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        -3,
+        3,
+        5
+      ]
+    },
+    {
+      "atomic_number": 16,
+      "symbol": "S",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        -2,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 17,
+      "symbol": "Cl",
+      "states": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "atomic_number": 18,
+      "symbol": "Ar",
+      "states": [
+        0
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 19,
+      "symbol": "K",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 20,
+      "symbol": "Ca",
+      "states": [
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 21,
+      "symbol": "Sc",
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 22,
+      "symbol": "Ti",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 23,
+      "symbol": "V",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        5
+      ]
+    },
+    {
+      "atomic_number": 24,
+      "symbol": "Cr",
+      "states": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        3,
+        6
+      ]
+    },
+    {
+      "atomic_number": 25,
+      "symbol": "Mn",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "atomic_number": 26,
+      "symbol": "Fe",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        2,
+        3
+      ]
+    },
+    {
+      "atomic_number": 27,
+      "symbol": "Co",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        2,
+        3
+      ]
+    },
+    {
+      "atomic_number": 28,
+      "symbol": "Ni",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 29,
+      "symbol": "Cu",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 30,
+      "symbol": "Zn",
+      "states": [
+        -2,
+        0,
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 31,
+      "symbol": "Ga",
+      "states": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 32,
+      "symbol": "Ge",
+      "states": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        -4,
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 33,
+      "symbol": "As",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        -3,
+        3,
+        5
+      ]
+    },
+    {
+      "atomic_number": 34,
+      "symbol": "Se",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        -2,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 35,
+      "symbol": "Br",
+      "states": [
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "main": [
+        -1,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "atomic_number": 36,
+      "symbol": "Kr",
+      "states": [
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 37,
+      "symbol": "Rb",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 38,
+      "symbol": "Sr",
+      "states": [
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 39,
+      "symbol": "Y",
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 40,
+      "symbol": "Zr",
+      "states": [
+        -2,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 41,
+      "symbol": "Nb",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        5
+      ]
+    },
+    {
+      "atomic_number": 42,
+      "symbol": "Mo",
+      "states": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 43,
+      "symbol": "Tc",
+      "states": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        4,
+        7
+      ]
+    },
+    {
+      "atomic_number": 44,
+      "symbol": "Ru",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "main": [
+        3,
+        4
+      ]
+    },
+    {
+      "atomic_number": 45,
+      "symbol": "Rh",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 46,
+      "symbol": "Pd",
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 47,
+      "symbol": "Ag",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 48,
+      "symbol": "Cd",
+      "states": [
+        -2,
+        0,
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 49,
+      "symbol": "In",
+      "states": [
+        -5,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 50,
+      "symbol": "Sn",
+      "states": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        -4,
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 51,
+      "symbol": "Sb",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        -3,
+        3,
+        5
+      ]
+    },
+    {
+      "atomic_number": 52,
+      "symbol": "Te",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        -2,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 53,
+      "symbol": "I",
+      "states": [
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "atomic_number": 54,
+      "symbol": "Xe",
+      "states": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "main": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 55,
+      "symbol": "Cs",
+      "states": [
+        -1,
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 56,
+      "symbol": "Ba",
+      "states": [
+        1,
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 57,
+      "symbol": "La",
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 58,
+      "symbol": "Ce",
+      "states": [
+        2,
+        3,
+        4
+      ],
+      "main": [
+        3,
+        4
+      ]
+    },
+    {
+      "atomic_number": 59,
+      "symbol": "Pr",
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 60,
+      "symbol": "Nd",
+      "states": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 61,
+      "symbol": "Pm",
+      "states": [
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 62,
+      "symbol": "Sm",
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 63,
+      "symbol": "Eu",
+      "states": [
+        0,
+        2,
+        3
+      ],
+      "main": [
+        2,
+        3
+      ]
+    },
+    {
+      "atomic_number": 64,
+      "symbol": "Gd",
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 65,
+      "symbol": "Tb",
+      "states": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 66,
+      "symbol": "Dy",
+      "states": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 67,
+      "symbol": "Ho",
+      "states": [
+        0,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 68,
+      "symbol": "Er",
+      "states": [
+        0,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 69,
+      "symbol": "Tm",
+      "states": [
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 70,
+      "symbol": "Yb",
+      "states": [
+        1,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 71,
+      "symbol": "Lu",
+      "states": [
+        0,
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 72,
+      "symbol": "Hf",
+      "states": [
+        -2,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 73,
+      "symbol": "Ta",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        5
+      ]
+    },
+    {
+      "atomic_number": 74,
+      "symbol": "W",
+      "states": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        4,
+        6
+      ]
+    },
+    {
+      "atomic_number": 75,
+      "symbol": "Re",
+      "states": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        4,
+        7
+      ]
+    },
+    {
+      "atomic_number": 76,
+      "symbol": "Os",
+      "states": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 77,
+      "symbol": "Ir",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "main": [
+        3,
+        4
+      ]
+    },
+    {
+      "atomic_number": 78,
+      "symbol": "Pt",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 79,
+      "symbol": "Au",
+      "states": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 80,
+      "symbol": "Hg",
+      "states": [
+        -2,
+        1,
+        2
+      ],
+      "main": [
+        1,
+        2
+      ]
+    },
+    {
+      "atomic_number": 81,
+      "symbol": "Tl",
+      "states": [
+        -5,
+        -2,
+        -1,
+        1,
+        2,
+        3
+      ],
+      "main": [
+        1,
+        3
+      ]
+    },
+    {
+      "atomic_number": 82,
+      "symbol": "Pb",
+      "states": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 83,
+      "symbol": "Bi",
+      "states": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 84,
+      "symbol": "Po",
+      "states": [
+        -2,
+        2,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        -2,
+        2,
+        4
+      ]
+    },
+    {
+      "atomic_number": 85,
+      "symbol": "At",
+      "states": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "main": [
+        -1,
+        1
+      ]
+    },
+    {
+      "atomic_number": 86,
+      "symbol": "Rn",
+      "states": [
+        2,
+        6
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 87,
+      "symbol": "Fr",
+      "states": [
+        1
+      ],
+      "main": [
+        1
+      ]
+    },
+    {
+      "atomic_number": 88,
+      "symbol": "Ra",
+      "states": [
+        2
+      ],
+      "main": [
+        2
+      ]
+    },
+    {
+      "atomic_number": 89,
+      "symbol": "Ac",
+      "states": [
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 90,
+      "symbol": "Th",
+      "states": [
+        -1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 91,
+      "symbol": "Pa",
+      "states": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        5
+      ]
+    },
+    {
+      "atomic_number": 92,
+      "symbol": "U",
+      "states": [
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        6
+      ]
+    },
+    {
+      "atomic_number": 93,
+      "symbol": "Np",
+      "states": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        5
+      ]
+    },
+    {
+      "atomic_number": 94,
+      "symbol": "Pu",
+      "states": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 95,
+      "symbol": "Am",
+      "states": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 96,
+      "symbol": "Cm",
+      "states": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 97,
+      "symbol": "Bk",
+      "states": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 98,
+      "symbol": "Cf",
+      "states": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 99,
+      "symbol": "Es",
+      "states": [
+        2,
+        3,
+        4
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 100,
+      "symbol": "Fm",
+      "states": [
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 101,
+      "symbol": "Md",
+      "states": [
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 102,
+      "symbol": "No",
+      "states": [
+        2,
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 103,
+      "symbol": "Lr",
+      "states": [
+        3
+      ],
+      "main": [
+        3
+      ]
+    },
+    {
+      "atomic_number": 104,
+      "symbol": "Rf",
+      "states": [
+        4
+      ],
+      "main": [
+        4
+      ]
+    },
+    {
+      "atomic_number": 105,
+      "symbol": "Db",
+      "states": [
+        5
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 106,
+      "symbol": "Sg",
+      "states": [
+        0,
+        6
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 107,
+      "symbol": "Bh",
+      "states": [
+        7
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 108,
+      "symbol": "Hs",
+      "states": [
+        8
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 109,
+      "symbol": "Mt",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 110,
+      "symbol": "Ds",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 111,
+      "symbol": "Rg",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 112,
+      "symbol": "Cn",
+      "states": [
+        2
+      ],
+      "main": []
+    },
+    {
+      "atomic_number": 113,
+      "symbol": "Nh",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 114,
+      "symbol": "Fl",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 115,
+      "symbol": "Mc",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 116,
+      "symbol": "Lv",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 117,
+      "symbol": "Ts",
+      "states": [],
+      "main": []
+    },
+    {
+      "atomic_number": 118,
+      "symbol": "Og",
+      "states": [],
+      "main": []
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+# Periodisk
+
+An open-source Python package for generating accessible, source-traceable
+periodic tables for chemistry teaching in SVG and PDF formats.
+Version **2026.1** includes an offline, 118-element dataset, with British
+English and Norwegian Bokmål localisation.
+
+See [DATA_SOURCES.md](docs/DATA_SOURCES.md) for data sources, scientific
+citations, and known limitations.
+
+## Examples
+
+![Periodic table rendered with the default colour scheme](examples/en_GB/svg/periodic-table-en-a3.svg)
+
+Print-ready PDFs and editable SVGs are available in [`examples/`](examples/).
+They are grouped by locale and file format:
+
+```text
+examples/
+├── en_GB/
+│   ├── pdf/
+│   └── svg/
+└── nb_NO/
+    ├── pdf/
+    └── svg/
+```
+
+The examples include selected colour schemes and cell styles, plus simplified
+tables (using the broad classes metals, metalloids, nonmetals, and noble gases).
+See [`examples/README.md`](examples/README.md) for the inventory and filename
+conventions, or [compare all selectable colour schemes](docs/colour-schemes.svg).
+
+## Installing
+
+Install the package from the repository root:
+
+```console
+python -m pip install .
+```
+
+## Usage
+
+To render a table from the command line (the output format is
+inferred from the `.svg` or `.pdf` suffix):
+
+```console
+periodisk render periodic-table.pdf --language en_GB --page-size A3
+periodisk render periodesystemet.pdf --language nb_NO \
+  --content simplified --classification broad --colour-scheme broad-light
+```
+
+The equivalent Python API is:
+
+```python
+from periodisk import render_table
+
+render_table(
+    "periodic-table.pdf",
+    language="en_GB",
+    page_size="A3",
+)
+```
+
+The default uses the Tol Light–inspired colour scheme and the full scientific
+content. Useful options include:
+
+- `--language en_GB|nb_NO` and `--page-size A3|A4`
+- `--colour-scheme` for selectable palettes
+- `--content full|simplified`
+- `--classification detailed|broad`
+- `--cell-style full|gutters|soft-rules` and `--rounded-corners`
+- `--electronegativity-scale pauling|allred-rochow|allen`
+
+Run `periodisk render --help` for the complete set of choices. See
+[DESIGN.md](docs/DESIGN.md) for palette and layout details and
+[LOCALISATION.md](docs/LOCALISATION.md) for language support.
+
+## Development
+
+The project supports Python 3.13 and 3.14. Its release policy is to support the
+two most recent stable CPython versions that are still receiving regular bug
+fixes.
+
+Install the development dependencies and run the checks from the repository
+root:
+
+```console
+python -m pip install -e '.[dev]'
+python -m periodisk validate --release
+python -m pytest
+ruff check .
+ruff format --check .
+```
+
+Ruff checks the Python code for common errors and style problems and enforces
+consistent formatting. Run `ruff check --fix .` followed by `ruff format .`
+before submitting changes.
+
+The radioactive sign is native vector geometry and requires no separately
+installed symbol font. Regenerate the web palette preview after changing
+palette definitions with:
+
+```console
+PYTHONPATH=src python scripts/render_palette_preview.py
+```
+
+## Scientific data
+
+Scientific data are stored locally as JSON. Runtime generation will therefore
+never need to query Mendeleev or another online service. Sourced scientific
+values carry identifiers from `sources.json`; editorial classifications and
+translations are documented separately. First ionisation energies use
+**kJ/mol**. See [DATA_SOURCES.md](docs/DATA_SOURCES.md) for sources, curation
+methods, and known limitations.
+
+## Versioning
+
+Releases use a calendar-based `YYYY.N` scheme. `YYYY` is the release year and
+`N` counts releases within that year; for example, `2026.1` is the first 2026
+release.
+
+## Licence
+
+The project uses a simple dual-licence arrangement:
+
+- Python source code is licensed under the [MIT License](LICENSE).
+- Original documentation and rendered periodic tables are licensed under
+  [CC BY 4.0](LICENSE-CONTENT.md).
+
+The CC BY licence covers the project's original presentation and explanatory
+material, including the editorial arrangement of the rendered tables. It does
+not claim ownership of scientific facts or relicense third-party source
+material. Rendered tables include a short CC BY notice, while their source
+footer identifies the scientific provenance. Source-specific attribution and
+licensing information is recorded in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

@@ -1,0 +1,719 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1246 692" role="img" aria-labelledby="title description">
+  <title id="title">Periodic-table colour schemes</title>
+  <desc id="description">Rows compare the category colours in every selectable scheme.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  <style>text{font-family:Arial,sans-serif;fill:#111} .scheme{font-size:13px;font-weight:700} .category{font-size:10px;font-weight:700;text-anchor:middle} .hex{font-size:10px;text-anchor:middle}</style>
+  <text class="category" x="218.0" y="45">
+    <tspan x="218.0" dy="0">Alkali</tspan>
+    <tspan x="218.0" dy="12">metal</tspan>
+  </text>
+  <text class="category" x="314.0" y="45">
+    <tspan x="314.0" dy="0">Alkaline-earth</tspan>
+    <tspan x="314.0" dy="12">metal</tspan>
+  </text>
+  <text class="category" x="410.0" y="45">
+    <tspan x="410.0" dy="0">Transition</tspan>
+    <tspan x="410.0" dy="12">metal</tspan>
+  </text>
+  <text class="category" x="506.0" y="45">
+    <tspan x="506.0" dy="0">Post-transition</tspan>
+    <tspan x="506.0" dy="12">metal</tspan>
+  </text>
+  <text class="category" x="602.0" y="45">
+    <tspan x="602.0" dy="0">Metalloid</tspan>
+  </text>
+  <text class="category" x="698.0" y="45">
+    <tspan x="698.0" dy="0">Nonmetal</tspan>
+  </text>
+  <text class="category" x="794.0" y="45">
+    <tspan x="794.0" dy="0">Halogen</tspan>
+  </text>
+  <text class="category" x="890.0" y="45">
+    <tspan x="890.0" dy="0">Noble gas</tspan>
+  </text>
+  <text class="category" x="986.0" y="45">
+    <tspan x="986.0" dy="0">Lanthanide</tspan>
+  </text>
+  <text class="category" x="1082.0" y="45">
+    <tspan x="1082.0" dy="0">Actinide</tspan>
+  </text>
+  <text class="category" x="1178.0" y="45">
+    <tspan x="1178.0" dy="0">Unknown</tspan>
+    <tspan x="1178.0" dy="12">chemistry</tspan>
+  </text>
+  <text x="12" y="104" class="scheme">default</text>
+  <rect x="172" y="82" width="92" height="34" rx="3" fill="#EE8866" stroke="#333333" stroke-width="0.7">
+    <title>default · alkali-metal: #EE8866</title>
+  </rect>
+  <text x="218.0" y="105" class="hex">#EE8866</text>
+  <rect x="268" y="82" width="92" height="34" rx="3" fill="#EEDD88" stroke="#333333" stroke-width="0.7">
+    <title>default · alkaline-earth-metal: #EEDD88</title>
+  </rect>
+  <text x="314.0" y="105" class="hex">#EEDD88</text>
+  <rect x="364" y="82" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>default · transition-metal: #77AADD</title>
+  </rect>
+  <text x="410.0" y="105" class="hex">#77AADD</text>
+  <rect x="460" y="82" width="92" height="34" rx="3" fill="#99DDFF" stroke="#333333" stroke-width="0.7">
+    <title>default · post-transition-metal: #99DDFF</title>
+  </rect>
+  <text x="506.0" y="105" class="hex">#99DDFF</text>
+  <rect x="556" y="82" width="92" height="34" rx="3" fill="#44BB99" stroke="#333333" stroke-width="0.7">
+    <title>default · metalloid: #44BB99</title>
+  </rect>
+  <text x="602.0" y="105" class="hex">#44BB99</text>
+  <rect x="652" y="82" width="92" height="34" rx="3" fill="#BBCC33" stroke="#333333" stroke-width="0.7">
+    <title>default · reactive-nonmetal: #BBCC33</title>
+  </rect>
+  <text x="698.0" y="105" class="hex">#BBCC33</text>
+  <rect x="748" y="82" width="92" height="34" rx="3" fill="#AAAA00" stroke="#333333" stroke-width="0.7">
+    <title>default · halogen: #AAAA00</title>
+  </rect>
+  <text x="794.0" y="105" class="hex">#AAAA00</text>
+  <rect x="844" y="82" width="92" height="34" rx="3" fill="#DDDDDD" stroke="#333333" stroke-width="0.7">
+    <title>default · noble-gas: #DDDDDD</title>
+  </rect>
+  <text x="890.0" y="105" class="hex">#DDDDDD</text>
+  <rect x="940" y="82" width="92" height="34" rx="3" fill="#DDBBDD" stroke="#333333" stroke-width="0.7">
+    <title>default · lanthanide: #DDBBDD</title>
+  </rect>
+  <text x="986.0" y="105" class="hex">#DDBBDD</text>
+  <rect x="1036" y="82" width="92" height="34" rx="3" fill="#FFAABB" stroke="#333333" stroke-width="0.7">
+    <title>default · actinide: #FFAABB</title>
+  </rect>
+  <text x="1082.0" y="105" class="hex">#FFAABB</text>
+  <rect x="1132" y="82" width="92" height="34" rx="3" fill="#F4F4F4" stroke="#333333" stroke-width="0.7">
+    <title>default · unknown-chemistry: #F4F4F4</title>
+  </rect>
+  <text x="1178.0" y="105" class="hex">#F4F4F4</text>
+  <text x="12" y="142" class="scheme">classic</text>
+  <rect x="172" y="120" width="92" height="34" rx="3" fill="#F3C363" stroke="#333333" stroke-width="0.7">
+    <title>classic · alkali-metal: #F3C363</title>
+  </rect>
+  <text x="218.0" y="143" class="hex">#F3C363</text>
+  <rect x="268" y="120" width="92" height="34" rx="3" fill="#F5E77A" stroke="#333333" stroke-width="0.7">
+    <title>classic · alkaline-earth-metal: #F5E77A</title>
+  </rect>
+  <text x="314.0" y="143" class="hex">#F5E77A</text>
+  <rect x="364" y="120" width="92" height="34" rx="3" fill="#8EC9E6" stroke="#333333" stroke-width="0.7">
+    <title>classic · transition-metal: #8EC9E6</title>
+  </rect>
+  <text x="410.0" y="143" class="hex">#8EC9E6</text>
+  <rect x="460" y="120" width="92" height="34" rx="3" fill="#79ACD2" stroke="#333333" stroke-width="0.7">
+    <title>classic · post-transition-metal: #79ACD2</title>
+  </rect>
+  <text x="506.0" y="143" class="hex">#79ACD2</text>
+  <rect x="556" y="120" width="92" height="34" rx="3" fill="#75C7AC" stroke="#333333" stroke-width="0.7">
+    <title>classic · metalloid: #75C7AC</title>
+  </rect>
+  <text x="602.0" y="143" class="hex">#75C7AC</text>
+  <rect x="652" y="120" width="92" height="34" rx="3" fill="#E4A7C9" stroke="#333333" stroke-width="0.7">
+    <title>classic · reactive-nonmetal: #E4A7C9</title>
+  </rect>
+  <text x="698.0" y="143" class="hex">#E4A7C9</text>
+  <rect x="748" y="120" width="92" height="34" rx="3" fill="#E89A75" stroke="#333333" stroke-width="0.7">
+    <title>classic · halogen: #E89A75</title>
+  </rect>
+  <text x="794.0" y="143" class="hex">#E89A75</text>
+  <rect x="844" y="120" width="92" height="34" rx="3" fill="#B5A0D0" stroke="#333333" stroke-width="0.7">
+    <title>classic · noble-gas: #B5A0D0</title>
+  </rect>
+  <text x="890.0" y="143" class="hex">#B5A0D0</text>
+  <rect x="940" y="120" width="92" height="34" rx="3" fill="#A5DDEB" stroke="#333333" stroke-width="0.7">
+    <title>classic · lanthanide: #A5DDEB</title>
+  </rect>
+  <text x="986.0" y="143" class="hex">#A5DDEB</text>
+  <rect x="1036" y="120" width="92" height="34" rx="3" fill="#D59AC8" stroke="#333333" stroke-width="0.7">
+    <title>classic · actinide: #D59AC8</title>
+  </rect>
+  <text x="1082.0" y="143" class="hex">#D59AC8</text>
+  <rect x="1132" y="120" width="92" height="34" rx="3" fill="#FAFAFA" stroke="#333333" stroke-width="0.7">
+    <title>classic · unknown-chemistry: #FAFAFA</title>
+  </rect>
+  <text x="1178.0" y="143" class="hex">#FAFAFA</text>
+  <text x="12" y="180" class="scheme">light</text>
+  <rect x="172" y="158" width="92" height="34" rx="3" fill="#F8DFA4" stroke="#333333" stroke-width="0.7">
+    <title>light · alkali-metal: #F8DFA4</title>
+  </rect>
+  <text x="218.0" y="181" class="hex">#F8DFA4</text>
+  <rect x="268" y="158" width="92" height="34" rx="3" fill="#F8F0AE" stroke="#333333" stroke-width="0.7">
+    <title>light · alkaline-earth-metal: #F8F0AE</title>
+  </rect>
+  <text x="314.0" y="181" class="hex">#F8F0AE</text>
+  <rect x="364" y="158" width="92" height="34" rx="3" fill="#B8DDF0" stroke="#333333" stroke-width="0.7">
+    <title>light · transition-metal: #B8DDF0</title>
+  </rect>
+  <text x="410.0" y="181" class="hex">#B8DDF0</text>
+  <rect x="460" y="158" width="92" height="34" rx="3" fill="#A7CDE5" stroke="#333333" stroke-width="0.7">
+    <title>light · post-transition-metal: #A7CDE5</title>
+  </rect>
+  <text x="506.0" y="181" class="hex">#A7CDE5</text>
+  <rect x="556" y="158" width="92" height="34" rx="3" fill="#A8DCCB" stroke="#333333" stroke-width="0.7">
+    <title>light · metalloid: #A8DCCB</title>
+  </rect>
+  <text x="602.0" y="181" class="hex">#A8DCCB</text>
+  <rect x="652" y="158" width="92" height="34" rx="3" fill="#EFC9DF" stroke="#333333" stroke-width="0.7">
+    <title>light · reactive-nonmetal: #EFC9DF</title>
+  </rect>
+  <text x="698.0" y="181" class="hex">#EFC9DF</text>
+  <rect x="748" y="158" width="92" height="34" rx="3" fill="#F2B79D" stroke="#333333" stroke-width="0.7">
+    <title>light · halogen: #F2B79D</title>
+  </rect>
+  <text x="794.0" y="181" class="hex">#F2B79D</text>
+  <rect x="844" y="158" width="92" height="34" rx="3" fill="#D0C2E3" stroke="#333333" stroke-width="0.7">
+    <title>light · noble-gas: #D0C2E3</title>
+  </rect>
+  <text x="890.0" y="181" class="hex">#D0C2E3</text>
+  <rect x="940" y="158" width="92" height="34" rx="3" fill="#C6E8F0" stroke="#333333" stroke-width="0.7">
+    <title>light · lanthanide: #C6E8F0</title>
+  </rect>
+  <text x="986.0" y="181" class="hex">#C6E8F0</text>
+  <rect x="1036" y="158" width="92" height="34" rx="3" fill="#E4BEDD" stroke="#333333" stroke-width="0.7">
+    <title>light · actinide: #E4BEDD</title>
+  </rect>
+  <text x="1082.0" y="181" class="hex">#E4BEDD</text>
+  <rect x="1132" y="158" width="92" height="34" rx="3" fill="#FAFAFA" stroke="#333333" stroke-width="0.7">
+    <title>light · unknown-chemistry: #FAFAFA</title>
+  </rect>
+  <text x="1178.0" y="181" class="hex">#FAFAFA</text>
+  <text x="12" y="218" class="scheme">vibrant</text>
+  <rect x="172" y="196" width="92" height="34" rx="3" fill="#F4B942" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · alkali-metal: #F4B942</title>
+  </rect>
+  <text x="218.0" y="219" class="hex">#F4B942</text>
+  <rect x="268" y="196" width="92" height="34" rx="3" fill="#F2DE4F" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · alkaline-earth-metal: #F2DE4F</title>
+  </rect>
+  <text x="314.0" y="219" class="hex">#F2DE4F</text>
+  <rect x="364" y="196" width="92" height="34" rx="3" fill="#55B8E6" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · transition-metal: #55B8E6</title>
+  </rect>
+  <text x="410.0" y="219" class="hex">#55B8E6</text>
+  <rect x="460" y="196" width="92" height="34" rx="3" fill="#4D91C6" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · post-transition-metal: #4D91C6</title>
+  </rect>
+  <text x="506.0" y="219" class="hex">#4D91C6</text>
+  <rect x="556" y="196" width="92" height="34" rx="3" fill="#4DBE9D" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · metalloid: #4DBE9D</title>
+  </rect>
+  <text x="602.0" y="219" class="hex">#4DBE9D</text>
+  <rect x="652" y="196" width="92" height="34" rx="3" fill="#E889BE" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · reactive-nonmetal: #E889BE</title>
+  </rect>
+  <text x="698.0" y="219" class="hex">#E889BE</text>
+  <rect x="748" y="196" width="92" height="34" rx="3" fill="#EB7952" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · halogen: #EB7952</title>
+  </rect>
+  <text x="794.0" y="219" class="hex">#EB7952</text>
+  <rect x="844" y="196" width="92" height="34" rx="3" fill="#9D82C4" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · noble-gas: #9D82C4</title>
+  </rect>
+  <text x="890.0" y="219" class="hex">#9D82C4</text>
+  <rect x="940" y="196" width="92" height="34" rx="3" fill="#78CFE3" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · lanthanide: #78CFE3</title>
+  </rect>
+  <text x="986.0" y="219" class="hex">#78CFE3</text>
+  <rect x="1036" y="196" width="92" height="34" rx="3" fill="#CA79B8" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · actinide: #CA79B8</title>
+  </rect>
+  <text x="1082.0" y="219" class="hex">#CA79B8</text>
+  <rect x="1132" y="196" width="92" height="34" rx="3" fill="#FAFAFA" stroke="#333333" stroke-width="0.7">
+    <title>vibrant · unknown-chemistry: #FAFAFA</title>
+  </rect>
+  <text x="1178.0" y="219" class="hex">#FAFAFA</text>
+  <text x="12" y="256" class="scheme">soft-cool</text>
+  <rect x="172" y="234" width="92" height="34" rx="3" fill="#F2D49B" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · alkali-metal: #F2D49B</title>
+  </rect>
+  <text x="218.0" y="257" class="hex">#F2D49B</text>
+  <rect x="268" y="234" width="92" height="34" rx="3" fill="#EEE7A7" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · alkaline-earth-metal: #EEE7A7</title>
+  </rect>
+  <text x="314.0" y="257" class="hex">#EEE7A7</text>
+  <rect x="364" y="234" width="92" height="34" rx="3" fill="#A9D3E1" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · transition-metal: #A9D3E1</title>
+  </rect>
+  <text x="410.0" y="257" class="hex">#A9D3E1</text>
+  <rect x="460" y="234" width="92" height="34" rx="3" fill="#8DB9D1" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · post-transition-metal: #8DB9D1</title>
+  </rect>
+  <text x="506.0" y="257" class="hex">#8DB9D1</text>
+  <rect x="556" y="234" width="92" height="34" rx="3" fill="#9BCDBB" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · metalloid: #9BCDBB</title>
+  </rect>
+  <text x="602.0" y="257" class="hex">#9BCDBB</text>
+  <rect x="652" y="234" width="92" height="34" rx="3" fill="#DDB6CF" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · reactive-nonmetal: #DDB6CF</title>
+  </rect>
+  <text x="698.0" y="257" class="hex">#DDB6CF</text>
+  <rect x="748" y="234" width="92" height="34" rx="3" fill="#DFA58D" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · halogen: #DFA58D</title>
+  </rect>
+  <text x="794.0" y="257" class="hex">#DFA58D</text>
+  <rect x="844" y="234" width="92" height="34" rx="3" fill="#BDAFD2" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · noble-gas: #BDAFD2</title>
+  </rect>
+  <text x="890.0" y="257" class="hex">#BDAFD2</text>
+  <rect x="940" y="234" width="92" height="34" rx="3" fill="#B9DFE5" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · lanthanide: #B9DFE5</title>
+  </rect>
+  <text x="986.0" y="257" class="hex">#B9DFE5</text>
+  <rect x="1036" y="234" width="92" height="34" rx="3" fill="#CEAAC8" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · actinide: #CEAAC8</title>
+  </rect>
+  <text x="1082.0" y="257" class="hex">#CEAAC8</text>
+  <rect x="1132" y="234" width="92" height="34" rx="3" fill="#FAFAFA" stroke="#333333" stroke-width="0.7">
+    <title>soft-cool · unknown-chemistry: #FAFAFA</title>
+  </rect>
+  <text x="1178.0" y="257" class="hex">#FAFAFA</text>
+  <text x="12" y="294" class="scheme">powder</text>
+  <rect x="172" y="272" width="92" height="34" rx="3" fill="#F6D2AB" stroke="#333333" stroke-width="0.7">
+    <title>powder · alkali-metal: #F6D2AB</title>
+  </rect>
+  <text x="218.0" y="295" class="hex">#F6D2AB</text>
+  <rect x="268" y="272" width="92" height="34" rx="3" fill="#FDF7B3" stroke="#333333" stroke-width="0.7">
+    <title>powder · alkaline-earth-metal: #FDF7B3</title>
+  </rect>
+  <text x="314.0" y="295" class="hex">#FDF7B3</text>
+  <rect x="364" y="272" width="92" height="34" rx="3" fill="#DFD5D8" stroke="#333333" stroke-width="0.7">
+    <title>powder · transition-metal: #DFD5D8</title>
+  </rect>
+  <text x="410.0" y="295" class="hex">#DFD5D8</text>
+  <rect x="460" y="272" width="92" height="34" rx="3" fill="#EDE0CD" stroke="#333333" stroke-width="0.7">
+    <title>powder · post-transition-metal: #EDE0CD</title>
+  </rect>
+  <text x="506.0" y="295" class="hex">#EDE0CD</text>
+  <rect x="556" y="272" width="92" height="34" rx="3" fill="#F1FEF5" stroke="#333333" stroke-width="0.7">
+    <title>powder · metalloid: #F1FEF5</title>
+  </rect>
+  <text x="602.0" y="295" class="hex">#F1FEF5</text>
+  <rect x="652" y="272" width="92" height="34" rx="3" fill="#C3DBFE" stroke="#333333" stroke-width="0.7">
+    <title>powder · reactive-nonmetal: #C3DBFE</title>
+  </rect>
+  <text x="698.0" y="295" class="hex">#C3DBFE</text>
+  <rect x="748" y="272" width="92" height="34" rx="3" fill="#FEFDD3" stroke="#333333" stroke-width="0.7">
+    <title>powder · halogen: #FEFDD3</title>
+  </rect>
+  <text x="794.0" y="295" class="hex">#FEFDD3</text>
+  <rect x="844" y="272" width="92" height="34" rx="3" fill="#BDBED6" stroke="#333333" stroke-width="0.7">
+    <title>powder · noble-gas: #BDBED6</title>
+  </rect>
+  <text x="890.0" y="295" class="hex">#BDBED6</text>
+  <rect x="940" y="272" width="92" height="34" rx="3" fill="#F5EBFF" stroke="#333333" stroke-width="0.7">
+    <title>powder · lanthanide: #F5EBFF</title>
+  </rect>
+  <text x="986.0" y="295" class="hex">#F5EBFF</text>
+  <rect x="1036" y="272" width="92" height="34" rx="3" fill="#D7BAB1" stroke="#333333" stroke-width="0.7">
+    <title>powder · actinide: #D7BAB1</title>
+  </rect>
+  <text x="1082.0" y="295" class="hex">#D7BAB1</text>
+  <rect x="1132" y="272" width="92" height="34" rx="3" fill="#E6E9EA" stroke="#333333" stroke-width="0.7">
+    <title>powder · unknown-chemistry: #E6E9EA</title>
+  </rect>
+  <text x="1178.0" y="295" class="hex">#E6E9EA</text>
+  <text x="12" y="332" class="scheme">print</text>
+  <rect x="172" y="310" width="92" height="34" rx="3" fill="#FFFFFF" stroke="#333333" stroke-width="0.7">
+    <title>print · alkali-metal: #FFFFFF</title>
+  </rect>
+  <text x="218.0" y="333" class="hex">#FFFFFF</text>
+  <rect x="268" y="310" width="92" height="34" rx="3" fill="#F5F5F5" stroke="#333333" stroke-width="0.7">
+    <title>print · alkaline-earth-metal: #F5F5F5</title>
+  </rect>
+  <text x="314.0" y="333" class="hex">#F5F5F5</text>
+  <rect x="364" y="310" width="92" height="34" rx="3" fill="#D8D8D8" stroke="#333333" stroke-width="0.7">
+    <title>print · transition-metal: #D8D8D8</title>
+  </rect>
+  <text x="410.0" y="333" class="hex">#D8D8D8</text>
+  <rect x="460" y="310" width="92" height="34" rx="3" fill="#E3E3E3" stroke="#333333" stroke-width="0.7">
+    <title>print · post-transition-metal: #E3E3E3</title>
+  </rect>
+  <text x="506.0" y="333" class="hex">#E3E3E3</text>
+  <rect x="556" y="310" width="92" height="34" rx="3" fill="#EEEEEE" stroke="#333333" stroke-width="0.7">
+    <title>print · metalloid: #EEEEEE</title>
+  </rect>
+  <text x="602.0" y="333" class="hex">#EEEEEE</text>
+  <rect x="652" y="310" width="92" height="34" rx="3" fill="#CCCCCC" stroke="#333333" stroke-width="0.7">
+    <title>print · reactive-nonmetal: #CCCCCC</title>
+  </rect>
+  <text x="698.0" y="333" class="hex">#CCCCCC</text>
+  <rect x="748" y="310" width="92" height="34" rx="3" fill="#F9F9F9" stroke="#333333" stroke-width="0.7">
+    <title>print · halogen: #F9F9F9</title>
+  </rect>
+  <text x="794.0" y="333" class="hex">#F9F9F9</text>
+  <rect x="844" y="310" width="92" height="34" rx="3" fill="#BEBEBE" stroke="#333333" stroke-width="0.7">
+    <title>print · noble-gas: #BEBEBE</title>
+  </rect>
+  <text x="890.0" y="333" class="hex">#BEBEBE</text>
+  <rect x="940" y="310" width="92" height="34" rx="3" fill="#E9E9E9" stroke="#333333" stroke-width="0.7">
+    <title>print · lanthanide: #E9E9E9</title>
+  </rect>
+  <text x="986.0" y="333" class="hex">#E9E9E9</text>
+  <rect x="1036" y="310" width="92" height="34" rx="3" fill="#C6C6C6" stroke="#333333" stroke-width="0.7">
+    <title>print · actinide: #C6C6C6</title>
+  </rect>
+  <text x="1082.0" y="333" class="hex">#C6C6C6</text>
+  <rect x="1132" y="310" width="92" height="34" rx="3" fill="#F2F2F2" stroke="#333333" stroke-width="0.7">
+    <title>print · unknown-chemistry: #F2F2F2</title>
+  </rect>
+  <text x="1178.0" y="333" class="hex">#F2F2F2</text>
+  <text x="12" y="370" class="scheme">mineral</text>
+  <rect x="172" y="348" width="92" height="34" rx="3" fill="#EBC8A0" stroke="#333333" stroke-width="0.7">
+    <title>mineral · alkali-metal: #EBC8A0</title>
+  </rect>
+  <text x="218.0" y="371" class="hex">#EBC8A0</text>
+  <rect x="268" y="348" width="92" height="34" rx="3" fill="#E8DC9A" stroke="#333333" stroke-width="0.7">
+    <title>mineral · alkaline-earth-metal: #E8DC9A</title>
+  </rect>
+  <text x="314.0" y="371" class="hex">#E8DC9A</text>
+  <rect x="364" y="348" width="92" height="34" rx="3" fill="#B8CED0" stroke="#333333" stroke-width="0.7">
+    <title>mineral · transition-metal: #B8CED0</title>
+  </rect>
+  <text x="410.0" y="371" class="hex">#B8CED0</text>
+  <rect x="460" y="348" width="92" height="34" rx="3" fill="#C8B8A3" stroke="#333333" stroke-width="0.7">
+    <title>mineral · post-transition-metal: #C8B8A3</title>
+  </rect>
+  <text x="506.0" y="371" class="hex">#C8B8A3</text>
+  <rect x="556" y="348" width="92" height="34" rx="3" fill="#B8D2BE" stroke="#333333" stroke-width="0.7">
+    <title>mineral · metalloid: #B8D2BE</title>
+  </rect>
+  <text x="602.0" y="371" class="hex">#B8D2BE</text>
+  <rect x="652" y="348" width="92" height="34" rx="3" fill="#C8C1D8" stroke="#333333" stroke-width="0.7">
+    <title>mineral · reactive-nonmetal: #C8C1D8</title>
+  </rect>
+  <text x="698.0" y="371" class="hex">#C8C1D8</text>
+  <rect x="748" y="348" width="92" height="34" rx="3" fill="#DDAF8D" stroke="#333333" stroke-width="0.7">
+    <title>mineral · halogen: #DDAF8D</title>
+  </rect>
+  <text x="794.0" y="371" class="hex">#DDAF8D</text>
+  <rect x="844" y="348" width="92" height="34" rx="3" fill="#AEB8CD" stroke="#333333" stroke-width="0.7">
+    <title>mineral · noble-gas: #AEB8CD</title>
+  </rect>
+  <text x="890.0" y="371" class="hex">#AEB8CD</text>
+  <rect x="940" y="348" width="92" height="34" rx="3" fill="#C9D8C2" stroke="#333333" stroke-width="0.7">
+    <title>mineral · lanthanide: #C9D8C2</title>
+  </rect>
+  <text x="986.0" y="371" class="hex">#C9D8C2</text>
+  <rect x="1036" y="348" width="92" height="34" rx="3" fill="#CCAFA4" stroke="#333333" stroke-width="0.7">
+    <title>mineral · actinide: #CCAFA4</title>
+  </rect>
+  <text x="1082.0" y="371" class="hex">#CCAFA4</text>
+  <rect x="1132" y="348" width="92" height="34" rx="3" fill="#E4E2DC" stroke="#333333" stroke-width="0.7">
+    <title>mineral · unknown-chemistry: #E4E2DC</title>
+  </rect>
+  <text x="1178.0" y="371" class="hex">#E4E2DC</text>
+  <text x="12" y="408" class="scheme">nordic</text>
+  <rect x="172" y="386" width="92" height="34" rx="3" fill="#E8D7B7" stroke="#333333" stroke-width="0.7">
+    <title>nordic · alkali-metal: #E8D7B7</title>
+  </rect>
+  <text x="218.0" y="409" class="hex">#E8D7B7</text>
+  <rect x="268" y="386" width="92" height="34" rx="3" fill="#EEE6BE" stroke="#333333" stroke-width="0.7">
+    <title>nordic · alkaline-earth-metal: #EEE6BE</title>
+  </rect>
+  <text x="314.0" y="409" class="hex">#EEE6BE</text>
+  <rect x="364" y="386" width="92" height="34" rx="3" fill="#BED5DF" stroke="#333333" stroke-width="0.7">
+    <title>nordic · transition-metal: #BED5DF</title>
+  </rect>
+  <text x="410.0" y="409" class="hex">#BED5DF</text>
+  <rect x="460" y="386" width="92" height="34" rx="3" fill="#B4C7D2" stroke="#333333" stroke-width="0.7">
+    <title>nordic · post-transition-metal: #B4C7D2</title>
+  </rect>
+  <text x="506.0" y="409" class="hex">#B4C7D2</text>
+  <rect x="556" y="386" width="92" height="34" rx="3" fill="#C2DACF" stroke="#333333" stroke-width="0.7">
+    <title>nordic · metalloid: #C2DACF</title>
+  </rect>
+  <text x="602.0" y="409" class="hex">#C2DACF</text>
+  <rect x="652" y="386" width="92" height="34" rx="3" fill="#D4D1E2" stroke="#333333" stroke-width="0.7">
+    <title>nordic · reactive-nonmetal: #D4D1E2</title>
+  </rect>
+  <text x="698.0" y="409" class="hex">#D4D1E2</text>
+  <rect x="748" y="386" width="92" height="34" rx="3" fill="#E5C5B7" stroke="#333333" stroke-width="0.7">
+    <title>nordic · halogen: #E5C5B7</title>
+  </rect>
+  <text x="794.0" y="409" class="hex">#E5C5B7</text>
+  <rect x="844" y="386" width="92" height="34" rx="3" fill="#B9BED3" stroke="#333333" stroke-width="0.7">
+    <title>nordic · noble-gas: #B9BED3</title>
+  </rect>
+  <text x="890.0" y="409" class="hex">#B9BED3</text>
+  <rect x="940" y="386" width="92" height="34" rx="3" fill="#D1E1DF" stroke="#333333" stroke-width="0.7">
+    <title>nordic · lanthanide: #D1E1DF</title>
+  </rect>
+  <text x="986.0" y="409" class="hex">#D1E1DF</text>
+  <rect x="1036" y="386" width="92" height="34" rx="3" fill="#D5BEC2" stroke="#333333" stroke-width="0.7">
+    <title>nordic · actinide: #D5BEC2</title>
+  </rect>
+  <text x="1082.0" y="409" class="hex">#D5BEC2</text>
+  <rect x="1132" y="386" width="92" height="34" rx="3" fill="#E8EBEC" stroke="#333333" stroke-width="0.7">
+    <title>nordic · unknown-chemistry: #E8EBEC</title>
+  </rect>
+  <text x="1178.0" y="409" class="hex">#E8EBEC</text>
+  <text x="12" y="446" class="scheme">high-contrast-pastel</text>
+  <rect x="172" y="424" width="92" height="34" rx="3" fill="#FFD0A3" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · alkali-metal: #FFD0A3</title>
+  </rect>
+  <text x="218.0" y="447" class="hex">#FFD0A3</text>
+  <rect x="268" y="424" width="92" height="34" rx="3" fill="#FFF2A6" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · alkaline-earth-metal: #FFF2A6</title>
+  </rect>
+  <text x="314.0" y="447" class="hex">#FFF2A6</text>
+  <rect x="364" y="424" width="92" height="34" rx="3" fill="#A8D8EE" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · transition-metal: #A8D8EE</title>
+  </rect>
+  <text x="410.0" y="447" class="hex">#A8D8EE</text>
+  <rect x="460" y="424" width="92" height="34" rx="3" fill="#B8C5E2" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · post-transition-metal: #B8C5E2</title>
+  </rect>
+  <text x="506.0" y="447" class="hex">#B8C5E2</text>
+  <rect x="556" y="424" width="92" height="34" rx="3" fill="#A9DEC4" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · metalloid: #A9DEC4</title>
+  </rect>
+  <text x="602.0" y="447" class="hex">#A9DEC4</text>
+  <rect x="652" y="424" width="92" height="34" rx="3" fill="#F1B9D8" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · reactive-nonmetal: #F1B9D8</title>
+  </rect>
+  <text x="698.0" y="447" class="hex">#F1B9D8</text>
+  <rect x="748" y="424" width="92" height="34" rx="3" fill="#FFC0A8" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · halogen: #FFC0A8</title>
+  </rect>
+  <text x="794.0" y="447" class="hex">#FFC0A8</text>
+  <rect x="844" y="424" width="92" height="34" rx="3" fill="#C3B1E1" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · noble-gas: #C3B1E1</title>
+  </rect>
+  <text x="890.0" y="447" class="hex">#C3B1E1</text>
+  <rect x="940" y="424" width="92" height="34" rx="3" fill="#BDE8E8" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · lanthanide: #BDE8E8</title>
+  </rect>
+  <text x="986.0" y="447" class="hex">#BDE8E8</text>
+  <rect x="1036" y="424" width="92" height="34" rx="3" fill="#E4B5CC" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · actinide: #E4B5CC</title>
+  </rect>
+  <text x="1082.0" y="447" class="hex">#E4B5CC</text>
+  <rect x="1132" y="424" width="92" height="34" rx="3" fill="#F4F4F4" stroke="#333333" stroke-width="0.7">
+    <title>high-contrast-pastel · unknown-chemistry: #F4F4F4</title>
+  </rect>
+  <text x="1178.0" y="447" class="hex">#F4F4F4</text>
+  <text x="12" y="484" class="scheme">blue-ramp</text>
+  <rect x="172" y="462" width="92" height="34" rx="3" fill="#5B9BD5" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · alkali-metal: #5B9BD5</title>
+  </rect>
+  <text x="218.0" y="485" class="hex">#5B9BD5</text>
+  <rect x="268" y="462" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · alkaline-earth-metal: #A8CBEB</title>
+  </rect>
+  <text x="314.0" y="485" class="hex">#A8CBEB</text>
+  <rect x="364" y="462" width="92" height="34" rx="3" fill="#C6DCF0" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · transition-metal: #C6DCF0</title>
+  </rect>
+  <text x="410.0" y="485" class="hex">#C6DCF0</text>
+  <rect x="460" y="462" width="92" height="34" rx="3" fill="#F2F7FC" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · post-transition-metal: #F2F7FC</title>
+  </rect>
+  <text x="506.0" y="485" class="hex">#F2F7FC</text>
+  <rect x="556" y="462" width="92" height="34" rx="3" fill="#8FC47A" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · metalloid: #8FC47A</title>
+  </rect>
+  <text x="602.0" y="485" class="hex">#8FC47A</text>
+  <rect x="652" y="462" width="92" height="34" rx="3" fill="#F9CCCC" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · reactive-nonmetal: #F9CCCC</title>
+  </rect>
+  <text x="698.0" y="485" class="hex">#F9CCCC</text>
+  <rect x="748" y="462" width="92" height="34" rx="3" fill="#E06666" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · halogen: #E06666</title>
+  </rect>
+  <text x="794.0" y="485" class="hex">#E06666</text>
+  <rect x="844" y="462" width="92" height="34" rx="3" fill="#D7B3EC" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · noble-gas: #D7B3EC</title>
+  </rect>
+  <text x="890.0" y="485" class="hex">#D7B3EC</text>
+  <rect x="940" y="462" width="92" height="34" rx="3" fill="#B3C1D8" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · lanthanide: #B3C1D8</title>
+  </rect>
+  <text x="986.0" y="485" class="hex">#B3C1D8</text>
+  <rect x="1036" y="462" width="92" height="34" rx="3" fill="#8B9CBB" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · actinide: #8B9CBB</title>
+  </rect>
+  <text x="1082.0" y="485" class="hex">#8B9CBB</text>
+  <rect x="1132" y="462" width="92" height="34" rx="3" fill="#E8EBEC" stroke="#333333" stroke-width="0.7">
+    <title>blue-ramp · unknown-chemistry: #E8EBEC</title>
+  </rect>
+  <text x="1178.0" y="485" class="hex">#E8EBEC</text>
+  <text x="12" y="522" class="scheme">tol-light-inspired</text>
+  <rect x="172" y="500" width="92" height="34" rx="3" fill="#EE8866" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · alkali-metal: #EE8866</title>
+  </rect>
+  <text x="218.0" y="523" class="hex">#EE8866</text>
+  <rect x="268" y="500" width="92" height="34" rx="3" fill="#EEDD88" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · alkaline-earth-metal: #EEDD88</title>
+  </rect>
+  <text x="314.0" y="523" class="hex">#EEDD88</text>
+  <rect x="364" y="500" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · transition-metal: #77AADD</title>
+  </rect>
+  <text x="410.0" y="523" class="hex">#77AADD</text>
+  <rect x="460" y="500" width="92" height="34" rx="3" fill="#99DDFF" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · post-transition-metal: #99DDFF</title>
+  </rect>
+  <text x="506.0" y="523" class="hex">#99DDFF</text>
+  <rect x="556" y="500" width="92" height="34" rx="3" fill="#44BB99" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · metalloid: #44BB99</title>
+  </rect>
+  <text x="602.0" y="523" class="hex">#44BB99</text>
+  <rect x="652" y="500" width="92" height="34" rx="3" fill="#BBCC33" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · reactive-nonmetal: #BBCC33</title>
+  </rect>
+  <text x="698.0" y="523" class="hex">#BBCC33</text>
+  <rect x="748" y="500" width="92" height="34" rx="3" fill="#AAAA00" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · halogen: #AAAA00</title>
+  </rect>
+  <text x="794.0" y="523" class="hex">#AAAA00</text>
+  <rect x="844" y="500" width="92" height="34" rx="3" fill="#DDDDDD" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · noble-gas: #DDDDDD</title>
+  </rect>
+  <text x="890.0" y="523" class="hex">#DDDDDD</text>
+  <rect x="940" y="500" width="92" height="34" rx="3" fill="#DDBBDD" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · lanthanide: #DDBBDD</title>
+  </rect>
+  <text x="986.0" y="523" class="hex">#DDBBDD</text>
+  <rect x="1036" y="500" width="92" height="34" rx="3" fill="#FFAABB" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · actinide: #FFAABB</title>
+  </rect>
+  <text x="1082.0" y="523" class="hex">#FFAABB</text>
+  <rect x="1132" y="500" width="92" height="34" rx="3" fill="#F4F4F4" stroke="#333333" stroke-width="0.7">
+    <title>tol-light-inspired · unknown-chemistry: #F4F4F4</title>
+  </rect>
+  <text x="1178.0" y="523" class="hex">#F4F4F4</text>
+  <text x="12" y="560" class="scheme">tol-muted-inspired</text>
+  <rect x="172" y="538" width="92" height="34" rx="3" fill="#DE9BA7" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · alkali-metal: #DE9BA7</title>
+  </rect>
+  <text x="218.0" y="561" class="hex">#DE9BA7</text>
+  <rect x="268" y="538" width="92" height="34" rx="3" fill="#E9DFA6" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · alkaline-earth-metal: #E9DFA6</title>
+  </rect>
+  <text x="314.0" y="561" class="hex">#E9DFA6</text>
+  <rect x="364" y="538" width="92" height="34" rx="3" fill="#B2DDF4" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · transition-metal: #B2DDF4</title>
+  </rect>
+  <text x="410.0" y="561" class="hex">#B2DDF4</text>
+  <rect x="460" y="538" width="92" height="34" rx="3" fill="#DDDDDD" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · post-transition-metal: #DDDDDD</title>
+  </rect>
+  <text x="506.0" y="561" class="hex">#DDDDDD</text>
+  <rect x="556" y="538" width="92" height="34" rx="3" fill="#64A576" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · metalloid: #64A576</title>
+  </rect>
+  <text x="602.0" y="561" class="hex">#64A576</text>
+  <rect x="652" y="538" width="92" height="34" rx="3" fill="#85C7BC" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · reactive-nonmetal: #85C7BC</title>
+  </rect>
+  <text x="698.0" y="561" class="hex">#85C7BC</text>
+  <rect x="748" y="538" width="92" height="34" rx="3" fill="#B97090" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · halogen: #B97090</title>
+  </rect>
+  <text x="794.0" y="561" class="hex">#B97090</text>
+  <rect x="844" y="538" width="92" height="34" rx="3" fill="#8178B6" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · noble-gas: #8178B6</title>
+  </rect>
+  <text x="890.0" y="561" class="hex">#8178B6</text>
+  <rect x="940" y="538" width="92" height="34" rx="3" fill="#C47FB8" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · lanthanide: #C47FB8</title>
+  </rect>
+  <text x="986.0" y="561" class="hex">#C47FB8</text>
+  <rect x="1036" y="538" width="92" height="34" rx="3" fill="#BFBF7A" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · actinide: #BFBF7A</title>
+  </rect>
+  <text x="1082.0" y="561" class="hex">#BFBF7A</text>
+  <rect x="1132" y="538" width="92" height="34" rx="3" fill="#F4F4F4" stroke="#333333" stroke-width="0.7">
+    <title>tol-muted-inspired · unknown-chemistry: #F4F4F4</title>
+  </rect>
+  <text x="1178.0" y="561" class="hex">#F4F4F4</text>
+  <text x="12" y="598" class="scheme">broad-light</text>
+  <rect x="172" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · alkali-metal: #A8CBEB</title>
+  </rect>
+  <text x="218.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="268" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · alkaline-earth-metal: #A8CBEB</title>
+  </rect>
+  <text x="314.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="364" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · transition-metal: #A8CBEB</title>
+  </rect>
+  <text x="410.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="460" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · post-transition-metal: #A8CBEB</title>
+  </rect>
+  <text x="506.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="556" y="576" width="92" height="34" rx="3" fill="#8FC47A" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · metalloid: #8FC47A</title>
+  </rect>
+  <text x="602.0" y="599" class="hex">#8FC47A</text>
+  <rect x="652" y="576" width="92" height="34" rx="3" fill="#F9CCCC" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · reactive-nonmetal: #F9CCCC</title>
+  </rect>
+  <text x="698.0" y="599" class="hex">#F9CCCC</text>
+  <rect x="748" y="576" width="92" height="34" rx="3" fill="#F9CCCC" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · halogen: #F9CCCC</title>
+  </rect>
+  <text x="794.0" y="599" class="hex">#F9CCCC</text>
+  <rect x="844" y="576" width="92" height="34" rx="3" fill="#D7B3EC" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · noble-gas: #D7B3EC</title>
+  </rect>
+  <text x="890.0" y="599" class="hex">#D7B3EC</text>
+  <rect x="940" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · lanthanide: #A8CBEB</title>
+  </rect>
+  <text x="986.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="1036" y="576" width="92" height="34" rx="3" fill="#A8CBEB" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · actinide: #A8CBEB</title>
+  </rect>
+  <text x="1082.0" y="599" class="hex">#A8CBEB</text>
+  <rect x="1132" y="576" width="92" height="34" rx="3" fill="#E8EBEC" stroke="#333333" stroke-width="0.7">
+    <title>broad-light · unknown-chemistry: #E8EBEC</title>
+  </rect>
+  <text x="1178.0" y="599" class="hex">#E8EBEC</text>
+  <text x="12" y="636" class="scheme">broad-tol-light</text>
+  <rect x="172" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · alkali-metal: #77AADD</title>
+  </rect>
+  <text x="218.0" y="637" class="hex">#77AADD</text>
+  <rect x="268" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · alkaline-earth-metal: #77AADD</title>
+  </rect>
+  <text x="314.0" y="637" class="hex">#77AADD</text>
+  <rect x="364" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · transition-metal: #77AADD</title>
+  </rect>
+  <text x="410.0" y="637" class="hex">#77AADD</text>
+  <rect x="460" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · post-transition-metal: #77AADD</title>
+  </rect>
+  <text x="506.0" y="637" class="hex">#77AADD</text>
+  <rect x="556" y="614" width="92" height="34" rx="3" fill="#44BB99" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · metalloid: #44BB99</title>
+  </rect>
+  <text x="602.0" y="637" class="hex">#44BB99</text>
+  <rect x="652" y="614" width="92" height="34" rx="3" fill="#EE8866" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · reactive-nonmetal: #EE8866</title>
+  </rect>
+  <text x="698.0" y="637" class="hex">#EE8866</text>
+  <rect x="748" y="614" width="92" height="34" rx="3" fill="#EE8866" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · halogen: #EE8866</title>
+  </rect>
+  <text x="794.0" y="637" class="hex">#EE8866</text>
+  <rect x="844" y="614" width="92" height="34" rx="3" fill="#FFAABB" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · noble-gas: #FFAABB</title>
+  </rect>
+  <text x="890.0" y="637" class="hex">#FFAABB</text>
+  <rect x="940" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · lanthanide: #77AADD</title>
+  </rect>
+  <text x="986.0" y="637" class="hex">#77AADD</text>
+  <rect x="1036" y="614" width="92" height="34" rx="3" fill="#77AADD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · actinide: #77AADD</title>
+  </rect>
+  <text x="1082.0" y="637" class="hex">#77AADD</text>
+  <rect x="1132" y="614" width="92" height="34" rx="3" fill="#DDDDDD" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · unknown-chemistry: #DDDDDD</title>
+  </rect>
+  <text x="1178.0" y="637" class="hex">#DDDDDD</text>
+</svg>

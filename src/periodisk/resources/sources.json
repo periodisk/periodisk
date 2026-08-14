@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "sources": {
+    "iupac-periodic-table-2022": {
+      "title": "IUPAC Periodic Table of the Elements",
+      "citation": "International Union of Pure and Applied Chemistry, Periodic Table of the Elements, release 4 May 2022.",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "accessed": "2026-08-11"
+    },
+    "reviewed-norwegian-names": {
+      "title": "Reviewed Norwegian element names",
+      "citation": "Reviewed project Bokmål element-name list, stored in the nb_NO locale resource."
+    },
+    "ciaaw-standard-atomic-weights-2024": {
+      "title": "Standard Atomic Weights 2024",
+      "citation": "Commission on Isotopic Abundances and Atomic Weights, Standard Atomic Weights 2024.",
+      "url": "https://ciaaw.org/atomic-weights.htm",
+      "accessed": "2026-08-11"
+    },
+    "ciaaw-abridged-atomic-weights-2024": {
+      "title": "Abridged Standard Atomic Weights 2024",
+      "citation": "Commission on Isotopic Abundances and Atomic Weights, Abridged Standard Atomic Weights 2024.",
+      "url": "https://ciaaw.org/abridged-atomic-weights.htm",
+      "accessed": "2026-08-11"
+    },
+    "ciaaw-radioactive-elements-2024": {
+      "title": "Radioactive Elements",
+      "citation": "Commission on Isotopic Abundances and Atomic Weights, Radioactive Elements.",
+      "url": "https://ciaaw.org/radioactive-elements.htm",
+      "accessed": "2026-08-11"
+    },
+    "nubase-2020": {
+      "title": "The NUBASE2020 evaluation of nuclear physics properties",
+      "citation": "Kondev, F. G. et al., Chinese Physics C 45, 030001 (2021).",
+      "doi": "10.1088/1674-1137/abddae",
+      "url": "https://doi.org/10.1088/1674-1137/abddae"
+    },
+    "nist-asd-5.11-via-mendeleev": {
+      "title": "NIST Atomic Spectra Database Ionization Energies Data",
+      "citation": "Kramida, A., Ralchenko, Yu., Reader, J. & NIST ASD Team, NIST ASD ver. 5.11 (2023); snapshot distributed by Mendeleev 1.2.0.",
+      "url": "https://physics.nist.gov/asd",
+      "accessed": "2026-08-11"
+    },
+    "bipm-si-brochure-9": {
+      "title": "The International System of Units (SI)",
+      "citation": "Bureau International des Poids et Mesures, The International System of Units (SI), 9th ed. (2019, updated 2026).",
+      "doi": "10.59161/AUEZ1291",
+      "url": "https://doi.org/10.59161/AUEZ1291"
+    },
+    "crc-handbook-95": {
+      "title": "CRC Handbook of Chemistry and Physics",
+      "citation": "Haynes, W. M. (ed.), CRC Handbook of Chemistry and Physics, 95th ed. (CRC Press, 2014); values distributed by Mendeleev 1.2.0.",
+      "url": "https://mendeleev.readthedocs.io/en/latest/data.html"
+    },
+    "allred-rochow-calculated": {
+      "title": "Calculated Allred–Rochow electronegativity",
+      "citation": "Allred, A. L. & Rochow, E. G., J. Inorg. Nucl. Chem. 5, 264–268 (1958); calculated using Slater effective charge and Pyykkö single-bond covalent radii from Mendeleev 1.2.0.",
+      "doi": "10.1016/0022-1902(58)80003-2",
+      "url": "https://doi.org/10.1016/0022-1902(58)80003-2"
+    },
+    "allen-electronegativity-via-mendeleev": {
+      "title": "Allen electronegativity",
+      "citation": "Allen, L. C., Journal of the American Chemical Society 111, 9003–9014 (1989); configuration energies distributed by Mendeleev 1.2.0 and scaled by 0.169 to a Pauling-like numerical range.",
+      "doi": "10.1021/ja00207a003",
+      "url": "https://doi.org/10.1021/ja00207a003"
+    },
+    "mendeleev-electron-configurations-1.2.0": {
+      "title": "Mendeleev 1.2.0 electron-configuration dataset",
+      "citation": "Mentel, Ł., mendeleev 1.2.0, ground-state electronic configurations (offline package snapshot).",
+      "url": "https://mendeleev.readthedocs.io/en/latest/data.html",
+      "data_url": "https://github.com/lmmentel/mendeleev-data",
+      "license": "MIT",
+      "accessed": "2026-08-11"
+    },
+    "hoffman-lee-pershina-2006": {
+      "title": "Transactinides and the Future Elements",
+      "citation": "Hoffman, D. C., Lee, D. M. & Pershina, V., in The Chemistry of the Actinide and Transactinide Elements, 3rd ed. (Springer, 2006).",
+      "doi": "10.1007/1-4020-3598-5_14",
+      "url": "https://doi.org/10.1007/1-4020-3598-5_14"
+    },
+    "kaygorodov-et-al-2022": {
+      "title": "Ionization potentials and electron affinities of Rg, Cn, Nh, and Fl superheavy elements",
+      "citation": "Kaygorodov, M. Y. et al., Physical Review A 105, 062805 (2022).",
+      "doi": "10.1103/PhysRevA.105.062805",
+      "url": "https://doi.org/10.1103/PhysRevA.105.062805"
+    },
+    "mendeleev-oxidation-states-2024": {
+      "title": "Mendeleev oxidation-state dataset",
+      "citation": "Mentel, Ł., mendeleev 1.2.0 oxidation states; upstream revision dated 4 November 2024. Preserved as comparison data; not used as the final curated selection.",
+      "url": "https://mendeleev.readthedocs.io/en/latest/data.html",
+      "accessed": "2026-08-11"
+    },
+    "curated-oxidation-states-2026.1": {
+      "title": "Reviewed general-chemistry oxidation-state selection",
+      "citation": "Periodisk contributors, reviewed oxidation-state worksheet, release 2026.1."
+    },
+    "tuerler-pershina-2013": {
+      "title": "Advances in the Production and Chemistry of the Heaviest Elements",
+      "citation": "Türler, A. & Pershina, V. Chemical Reviews 113, 1237–1312 (2013).",
+      "doi": "10.1021/cr3002438",
+      "url": "https://doi.org/10.1021/cr3002438"
+    },
+    "giuliani-et-al-2019": {
+      "title": "Colloquium: Superheavy elements—Oganesson and beyond",
+      "citation": "Giuliani, S. A. et al. Reviews of Modern Physics 91, 011001 (2019).",
+      "doi": "10.1103/RevModPhys.91.011001",
+      "url": "https://doi.org/10.1103/RevModPhys.91.011001"
+    },
+    "duellmann-2021": {
+      "title": "Open questions on chemistry in the synthesis and characterization of superheavy elements",
+      "citation": "Düllmann, Ch. E. Communications Chemistry (2021).",
+      "doi": "10.1038/s42004-021-00529-8",
+      "url": "https://doi.org/10.1038/s42004-021-00529-8"
+    },
+    "nature-reviews-physics-2023": {
+      "title": "The quest for superheavy elements and the limit of the periodic table",
+      "citation": "Nature Reviews Physics (2023).",
+      "doi": "10.1038/s42254-023-00668-y",
+      "url": "https://doi.org/10.1038/s42254-023-00668-y"
+    },
+    "oganesson-2020": {
+      "title": "Oganesson: A Noble Gas Element That Is Neither Noble Nor a Gas",
+      "citation": "Angewandte Chemie International Edition (2020).",
+      "doi": "10.1002/anie.202011976",
+      "url": "https://doi.org/10.1002/anie.202011976"
+    }
+  }
+}

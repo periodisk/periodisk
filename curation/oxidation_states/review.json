@@ -1,0 +1,3869 @@
+{
+  "schema": 1,
+  "policy": "README.md",
+  "source": "mendeleev-oxidation-states-2024",
+  "elements": [
+    {
+      "atomic_number": 1,
+      "symbol": "H",
+      "mendeleev_main": [
+        -1,
+        1
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        -1,
+        1
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        -1,
+        1
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {
+          "representative": "NaH",
+          "reason": "Saline hydrides are the standard exception to hydrogen's usual positive state.",
+          "source": "housecroft-sharpe-2018"
+        },
+        "1": {
+          "representative": "H₂O",
+          "reason": "The dominant state of hydrogen in compounds with nonmetals.",
+          "source": "housecroft-sharpe-2018"
+        }
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −1 and +1: both metal hydrides and compounds with nonmetals are essential general chemistry."
+    },
+    {
+      "atomic_number": 2,
+      "symbol": "He",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no oxidation states for the compact general-chemistry table; ordinary helium chemistry provides no state meeting the inclusion policy (housecroft-sharpe-2018)."
+    },
+    {
+      "atomic_number": 3,
+      "symbol": "Li",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -1
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {
+          "representative": "LiCl",
+          "reason": "The standard and overwhelmingly characteristic state of lithium compounds.",
+          "source": "housecroft-sharpe-2018"
+        }
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1; exceptional negative states are omitted."
+    },
+    {
+      "atomic_number": 4,
+      "symbol": "Be",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        -2,
+        0,
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {
+          "representative": "BeCl₂",
+          "reason": "The standard oxidation state throughout ordinary beryllium chemistry.",
+          "source": "housecroft-sharpe-2018"
+        }
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2; uncommon alternatives are omitted."
+    },
+    {
+      "atomic_number": 5,
+      "symbol": "B",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -5,
+        -1,
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -5,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {
+          "representative": "BCl₃",
+          "reason": "The characteristic oxidation state of boron in introductory inorganic chemistry.",
+          "source": "housecroft-sharpe-2018"
+        }
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only +3 as the compact general-chemistry selection."
+    },
+    {
+      "atomic_number": 6,
+      "symbol": "C",
+      "mendeleev_main": [
+        -4,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "-4": {"representative": "CH₄", "reason": "Lowest carbon state and a foundational molecular example.", "source": "housecroft-sharpe-2018"},
+        "-3": {"representative": "C₂H₆", "reason": "Each equivalent carbon in ethane has oxidation state −3.", "source": "iupac-oxidation-state-2016"},
+        "-2": {"representative": "C₂H₄", "reason": "Each equivalent carbon in ethene has oxidation state −2.", "source": "iupac-oxidation-state-2016"},
+        "-1": {"representative": "C₂H₂", "reason": "Each equivalent carbon in ethyne has oxidation state −1.", "source": "iupac-oxidation-state-2016"},
+        "0": {"representative": "CH₂O", "reason": "Carbon in methanal demonstrates oxidation state zero in a compound.", "source": "iupac-oxidation-state-2016"},
+        "1": {"representative": "CH₃CHO", "reason": "The carbonyl carbon in ethanal has oxidation state +1.", "source": "iupac-oxidation-state-2016"},
+        "2": {"representative": "CO", "reason": "Carbon monoxide is a foundational example of carbon(+2).", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "H₂C₂O₄", "reason": "Each equivalent carbon in oxalic acid has oxidation state +3.", "source": "iupac-oxidation-state-2016"},
+        "4": {"representative": "CO₂", "reason": "Highest carbon state and a foundational oxide example.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Display as −4…+4; explicit carbon range exception under the selection policy. The representatives demonstrate every integer in the range."
+    },
+    {
+      "atomic_number": 7,
+      "symbol": "N",
+      "mendeleev_main": [
+        -3,
+        3,
+        5
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        -3,
+        3,
+        5
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        4
+      ],
+      "print": [
+        -3,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "-3": {"representative": "NH₃", "reason": "Ammonia and nitrides make −3 essential in general chemistry.", "source": "housecroft-sharpe-2018"},
+        "1": {"representative": "N₂O₂²⁻", "reason": "Symmetric hyponitrite provides an unambiguous nitrogen(+1) representative.", "source": "greenwood-earnshaw-1997"},
+        "2": {"representative": "NO", "reason": "Nitric oxide is a familiar and important nitrogen(+2) compound.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "NO₂⁻", "reason": "Nitrite is a standard general-chemistry nitrogen(+3) ion.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "NO₂", "reason": "Nitrogen dioxide is a familiar nitrogen(+4) oxide.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "NO₃⁻", "reason": "Nitrate is a standard and widely encountered nitrogen(+5) ion.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Six-state teaching selection: −3, +1, +2, +3, +4 and +5."
+    },
+    {
+      "atomic_number": 8,
+      "symbol": "O",
+      "mendeleev_main": [
+        -2
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        -2
+      ],
+      "wikipedia_additional": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "print": [
+        -2
+      ],
+      "principal": [],
+      "evidence": {
+        "-2": {"representative": "H₂O", "reason": "The overwhelmingly characteristic oxygen state and the standard introductory rule.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only −2 for a simple general-chemistry table. Peroxide and oxygen-fluoride exceptions are deliberately omitted."
+    },
+    {
+      "atomic_number": 9,
+      "symbol": "F",
+      "mendeleev_main": [
+        -1
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        -1
+      ],
+      "wikipedia_additional": [
+        0
+      ],
+      "print": [
+        -1
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {"representative": "HF", "reason": "Fluorine takes −1 in compounds under the electronegativity-based definition.", "source": "iupac-oxidation-state-2016"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep −1 as fluorine's sole nonzero oxidation state in compounds."
+    },
+    {
+      "atomic_number": 10,
+      "symbol": "Ne",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        0
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no oxidation states for the compact general-chemistry table; ordinary neon chemistry provides no state meeting the inclusion policy (housecroft-sharpe-2018)."
+    },
+    {
+      "atomic_number": 11,
+      "symbol": "Na",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [
+        -1
+      ],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -1
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "NaCl", "reason": "The standard and overwhelmingly characteristic state of sodium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1."
+    },
+    {
+      "atomic_number": 12,
+      "symbol": "Mg",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        0,
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "MgO", "reason": "The standard oxidation state throughout ordinary magnesium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2."
+    },
+    {
+      "atomic_number": 13,
+      "symbol": "Al",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Al₂O₃", "reason": "The characteristic oxidation state of aluminium in general chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only +3 as the compact general-chemistry selection."
+    },
+    {
+      "atomic_number": 14,
+      "symbol": "Si",
+      "mendeleev_main": [
+        -4,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        -4,
+        4
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "print": [
+        -4,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "-4": {"representative": "Mg₂Si", "reason": "Magnesium silicide is a clear representative of silicon(−4).", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "SiO₂", "reason": "The characteristic high state in silica and silicates.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −4 and +4 as the principal general-chemistry states."
+    },
+    {
+      "atomic_number": 15,
+      "symbol": "P",
+      "mendeleev_main": [
+        -3,
+        3,
+        5
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        -3,
+        3,
+        5
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        4
+      ],
+      "print": [
+        -3,
+        3,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "-3": {"representative": "Ca₃P₂", "reason": "Metal phosphides give an unambiguous phosphorus(−3) assignment under the Allen scale.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "PCl₃", "reason": "Phosphorus trichloride is a standard phosphorus(+3) compound.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "PO₄³⁻", "reason": "Phosphate makes +5 essential in general and environmental chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −3, +3 and +5 as the conventional general-chemistry set."
+    },
+    {
+      "atomic_number": 16,
+      "symbol": "S",
+      "mendeleev_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        -1,
+        0,
+        1,
+        3,
+        5
+      ],
+      "print": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "-2": {"representative": "H₂S", "reason": "Sulfides and hydrogen sulfide make −2 a principal sulfur state.", "source": "housecroft-sharpe-2018"},
+        "2": {"representative": "SCl₂", "reason": "Sulfur dichloride provides a simple established sulfur(+2) representative.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "SO₂", "reason": "Sulfur dioxide and sulfites make +4 central to general chemistry.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "SO₄²⁻", "reason": "Sulfate makes +6 central to general and environmental chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −2, +2, +4 and +6; +2 is kept for compounds such as SCl₂."
+    },
+    {
+      "atomic_number": 17,
+      "symbol": "Cl",
+      "mendeleev_main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        6
+      ],
+      "wikipedia_main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "wikipedia_additional": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "print": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {"representative": "Cl⁻", "reason": "Chloride is chlorine's dominant and most familiar state.", "source": "housecroft-sharpe-2018"},
+        "1": {"representative": "ClO⁻", "reason": "Hypochlorite is a familiar chlorine(+1) oxidant and disinfectant.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "ClO₂⁻", "reason": "Chlorite continues the pedagogically useful oxychlorine sequence.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "ClO₃⁻", "reason": "Chlorate is a standard chlorine(+5) oxyanion.", "source": "housecroft-sharpe-2018"},
+        "7": {"representative": "ClO₄⁻", "reason": "Perchlorate supplies the highest member of the odd-state sequence.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −1, +1, +3, +5 and +7 as the useful chloride and oxychlorine teaching sequence."
+    },
+    {
+      "atomic_number": 18,
+      "symbol": "Ar",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        0
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no oxidation states for the compact general-chemistry table; ordinary argon chemistry provides no state meeting the inclusion policy (housecroft-sharpe-2018)."
+    },
+    {
+      "atomic_number": 19,
+      "symbol": "K",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [
+        -1
+      ],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -1
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "KCl", "reason": "The standard and overwhelmingly characteristic state of potassium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1."
+    },
+    {
+      "atomic_number": 20,
+      "symbol": "Ca",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "CaCl₂", "reason": "The standard oxidation state throughout ordinary calcium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2."
+    },
+    {
+      "atomic_number": 21,
+      "symbol": "Sc",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Sc₂O₃", "reason": "The characteristic oxidation state of scandium in general chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 22,
+      "symbol": "Ti",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "print": [
+        2,
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "TiCl₂", "reason": "A simple established titanium(+2) halide.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "TiCl₃", "reason": "A standard titanium(+3) compound and reducing agent.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "TiO₂", "reason": "The dominant and industrially important titanium state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3 and +4 as the useful titanium series."
+    },
+    {
+      "atomic_number": 23,
+      "symbol": "V",
+      "mendeleev_main": [
+        5
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        5
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "print": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "VCl₂", "reason": "A simple established vanadium(+2) compound.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "V₂O₃", "reason": "A standard vanadium(+3) oxide.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "VO₂", "reason": "A well-known vanadium(+4) oxide.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "V₂O₅", "reason": "The common highest state and an industrially important oxide.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3, +4 and +5 as a useful consecutive transition-metal series."
+    },
+    {
+      "atomic_number": 24,
+      "symbol": "Cr",
+      "mendeleev_main": [
+        3,
+        6
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        2,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        3,
+        6
+      ],
+      "wikipedia_additional": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "print": [
+        2,
+        3,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "CrCl₂", "reason": "A standard chromium(+2) reducing compound.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Cr₂O₃", "reason": "The central stable state of chromium chemistry.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "CrO₄²⁻", "reason": "Chromate and dichromate make +6 essential in redox and environmental chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3 and +6 for Cr²⁺, Cr³⁺ and chromate/dichromate chemistry."
+    },
+    {
+      "atomic_number": 25,
+      "symbol": "Mn",
+      "mendeleev_main": [
+        2,
+        4,
+        7
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        3,
+        5,
+        6
+      ],
+      "wikipedia_main": [
+        2,
+        4,
+        7
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "print": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "MnCl₂", "reason": "The common aqueous and ionic manganese state.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Mn₂O₃", "reason": "An established oxide illustrating manganese(+3).", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "MnO₂", "reason": "A familiar and important manganese oxide.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "MnO₄²⁻", "reason": "Manganate provides a clear pedagogical manganese(+6) example.", "source": "housecroft-sharpe-2018"},
+        "7": {"representative": "MnO₄⁻", "reason": "Permanganate is a foundational general-chemistry oxidant.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3, +4, +6 and +7, including manganate and permanganate."
+    },
+    {
+      "atomic_number": 26,
+      "symbol": "Fe",
+      "mendeleev_main": [
+        2,
+        3
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "wikipedia_main": [
+        2,
+        3
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "print": [
+        2,
+        3,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "FeSO₄", "reason": "Iron(II) is one of the two dominant states in ordinary iron chemistry.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Fe₂O₃", "reason": "Iron(III) is one of the two dominant states in ordinary iron chemistry.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "FeO₄²⁻", "reason": "Ferrate is an established, memorable and pedagogically useful high-state exception.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2 and +3 and add pedagogically useful +6 for ferrate."
+    },
+    {
+      "atomic_number": 27,
+      "symbol": "Co",
+      "mendeleev_main": [
+        2,
+        3
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        2,
+        3
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        4,
+        5
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "CoCl₂", "reason": "The common cobalt state in simple salts and aqueous chemistry.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "[Co(NH₃)₆]³⁺", "reason": "A classic coordination-chemistry example of cobalt(+3).", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the standard teaching states +2 and +3."
+    },
+    {
+      "atomic_number": 28,
+      "symbol": "Ni",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        4
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "NiO", "reason": "The dominant state in simple nickel compounds.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "NiO(OH)", "reason": "Nickel oxyhydroxide makes +3 important in electrochemistry and batteries.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +2 and add +3 for oxide, oxyhydroxide and battery chemistry."
+    },
+    {
+      "atomic_number": 29,
+      "symbol": "Cu",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        -2,
+        1,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        4
+      ],
+      "print": [
+        1,
+        2
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "Cu₂O", "reason": "Copper(I) is a standard state represented by cuprous oxide.", "source": "housecroft-sharpe-2018"},
+        "2": {"representative": "CuO", "reason": "Copper(II) is the dominant state in ordinary copper chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain both essential general-chemistry states +1 and +2."
+    },
+    {
+      "atomic_number": 30,
+      "symbol": "Zn",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        -2,
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        -2,
+        0,
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "ZnO", "reason": "The characteristic oxidation state throughout ordinary zinc chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only dominant +2."
+    },
+    {
+      "atomic_number": 31,
+      "symbol": "Ga",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Ga₂O₃", "reason": "The characteristic oxidation state of gallium in general chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the compact general-chemistry selection."
+    },
+    {
+      "atomic_number": 32,
+      "symbol": "Ge",
+      "mendeleev_main": [
+        -4,
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        3
+      ],
+      "wikipedia_main": [
+        -4,
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3
+      ],
+      "print": [
+        -4,
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "-4": {"representative": "Mg₂Ge", "reason": "A metal germanide provides a clear germanium(−4) representative.", "source": "greenwood-earnshaw-1997"},
+        "2": {"representative": "GeCl₂", "reason": "Germanium dichloride represents the lower positive state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "GeO₂", "reason": "The characteristic higher state in germanium oxides.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −4, +2 and +4 as the conventional group-14 set."
+    },
+    {
+      "atomic_number": 33,
+      "symbol": "As",
+      "mendeleev_main": [
+        -3,
+        3,
+        5
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        -3,
+        3,
+        5
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        4
+      ],
+      "print": [
+        -3,
+        3,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "-3": {"representative": "Ca₃As₂", "reason": "Metal arsenides provide an unambiguous arsenic(−3) assignment.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "As₂O₃", "reason": "A central and environmentally important arsenic state.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "AsO₄³⁻", "reason": "Arsenate makes +5 important in aqueous and environmental chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −3, +3 and +5 as the conventional group-15 set."
+    },
+    {
+      "atomic_number": 34,
+      "symbol": "Se",
+      "mendeleev_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        -1,
+        0,
+        1,
+        3,
+        5
+      ],
+      "print": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "-2": {"representative": "H₂Se", "reason": "Hydrogen selenide and selenides establish selenium(−2).", "source": "housecroft-sharpe-2018"},
+        "2": {"representative": "SeCl₂", "reason": "Selenium dichloride provides an established selenium(+2) representative.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "SeO₂", "reason": "A standard and important selenium(+4) oxide.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "SeO₄²⁻", "reason": "Selenate supplies the characteristic high state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −2, +2, +4 and +6, consistent with the sulfur treatment."
+    },
+    {
+      "atomic_number": 35,
+      "symbol": "Br",
+      "mendeleev_main": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        7
+      ],
+      "wikipedia_main": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        7
+      ],
+      "print": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {"representative": "Br⁻", "reason": "Bromide is bromine's dominant and most familiar state.", "source": "housecroft-sharpe-2018"},
+        "1": {"representative": "BrO⁻", "reason": "Hypobromite supplies the lower positive halogen state.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "BrO₂⁻", "reason": "Bromite continues the useful odd-state oxyhalogen sequence.", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "BrO₃⁻", "reason": "Bromate is a standard bromine(+5) oxyanion.", "source": "housecroft-sharpe-2018"},
+        "7": {"representative": "BrO₄⁻", "reason": "Perbromate supplies an established highest-state representative.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the odd-state sequence −1, +1, +3, +5 and +7; omit +2 because BrO is a reactive radical outside the compact general-chemistry scope."
+    },
+    {
+      "atomic_number": 36,
+      "symbol": "Kr",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "KrF₂", "reason": "Krypton difluoride is the defining established compound of krypton.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, represented by KrF₂."
+    },
+    {
+      "atomic_number": 37,
+      "symbol": "Rb",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [
+        -1
+      ],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -1
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "RbCl", "reason": "Rubidium chloride represents the essentially universal +1 state of rubidium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1."
+    },
+    {
+      "atomic_number": 38,
+      "symbol": "Sr",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "SrCl₂", "reason": "Strontium chloride represents the essentially universal +2 state of strontium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2."
+    },
+    {
+      "atomic_number": 39,
+      "symbol": "Y",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Y₂O₃", "reason": "Yttrium oxide exemplifies the dominant +3 state of yttrium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 40,
+      "symbol": "Zr",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        -2,
+        0,
+        1,
+        2,
+        3
+      ],
+      "print": [
+        4
+      ],
+      "principal": [],
+      "evidence": {"4": {"representative": "ZrO₂", "reason": "Zirconium dioxide exemplifies zirconium's dominant and highly stable +4 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +4 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 41,
+      "symbol": "Nb",
+      "mendeleev_main": [
+        5
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        5
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "print": [
+        3,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "NbCl₃", "reason": "Niobium trichloride provides a straightforward representative of lower-state niobium chemistry.", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "Nb₂O₅", "reason": "Niobium pentoxide exemplifies the dominant +5 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +5 and add +3 to represent lower-state niobium chemistry."
+    },
+    {
+      "atomic_number": 42,
+      "symbol": "Mo",
+      "mendeleev_main": [
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "print": [
+        4,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "4": {"representative": "MoO₂", "reason": "Molybdenum dioxide is a standard representative of molybdenum(+4).", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "MoO₃", "reason": "Molybdenum trioxide represents the important highest state +6.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain only +4 and +6 for a compact general-chemistry treatment; omit the otherwise established consecutive lower states."
+    },
+    {
+      "atomic_number": 43,
+      "symbol": "Tc",
+      "mendeleev_main": [
+        4,
+        7
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "wikipedia_main": [
+        4,
+        7
+      ],
+      "wikipedia_additional": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "print": [
+        4,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "4": {"representative": "TcO₂", "reason": "Technetium dioxide represents the important lower state +4.", "source": "greenwood-earnshaw-1997"},
+        "7": {"representative": "TcO₄⁻", "reason": "Pertechnetate is the characteristic and important technetium(+7) species.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +4 and +7 as the important lower and highest states."
+    },
+    {
+      "atomic_number": 44,
+      "symbol": "Ru",
+      "mendeleev_main": [
+        3,
+        4
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "wikipedia_main": [
+        3,
+        4
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "print": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "[Ru(bpy)₃]²⁺", "reason": "This well-known coordination ion represents important ruthenium(+2) chemistry.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "RuCl₃", "reason": "Ruthenium trichloride is a common entry point to ruthenium(+3) chemistry.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "RuO₂", "reason": "Ruthenium dioxide supplies a standard +4 representative.", "source": "greenwood-earnshaw-1997"},
+        "8": {"representative": "RuO₄", "reason": "Ruthenium tetroxide establishes the notable highest state +8.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3, +4 and +8 for coordination chemistry, oxides and RuO₄."
+    },
+    {
+      "atomic_number": 45,
+      "symbol": "Rh",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "print": [
+        1,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "[RhCl(PPh₃)₃]", "reason": "Wilkinson's catalyst is a prominent rhodium(+1) complex in coordination and catalytic chemistry.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "RhCl₃", "reason": "Rhodium trichloride represents the conventional +3 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +1 and +3 for important coordination and catalytic chemistry."
+    },
+    {
+      "atomic_number": 46,
+      "symbol": "Pd",
+      "mendeleev_main": [
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        1,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        0,
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        1,
+        3,
+        5
+      ],
+      "print": [
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "PdCl₂", "reason": "Palladium chloride is a standard representative of the dominant +2 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "PdF₄", "reason": "Palladium tetrafluoride provides a clear representative of palladium(+4).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the conventional +2 and +4 states; zero remains omitted by policy."
+    },
+    {
+      "atomic_number": 47,
+      "symbol": "Ag",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        2,
+        3
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "AgNO₃", "reason": "Silver nitrate exemplifies silver's overwhelmingly dominant +1 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only overwhelmingly dominant +1."
+    },
+    {
+      "atomic_number": 48,
+      "symbol": "Cd",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        -2,
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        -2,
+        0,
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "CdCl₂", "reason": "Cadmium chloride exemplifies cadmium's overwhelmingly dominant +2 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only dominant +2."
+    },
+    {
+      "atomic_number": 49,
+      "symbol": "In",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -5,
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -5,
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "print": [
+        1,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "InCl", "reason": "Indium monochloride supplies a straightforward representative of indium(+1).", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "In₂O₃", "reason": "Indium oxide exemplifies the dominant +3 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +1 and +3 to illustrate the developing inert-pair trend."
+    },
+    {
+      "atomic_number": 50,
+      "symbol": "Sn",
+      "mendeleev_main": [
+        -4,
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        3
+      ],
+      "wikipedia_main": [
+        -4,
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3
+      ],
+      "print": [
+        -4,
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "-4": {"representative": "Mg₂Sn", "reason": "Magnesium stannide provides an unambiguous tin(−4) assignment.", "source": "greenwood-earnshaw-1997"},
+        "2": {"representative": "SnCl₂", "reason": "Tin(II) chloride is a familiar and important representative of +2.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "SnO₂", "reason": "Tin dioxide is a standard representative of tin(+4).", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −4, +2 and +4, consistent with the group-14 treatment."
+    },
+    {
+      "atomic_number": 51,
+      "symbol": "Sb",
+      "mendeleev_main": [
+        -3,
+        3,
+        5
+      ],
+      "mendeleev_additional": [
+        -2,
+        -1,
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        -3,
+        3,
+        5
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        4
+      ],
+      "print": [
+        -3,
+        3,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "-3": {"representative": "Mg₃Sb₂", "reason": "Magnesium antimonide provides an unambiguous antimony(−3) assignment.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "Sb₂O₃", "reason": "Antimony trioxide is a standard representative of antimony(+3).", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "SbF₅", "reason": "Antimony pentafluoride provides a prominent representative of antimony(+5).", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −3, +3 and +5 as the conventional group-15 set."
+    },
+    {
+      "atomic_number": 52,
+      "symbol": "Te",
+      "mendeleev_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        -1,
+        0,
+        1,
+        3,
+        5
+      ],
+      "print": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "-2": {"representative": "H₂Te", "reason": "Hydrogen telluride and tellurides establish tellurium(−2).", "source": "housecroft-sharpe-2018"},
+        "2": {"representative": "TeCl₂", "reason": "Tellurium dichloride provides an established tellurium(+2) representative.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "TeO₂", "reason": "Tellurium dioxide is a standard and important tellurium(+4) oxide.", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "TeF₆", "reason": "Tellurium hexafluoride supplies a clear representative of the high +6 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −2, +2, +4 and +6, consistent with sulfur and selenium."
+    },
+    {
+      "atomic_number": 53,
+      "symbol": "I",
+      "mendeleev_main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        6
+      ],
+      "wikipedia_main": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        6
+      ],
+      "print": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {"representative": "I⁻", "reason": "Iodide is iodine's dominant and most familiar state.", "source": "housecroft-sharpe-2018"},
+        "1": {"representative": "ICl", "reason": "Iodine monochloride supplies a simple iodine(+1) representative.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "ICl₃", "reason": "Iodine trichloride represents the established +3 state.", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "IF₅", "reason": "Iodine pentafluoride is a clear representative of iodine(+5).", "source": "housecroft-sharpe-2018"},
+        "7": {"representative": "IF₇", "reason": "Iodine heptafluoride establishes iodine's highest conventional state +7.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the complete odd-state halogen sequence −1, +1, +3, +5 and +7."
+    },
+    {
+      "atomic_number": 54,
+      "symbol": "Xe",
+      "mendeleev_main": [
+        2,
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        8
+      ],
+      "wikipedia_main": [
+        2,
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        0,
+        8
+      ],
+      "print": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "XeF₂", "reason": "Xenon difluoride is the standard representative of xenon(+2).", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "XeF₄", "reason": "Xenon tetrafluoride establishes the +4 state.", "source": "greenwood-earnshaw-1997"},
+        "6": {"representative": "XeF₆", "reason": "Xenon hexafluoride establishes the +6 state.", "source": "greenwood-earnshaw-1997"},
+        "8": {"representative": "XeO₄", "reason": "Xenon tetroxide provides a direct representative of xenon(+8).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +4, +6 and +8, represented by xenon fluorides and Xe(VIII) oxides/perxenates."
+    },
+    {
+      "atomic_number": 55,
+      "symbol": "Cs",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [
+        -1
+      ],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [
+        -1
+      ],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "CsCl", "reason": "Cesium chloride represents the essentially universal +1 state of cesium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1."
+    },
+    {
+      "atomic_number": 56,
+      "symbol": "Ba",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [
+        1
+      ],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [
+        1
+      ],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "BaCl₂", "reason": "Barium chloride represents the essentially universal +2 state of barium compounds.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2."
+    },
+    {
+      "atomic_number": 57,
+      "symbol": "La",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "LaCl₃", "reason": "Lanthanum chloride exemplifies the characteristic +3 state of lanthanum chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 58,
+      "symbol": "Ce",
+      "mendeleev_main": [
+        3,
+        4
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3,
+        4
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "CeCl₃", "reason": "Cerium trichloride represents the characteristic lanthanoid +3 state.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "CeO₂", "reason": "Cerium dioxide is the prominent and important representative of cerium(+4).", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the important +3 and +4 states."
+    },
+    {
+      "atomic_number": 59,
+      "symbol": "Pr",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "print": [
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "PrCl₃", "reason": "Praseodymium trichloride represents the characteristic lanthanoid +3 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "PrO₂", "reason": "Praseodymium dioxide provides an important solid-state representative of praseodymium(+4).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and important +4."
+    },
+    {
+      "atomic_number": 60,
+      "symbol": "Nd",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        2,
+        4
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Nd₂O₃", "reason": "Neodymium oxide exemplifies the characteristic +3 state of neodymium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 61,
+      "symbol": "Pm",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "PmCl₃", "reason": "Promethium trichloride represents promethium's characteristic +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 62,
+      "symbol": "Sm",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "SmI₂", "reason": "Samarium diiodide is a prominent and useful representative of samarium(+2).", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Sm₂O₃", "reason": "Samarium oxide represents the characteristic lanthanoid +3 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and important +2."
+    },
+    {
+      "atomic_number": 63,
+      "symbol": "Eu",
+      "mendeleev_main": [
+        2,
+        3
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        2,
+        3
+      ],
+      "wikipedia_additional": [
+        0
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "EuCl₂", "reason": "Europium dichloride represents the unusually stable and important +2 state.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Eu₂O₃", "reason": "Europium oxide represents the characteristic lanthanoid +3 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain both important europium states +2 and +3."
+    },
+    {
+      "atomic_number": 64,
+      "symbol": "Gd",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Gd₂O₃", "reason": "Gadolinium oxide exemplifies the characteristic +3 state of gadolinium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 65,
+      "symbol": "Tb",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "print": [
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "TbCl₃", "reason": "Terbium trichloride represents the characteristic lanthanoid +3 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "TbO₂", "reason": "Terbium dioxide provides the important higher-state representative +4.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and important +4."
+    },
+    {
+      "atomic_number": 66,
+      "symbol": "Dy",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        2,
+        4
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Dy₂O₃", "reason": "Dysprosium oxide exemplifies the characteristic +3 state of dysprosium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 67,
+      "symbol": "Ho",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Ho₂O₃", "reason": "Holmium oxide exemplifies the characteristic +3 state of holmium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 68,
+      "symbol": "Er",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Er₂O₃", "reason": "Erbium oxide exemplifies the characteristic +3 state of erbium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 69,
+      "symbol": "Tm",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        1,
+        2
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "TmI₂", "reason": "Thulium diiodide provides an established representative of thulium(+2).", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "Tm₂O₃", "reason": "Thulium oxide represents the characteristic lanthanoid +3 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and established +2 to show a meaningful lanthanoid exception."
+    },
+    {
+      "atomic_number": 70,
+      "symbol": "Yb",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        1,
+        2
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "YbI₂", "reason": "Ytterbium diiodide represents the stable and important +2 state.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "Yb₂O₃", "reason": "Ytterbium oxide represents the characteristic lanthanoid +3 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2 and +3 as both are important ytterbium states."
+    },
+    {
+      "atomic_number": 71,
+      "symbol": "Lu",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        1,
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        0,
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Lu₂O₃", "reason": "Lutetium oxide exemplifies the characteristic +3 state of lutetium chemistry.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic lanthanoid state."
+    },
+    {
+      "atomic_number": 72,
+      "symbol": "Hf",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        -2,
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        -2,
+        0,
+        1,
+        2,
+        3
+      ],
+      "print": [
+        4
+      ],
+      "principal": [],
+      "evidence": {"4": {"representative": "HfO₂", "reason": "Hafnium dioxide exemplifies hafnium's dominant and highly stable +4 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +4 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 73,
+      "symbol": "Ta",
+      "mendeleev_main": [
+        5
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        5
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "print": [
+        5
+      ],
+      "principal": [],
+      "evidence": {"5": {"representative": "Ta₂O₅", "reason": "Tantalum pentoxide exemplifies tantalum's dominant +5 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +5 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 74,
+      "symbol": "W",
+      "mendeleev_main": [
+        4,
+        6
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        5
+      ],
+      "wikipedia_main": [
+        4,
+        6
+      ],
+      "wikipedia_additional": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "print": [
+        4,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "4": {"representative": "WO₂", "reason": "Tungsten dioxide is a standard representative of tungsten(+4).", "source": "housecroft-sharpe-2018"},
+        "6": {"representative": "WO₃", "reason": "Tungsten trioxide represents the important highest state +6.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +4 and +6 for a compact general-chemistry treatment."
+    },
+    {
+      "atomic_number": 75,
+      "symbol": "Re",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "wikipedia_main": [
+        4,
+        7
+      ],
+      "wikipedia_additional": [
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "print": [
+        4,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "4": {"representative": "ReO₂", "reason": "Rhenium dioxide provides an established representative of rhenium(+4).", "source": "greenwood-earnshaw-1997"},
+        "7": {"representative": "ReO₄⁻", "reason": "Perrhenate is the characteristic and important rhenium(+7) species.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +4 and +7; omit less central +6 for a compact teaching selection."
+    },
+    {
+      "atomic_number": 76,
+      "symbol": "Os",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "print": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "[Os(bpy)₃]²⁺", "reason": "This coordination ion provides a clear representative of osmium(+2).", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "OsCl₃", "reason": "Osmium trichloride represents established osmium(+3) chemistry.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "OsO₂", "reason": "Osmium dioxide is a standard representative of osmium(+4).", "source": "greenwood-earnshaw-1997"},
+        "8": {"representative": "OsO₄", "reason": "Osmium tetroxide is the prominent representative of the highest state +8.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2, +3, +4 and +8 for coordination chemistry, oxides and OsO₄."
+    },
+    {
+      "atomic_number": 77,
+      "symbol": "Ir",
+      "mendeleev_main": [
+        3,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wikipedia_main": [
+        3,
+        4
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "print": [
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "IrCl₃", "reason": "Iridium trichloride represents the important +3 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "IrO₂", "reason": "Iridium dioxide supplies a standard representative of iridium(+4).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the important +3 and +4 states."
+    },
+    {
+      "atomic_number": 78,
+      "symbol": "Pt",
+      "mendeleev_main": [
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        3,
+        5,
+        6
+      ],
+      "wikipedia_main": [
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "print": [
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "PtCl₂", "reason": "Platinum dichloride represents the important +2 state.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "PtCl₄", "reason": "Platinum tetrachloride represents the important +4 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the conventional +2 and +4 states; zero remains omitted by policy."
+    },
+    {
+      "atomic_number": 79,
+      "symbol": "Au",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        5
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        5
+      ],
+      "print": [
+        1,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "AuCl", "reason": "Gold(I) chloride provides a simple representative of the important +1 state.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "AuCl₃", "reason": "Gold(III) chloride represents the important +3 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain both essential gold states +1 and +3."
+    },
+    {
+      "atomic_number": 80,
+      "symbol": "Hg",
+      "mendeleev_main": [
+        1,
+        2
+      ],
+      "mendeleev_additional": [
+        -2
+      ],
+      "wikipedia_main": [
+        1,
+        2
+      ],
+      "wikipedia_additional": [
+        -2
+      ],
+      "print": [
+        1,
+        2
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "Hg₂Cl₂", "reason": "Mercury(I) chloride contains the Hg₂²⁺ ion, giving each mercury atom oxidation state +1.", "source": "housecroft-sharpe-2018"},
+        "2": {"representative": "HgCl₂", "reason": "Mercury(II) chloride represents the important +2 state.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +1 and +2; +1 occurs in the metal–metal bonded Hg₂²⁺ ion."
+    },
+    {
+      "atomic_number": 81,
+      "symbol": "Tl",
+      "mendeleev_main": [
+        1,
+        3
+      ],
+      "mendeleev_additional": [
+        -5,
+        -2,
+        -1,
+        2
+      ],
+      "wikipedia_main": [
+        1,
+        3
+      ],
+      "wikipedia_additional": [
+        -5,
+        -2,
+        -1,
+        2
+      ],
+      "print": [
+        1,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "1": {"representative": "TlCl", "reason": "Thallium(I) chloride represents the dominant +1 state favored by the inert-pair effect.", "source": "housecroft-sharpe-2018"},
+        "3": {"representative": "TlCl₃", "reason": "Thallium(III) chloride provides an established representative of +3.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +1 and +3 to show the strong inert-pair trend."
+    },
+    {
+      "atomic_number": 82,
+      "symbol": "Pb",
+      "mendeleev_main": [
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        -4,
+        -2,
+        -1,
+        1,
+        3
+      ],
+      "wikipedia_main": [
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        -4,
+        -2,
+        -1,
+        0,
+        1,
+        3
+      ],
+      "print": [
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "PbO", "reason": "Lead(II) oxide represents the especially stable +2 state.", "source": "housecroft-sharpe-2018"},
+        "4": {"representative": "PbO₂", "reason": "Lead dioxide provides the familiar and important +4 representative.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2 and +4, with +2 increasingly stabilized by the inert-pair effect."
+    },
+    {
+      "atomic_number": 83,
+      "symbol": "Bi",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        4,
+        5
+      ],
+      "print": [
+        3,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "BiCl₃", "reason": "Bismuth trichloride represents the dominant +3 state.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "BiF₅", "reason": "Bismuth pentafluoride provides an established representative of bismuth(+5).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and established +5."
+    },
+    {
+      "atomic_number": 84,
+      "symbol": "Po",
+      "mendeleev_main": [
+        -2,
+        2,
+        4
+      ],
+      "mendeleev_additional": [
+        5,
+        6
+      ],
+      "wikipedia_main": [
+        -2,
+        2,
+        4
+      ],
+      "wikipedia_additional": [
+        5,
+        6
+      ],
+      "print": [
+        -2,
+        2,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "-2": {"representative": "Na₂Po", "reason": "Sodium polonide supplies a binary polonide representative of polonium(−2).", "source": "greenwood-earnshaw-1997"},
+        "2": {"representative": "PoCl₂", "reason": "Polonium dichloride provides an established representative of polonium(+2).", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "PoO₂", "reason": "Polonium dioxide represents the best-established positive state +4.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain −2, +2 and +4. Omit less stable and less securely characterised higher states, especially +6, from the compact teaching table."
+    },
+    {
+      "atomic_number": 85,
+      "symbol": "At",
+      "mendeleev_main": [
+        -1,
+        1
+      ],
+      "mendeleev_additional": [
+        3,
+        5,
+        7
+      ],
+      "wikipedia_main": [
+        -1,
+        1
+      ],
+      "wikipedia_additional": [
+        3,
+        5,
+        7
+      ],
+      "print": [
+        -1,
+        1
+      ],
+      "principal": [],
+      "evidence": {
+        "-1": {"representative": "At⁻", "reason": "Astatide is the clearest halide-like state identified in tracer-scale aqueous chemistry.", "source": "greenwood-earnshaw-1997"},
+        "1": {"representative": "At⁺", "reason": "Cationic astatine species provide the clearest lower positive state in tracer-scale chemistry.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain only −1 and +1 as the clearest pedagogical halide-like and electrophilic states. Omit +3, +5 and +7 because tracer-scale evidence is uneven and the higher states are not central to general chemistry."
+    },
+    {
+      "atomic_number": 86,
+      "symbol": "Rn",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        2,
+        6
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        2,
+        6
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no oxidation states because proposed radon compound states are insufficiently established for this teaching table."
+    },
+    {
+      "atomic_number": 87,
+      "symbol": "Fr",
+      "mendeleev_main": [
+        1
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        1
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        1
+      ],
+      "principal": [],
+      "evidence": {"1": {"representative": "Fr⁺", "reason": "Tracer-scale aqueous chemistry establishes francium as a group-1 cation in oxidation state +1.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-1 state +1; evidence is necessarily tracer-scale."
+    },
+    {
+      "atomic_number": 88,
+      "symbol": "Ra",
+      "mendeleev_main": [
+        2
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        2
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        2
+      ],
+      "principal": [],
+      "evidence": {"2": {"representative": "RaCl₂", "reason": "Radium chloride represents radium's characteristic group-2 state +2.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep only the standard group-2 state +2."
+    },
+    {
+      "atomic_number": 89,
+      "symbol": "Ac",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "AcCl₃", "reason": "Actinium trichloride represents actinium's characteristic +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the characteristic actinium state."
+    },
+    {
+      "atomic_number": 90,
+      "symbol": "Th",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        2,
+        3
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        -1,
+        1,
+        2,
+        3
+      ],
+      "print": [
+        4
+      ],
+      "principal": [],
+      "evidence": {"4": {"representative": "ThO₂", "reason": "Thorium dioxide exemplifies thorium's dominant and highly stable +4 state.", "source": "housecroft-sharpe-2018"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +4 as the dominant thorium state."
+    },
+    {
+      "atomic_number": 91,
+      "symbol": "Pa",
+      "mendeleev_main": [
+        5
+      ],
+      "mendeleev_additional": [
+        2,
+        3,
+        4
+      ],
+      "wikipedia_main": [
+        5
+      ],
+      "wikipedia_additional": [
+        2,
+        3,
+        4
+      ],
+      "print": [
+        4,
+        5
+      ],
+      "principal": [],
+      "evidence": {
+        "4": {"representative": "PaO₂", "reason": "Protactinium dioxide provides an established representative of protactinium(+4).", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "PaF₅", "reason": "Protactinium pentafluoride represents the dominant +5 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +4 and dominant +5."
+    },
+    {
+      "atomic_number": 92,
+      "symbol": "U",
+      "mendeleev_main": [
+        6
+      ],
+      "mendeleev_additional": [
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        6
+      ],
+      "wikipedia_additional": [
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "print": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "UCl₃", "reason": "Uranium trichloride is a standard representative of uranium(+3).", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "UO₂", "reason": "Uranium dioxide is the important and familiar uranium(+4) oxide.", "source": "housecroft-sharpe-2018"},
+        "5": {"representative": "UO₂⁺", "reason": "The uranyl(V) ion represents the important intermediate +5 state in uranium redox chemistry.", "source": "greenwood-earnshaw-1997"},
+        "6": {"representative": "UO₂²⁺", "reason": "The uranyl(VI) ion is central to uranium aqueous and environmental chemistry.", "source": "housecroft-sharpe-2018"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +3, +4, +5 and +6 because uranium redox chemistry is central to nuclear and environmental chemistry."
+    },
+    {
+      "atomic_number": 93,
+      "symbol": "Np",
+      "mendeleev_main": [
+        5
+      ],
+      "mendeleev_additional": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "wikipedia_main": [
+        5
+      ],
+      "wikipedia_additional": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "print": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "Np³⁺", "reason": "The aqueous neptunium(III) ion represents the lower +3 redox state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "Np⁴⁺", "reason": "The aqueous neptunium(IV) ion is an established state in neptunium redox chemistry.", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "NpO₂⁺", "reason": "The neptunyl(V) ion is the characteristic and important +5 aqueous species.", "source": "greenwood-earnshaw-1997"},
+        "6": {"representative": "NpO₂²⁺", "reason": "The neptunyl(VI) ion represents the important +6 state.", "source": "greenwood-earnshaw-1997"},
+        "7": {"representative": "NpO₅³⁻", "reason": "This neptunate species represents established neptunium(+7) chemistry in strongly alkaline solution.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain the established +3 through +7 sequence despite reaching the five-state limit."
+    },
+    {
+      "atomic_number": 94,
+      "symbol": "Pu",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "print": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "Pu³⁺", "reason": "The aqueous plutonium(III) ion represents the important lower +3 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "Pu⁴⁺", "reason": "The aqueous plutonium(IV) ion is central to plutonium redox chemistry.", "source": "greenwood-earnshaw-1997"},
+        "5": {"representative": "PuO₂⁺", "reason": "The plutonyl(V) ion represents the +5 aqueous state.", "source": "greenwood-earnshaw-1997"},
+        "6": {"representative": "PuO₂²⁺", "reason": "The plutonyl(VI) ion represents the important +6 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +3, +4, +5 and +6 for important plutonium redox chemistry."
+    },
+    {
+      "atomic_number": 95,
+      "symbol": "Am",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "AmCl₃", "reason": "Americium trichloride represents americium's dominant +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 96,
+      "symbol": "Cm",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        4,
+        5,
+        6
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "CmCl₃", "reason": "Curium trichloride represents curium's dominant +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 97,
+      "symbol": "Bk",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        5
+      ],
+      "print": [
+        3,
+        4
+      ],
+      "principal": [],
+      "evidence": {
+        "3": {"representative": "BkCl₃", "reason": "Berkelium trichloride represents the dominant +3 state.", "source": "greenwood-earnshaw-1997"},
+        "4": {"representative": "BkO₂", "reason": "Berkelium dioxide provides an important solid-state representative of berkelium(+4).", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain dominant +3 and important +4."
+    },
+    {
+      "atomic_number": 98,
+      "symbol": "Cf",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2,
+        4,
+        5
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2,
+        4,
+        5
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "CfCl₃", "reason": "Californium trichloride represents californium's dominant +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the dominant general-chemistry state."
+    },
+    {
+      "atomic_number": 99,
+      "symbol": "Es",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2,
+        4
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2,
+        4
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "EsCl₃", "reason": "Einsteinium trichloride provides a characterized representative of einsteinium(+3).", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the best-established state."
+    },
+    {
+      "atomic_number": 100,
+      "symbol": "Fm",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Fm³⁺", "reason": "Tracer-scale aqueous chemistry establishes fermium predominantly in oxidation state +3.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the best-established aqueous state; evidence is tracer-scale."
+    },
+    {
+      "atomic_number": 101,
+      "symbol": "Md",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "Md²⁺", "reason": "The aqueous mendelevium(II) ion is an established reduced state in tracer-scale chemistry.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "Md³⁺", "reason": "The aqueous mendelevium(III) ion represents the characteristic actinoid +3 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2 and +3 to show the later-actinoid trend; evidence is tracer-scale."
+    },
+    {
+      "atomic_number": 102,
+      "symbol": "No",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [
+        2
+      ],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [
+        2,
+        3
+      ],
+      "principal": [],
+      "evidence": {
+        "2": {"representative": "No²⁺", "reason": "The aqueous nobelium(II) ion is unusually stable and is nobelium's characteristic state.", "source": "greenwood-earnshaw-1997"},
+        "3": {"representative": "No³⁺", "reason": "Tracer-scale aqueous studies also establish the oxidized +3 state.", "source": "greenwood-earnshaw-1997"}
+      },
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain +2 and +3; +2 is especially important for nobelium and evidence is tracer-scale."
+    },
+    {
+      "atomic_number": 103,
+      "symbol": "Lr",
+      "mendeleev_main": [
+        3
+      ],
+      "mendeleev_additional": [],
+      "wikipedia_main": [
+        3
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        3
+      ],
+      "principal": [],
+      "evidence": {"3": {"representative": "Lr³⁺", "reason": "Tracer-scale aqueous chemistry establishes lawrencium in the characteristic +3 state.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Keep +3 as the established aqueous state; evidence is tracer-scale."
+    },
+    {
+      "atomic_number": 104,
+      "symbol": "Rf",
+      "mendeleev_main": [
+        4
+      ],
+      "mendeleev_additional": [
+        3
+      ],
+      "wikipedia_main": [
+        4
+      ],
+      "wikipedia_additional": [],
+      "print": [
+        4
+      ],
+      "principal": [],
+      "evidence": {"4": {"representative": "RfCl₆²⁻", "reason": "Anionic chloride-complex formation in tracer-scale experiments establishes rutherfordium in oxidation state +4.", "source": "greenwood-earnshaw-1997"}},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Retain experimentally supported +4. Rf is the sole superheavy element given a printed oxidation state in this teaching selection; evidence is tracer-scale."
+    },
+    {
+      "atomic_number": 105,
+      "symbol": "Db",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        3,
+        4,
+        5
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        5
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 106,
+      "symbol": "Sg",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        0,
+        6
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 107,
+      "symbol": "Bh",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        7
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 108,
+      "symbol": "Hs",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        8
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 109,
+      "symbol": "Mt",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        1,
+        3,
+        6
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 110,
+      "symbol": "Ds",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        2,
+        4,
+        6
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 111,
+      "symbol": "Rg",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        -1,
+        3,
+        5
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 112,
+      "symbol": "Cn",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        2,
+        4
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [
+        2
+      ],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 113,
+      "symbol": "Nh",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 114,
+      "symbol": "Fl",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 115,
+      "symbol": "Mc",
+      "mendeleev_main": [],
+      "mendeleev_additional": [],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 116,
+      "symbol": "Lv",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        -2,
+        4
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 117,
+      "symbol": "Ts",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        -1,
+        5
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    },
+    {
+      "atomic_number": 118,
+      "symbol": "Og",
+      "mendeleev_main": [],
+      "mendeleev_additional": [
+        -1,
+        1,
+        2,
+        4,
+        6
+      ],
+      "wikipedia_main": [],
+      "wikipedia_additional": [],
+      "print": [],
+      "principal": [],
+      "evidence": {},
+      "status": "reviewed",
+      "reviewer": "Periodisk contributors",
+      "reviewed_date": "2026-08-12",
+      "notes": "Print no states: reported or predicted superheavy chemistry is not sufficiently established for this compact teaching table."
+    }
+  ]
+}

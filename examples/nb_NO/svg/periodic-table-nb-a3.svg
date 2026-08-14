@@ -1,0 +1,1882 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title description">
+  <title id="title">Periodesystemet</title>
+  <desc id="description">A3 landscape periodic table containing 118 chemical elements. Solid colours identify chemical classifications.</desc>
+  <metadata>Copyright 2026 Periodisk contributors. Original table design and explanatory content licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The Python software used to generate this table is separately licensed under MIT.</metadata>
+  <style>
+      text { fill: #111111; font-family: "Noto Sans", "DejaVu Sans", sans-serif; }
+      .page-title { font-size: 6.5px; font-weight: 700; }
+      .group-number, .period-number { font-size: 3px; font-weight: 700; }
+      .footer { fill: #666666; font-size: 2.2px; }
+      .source { fill: #666666; font-size: 2.2px; }
+      .element-cell { fill: none; stroke: #222222; stroke-width: 0.25; }
+      .cell-fill { stroke: none; }
+      .placeholder { fill: #F2F2F2; stroke: #222222; stroke-width: 0.25; }
+      .placeholder { stroke-dasharray: 1 0.7; }
+      .atomic-number { font-size: 2.55px; font-weight: 600; }
+      .radioactive { fill: #111111; }
+      .radioactive-ring { fill: none; stroke: #111111; stroke-width: 0.11; }
+      .symbol { font-size: 6.2px; font-weight: 700; }
+      .name { font-size: 2.3px; }
+      .simplified-top-number { font-size: 3.55px; font-weight: 650; }
+      .simplified-symbol { font-size: 9.5px; }
+      .simplified-name { font-size: 3.1px; font-weight: 500; }
+      .atomic-weight { font-size: 2.35px; font-weight: 600; }
+      .property { font-size: 2.05px; }
+      .configuration { font-size: 2.45px; }
+      .series-label { font-size: 3.2px; font-weight: 650; }
+      .legend-swatch { stroke: #222222; stroke-width: 0.25; }
+      .split-outline { fill: none; }
+      .legend-label { font-size: 2.6px; font-weight: 500; }
+      .guide-label { font-size: 2.9px; font-weight: 600; }
+      .guide-line { stroke: #555555; stroke-width: 0.25; }
+    </style>
+  <rect x="0" y="0" width="420.0" height="297.0" fill="#FFFFFF" />
+  <text x="45.00" y="23.50" class="page-title" text-anchor="start">Periodesystemet</text>
+  <text x="21.30" y="16.10" class="group-number" text-anchor="middle">1</text>
+  <text x="43.50" y="16.10" class="group-number" text-anchor="middle">2</text>
+  <text x="65.70" y="16.10" class="group-number" text-anchor="middle">3</text>
+  <text x="87.90" y="16.10" class="group-number" text-anchor="middle">4</text>
+  <text x="110.10" y="16.10" class="group-number" text-anchor="middle">5</text>
+  <text x="132.30" y="16.10" class="group-number" text-anchor="middle">6</text>
+  <text x="154.50" y="16.10" class="group-number" text-anchor="middle">7</text>
+  <text x="176.70" y="16.10" class="group-number" text-anchor="middle">8</text>
+  <text x="198.90" y="16.10" class="group-number" text-anchor="middle">9</text>
+  <text x="221.10" y="16.10" class="group-number" text-anchor="middle">10</text>
+  <text x="243.30" y="16.10" class="group-number" text-anchor="middle">11</text>
+  <text x="265.50" y="16.10" class="group-number" text-anchor="middle">12</text>
+  <text x="287.70" y="16.10" class="group-number" text-anchor="middle">13</text>
+  <text x="309.90" y="16.10" class="group-number" text-anchor="middle">14</text>
+  <text x="332.10" y="16.10" class="group-number" text-anchor="middle">15</text>
+  <text x="354.30" y="16.10" class="group-number" text-anchor="middle">16</text>
+  <text x="376.50" y="16.10" class="group-number" text-anchor="middle">17</text>
+  <text x="398.70" y="16.10" class="group-number" text-anchor="middle">18</text>
+  <text x="8.20" y="31.25" class="period-number" text-anchor="end">1</text>
+  <text x="8.20" y="55.75" class="period-number" text-anchor="end">2</text>
+  <text x="8.20" y="80.25" class="period-number" text-anchor="end">3</text>
+  <text x="8.20" y="104.75" class="period-number" text-anchor="end">4</text>
+  <text x="8.20" y="129.25" class="period-number" text-anchor="end">5</text>
+  <text x="8.20" y="153.75" class="period-number" text-anchor="end">6</text>
+  <text x="8.20" y="178.25" class="period-number" text-anchor="end">7</text>
+  <g id="element-H" data-z="1" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="10.20" y="18.00" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="10.20" y="18.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="21.20" class="atomic-number">1</text>
+    <text x="31.40" y="21.20" class="atomic-weight" text-anchor="end">1,0080</text>
+    <text x="21.30" y="27.20" class="symbol" text-anchor="middle">H</text>
+    <text x="21.30" y="30.50" class="name" text-anchor="middle">hydrogen</text>
+    <text x="11.20" y="34.00" class="property">2,2</text>
+    <text x="31.40" y="34.00" class="property" text-anchor="end">1312,0</text>
+    <text x="21.30" y="37.20" class="property" text-anchor="middle">-1 +1</text>
+    <text x="21.30" y="41.00" class="configuration" text-anchor="middle">1s¹</text>
+  </g>
+  <g id="element-He" data-z="2" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="18.00" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="18.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="21.20" class="atomic-number">2</text>
+    <text x="408.80" y="21.20" class="atomic-weight" text-anchor="end">4,0026</text>
+    <text x="398.70" y="27.20" class="symbol" text-anchor="middle">He</text>
+    <text x="398.70" y="30.50" class="name" text-anchor="middle">helium</text>
+    <text x="388.60" y="34.00" class="property">—</text>
+    <text x="408.80" y="34.00" class="property" text-anchor="end">2372,3</text>
+    <text x="398.70" y="37.20" class="property" text-anchor="middle">—</text>
+    <text x="398.70" y="41.00" class="configuration" text-anchor="middle">1s²</text>
+  </g>
+  <g id="element-Li" data-z="3" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="42.50" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="45.70" class="atomic-number">3</text>
+    <text x="31.40" y="45.70" class="atomic-weight" text-anchor="end">6,94</text>
+    <text x="21.30" y="51.70" class="symbol" text-anchor="middle">Li</text>
+    <text x="21.30" y="55.00" class="name" text-anchor="middle">litium</text>
+    <text x="11.20" y="58.50" class="property">0,98</text>
+    <text x="31.40" y="58.50" class="property" text-anchor="end">520,2</text>
+    <text x="21.30" y="61.70" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="65.50" class="configuration" text-anchor="middle">[He]2s¹</text>
+  </g>
+  <g id="element-Be" data-z="4" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="42.50" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="45.70" class="atomic-number">4</text>
+    <text x="53.60" y="45.70" class="atomic-weight" text-anchor="end">9,0122</text>
+    <text x="43.50" y="51.70" class="symbol" text-anchor="middle">Be</text>
+    <text x="43.50" y="55.00" class="name" text-anchor="middle">beryllium</text>
+    <text x="33.40" y="58.50" class="property">1,57</text>
+    <text x="53.60" y="58.50" class="property" text-anchor="end">899,5</text>
+    <text x="43.50" y="61.70" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="65.50" class="configuration" text-anchor="middle">[He]2s²</text>
+  </g>
+  <g id="element-B" data-z="5" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="276.60" y="42.50" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="276.60" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="45.70" class="atomic-number">5</text>
+    <text x="297.80" y="45.70" class="atomic-weight" text-anchor="end">10,81</text>
+    <text x="287.70" y="51.70" class="symbol" text-anchor="middle">B</text>
+    <text x="287.70" y="55.00" class="name" text-anchor="middle">bor</text>
+    <text x="277.60" y="58.50" class="property">2,04</text>
+    <text x="297.80" y="58.50" class="property" text-anchor="end">800,6</text>
+    <text x="287.70" y="61.70" class="property" text-anchor="middle">+3</text>
+    <text x="287.70" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p¹</text>
+  </g>
+  <g id="element-C" data-z="6" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="298.80" y="42.50" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="298.80" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="45.70" class="atomic-number">6</text>
+    <text x="320.00" y="45.70" class="atomic-weight" text-anchor="end">12,011</text>
+    <text x="309.90" y="51.70" class="symbol" text-anchor="middle">C</text>
+    <text x="309.90" y="55.00" class="name" text-anchor="middle">karbon</text>
+    <text x="299.80" y="58.50" class="property">2,55</text>
+    <text x="320.00" y="58.50" class="property" text-anchor="end">1086,5</text>
+    <text x="309.90" y="61.70" class="property" text-anchor="middle">−4…+4</text>
+    <text x="309.90" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p²</text>
+  </g>
+  <g id="element-N" data-z="7" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="321.00" y="42.50" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="321.00" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="45.70" class="atomic-number">7</text>
+    <text x="342.20" y="45.70" class="atomic-weight" text-anchor="end">14,007</text>
+    <text x="332.10" y="51.70" class="symbol" text-anchor="middle">N</text>
+    <text x="332.10" y="55.00" class="name" text-anchor="middle">nitrogen</text>
+    <text x="322.00" y="58.50" class="property">3,04</text>
+    <text x="342.20" y="58.50" class="property" text-anchor="end">1402,3</text>
+    <text x="332.10" y="61.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">-3 +1 +2 +3 +4 +5</text>
+    <text x="332.10" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p³</text>
+  </g>
+  <g id="element-O" data-z="8" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="343.20" y="42.50" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="343.20" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="45.70" class="atomic-number">8</text>
+    <text x="364.40" y="45.70" class="atomic-weight" text-anchor="end">15,999</text>
+    <text x="354.30" y="51.70" class="symbol" text-anchor="middle">O</text>
+    <text x="354.30" y="55.00" class="name" text-anchor="middle">oksygen</text>
+    <text x="344.20" y="58.50" class="property">3,44</text>
+    <text x="364.40" y="58.50" class="property" text-anchor="end">1313,9</text>
+    <text x="354.30" y="61.70" class="property" text-anchor="middle">-2</text>
+    <text x="354.30" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁴</text>
+  </g>
+  <g id="element-F" data-z="9" data-classifications="halogen" data-chemistry-status="established">
+    <rect x="365.40" y="42.50" width="22.2" height="24.5" fill="#AAAA00" class="cell-fill category-halogen" />
+    <rect x="365.40" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="45.70" class="atomic-number">9</text>
+    <text x="386.60" y="45.70" class="atomic-weight" text-anchor="end">18,998</text>
+    <text x="376.50" y="51.70" class="symbol" text-anchor="middle">F</text>
+    <text x="376.50" y="55.00" class="name" text-anchor="middle">fluor</text>
+    <text x="366.40" y="58.50" class="property">3,98</text>
+    <text x="386.60" y="58.50" class="property" text-anchor="end">1681,0</text>
+    <text x="376.50" y="61.70" class="property" text-anchor="middle">-1</text>
+    <text x="376.50" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁵</text>
+  </g>
+  <g id="element-Ne" data-z="10" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="42.50" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="42.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="45.70" class="atomic-number">10</text>
+    <text x="408.80" y="45.70" class="atomic-weight" text-anchor="end">20,180</text>
+    <text x="398.70" y="51.70" class="symbol" text-anchor="middle">Ne</text>
+    <text x="398.70" y="55.00" class="name" text-anchor="middle">neon</text>
+    <text x="388.60" y="58.50" class="property">—</text>
+    <text x="408.80" y="58.50" class="property" text-anchor="end">2080,7</text>
+    <text x="398.70" y="61.70" class="property" text-anchor="middle">—</text>
+    <text x="398.70" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁶</text>
+  </g>
+  <g id="element-Na" data-z="11" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="67.00" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="70.20" class="atomic-number">11</text>
+    <text x="31.40" y="70.20" class="atomic-weight" text-anchor="end">22,990</text>
+    <text x="21.30" y="76.20" class="symbol" text-anchor="middle">Na</text>
+    <text x="21.30" y="79.50" class="name" text-anchor="middle">natrium</text>
+    <text x="11.20" y="83.00" class="property">0,93</text>
+    <text x="31.40" y="83.00" class="property" text-anchor="end">495,8</text>
+    <text x="21.30" y="86.20" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="90.00" class="configuration" text-anchor="middle">[Ne]3s¹</text>
+  </g>
+  <g id="element-Mg" data-z="12" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="67.00" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="70.20" class="atomic-number">12</text>
+    <text x="53.60" y="70.20" class="atomic-weight" text-anchor="end">24,305</text>
+    <text x="43.50" y="76.20" class="symbol" text-anchor="middle">Mg</text>
+    <text x="43.50" y="79.50" class="name" text-anchor="middle">magnesium</text>
+    <text x="33.40" y="83.00" class="property">1,31</text>
+    <text x="53.60" y="83.00" class="property" text-anchor="end">737,8</text>
+    <text x="43.50" y="86.20" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²</text>
+  </g>
+  <g id="element-Al" data-z="13" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="276.60" y="67.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="276.60" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="70.20" class="atomic-number">13</text>
+    <text x="297.80" y="70.20" class="atomic-weight" text-anchor="end">26,982</text>
+    <text x="287.70" y="76.20" class="symbol" text-anchor="middle">Al</text>
+    <text x="287.70" y="79.50" class="name" text-anchor="middle">aluminium</text>
+    <text x="277.60" y="83.00" class="property">1,61</text>
+    <text x="297.80" y="83.00" class="property" text-anchor="end">577,5</text>
+    <text x="287.70" y="86.20" class="property" text-anchor="middle">+3</text>
+    <text x="287.70" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p¹</text>
+  </g>
+  <g id="element-Si" data-z="14" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="298.80" y="67.00" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="298.80" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="70.20" class="atomic-number">14</text>
+    <text x="320.00" y="70.20" class="atomic-weight" text-anchor="end">28,085</text>
+    <text x="309.90" y="76.20" class="symbol" text-anchor="middle">Si</text>
+    <text x="309.90" y="79.50" class="name" text-anchor="middle">silisium</text>
+    <text x="299.80" y="83.00" class="property">1,9</text>
+    <text x="320.00" y="83.00" class="property" text-anchor="end">786,5</text>
+    <text x="309.90" y="86.20" class="property" text-anchor="middle">-4 +4</text>
+    <text x="309.90" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p²</text>
+  </g>
+  <g id="element-P" data-z="15" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="321.00" y="67.00" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="321.00" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="70.20" class="atomic-number">15</text>
+    <text x="342.20" y="70.20" class="atomic-weight" text-anchor="end">30,974</text>
+    <text x="332.10" y="76.20" class="symbol" text-anchor="middle">P</text>
+    <text x="332.10" y="79.50" class="name" text-anchor="middle">fosfor</text>
+    <text x="322.00" y="83.00" class="property">2,19</text>
+    <text x="342.20" y="83.00" class="property" text-anchor="end">1011,8</text>
+    <text x="332.10" y="86.20" class="property" text-anchor="middle">-3 +3 +5</text>
+    <text x="332.10" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p³</text>
+  </g>
+  <g id="element-S" data-z="16" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="343.20" y="67.00" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="343.20" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="70.20" class="atomic-number">16</text>
+    <text x="364.40" y="70.20" class="atomic-weight" text-anchor="end">32,06</text>
+    <text x="354.30" y="76.20" class="symbol" text-anchor="middle">S</text>
+    <text x="354.30" y="79.50" class="name" text-anchor="middle">svovel</text>
+    <text x="344.20" y="83.00" class="property">2,58</text>
+    <text x="364.40" y="83.00" class="property" text-anchor="end">999,6</text>
+    <text x="354.30" y="86.20" class="property" text-anchor="middle">-2 +2 +4 +6</text>
+    <text x="354.30" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p⁴</text>
+  </g>
+  <g id="element-Cl" data-z="17" data-classifications="halogen" data-chemistry-status="established">
+    <rect x="365.40" y="67.00" width="22.2" height="24.5" fill="#AAAA00" class="cell-fill category-halogen" />
+    <rect x="365.40" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="70.20" class="atomic-number">17</text>
+    <text x="386.60" y="70.20" class="atomic-weight" text-anchor="end">35,45</text>
+    <text x="376.50" y="76.20" class="symbol" text-anchor="middle">Cl</text>
+    <text x="376.50" y="79.50" class="name" text-anchor="middle">klor</text>
+    <text x="366.40" y="83.00" class="property">3,16</text>
+    <text x="386.60" y="83.00" class="property" text-anchor="end">1251,2</text>
+    <text x="376.50" y="86.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">-1 +1 +3 +5 +7</text>
+    <text x="376.50" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p⁵</text>
+  </g>
+  <g id="element-Ar" data-z="18" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="67.00" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="67.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="70.20" class="atomic-number">18</text>
+    <text x="408.80" y="70.20" class="atomic-weight" text-anchor="end">39,95</text>
+    <text x="398.70" y="76.20" class="symbol" text-anchor="middle">Ar</text>
+    <text x="398.70" y="79.50" class="name" text-anchor="middle">argon</text>
+    <text x="388.60" y="83.00" class="property">—</text>
+    <text x="408.80" y="83.00" class="property" text-anchor="end">1520,6</text>
+    <text x="398.70" y="86.20" class="property" text-anchor="middle">—</text>
+    <text x="398.70" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p⁶</text>
+  </g>
+  <g id="element-K" data-z="19" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="91.50" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="94.70" class="atomic-number">19</text>
+    <text x="31.40" y="94.70" class="atomic-weight" text-anchor="end">39,098</text>
+    <text x="21.30" y="100.70" class="symbol" text-anchor="middle">K</text>
+    <text x="21.30" y="104.00" class="name" text-anchor="middle">kalium</text>
+    <text x="11.20" y="107.50" class="property">0,82</text>
+    <text x="31.40" y="107.50" class="property" text-anchor="end">418,8</text>
+    <text x="21.30" y="110.70" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="114.50" class="configuration" text-anchor="middle">[Ar]4s¹</text>
+  </g>
+  <g id="element-Ca" data-z="20" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="91.50" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="94.70" class="atomic-number">20</text>
+    <text x="53.60" y="94.70" class="atomic-weight" text-anchor="end">40,078</text>
+    <text x="43.50" y="100.70" class="symbol" text-anchor="middle">Ca</text>
+    <text x="43.50" y="104.00" class="name" text-anchor="middle">kalsium</text>
+    <text x="33.40" y="107.50" class="property">1</text>
+    <text x="53.60" y="107.50" class="property" text-anchor="end">589,8</text>
+    <text x="43.50" y="110.70" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="114.50" class="configuration" text-anchor="middle">[Ar]4s²</text>
+  </g>
+  <g id="element-Sc" data-z="21" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="54.60" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="54.60" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="55.60" y="94.70" class="atomic-number">21</text>
+    <text x="75.80" y="94.70" class="atomic-weight" text-anchor="end">44,956</text>
+    <text x="65.70" y="100.70" class="symbol" text-anchor="middle">Sc</text>
+    <text x="65.70" y="104.00" class="name" text-anchor="middle">scandium</text>
+    <text x="55.60" y="107.50" class="property">1,36</text>
+    <text x="75.80" y="107.50" class="property" text-anchor="end">633,1</text>
+    <text x="65.70" y="110.70" class="property" text-anchor="middle">+3</text>
+    <text x="65.70" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹4s²</text>
+  </g>
+  <g id="element-Ti" data-z="22" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="76.80" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="76.80" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="94.70" class="atomic-number">22</text>
+    <text x="98.00" y="94.70" class="atomic-weight" text-anchor="end">47,867</text>
+    <text x="87.90" y="100.70" class="symbol" text-anchor="middle">Ti</text>
+    <text x="87.90" y="104.00" class="name" text-anchor="middle">titan</text>
+    <text x="77.80" y="107.50" class="property">1,54</text>
+    <text x="98.00" y="107.50" class="property" text-anchor="end">658,8</text>
+    <text x="87.90" y="110.70" class="property" text-anchor="middle">+2 +3 +4</text>
+    <text x="87.90" y="114.50" class="configuration" text-anchor="middle">[Ar]3d²4s²</text>
+  </g>
+  <g id="element-V" data-z="23" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="99.00" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="99.00" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="94.70" class="atomic-number">23</text>
+    <text x="120.20" y="94.70" class="atomic-weight" text-anchor="end">50,942</text>
+    <text x="110.10" y="100.70" class="symbol" text-anchor="middle">V</text>
+    <text x="110.10" y="104.00" class="name" text-anchor="middle">vanadium</text>
+    <text x="100.00" y="107.50" class="property">1,63</text>
+    <text x="120.20" y="107.50" class="property" text-anchor="end">650,9</text>
+    <text x="110.10" y="110.70" class="property" text-anchor="middle">+2 +3 +4 +5</text>
+    <text x="110.10" y="114.50" class="configuration" text-anchor="middle">[Ar]3d³4s²</text>
+  </g>
+  <g id="element-Cr" data-z="24" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="121.20" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="121.20" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="94.70" class="atomic-number">24</text>
+    <text x="142.40" y="94.70" class="atomic-weight" text-anchor="end">51,996</text>
+    <text x="132.30" y="100.70" class="symbol" text-anchor="middle">Cr</text>
+    <text x="132.30" y="104.00" class="name" text-anchor="middle">krom</text>
+    <text x="122.20" y="107.50" class="property">1,66</text>
+    <text x="142.40" y="107.50" class="property" text-anchor="end">652,9</text>
+    <text x="132.30" y="110.70" class="property" text-anchor="middle">+2 +3 +6</text>
+    <text x="132.30" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁵4s¹</text>
+  </g>
+  <g id="element-Mn" data-z="25" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="143.40" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="143.40" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="94.70" class="atomic-number">25</text>
+    <text x="164.60" y="94.70" class="atomic-weight" text-anchor="end">54,938</text>
+    <text x="154.50" y="100.70" class="symbol" text-anchor="middle">Mn</text>
+    <text x="154.50" y="104.00" class="name" text-anchor="middle">mangan</text>
+    <text x="144.40" y="107.50" class="property">1,55</text>
+    <text x="164.60" y="107.50" class="property" text-anchor="end">717,3</text>
+    <text x="154.50" y="110.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">+2 +3 +4 +6 +7</text>
+    <text x="154.50" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁵4s²</text>
+  </g>
+  <g id="element-Fe" data-z="26" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="165.60" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="165.60" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="94.70" class="atomic-number">26</text>
+    <text x="186.80" y="94.70" class="atomic-weight" text-anchor="end">55,845</text>
+    <text x="176.70" y="100.70" class="symbol" text-anchor="middle">Fe</text>
+    <text x="176.70" y="104.00" class="name" text-anchor="middle">jern</text>
+    <text x="166.60" y="107.50" class="property">1,83</text>
+    <text x="186.80" y="107.50" class="property" text-anchor="end">762,5</text>
+    <text x="176.70" y="110.70" class="property" text-anchor="middle">+2 +3 +6</text>
+    <text x="176.70" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁶4s²</text>
+  </g>
+  <g id="element-Co" data-z="27" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="187.80" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="187.80" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="94.70" class="atomic-number">27</text>
+    <text x="209.00" y="94.70" class="atomic-weight" text-anchor="end">58,933</text>
+    <text x="198.90" y="100.70" class="symbol" text-anchor="middle">Co</text>
+    <text x="198.90" y="104.00" class="name" text-anchor="middle">kobolt</text>
+    <text x="188.80" y="107.50" class="property">1,88</text>
+    <text x="209.00" y="107.50" class="property" text-anchor="end">760,4</text>
+    <text x="198.90" y="110.70" class="property" text-anchor="middle">+2 +3</text>
+    <text x="198.90" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁷4s²</text>
+  </g>
+  <g id="element-Ni" data-z="28" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="210.00" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="210.00" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="94.70" class="atomic-number">28</text>
+    <text x="231.20" y="94.70" class="atomic-weight" text-anchor="end">58,693</text>
+    <text x="221.10" y="100.70" class="symbol" text-anchor="middle">Ni</text>
+    <text x="221.10" y="104.00" class="name" text-anchor="middle">nikkel</text>
+    <text x="211.00" y="107.50" class="property">1,91</text>
+    <text x="231.20" y="107.50" class="property" text-anchor="end">737,1</text>
+    <text x="221.10" y="110.70" class="property" text-anchor="middle">+2 +3</text>
+    <text x="221.10" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁸4s²</text>
+  </g>
+  <g id="element-Cu" data-z="29" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="232.20" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="232.20" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="94.70" class="atomic-number">29</text>
+    <text x="253.40" y="94.70" class="atomic-weight" text-anchor="end">63,546</text>
+    <text x="243.30" y="100.70" class="symbol" text-anchor="middle">Cu</text>
+    <text x="243.30" y="104.00" class="name" text-anchor="middle">kobber</text>
+    <text x="233.20" y="107.50" class="property">1,9</text>
+    <text x="253.40" y="107.50" class="property" text-anchor="end">745,5</text>
+    <text x="243.30" y="110.70" class="property" text-anchor="middle">+1 +2</text>
+    <text x="243.30" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s¹</text>
+  </g>
+  <g id="element-Zn" data-z="30" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="254.40" y="91.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="254.40" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="94.70" class="atomic-number">30</text>
+    <text x="275.60" y="94.70" class="atomic-weight" text-anchor="end">65,38</text>
+    <text x="265.50" y="100.70" class="symbol" text-anchor="middle">Zn</text>
+    <text x="265.50" y="104.00" class="name" text-anchor="middle">sink</text>
+    <text x="255.40" y="107.50" class="property">1,65</text>
+    <text x="275.60" y="107.50" class="property" text-anchor="end">906,4</text>
+    <text x="265.50" y="110.70" class="property" text-anchor="middle">+2</text>
+    <text x="265.50" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²</text>
+  </g>
+  <g id="element-Ga" data-z="31" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="276.60" y="91.50" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="276.60" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="94.70" class="atomic-number">31</text>
+    <text x="297.80" y="94.70" class="atomic-weight" text-anchor="end">69,723</text>
+    <text x="287.70" y="100.70" class="symbol" text-anchor="middle">Ga</text>
+    <text x="287.70" y="104.00" class="name" text-anchor="middle">gallium</text>
+    <text x="277.60" y="107.50" class="property">1,81</text>
+    <text x="297.80" y="107.50" class="property" text-anchor="end">578,8</text>
+    <text x="287.70" y="110.70" class="property" text-anchor="middle">+3</text>
+    <text x="287.70" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p¹</text>
+  </g>
+  <g id="element-Ge" data-z="32" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="298.80" y="91.50" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="298.80" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="94.70" class="atomic-number">32</text>
+    <text x="320.00" y="94.70" class="atomic-weight" text-anchor="end">72,630</text>
+    <text x="309.90" y="100.70" class="symbol" text-anchor="middle">Ge</text>
+    <text x="309.90" y="104.00" class="name" text-anchor="middle">germanium</text>
+    <text x="299.80" y="107.50" class="property">2,01</text>
+    <text x="320.00" y="107.50" class="property" text-anchor="end">762,2</text>
+    <text x="309.90" y="110.70" class="property" text-anchor="middle">-4 +2 +4</text>
+    <text x="309.90" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p²</text>
+  </g>
+  <g id="element-As" data-z="33" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="321.00" y="91.50" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="321.00" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="94.70" class="atomic-number">33</text>
+    <text x="342.20" y="94.70" class="atomic-weight" text-anchor="end">74,922</text>
+    <text x="332.10" y="100.70" class="symbol" text-anchor="middle">As</text>
+    <text x="332.10" y="104.00" class="name" text-anchor="middle">arsen</text>
+    <text x="322.00" y="107.50" class="property">2,18</text>
+    <text x="342.20" y="107.50" class="property" text-anchor="end">944,5</text>
+    <text x="332.10" y="110.70" class="property" text-anchor="middle">-3 +3 +5</text>
+    <text x="332.10" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p³</text>
+  </g>
+  <g id="element-Se" data-z="34" data-classifications="reactive-nonmetal" data-chemistry-status="established">
+    <rect x="343.20" y="91.50" width="22.2" height="24.5" fill="#BBCC33" class="cell-fill category-reactive-nonmetal" />
+    <rect x="343.20" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="94.70" class="atomic-number">34</text>
+    <text x="364.40" y="94.70" class="atomic-weight" text-anchor="end">78,971</text>
+    <text x="354.30" y="100.70" class="symbol" text-anchor="middle">Se</text>
+    <text x="354.30" y="104.00" class="name" text-anchor="middle">selen</text>
+    <text x="344.20" y="107.50" class="property">2,55</text>
+    <text x="364.40" y="107.50" class="property" text-anchor="end">941,0</text>
+    <text x="354.30" y="110.70" class="property" text-anchor="middle">-2 +2 +4 +6</text>
+    <text x="354.30" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p⁴</text>
+  </g>
+  <g id="element-Br" data-z="35" data-classifications="halogen" data-chemistry-status="established">
+    <rect x="365.40" y="91.50" width="22.2" height="24.5" fill="#AAAA00" class="cell-fill category-halogen" />
+    <rect x="365.40" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="94.70" class="atomic-number">35</text>
+    <text x="386.60" y="94.70" class="atomic-weight" text-anchor="end">79,904</text>
+    <text x="376.50" y="100.70" class="symbol" text-anchor="middle">Br</text>
+    <text x="376.50" y="104.00" class="name" text-anchor="middle">brom</text>
+    <text x="366.40" y="107.50" class="property">2,96</text>
+    <text x="386.60" y="107.50" class="property" text-anchor="end">1139,9</text>
+    <text x="376.50" y="110.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">-1 +1 +3 +5 +7</text>
+    <text x="376.50" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p⁵</text>
+  </g>
+  <g id="element-Kr" data-z="36" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="91.50" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="91.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="94.70" class="atomic-number">36</text>
+    <text x="408.80" y="94.70" class="atomic-weight" text-anchor="end">83,798</text>
+    <text x="398.70" y="100.70" class="symbol" text-anchor="middle">Kr</text>
+    <text x="398.70" y="104.00" class="name" text-anchor="middle">krypton</text>
+    <text x="388.60" y="107.50" class="property">—</text>
+    <text x="408.80" y="107.50" class="property" text-anchor="end">1350,8</text>
+    <text x="398.70" y="110.70" class="property" text-anchor="middle">+2</text>
+    <text x="398.70" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p⁶</text>
+  </g>
+  <g id="element-Rb" data-z="37" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="116.00" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="119.20" class="atomic-number">37</text>
+    <text x="31.40" y="119.20" class="atomic-weight" text-anchor="end">85,468</text>
+    <text x="21.30" y="125.20" class="symbol" text-anchor="middle">Rb</text>
+    <text x="21.30" y="128.50" class="name" text-anchor="middle">rubidium</text>
+    <text x="11.20" y="132.00" class="property">0,82</text>
+    <text x="31.40" y="132.00" class="property" text-anchor="end">403,0</text>
+    <text x="21.30" y="135.20" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="139.00" class="configuration" text-anchor="middle">[Kr]5s¹</text>
+  </g>
+  <g id="element-Sr" data-z="38" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="116.00" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="119.20" class="atomic-number">38</text>
+    <text x="53.60" y="119.20" class="atomic-weight" text-anchor="end">87,62</text>
+    <text x="43.50" y="125.20" class="symbol" text-anchor="middle">Sr</text>
+    <text x="43.50" y="128.50" class="name" text-anchor="middle">strontium</text>
+    <text x="33.40" y="132.00" class="property">0,95</text>
+    <text x="53.60" y="132.00" class="property" text-anchor="end">549,5</text>
+    <text x="43.50" y="135.20" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="139.00" class="configuration" text-anchor="middle">[Kr]5s²</text>
+  </g>
+  <g id="element-Y" data-z="39" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="54.60" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="54.60" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="55.60" y="119.20" class="atomic-number">39</text>
+    <text x="75.80" y="119.20" class="atomic-weight" text-anchor="end">88,906</text>
+    <text x="65.70" y="125.20" class="symbol" text-anchor="middle">Y</text>
+    <text x="65.70" y="128.50" class="name" text-anchor="middle">yttrium</text>
+    <text x="55.60" y="132.00" class="property">1,22</text>
+    <text x="75.80" y="132.00" class="property" text-anchor="end">599,9</text>
+    <text x="65.70" y="135.20" class="property" text-anchor="middle">+3</text>
+    <text x="65.70" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹5s²</text>
+  </g>
+  <g id="element-Zr" data-z="40" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="76.80" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="76.80" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="119.20" class="atomic-number">40</text>
+    <text x="98.00" y="119.20" class="atomic-weight" text-anchor="end">91,222</text>
+    <text x="87.90" y="125.20" class="symbol" text-anchor="middle">Zr</text>
+    <text x="87.90" y="128.50" class="name" text-anchor="middle">zirkonium</text>
+    <text x="77.80" y="132.00" class="property">1,33</text>
+    <text x="98.00" y="132.00" class="property" text-anchor="end">640,1</text>
+    <text x="87.90" y="135.20" class="property" text-anchor="middle">+4</text>
+    <text x="87.90" y="139.00" class="configuration" text-anchor="middle">[Kr]4d²5s²</text>
+  </g>
+  <g id="element-Nb" data-z="41" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="99.00" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="99.00" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="119.20" class="atomic-number">41</text>
+    <text x="120.20" y="119.20" class="atomic-weight" text-anchor="end">92,906</text>
+    <text x="110.10" y="125.20" class="symbol" text-anchor="middle">Nb</text>
+    <text x="110.10" y="128.50" class="name" text-anchor="middle">niob</text>
+    <text x="100.00" y="132.00" class="property">1,6</text>
+    <text x="120.20" y="132.00" class="property" text-anchor="end">652,1</text>
+    <text x="110.10" y="135.20" class="property" text-anchor="middle">+3 +5</text>
+    <text x="110.10" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁴5s¹</text>
+  </g>
+  <g id="element-Mo" data-z="42" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="121.20" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="121.20" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="119.20" class="atomic-number">42</text>
+    <text x="142.40" y="119.20" class="atomic-weight" text-anchor="end">95,95</text>
+    <text x="132.30" y="125.20" class="symbol" text-anchor="middle">Mo</text>
+    <text x="132.30" y="128.50" class="name" text-anchor="middle">molybden</text>
+    <text x="122.20" y="132.00" class="property">2,16</text>
+    <text x="142.40" y="132.00" class="property" text-anchor="end">684,3</text>
+    <text x="132.30" y="135.20" class="property" text-anchor="middle">+4 +6</text>
+    <text x="132.30" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁵5s¹</text>
+  </g>
+  <g id="element-Tc" data-z="43" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="143.40" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="143.40" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="119.20" class="atomic-number">43</text>
+    <text x="164.60" y="119.20" class="atomic-weight" text-anchor="end">[97]</text>
+    <g transform="translate(154.50 118.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="154.50" y="125.20" class="symbol" text-anchor="middle">Tc</text>
+    <text x="154.50" y="128.50" class="name" text-anchor="middle">technetium</text>
+    <text x="144.40" y="132.00" class="property">2,1</text>
+    <text x="164.60" y="132.00" class="property" text-anchor="end">686,9</text>
+    <text x="154.50" y="135.20" class="property" text-anchor="middle">+4 +7</text>
+    <text x="154.50" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁵5s²</text>
+  </g>
+  <g id="element-Ru" data-z="44" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="165.60" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="165.60" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="119.20" class="atomic-number">44</text>
+    <text x="186.80" y="119.20" class="atomic-weight" text-anchor="end">101,07</text>
+    <text x="176.70" y="125.20" class="symbol" text-anchor="middle">Ru</text>
+    <text x="176.70" y="128.50" class="name" text-anchor="middle">rutenium</text>
+    <text x="166.60" y="132.00" class="property">2,2</text>
+    <text x="186.80" y="132.00" class="property" text-anchor="end">710,2</text>
+    <text x="176.70" y="135.20" class="property" text-anchor="middle">+2 +3 +4 +8</text>
+    <text x="176.70" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁷5s¹</text>
+  </g>
+  <g id="element-Rh" data-z="45" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="187.80" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="187.80" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="119.20" class="atomic-number">45</text>
+    <text x="209.00" y="119.20" class="atomic-weight" text-anchor="end">102,91</text>
+    <text x="198.90" y="125.20" class="symbol" text-anchor="middle">Rh</text>
+    <text x="198.90" y="128.50" class="name" text-anchor="middle">rhodium</text>
+    <text x="188.80" y="132.00" class="property">2,28</text>
+    <text x="209.00" y="132.00" class="property" text-anchor="end">719,7</text>
+    <text x="198.90" y="135.20" class="property" text-anchor="middle">+1 +3</text>
+    <text x="198.90" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁸5s¹</text>
+  </g>
+  <g id="element-Pd" data-z="46" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="210.00" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="210.00" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="119.20" class="atomic-number">46</text>
+    <text x="231.20" y="119.20" class="atomic-weight" text-anchor="end">106,42</text>
+    <text x="221.10" y="125.20" class="symbol" text-anchor="middle">Pd</text>
+    <text x="221.10" y="128.50" class="name" text-anchor="middle">palladium</text>
+    <text x="211.00" y="132.00" class="property">2,2</text>
+    <text x="231.20" y="132.00" class="property" text-anchor="end">804,4</text>
+    <text x="221.10" y="135.20" class="property" text-anchor="middle">+2 +4</text>
+    <text x="221.10" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰</text>
+  </g>
+  <g id="element-Ag" data-z="47" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="232.20" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="232.20" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="119.20" class="atomic-number">47</text>
+    <text x="253.40" y="119.20" class="atomic-weight" text-anchor="end">107,87</text>
+    <text x="243.30" y="125.20" class="symbol" text-anchor="middle">Ag</text>
+    <text x="243.30" y="128.50" class="name" text-anchor="middle">sølv</text>
+    <text x="233.20" y="132.00" class="property">1,93</text>
+    <text x="253.40" y="132.00" class="property" text-anchor="end">731,0</text>
+    <text x="243.30" y="135.20" class="property" text-anchor="middle">+1</text>
+    <text x="243.30" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s¹</text>
+  </g>
+  <g id="element-Cd" data-z="48" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="254.40" y="116.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="254.40" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="119.20" class="atomic-number">48</text>
+    <text x="275.60" y="119.20" class="atomic-weight" text-anchor="end">112,41</text>
+    <text x="265.50" y="125.20" class="symbol" text-anchor="middle">Cd</text>
+    <text x="265.50" y="128.50" class="name" text-anchor="middle">kadmium</text>
+    <text x="255.40" y="132.00" class="property">1,69</text>
+    <text x="275.60" y="132.00" class="property" text-anchor="end">867,8</text>
+    <text x="265.50" y="135.20" class="property" text-anchor="middle">+2</text>
+    <text x="265.50" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²</text>
+  </g>
+  <g id="element-In" data-z="49" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="276.60" y="116.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="276.60" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="119.20" class="atomic-number">49</text>
+    <text x="297.80" y="119.20" class="atomic-weight" text-anchor="end">114,82</text>
+    <text x="287.70" y="125.20" class="symbol" text-anchor="middle">In</text>
+    <text x="287.70" y="128.50" class="name" text-anchor="middle">indium</text>
+    <text x="277.60" y="132.00" class="property">1,78</text>
+    <text x="297.80" y="132.00" class="property" text-anchor="end">558,3</text>
+    <text x="287.70" y="135.20" class="property" text-anchor="middle">+1 +3</text>
+    <text x="287.70" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p¹</text>
+  </g>
+  <g id="element-Sn" data-z="50" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="298.80" y="116.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="298.80" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="119.20" class="atomic-number">50</text>
+    <text x="320.00" y="119.20" class="atomic-weight" text-anchor="end">118,71</text>
+    <text x="309.90" y="125.20" class="symbol" text-anchor="middle">Sn</text>
+    <text x="309.90" y="128.50" class="name" text-anchor="middle">tinn</text>
+    <text x="299.80" y="132.00" class="property">1,96</text>
+    <text x="320.00" y="132.00" class="property" text-anchor="end">708,6</text>
+    <text x="309.90" y="135.20" class="property" text-anchor="middle">-4 +2 +4</text>
+    <text x="309.90" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p²</text>
+  </g>
+  <g id="element-Sb" data-z="51" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="321.00" y="116.00" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="321.00" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="119.20" class="atomic-number">51</text>
+    <text x="342.20" y="119.20" class="atomic-weight" text-anchor="end">121,76</text>
+    <text x="332.10" y="125.20" class="symbol" text-anchor="middle">Sb</text>
+    <text x="332.10" y="128.50" class="name" text-anchor="middle">antimon</text>
+    <text x="322.00" y="132.00" class="property">2,05</text>
+    <text x="342.20" y="132.00" class="property" text-anchor="end">830,6</text>
+    <text x="332.10" y="135.20" class="property" text-anchor="middle">-3 +3 +5</text>
+    <text x="332.10" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p³</text>
+  </g>
+  <g id="element-Te" data-z="52" data-classifications="metalloid" data-chemistry-status="established">
+    <rect x="343.20" y="116.00" width="22.2" height="24.5" fill="#44BB99" class="cell-fill category-metalloid" />
+    <rect x="343.20" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="119.20" class="atomic-number">52</text>
+    <text x="364.40" y="119.20" class="atomic-weight" text-anchor="end">127,60</text>
+    <text x="354.30" y="125.20" class="symbol" text-anchor="middle">Te</text>
+    <text x="354.30" y="128.50" class="name" text-anchor="middle">tellur</text>
+    <text x="344.20" y="132.00" class="property">2,1</text>
+    <text x="364.40" y="132.00" class="property" text-anchor="end">869,3</text>
+    <text x="354.30" y="135.20" class="property" text-anchor="middle">-2 +2 +4 +6</text>
+    <text x="354.30" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁴</text>
+  </g>
+  <g id="element-I" data-z="53" data-classifications="halogen" data-chemistry-status="established">
+    <rect x="365.40" y="116.00" width="22.2" height="24.5" fill="#AAAA00" class="cell-fill category-halogen" />
+    <rect x="365.40" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="119.20" class="atomic-number">53</text>
+    <text x="386.60" y="119.20" class="atomic-weight" text-anchor="end">126,90</text>
+    <text x="376.50" y="125.20" class="symbol" text-anchor="middle">I</text>
+    <text x="376.50" y="128.50" class="name" text-anchor="middle">jod</text>
+    <text x="366.40" y="132.00" class="property">2,66</text>
+    <text x="386.60" y="132.00" class="property" text-anchor="end">1008,4</text>
+    <text x="376.50" y="135.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">-1 +1 +3 +5 +7</text>
+    <text x="376.50" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁵</text>
+  </g>
+  <g id="element-Xe" data-z="54" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="116.00" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="116.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="119.20" class="atomic-number">54</text>
+    <text x="408.80" y="119.20" class="atomic-weight" text-anchor="end">131,29</text>
+    <text x="398.70" y="125.20" class="symbol" text-anchor="middle">Xe</text>
+    <text x="398.70" y="128.50" class="name" text-anchor="middle">xenon</text>
+    <text x="388.60" y="132.00" class="property">2,6</text>
+    <text x="408.80" y="132.00" class="property" text-anchor="end">1170,4</text>
+    <text x="398.70" y="135.20" class="property" text-anchor="middle">+2 +4 +6 +8</text>
+    <text x="398.70" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁶</text>
+  </g>
+  <g id="element-Cs" data-z="55" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="140.50" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="143.70" class="atomic-number">55</text>
+    <text x="31.40" y="143.70" class="atomic-weight" text-anchor="end">132,91</text>
+    <text x="21.30" y="149.70" class="symbol" text-anchor="middle">Cs</text>
+    <text x="21.30" y="153.00" class="name" text-anchor="middle">cesium</text>
+    <text x="11.20" y="156.50" class="property">0,79</text>
+    <text x="31.40" y="156.50" class="property" text-anchor="end">375,7</text>
+    <text x="21.30" y="159.70" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="163.50" class="configuration" text-anchor="middle">[Xe]6s¹</text>
+  </g>
+  <g id="element-Ba" data-z="56" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="140.50" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="143.70" class="atomic-number">56</text>
+    <text x="53.60" y="143.70" class="atomic-weight" text-anchor="end">137,33</text>
+    <text x="43.50" y="149.70" class="symbol" text-anchor="middle">Ba</text>
+    <text x="43.50" y="153.00" class="name" text-anchor="middle">barium</text>
+    <text x="33.40" y="156.50" class="property">0,89</text>
+    <text x="53.60" y="156.50" class="property" text-anchor="end">502,8</text>
+    <text x="43.50" y="159.70" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="163.50" class="configuration" text-anchor="middle">[Xe]6s²</text>
+  </g>
+  <g id="element-La" data-z="57" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="54.60" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="54.60" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="55.60" y="201.20" class="atomic-number">57</text>
+    <text x="75.80" y="201.20" class="atomic-weight" text-anchor="end">138,91</text>
+    <text x="65.70" y="207.20" class="symbol" text-anchor="middle">La</text>
+    <text x="65.70" y="210.50" class="name" text-anchor="middle">lantan</text>
+    <text x="55.60" y="214.00" class="property">1,1</text>
+    <text x="75.80" y="214.00" class="property" text-anchor="end">538,1</text>
+    <text x="65.70" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="65.70" y="221.00" class="configuration" text-anchor="middle">[Xe]5d¹6s²</text>
+  </g>
+  <g id="element-Ce" data-z="58" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="76.80" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="76.80" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="201.20" class="atomic-number">58</text>
+    <text x="98.00" y="201.20" class="atomic-weight" text-anchor="end">140,12</text>
+    <text x="87.90" y="207.20" class="symbol" text-anchor="middle">Ce</text>
+    <text x="87.90" y="210.50" class="name" text-anchor="middle">cerium</text>
+    <text x="77.80" y="214.00" class="property">1,12</text>
+    <text x="98.00" y="214.00" class="property" text-anchor="end">534,4</text>
+    <text x="87.90" y="217.20" class="property" text-anchor="middle">+3 +4</text>
+    <text x="87.90" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹5d¹6s²</text>
+  </g>
+  <g id="element-Pr" data-z="59" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="99.00" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="99.00" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="201.20" class="atomic-number">59</text>
+    <text x="120.20" y="201.20" class="atomic-weight" text-anchor="end">140,91</text>
+    <text x="110.10" y="207.20" class="symbol" text-anchor="middle">Pr</text>
+    <text x="110.10" y="210.50" class="name" text-anchor="middle">praseodym</text>
+    <text x="100.00" y="214.00" class="property">1,13</text>
+    <text x="120.20" y="214.00" class="property" text-anchor="end">527,8</text>
+    <text x="110.10" y="217.20" class="property" text-anchor="middle">+3 +4</text>
+    <text x="110.10" y="221.00" class="configuration" text-anchor="middle">[Xe]4f³6s²</text>
+  </g>
+  <g id="element-Nd" data-z="60" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="121.20" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="121.20" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="201.20" class="atomic-number">60</text>
+    <text x="142.40" y="201.20" class="atomic-weight" text-anchor="end">144,24</text>
+    <text x="132.30" y="207.20" class="symbol" text-anchor="middle">Nd</text>
+    <text x="132.30" y="210.50" class="name" text-anchor="middle">neodym</text>
+    <text x="122.20" y="214.00" class="property">1,14</text>
+    <text x="142.40" y="214.00" class="property" text-anchor="end">533,1</text>
+    <text x="132.30" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="132.30" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁴6s²</text>
+  </g>
+  <g id="element-Pm" data-z="61" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="143.40" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="143.40" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="201.20" class="atomic-number">61</text>
+    <text x="164.60" y="201.20" class="atomic-weight" text-anchor="end">[145]</text>
+    <g transform="translate(154.50 200.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="154.50" y="207.20" class="symbol" text-anchor="middle">Pm</text>
+    <text x="154.50" y="210.50" class="name" text-anchor="middle">promethium</text>
+    <text x="144.40" y="214.00" class="property">—</text>
+    <text x="164.60" y="214.00" class="property" text-anchor="end">538,6</text>
+    <text x="154.50" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="154.50" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁵6s²</text>
+  </g>
+  <g id="element-Sm" data-z="62" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="165.60" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="165.60" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="201.20" class="atomic-number">62</text>
+    <text x="186.80" y="201.20" class="atomic-weight" text-anchor="end">150,36</text>
+    <text x="176.70" y="207.20" class="symbol" text-anchor="middle">Sm</text>
+    <text x="176.70" y="210.50" class="name" text-anchor="middle">samarium</text>
+    <text x="166.60" y="214.00" class="property">1,17</text>
+    <text x="186.80" y="214.00" class="property" text-anchor="end">544,5</text>
+    <text x="176.70" y="217.20" class="property" text-anchor="middle">+2 +3</text>
+    <text x="176.70" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁶6s²</text>
+  </g>
+  <g id="element-Eu" data-z="63" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="187.80" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="187.80" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="201.20" class="atomic-number">63</text>
+    <text x="209.00" y="201.20" class="atomic-weight" text-anchor="end">151,96</text>
+    <text x="198.90" y="207.20" class="symbol" text-anchor="middle">Eu</text>
+    <text x="198.90" y="210.50" class="name" text-anchor="middle">europium</text>
+    <text x="188.80" y="214.00" class="property">—</text>
+    <text x="209.00" y="214.00" class="property" text-anchor="end">547,1</text>
+    <text x="198.90" y="217.20" class="property" text-anchor="middle">+2 +3</text>
+    <text x="198.90" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁷6s²</text>
+  </g>
+  <g id="element-Gd" data-z="64" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="210.00" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="210.00" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="201.20" class="atomic-number">64</text>
+    <text x="231.20" y="201.20" class="atomic-weight" text-anchor="end">157,25</text>
+    <text x="221.10" y="207.20" class="symbol" text-anchor="middle">Gd</text>
+    <text x="221.10" y="210.50" class="name" text-anchor="middle">gadolinium</text>
+    <text x="211.00" y="214.00" class="property">1,2</text>
+    <text x="231.20" y="214.00" class="property" text-anchor="end">593,4</text>
+    <text x="221.10" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="221.10" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁷5d¹6s²</text>
+  </g>
+  <g id="element-Tb" data-z="65" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="232.20" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="232.20" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="201.20" class="atomic-number">65</text>
+    <text x="253.40" y="201.20" class="atomic-weight" text-anchor="end">158,93</text>
+    <text x="243.30" y="207.20" class="symbol" text-anchor="middle">Tb</text>
+    <text x="243.30" y="210.50" class="name" text-anchor="middle">terbium</text>
+    <text x="233.20" y="214.00" class="property">—</text>
+    <text x="253.40" y="214.00" class="property" text-anchor="end">565,8</text>
+    <text x="243.30" y="217.20" class="property" text-anchor="middle">+3 +4</text>
+    <text x="243.30" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁹6s²</text>
+  </g>
+  <g id="element-Dy" data-z="66" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="254.40" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="254.40" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="201.20" class="atomic-number">66</text>
+    <text x="275.60" y="201.20" class="atomic-weight" text-anchor="end">162,50</text>
+    <text x="265.50" y="207.20" class="symbol" text-anchor="middle">Dy</text>
+    <text x="265.50" y="210.50" class="name" text-anchor="middle">dysprosium</text>
+    <text x="255.40" y="214.00" class="property">1,22</text>
+    <text x="275.60" y="214.00" class="property" text-anchor="end">573,0</text>
+    <text x="265.50" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="265.50" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹⁰6s²</text>
+  </g>
+  <g id="element-Ho" data-z="67" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="276.60" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="276.60" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="201.20" class="atomic-number">67</text>
+    <text x="297.80" y="201.20" class="atomic-weight" text-anchor="end">164,93</text>
+    <text x="287.70" y="207.20" class="symbol" text-anchor="middle">Ho</text>
+    <text x="287.70" y="210.50" class="name" text-anchor="middle">holmium</text>
+    <text x="277.60" y="214.00" class="property">1,23</text>
+    <text x="297.80" y="214.00" class="property" text-anchor="end">581,0</text>
+    <text x="287.70" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="287.70" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹¹6s²</text>
+  </g>
+  <g id="element-Er" data-z="68" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="298.80" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="298.80" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="201.20" class="atomic-number">68</text>
+    <text x="320.00" y="201.20" class="atomic-weight" text-anchor="end">167,26</text>
+    <text x="309.90" y="207.20" class="symbol" text-anchor="middle">Er</text>
+    <text x="309.90" y="210.50" class="name" text-anchor="middle">erbium</text>
+    <text x="299.80" y="214.00" class="property">1,24</text>
+    <text x="320.00" y="214.00" class="property" text-anchor="end">589,3</text>
+    <text x="309.90" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="309.90" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹²6s²</text>
+  </g>
+  <g id="element-Tm" data-z="69" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="321.00" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="321.00" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="201.20" class="atomic-number">69</text>
+    <text x="342.20" y="201.20" class="atomic-weight" text-anchor="end">168,93</text>
+    <text x="332.10" y="207.20" class="symbol" text-anchor="middle">Tm</text>
+    <text x="332.10" y="210.50" class="name" text-anchor="middle">thulium</text>
+    <text x="322.00" y="214.00" class="property">1,25</text>
+    <text x="342.20" y="214.00" class="property" text-anchor="end">596,7</text>
+    <text x="332.10" y="217.20" class="property" text-anchor="middle">+2 +3</text>
+    <text x="332.10" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹³6s²</text>
+  </g>
+  <g id="element-Yb" data-z="70" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="343.20" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="343.20" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="201.20" class="atomic-number">70</text>
+    <text x="364.40" y="201.20" class="atomic-weight" text-anchor="end">173,05</text>
+    <text x="354.30" y="207.20" class="symbol" text-anchor="middle">Yb</text>
+    <text x="354.30" y="210.50" class="name" text-anchor="middle">ytterbium</text>
+    <text x="344.20" y="214.00" class="property">—</text>
+    <text x="364.40" y="214.00" class="property" text-anchor="end">603,4</text>
+    <text x="354.30" y="217.20" class="property" text-anchor="middle">+2 +3</text>
+    <text x="354.30" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹⁴6s²</text>
+  </g>
+  <g id="element-Lu" data-z="71" data-classifications="lanthanide" data-chemistry-status="established">
+    <rect x="365.40" y="198.00" width="22.2" height="24.5" fill="#DDBBDD" class="cell-fill category-lanthanide" />
+    <rect x="365.40" y="198.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="201.20" class="atomic-number">71</text>
+    <text x="386.60" y="201.20" class="atomic-weight" text-anchor="end">174,97</text>
+    <text x="376.50" y="207.20" class="symbol" text-anchor="middle">Lu</text>
+    <text x="376.50" y="210.50" class="name" text-anchor="middle">lutetium</text>
+    <text x="366.40" y="214.00" class="property">1</text>
+    <text x="386.60" y="214.00" class="property" text-anchor="end">523,5</text>
+    <text x="376.50" y="217.20" class="property" text-anchor="middle">+3</text>
+    <text x="376.50" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹6s²</text>
+  </g>
+  <g id="element-Hf" data-z="72" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="76.80" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="76.80" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="143.70" class="atomic-number">72</text>
+    <text x="98.00" y="143.70" class="atomic-weight" text-anchor="end">178,49</text>
+    <text x="87.90" y="149.70" class="symbol" text-anchor="middle">Hf</text>
+    <text x="87.90" y="153.00" class="name" text-anchor="middle">hafnium</text>
+    <text x="77.80" y="156.50" class="property">1,3</text>
+    <text x="98.00" y="156.50" class="property" text-anchor="end">658,5</text>
+    <text x="87.90" y="159.70" class="property" text-anchor="middle">+4</text>
+    <text x="87.90" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d²6s²</text>
+  </g>
+  <g id="element-Ta" data-z="73" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="99.00" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="99.00" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="143.70" class="atomic-number">73</text>
+    <text x="120.20" y="143.70" class="atomic-weight" text-anchor="end">180,95</text>
+    <text x="110.10" y="149.70" class="symbol" text-anchor="middle">Ta</text>
+    <text x="110.10" y="153.00" class="name" text-anchor="middle">tantal</text>
+    <text x="100.00" y="156.50" class="property">1,5</text>
+    <text x="120.20" y="156.50" class="property" text-anchor="end">728,4</text>
+    <text x="110.10" y="159.70" class="property" text-anchor="middle">+5</text>
+    <text x="110.10" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d³6s²</text>
+  </g>
+  <g id="element-W" data-z="74" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="121.20" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="121.20" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="143.70" class="atomic-number">74</text>
+    <text x="142.40" y="143.70" class="atomic-weight" text-anchor="end">183,84</text>
+    <text x="132.30" y="149.70" class="symbol" text-anchor="middle">W</text>
+    <text x="132.30" y="153.00" class="name" text-anchor="middle">wolfram</text>
+    <text x="122.20" y="156.50" class="property">1,7</text>
+    <text x="142.40" y="156.50" class="property" text-anchor="end">758,8</text>
+    <text x="132.30" y="159.70" class="property" text-anchor="middle">+4 +6</text>
+    <text x="132.30" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d⁴6s²</text>
+  </g>
+  <g id="element-Re" data-z="75" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="143.40" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="143.40" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="143.70" class="atomic-number">75</text>
+    <text x="164.60" y="143.70" class="atomic-weight" text-anchor="end">186,21</text>
+    <text x="154.50" y="149.70" class="symbol" text-anchor="middle">Re</text>
+    <text x="154.50" y="153.00" class="name" text-anchor="middle">rhenium</text>
+    <text x="144.40" y="156.50" class="property">1,9</text>
+    <text x="164.60" y="156.50" class="property" text-anchor="end">755,8</text>
+    <text x="154.50" y="159.70" class="property" text-anchor="middle">+4 +7</text>
+    <text x="154.50" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d⁵6s²</text>
+  </g>
+  <g id="element-Os" data-z="76" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="165.60" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="165.60" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="143.70" class="atomic-number">76</text>
+    <text x="186.80" y="143.70" class="atomic-weight" text-anchor="end">190,23</text>
+    <text x="176.70" y="149.70" class="symbol" text-anchor="middle">Os</text>
+    <text x="176.70" y="153.00" class="name" text-anchor="middle">osmium</text>
+    <text x="166.60" y="156.50" class="property">2,2</text>
+    <text x="186.80" y="156.50" class="property" text-anchor="end">814,2</text>
+    <text x="176.70" y="159.70" class="property" text-anchor="middle">+2 +3 +4 +8</text>
+    <text x="176.70" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d⁶6s²</text>
+  </g>
+  <g id="element-Ir" data-z="77" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="187.80" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="187.80" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="143.70" class="atomic-number">77</text>
+    <text x="209.00" y="143.70" class="atomic-weight" text-anchor="end">192,22</text>
+    <text x="198.90" y="149.70" class="symbol" text-anchor="middle">Ir</text>
+    <text x="198.90" y="153.00" class="name" text-anchor="middle">iridium</text>
+    <text x="188.80" y="156.50" class="property">2,2</text>
+    <text x="209.00" y="156.50" class="property" text-anchor="end">865,2</text>
+    <text x="198.90" y="159.70" class="property" text-anchor="middle">+3 +4</text>
+    <text x="198.90" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d⁷6s²</text>
+  </g>
+  <g id="element-Pt" data-z="78" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="210.00" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="210.00" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="143.70" class="atomic-number">78</text>
+    <text x="231.20" y="143.70" class="atomic-weight" text-anchor="end">195,08</text>
+    <text x="221.10" y="149.70" class="symbol" text-anchor="middle">Pt</text>
+    <text x="221.10" y="153.00" class="name" text-anchor="middle">platina</text>
+    <text x="211.00" y="156.50" class="property">2,2</text>
+    <text x="231.20" y="156.50" class="property" text-anchor="end">864,4</text>
+    <text x="221.10" y="159.70" class="property" text-anchor="middle">+2 +4</text>
+    <text x="221.10" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d⁹6s¹</text>
+  </g>
+  <g id="element-Au" data-z="79" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="232.20" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="232.20" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="143.70" class="atomic-number">79</text>
+    <text x="253.40" y="143.70" class="atomic-weight" text-anchor="end">196,97</text>
+    <text x="243.30" y="149.70" class="symbol" text-anchor="middle">Au</text>
+    <text x="243.30" y="153.00" class="name" text-anchor="middle">gull</text>
+    <text x="233.20" y="156.50" class="property">2,4</text>
+    <text x="253.40" y="156.50" class="property" text-anchor="end">890,1</text>
+    <text x="243.30" y="159.70" class="property" text-anchor="middle">+1 +3</text>
+    <text x="243.30" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s¹</text>
+  </g>
+  <g id="element-Hg" data-z="80" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="254.40" y="140.50" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="254.40" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="143.70" class="atomic-number">80</text>
+    <text x="275.60" y="143.70" class="atomic-weight" text-anchor="end">200,59</text>
+    <text x="265.50" y="149.70" class="symbol" text-anchor="middle">Hg</text>
+    <text x="265.50" y="153.00" class="name" text-anchor="middle">kvikksølv</text>
+    <text x="255.40" y="156.50" class="property">1,9</text>
+    <text x="275.60" y="156.50" class="property" text-anchor="end">1007,1</text>
+    <text x="265.50" y="159.70" class="property" text-anchor="middle">+1 +2</text>
+    <text x="265.50" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²</text>
+  </g>
+  <g id="element-Tl" data-z="81" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="276.60" y="140.50" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="276.60" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="143.70" class="atomic-number">81</text>
+    <text x="297.80" y="143.70" class="atomic-weight" text-anchor="end">204,38</text>
+    <text x="287.70" y="149.70" class="symbol" text-anchor="middle">Tl</text>
+    <text x="287.70" y="153.00" class="name" text-anchor="middle">thallium</text>
+    <text x="277.60" y="156.50" class="property">1,8</text>
+    <text x="297.80" y="156.50" class="property" text-anchor="end">589,4</text>
+    <text x="287.70" y="159.70" class="property" text-anchor="middle">+1 +3</text>
+    <text x="287.70" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p¹</text>
+  </g>
+  <g id="element-Pb" data-z="82" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="298.80" y="140.50" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="298.80" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="143.70" class="atomic-number">82</text>
+    <text x="320.00" y="143.70" class="atomic-weight" text-anchor="end">207,2</text>
+    <text x="309.90" y="149.70" class="symbol" text-anchor="middle">Pb</text>
+    <text x="309.90" y="153.00" class="name" text-anchor="middle">bly</text>
+    <text x="299.80" y="156.50" class="property">1,8</text>
+    <text x="320.00" y="156.50" class="property" text-anchor="end">715,6</text>
+    <text x="309.90" y="159.70" class="property" text-anchor="middle">+2 +4</text>
+    <text x="309.90" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p²</text>
+  </g>
+  <g id="element-Bi" data-z="83" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="321.00" y="140.50" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="321.00" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="143.70" class="atomic-number">83</text>
+    <text x="342.20" y="143.70" class="atomic-weight" text-anchor="end">208,98</text>
+    <g transform="translate(332.10 142.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="332.10" y="149.70" class="symbol" text-anchor="middle">Bi</text>
+    <text x="332.10" y="153.00" class="name" text-anchor="middle">vismut</text>
+    <text x="322.00" y="156.50" class="property">1,9</text>
+    <text x="342.20" y="156.50" class="property" text-anchor="end">702,9</text>
+    <text x="332.10" y="159.70" class="property" text-anchor="middle">+3 +5</text>
+    <text x="332.10" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p³</text>
+  </g>
+  <g id="element-Po" data-z="84" data-classifications="post-transition-metal metalloid" data-chemistry-status="established">
+    <polygon points="343.20,140.50 365.40,140.50 343.20,165.00" fill="#99DDFF" class="cell-fill split-fill category-post-transition-metal" />
+    <polygon points="365.40,140.50 365.40,165.00 343.20,165.00" fill="#44BB99" class="cell-fill split-fill category-metalloid" />
+    <rect x="343.20" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="143.70" class="atomic-number">84</text>
+    <text x="364.40" y="143.70" class="atomic-weight" text-anchor="end">[209]</text>
+    <g transform="translate(354.30 142.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="354.30" y="149.70" class="symbol" text-anchor="middle">Po</text>
+    <text x="354.30" y="153.00" class="name" text-anchor="middle">polonium</text>
+    <text x="344.20" y="156.50" class="property">2</text>
+    <text x="364.40" y="156.50" class="property" text-anchor="end">812,2</text>
+    <text x="354.30" y="159.70" class="property" text-anchor="middle">-2 +2 +4</text>
+    <text x="354.30" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁴</text>
+  </g>
+  <g id="element-At" data-z="85" data-classifications="halogen metalloid" data-chemistry-status="established">
+    <polygon points="365.40,140.50 387.60,140.50 365.40,165.00" fill="#AAAA00" class="cell-fill split-fill category-halogen" />
+    <polygon points="387.60,140.50 387.60,165.00 365.40,165.00" fill="#44BB99" class="cell-fill split-fill category-metalloid" />
+    <rect x="365.40" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="143.70" class="atomic-number">85</text>
+    <text x="386.60" y="143.70" class="atomic-weight" text-anchor="end">[210]</text>
+    <g transform="translate(376.50 142.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="376.50" y="149.70" class="symbol" text-anchor="middle">At</text>
+    <text x="376.50" y="153.00" class="name" text-anchor="middle">astat</text>
+    <text x="366.40" y="156.50" class="property">2,2</text>
+    <text x="386.60" y="156.50" class="property" text-anchor="end">899,0</text>
+    <text x="376.50" y="159.70" class="property" text-anchor="middle">-1 +1</text>
+    <text x="376.50" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁵</text>
+  </g>
+  <g id="element-Rn" data-z="86" data-classifications="noble-gas" data-chemistry-status="established">
+    <rect x="387.60" y="140.50" width="22.2" height="24.5" fill="#DDDDDD" class="cell-fill category-noble-gas" />
+    <rect x="387.60" y="140.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="143.70" class="atomic-number">86</text>
+    <text x="408.80" y="143.70" class="atomic-weight" text-anchor="end">[222]</text>
+    <g transform="translate(398.70 142.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="398.70" y="149.70" class="symbol" text-anchor="middle">Rn</text>
+    <text x="398.70" y="153.00" class="name" text-anchor="middle">radon</text>
+    <text x="388.60" y="156.50" class="property">—</text>
+    <text x="408.80" y="156.50" class="property" text-anchor="end">1037,1</text>
+    <text x="398.70" y="159.70" class="property" text-anchor="middle">—</text>
+    <text x="398.70" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁶</text>
+  </g>
+  <g id="element-Fr" data-z="87" data-classifications="alkali-metal" data-chemistry-status="established">
+    <rect x="10.20" y="165.00" width="22.2" height="24.5" fill="#EE8866" class="cell-fill category-alkali-metal" />
+    <rect x="10.20" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="11.20" y="168.20" class="atomic-number">87</text>
+    <text x="31.40" y="168.20" class="atomic-weight" text-anchor="end">[223]</text>
+    <g transform="translate(21.30 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="21.30" y="174.20" class="symbol" text-anchor="middle">Fr</text>
+    <text x="21.30" y="177.50" class="name" text-anchor="middle">francium</text>
+    <text x="11.20" y="181.00" class="property">0,7</text>
+    <text x="31.40" y="181.00" class="property" text-anchor="end">393,0</text>
+    <text x="21.30" y="184.20" class="property" text-anchor="middle">+1</text>
+    <text x="21.30" y="188.00" class="configuration" text-anchor="middle">[Rn]7s¹</text>
+  </g>
+  <g id="element-Ra" data-z="88" data-classifications="alkaline-earth-metal" data-chemistry-status="established">
+    <rect x="32.40" y="165.00" width="22.2" height="24.5" fill="#EEDD88" class="cell-fill category-alkaline-earth-metal" />
+    <rect x="32.40" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="33.40" y="168.20" class="atomic-number">88</text>
+    <text x="53.60" y="168.20" class="atomic-weight" text-anchor="end">[226]</text>
+    <g transform="translate(43.50 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="43.50" y="174.20" class="symbol" text-anchor="middle">Ra</text>
+    <text x="43.50" y="177.50" class="name" text-anchor="middle">radium</text>
+    <text x="33.40" y="181.00" class="property">0,9</text>
+    <text x="53.60" y="181.00" class="property" text-anchor="end">509,3</text>
+    <text x="43.50" y="184.20" class="property" text-anchor="middle">+2</text>
+    <text x="43.50" y="188.00" class="configuration" text-anchor="middle">[Rn]7s²</text>
+  </g>
+  <g id="element-Ac" data-z="89" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="54.60" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="54.60" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="55.60" y="225.70" class="atomic-number">89</text>
+    <text x="75.80" y="225.70" class="atomic-weight" text-anchor="end">[227]</text>
+    <g transform="translate(65.70 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="65.70" y="231.70" class="symbol" text-anchor="middle">Ac</text>
+    <text x="65.70" y="235.00" class="name" text-anchor="middle">actinium</text>
+    <text x="55.60" y="238.50" class="property">1,1</text>
+    <text x="75.80" y="238.50" class="property" text-anchor="end">519,1</text>
+    <text x="65.70" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="65.70" y="245.50" class="configuration" text-anchor="middle">[Rn]6d¹7s²</text>
+  </g>
+  <g id="element-Th" data-z="90" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="76.80" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="76.80" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="225.70" class="atomic-number">90</text>
+    <text x="98.00" y="225.70" class="atomic-weight" text-anchor="end">232,04</text>
+    <g transform="translate(87.90 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="87.90" y="231.70" class="symbol" text-anchor="middle">Th</text>
+    <text x="87.90" y="235.00" class="name" text-anchor="middle">thorium</text>
+    <text x="77.80" y="238.50" class="property">1,3</text>
+    <text x="98.00" y="238.50" class="property" text-anchor="end">608,5</text>
+    <text x="87.90" y="241.70" class="property" text-anchor="middle">+4</text>
+    <text x="87.90" y="245.50" class="configuration" text-anchor="middle">[Rn]6d²7s²</text>
+  </g>
+  <g id="element-Pa" data-z="91" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="99.00" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="99.00" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="225.70" class="atomic-number">91</text>
+    <text x="120.20" y="225.70" class="atomic-weight" text-anchor="end">231,04</text>
+    <g transform="translate(110.10 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="110.10" y="231.70" class="symbol" text-anchor="middle">Pa</text>
+    <text x="110.10" y="235.00" class="name" text-anchor="middle">protactinium</text>
+    <text x="100.00" y="238.50" class="property">1,5</text>
+    <text x="120.20" y="238.50" class="property" text-anchor="end">568,3</text>
+    <text x="110.10" y="241.70" class="property" text-anchor="middle">+4 +5</text>
+    <text x="110.10" y="245.50" class="configuration" text-anchor="middle">[Rn]5f²6d¹7s²</text>
+  </g>
+  <g id="element-U" data-z="92" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="121.20" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="121.20" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="225.70" class="atomic-number">92</text>
+    <text x="142.40" y="225.70" class="atomic-weight" text-anchor="end">238,03</text>
+    <g transform="translate(132.30 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="132.30" y="231.70" class="symbol" text-anchor="middle">U</text>
+    <text x="132.30" y="235.00" class="name" text-anchor="middle">uran</text>
+    <text x="122.20" y="238.50" class="property">1,7</text>
+    <text x="142.40" y="238.50" class="property" text-anchor="end">597,6</text>
+    <text x="132.30" y="241.70" class="property" text-anchor="middle">+3 +4 +5 +6</text>
+    <text x="132.30" y="245.50" class="configuration" text-anchor="middle">[Rn]5f³6d¹7s²</text>
+  </g>
+  <g id="element-Np" data-z="93" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="143.40" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="143.40" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="225.70" class="atomic-number">93</text>
+    <text x="164.60" y="225.70" class="atomic-weight" text-anchor="end">[237]</text>
+    <g transform="translate(154.50 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="154.50" y="231.70" class="symbol" text-anchor="middle">Np</text>
+    <text x="154.50" y="235.00" class="name" text-anchor="middle">neptunium</text>
+    <text x="144.40" y="238.50" class="property">1,3</text>
+    <text x="164.60" y="238.50" class="property" text-anchor="end">604,5</text>
+    <text x="154.50" y="241.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">+3 +4 +5 +6 +7</text>
+    <text x="154.50" y="245.50" class="configuration" text-anchor="middle">[Rn]5f⁴6d¹7s²</text>
+  </g>
+  <g id="element-Pu" data-z="94" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="165.60" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="165.60" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="225.70" class="atomic-number">94</text>
+    <text x="186.80" y="225.70" class="atomic-weight" text-anchor="end">[244]</text>
+    <g transform="translate(176.70 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="176.70" y="231.70" class="symbol" text-anchor="middle">Pu</text>
+    <text x="176.70" y="235.00" class="name" text-anchor="middle">plutonium</text>
+    <text x="166.60" y="238.50" class="property">1,3</text>
+    <text x="186.80" y="238.50" class="property" text-anchor="end">581,4</text>
+    <text x="176.70" y="241.70" class="property" text-anchor="middle">+3 +4 +5 +6</text>
+    <text x="176.70" y="245.50" class="configuration" text-anchor="middle">[Rn]5f⁶7s²</text>
+  </g>
+  <g id="element-Am" data-z="95" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="187.80" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="187.80" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="225.70" class="atomic-number">95</text>
+    <text x="209.00" y="225.70" class="atomic-weight" text-anchor="end">[243]</text>
+    <g transform="translate(198.90 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="198.90" y="231.70" class="symbol" text-anchor="middle">Am</text>
+    <text x="198.90" y="235.00" class="name" text-anchor="middle">americium</text>
+    <text x="188.80" y="238.50" class="property">—</text>
+    <text x="209.00" y="238.50" class="property" text-anchor="end">576,4</text>
+    <text x="198.90" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="198.90" y="245.50" class="configuration" text-anchor="middle">[Rn]5f⁷7s²</text>
+  </g>
+  <g id="element-Cm" data-z="96" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="210.00" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="210.00" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="225.70" class="atomic-number">96</text>
+    <text x="231.20" y="225.70" class="atomic-weight" text-anchor="end">[247]</text>
+    <g transform="translate(221.10 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="221.10" y="231.70" class="symbol" text-anchor="middle">Cm</text>
+    <text x="221.10" y="235.00" class="name" text-anchor="middle">curium</text>
+    <text x="211.00" y="238.50" class="property">—</text>
+    <text x="231.20" y="238.50" class="property" text-anchor="end">578,2</text>
+    <text x="221.10" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="221.10" y="245.50" class="configuration" text-anchor="middle">[Rn]5f⁷6d¹7s²</text>
+  </g>
+  <g id="element-Bk" data-z="97" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="232.20" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="232.20" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="225.70" class="atomic-number">97</text>
+    <text x="253.40" y="225.70" class="atomic-weight" text-anchor="end">[247]</text>
+    <g transform="translate(243.30 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="243.30" y="231.70" class="symbol" text-anchor="middle">Bk</text>
+    <text x="243.30" y="235.00" class="name" text-anchor="middle">berkelium</text>
+    <text x="233.20" y="238.50" class="property">—</text>
+    <text x="253.40" y="238.50" class="property" text-anchor="end">598,0</text>
+    <text x="243.30" y="241.70" class="property" text-anchor="middle">+3 +4</text>
+    <text x="243.30" y="245.50" class="configuration" text-anchor="middle">[Rn]5f⁹7s²</text>
+  </g>
+  <g id="element-Cf" data-z="98" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="254.40" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="254.40" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="225.70" class="atomic-number">98</text>
+    <text x="275.60" y="225.70" class="atomic-weight" text-anchor="end">[251]</text>
+    <g transform="translate(265.50 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="265.50" y="231.70" class="symbol" text-anchor="middle">Cf</text>
+    <text x="265.50" y="235.00" class="name" text-anchor="middle">californium</text>
+    <text x="255.40" y="238.50" class="property">—</text>
+    <text x="275.60" y="238.50" class="property" text-anchor="end">606,1</text>
+    <text x="265.50" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="265.50" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹⁰7s²</text>
+  </g>
+  <g id="element-Es" data-z="99" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="276.60" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="276.60" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="225.70" class="atomic-number">99</text>
+    <text x="297.80" y="225.70" class="atomic-weight" text-anchor="end">[252]</text>
+    <g transform="translate(287.70 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="287.70" y="231.70" class="symbol" text-anchor="middle">Es</text>
+    <text x="287.70" y="235.00" class="name" text-anchor="middle">einsteinium</text>
+    <text x="277.60" y="238.50" class="property">—</text>
+    <text x="297.80" y="238.50" class="property" text-anchor="end">614,5</text>
+    <text x="287.70" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="287.70" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹¹7s²</text>
+  </g>
+  <g id="element-Fm" data-z="100" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="298.80" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="298.80" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="225.70" class="atomic-number">100</text>
+    <text x="320.00" y="225.70" class="atomic-weight" text-anchor="end">[257]</text>
+    <g transform="translate(309.90 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="309.90" y="231.70" class="symbol" text-anchor="middle">Fm</text>
+    <text x="309.90" y="235.00" class="name" text-anchor="middle">fermium</text>
+    <text x="299.80" y="238.50" class="property">—</text>
+    <text x="320.00" y="238.50" class="property" text-anchor="end">627,2</text>
+    <text x="309.90" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="309.90" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹²7s²</text>
+  </g>
+  <g id="element-Md" data-z="101" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="321.00" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="321.00" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="225.70" class="atomic-number">101</text>
+    <text x="342.20" y="225.70" class="atomic-weight" text-anchor="end">[258]</text>
+    <g transform="translate(332.10 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="332.10" y="231.70" class="symbol" text-anchor="middle">Md</text>
+    <text x="332.10" y="235.00" class="name" text-anchor="middle">mendelevium</text>
+    <text x="322.00" y="238.50" class="property">—</text>
+    <text x="342.20" y="238.50" class="property" text-anchor="end">634,9</text>
+    <text x="332.10" y="241.70" class="property" text-anchor="middle">+2 +3</text>
+    <text x="332.10" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹³7s²</text>
+  </g>
+  <g id="element-No" data-z="102" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="343.20" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="343.20" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="225.70" class="atomic-number">102</text>
+    <text x="364.40" y="225.70" class="atomic-weight" text-anchor="end">[259]</text>
+    <g transform="translate(354.30 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="354.30" y="231.70" class="symbol" text-anchor="middle">No</text>
+    <text x="354.30" y="235.00" class="name" text-anchor="middle">nobelium</text>
+    <text x="344.20" y="238.50" class="property">—</text>
+    <text x="364.40" y="238.50" class="property" text-anchor="end">639,3</text>
+    <text x="354.30" y="241.70" class="property" text-anchor="middle">+2 +3</text>
+    <text x="354.30" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹⁴7s²</text>
+  </g>
+  <g id="element-Lr" data-z="103" data-classifications="actinide" data-chemistry-status="established">
+    <rect x="365.40" y="222.50" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+    <rect x="365.40" y="222.50" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="225.70" class="atomic-number">103</text>
+    <text x="386.60" y="225.70" class="atomic-weight" text-anchor="end">[266]</text>
+    <g transform="translate(376.50 224.85) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="376.50" y="231.70" class="symbol" text-anchor="middle">Lr</text>
+    <text x="376.50" y="235.00" class="name" text-anchor="middle">lawrencium</text>
+    <text x="366.40" y="238.50" class="property">—</text>
+    <text x="386.60" y="238.50" class="property" text-anchor="end">478,6</text>
+    <text x="376.50" y="241.70" class="property" text-anchor="middle">+3</text>
+    <text x="376.50" y="245.50" class="configuration" text-anchor="middle">[Rn]5f¹⁴7s²7p¹</text>
+  </g>
+  <g id="element-Rf" data-z="104" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="76.80" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="76.80" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="77.80" y="168.20" class="atomic-number">104</text>
+    <text x="98.00" y="168.20" class="atomic-weight" text-anchor="end">[267]</text>
+    <g transform="translate(87.90 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="87.90" y="174.20" class="symbol" text-anchor="middle">Rf</text>
+    <text x="87.90" y="177.50" class="name" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">rutherfordium</text>
+    <text x="77.80" y="181.00" class="property">—</text>
+    <text x="98.00" y="181.00" class="property" text-anchor="end">580,8</text>
+    <text x="87.90" y="184.20" class="property" text-anchor="middle">+4</text>
+    <text x="87.90" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d²7s²</text>
+  </g>
+  <g id="element-Db" data-z="105" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="99.00" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="99.00" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="100.00" y="168.20" class="atomic-number">105</text>
+    <text x="120.20" y="168.20" class="atomic-weight" text-anchor="end">[268]</text>
+    <g transform="translate(110.10 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="110.10" y="174.20" class="symbol" text-anchor="middle">Db</text>
+    <text x="110.10" y="177.50" class="name" text-anchor="middle">dubnium</text>
+    <text x="100.00" y="181.00" class="property">—</text>
+    <text x="120.20" y="181.00" class="property" text-anchor="end">656,1</text>
+    <text x="110.10" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="110.10" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d³7s²</text>
+  </g>
+  <g id="element-Sg" data-z="106" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="121.20" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="121.20" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="122.20" y="168.20" class="atomic-number">106</text>
+    <text x="142.40" y="168.20" class="atomic-weight" text-anchor="end">[269]</text>
+    <g transform="translate(132.30 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="132.30" y="174.20" class="symbol" text-anchor="middle">Sg</text>
+    <text x="132.30" y="177.50" class="name" text-anchor="middle">seaborgium</text>
+    <text x="122.20" y="181.00" class="property">—</text>
+    <text x="142.40" y="181.00" class="property" text-anchor="end">752,6</text>
+    <text x="132.30" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="132.30" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁴7s²</text>
+  </g>
+  <g id="element-Bh" data-z="107" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="143.40" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="143.40" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="144.40" y="168.20" class="atomic-number">107</text>
+    <text x="164.60" y="168.20" class="atomic-weight" text-anchor="end">[270]</text>
+    <g transform="translate(154.50 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="154.50" y="174.20" class="symbol" text-anchor="middle">Bh</text>
+    <text x="154.50" y="177.50" class="name" text-anchor="middle">bohrium</text>
+    <text x="144.40" y="181.00" class="property">—</text>
+    <text x="164.60" y="181.00" class="property" text-anchor="end">742,9</text>
+    <text x="154.50" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="154.50" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁵7s²</text>
+  </g>
+  <g id="element-Hs" data-z="108" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="165.60" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="165.60" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="166.60" y="168.20" class="atomic-number">108</text>
+    <text x="186.80" y="168.20" class="atomic-weight" text-anchor="end">[269]</text>
+    <g transform="translate(176.70 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="176.70" y="174.20" class="symbol" text-anchor="middle">Hs</text>
+    <text x="176.70" y="177.50" class="name" text-anchor="middle">hassium</text>
+    <text x="166.60" y="181.00" class="property">—</text>
+    <text x="186.80" y="181.00" class="property" text-anchor="end">733,3</text>
+    <text x="176.70" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="176.70" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁶7s²</text>
+  </g>
+  <g id="element-Mt" data-z="109" data-classifications="transition-metal" data-chemistry-status="unknown">
+    <rect x="187.80" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="187.80" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="188.80" y="168.20" class="atomic-number">109</text>
+    <text x="209.00" y="168.20" class="atomic-weight" text-anchor="end">[277]</text>
+    <g transform="translate(198.90 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="198.90" y="174.20" class="symbol" text-anchor="middle">Mt</text>
+    <text x="198.90" y="177.50" class="name" text-anchor="middle">meitnerium</text>
+    <text x="188.80" y="181.00" class="property">—</text>
+    <text x="209.00" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="198.90" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="198.90" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁷7s²</text>
+  </g>
+  <g id="element-Ds" data-z="110" data-classifications="transition-metal" data-chemistry-status="unknown">
+    <rect x="210.00" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="210.00" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="211.00" y="168.20" class="atomic-number">110</text>
+    <text x="231.20" y="168.20" class="atomic-weight" text-anchor="end">[281]</text>
+    <g transform="translate(221.10 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="221.10" y="174.20" class="symbol" text-anchor="middle">Ds</text>
+    <text x="221.10" y="177.50" class="name" text-anchor="middle">darmstadtium</text>
+    <text x="211.00" y="181.00" class="property">—</text>
+    <text x="231.20" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="221.10" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="221.10" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁸7s²</text>
+  </g>
+  <g id="element-Rg" data-z="111" data-classifications="transition-metal" data-chemistry-status="unknown">
+    <rect x="232.20" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="232.20" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="233.20" y="168.20" class="atomic-number">111</text>
+    <text x="253.40" y="168.20" class="atomic-weight" text-anchor="end">[282]</text>
+    <g transform="translate(243.30 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="243.30" y="174.20" class="symbol" text-anchor="middle">Rg</text>
+    <text x="243.30" y="177.50" class="name" text-anchor="middle">røntgenium</text>
+    <text x="233.20" y="181.00" class="property">—</text>
+    <text x="253.40" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="243.30" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="243.30" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d⁹7s²</text>
+  </g>
+  <g id="element-Cn" data-z="112" data-classifications="transition-metal" data-chemistry-status="established">
+    <rect x="254.40" y="165.00" width="22.2" height="24.5" fill="#77AADD" class="cell-fill category-transition-metal" />
+    <rect x="254.40" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="255.40" y="168.20" class="atomic-number">112</text>
+    <text x="275.60" y="168.20" class="atomic-weight" text-anchor="end">[285]</text>
+    <g transform="translate(265.50 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="265.50" y="174.20" class="symbol" text-anchor="middle">Cn</text>
+    <text x="265.50" y="177.50" class="name" text-anchor="middle">copernicium</text>
+    <text x="255.40" y="181.00" class="property">—</text>
+    <text x="275.60" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="265.50" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="265.50" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²</text>
+  </g>
+  <g id="element-Nh" data-z="113" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="276.60" y="165.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="276.60" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="277.60" y="168.20" class="atomic-number">113</text>
+    <text x="297.80" y="168.20" class="atomic-weight" text-anchor="end">[286]</text>
+    <g transform="translate(287.70 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="287.70" y="174.20" class="symbol" text-anchor="middle">Nh</text>
+    <text x="287.70" y="177.50" class="name" text-anchor="middle">nihonium</text>
+    <text x="277.60" y="181.00" class="property">—</text>
+    <text x="297.80" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="287.70" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="287.70" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p¹</text>
+  </g>
+  <g id="element-Fl" data-z="114" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="298.80" y="165.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="298.80" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="299.80" y="168.20" class="atomic-number">114</text>
+    <text x="320.00" y="168.20" class="atomic-weight" text-anchor="end">[290]</text>
+    <g transform="translate(309.90 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="309.90" y="174.20" class="symbol" text-anchor="middle">Fl</text>
+    <text x="309.90" y="177.50" class="name" text-anchor="middle">flerovium</text>
+    <text x="299.80" y="181.00" class="property">—</text>
+    <text x="320.00" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="309.90" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="309.90" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p²</text>
+  </g>
+  <g id="element-Mc" data-z="115" data-classifications="post-transition-metal" data-chemistry-status="established">
+    <rect x="321.00" y="165.00" width="22.2" height="24.5" fill="#99DDFF" class="cell-fill category-post-transition-metal" />
+    <rect x="321.00" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="322.00" y="168.20" class="atomic-number">115</text>
+    <text x="342.20" y="168.20" class="atomic-weight" text-anchor="end">[290]</text>
+    <g transform="translate(332.10 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="332.10" y="174.20" class="symbol" text-anchor="middle">Mc</text>
+    <text x="332.10" y="177.50" class="name" text-anchor="middle">moscovium</text>
+    <text x="322.00" y="181.00" class="property">—</text>
+    <text x="342.20" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="332.10" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="332.10" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p³</text>
+  </g>
+  <g id="element-Lv" data-z="116" data-classifications="post-transition-metal" data-chemistry-status="unknown">
+    <rect x="343.20" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="343.20" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="344.20" y="168.20" class="atomic-number">116</text>
+    <text x="364.40" y="168.20" class="atomic-weight" text-anchor="end">[293]</text>
+    <g transform="translate(354.30 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="354.30" y="174.20" class="symbol" text-anchor="middle">Lv</text>
+    <text x="354.30" y="177.50" class="name" text-anchor="middle">livermorium</text>
+    <text x="344.20" y="181.00" class="property">—</text>
+    <text x="364.40" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="354.30" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="354.30" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p⁴</text>
+  </g>
+  <g id="element-Ts" data-z="117" data-classifications="halogen" data-chemistry-status="unknown">
+    <rect x="365.40" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="365.40" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="366.40" y="168.20" class="atomic-number">117</text>
+    <text x="386.60" y="168.20" class="atomic-weight" text-anchor="end">[294]</text>
+    <g transform="translate(376.50 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="376.50" y="174.20" class="symbol" text-anchor="middle">Ts</text>
+    <text x="376.50" y="177.50" class="name" text-anchor="middle">tenness</text>
+    <text x="366.40" y="181.00" class="property">—</text>
+    <text x="386.60" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="376.50" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="376.50" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p⁵</text>
+  </g>
+  <g id="element-Og" data-z="118" data-classifications="noble-gas" data-chemistry-status="unknown">
+    <rect x="387.60" y="165.00" width="22.2" height="24.5" fill="#F4F4F4" class="cell-fill unknown-fill" />
+    <rect x="387.60" y="165.00" width="22.2" height="24.5" class="element-cell" />
+    <text x="388.60" y="168.20" class="atomic-number">118</text>
+    <text x="408.80" y="168.20" class="atomic-weight" text-anchor="end">[294]</text>
+    <g transform="translate(398.70 167.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+      <title>Ingen stabile isotoper</title>
+      <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+      <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+      <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+    </g>
+    <text x="398.70" y="174.20" class="symbol" text-anchor="middle">Og</text>
+    <text x="398.70" y="177.50" class="name" text-anchor="middle">oganesson</text>
+    <text x="388.60" y="181.00" class="property">—</text>
+    <text x="408.80" y="181.00" class="property" text-anchor="end">—</text>
+    <text x="398.70" y="184.20" class="property" text-anchor="middle">—</text>
+    <text x="398.70" y="188.00" class="configuration" text-anchor="middle">[Rn]5f¹⁴6d¹⁰7s²7p⁶</text>
+  </g>
+  <rect x="54.60" y="140.50" width="22.2" height="24.5" class="placeholder" />
+  <text x="65.70" y="152.50" class="series-label" text-anchor="middle">57–71</text>
+  <rect x="54.60" y="165.00" width="22.2" height="24.5" class="placeholder" />
+  <text x="65.70" y="177.00" class="series-label" text-anchor="middle">89–103</text>
+  <text x="52.60" y="211.00" class="series-label" text-anchor="end">Lantanoider</text>
+  <text x="52.60" y="235.50" class="series-label" text-anchor="end">Actinoider</text>
+  <g transform="translate(136 42) scale(1.35)" class="uranium-guide">
+    <g id="guide-U" data-z="92" data-classifications="actinide" data-chemistry-status="established">
+      <rect x="0.00" y="0.00" width="22.2" height="24.5" fill="#FFAABB" class="cell-fill category-actinide" />
+      <rect x="0.00" y="0.00" width="22.2" height="24.5" class="element-cell" />
+      <text x="1.00" y="3.20" class="atomic-number">92</text>
+      <text x="21.20" y="3.20" class="atomic-weight" text-anchor="end">238,03</text>
+      <g transform="translate(11.10 2.35) scale(1.28)" role="img" aria-label="Ingen stabile isotoper" class="radioactive">
+        <title>Ingen stabile isotoper</title>
+        <circle cx="0" cy="0" r="0.96" class="radioactive-ring" />
+        <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(0)" class="radioactive-blade" />
+        <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(120)" class="radioactive-blade" />
+        <path d="M 0,-0.81 C -0.22,-0.81 -0.34,-0.76 -0.41,-0.70 L -0.17,-0.30 C -0.13,-0.32 -0.05,-0.34 0,-0.34 C 0.06,-0.34 0.13,-0.32 0.17,-0.30 L 0.41,-0.70 C 0.34,-0.76 0.22,-0.81 0,-0.81 Z" transform="rotate(240)" class="radioactive-blade" />
+        <circle cx="0" cy="0" r="0.265" class="radioactive-centre" />
+      </g>
+      <text x="11.10" y="9.20" class="symbol" text-anchor="middle">U</text>
+      <text x="11.10" y="12.50" class="name" text-anchor="middle">uran</text>
+      <text x="1.00" y="16.00" class="property">1,7</text>
+      <text x="21.20" y="16.00" class="property" text-anchor="end">597,6</text>
+      <text x="11.10" y="19.20" class="property" text-anchor="middle">+3 +4 +5 +6</text>
+      <text x="11.10" y="23.00" class="configuration" text-anchor="middle">[Rn]5f³6d¹7s²</text>
+    </g>
+  </g>
+  <line x1="130.5" y1="45.0" x2="136.4" y2="45.0" class="guide-line" />
+  <text x="129.00" y="45.90" class="guide-label" text-anchor="end">Atomnummer</text>
+  <line x1="171.47" y1="45.0" x2="165.57" y2="45.0" class="guide-line" />
+  <text x="172.97" y="45.90" class="guide-label" text-anchor="start">Atommasse ([ ] = massetall for isotopen med lengst halveringstid)</text>
+  <line x1="171.47" y1="50.9" x2="157.78500000000003" y2="50.9" class="guide-line" />
+  <text x="172.97" y="51.80" class="guide-label" text-anchor="start">Atomsymbol</text>
+  <line x1="171.47" y1="57.7" x2="157.185" y2="57.7" class="guide-line" />
+  <text x="172.97" y="58.60" class="guide-label" text-anchor="start">Navn</text>
+  <line x1="130.5" y1="62.6" x2="136.4" y2="62.6" class="guide-line" />
+  <text x="129.00" y="63.50" class="guide-label" text-anchor="end">Elektronegativitet</text>
+  <line x1="171.47" y1="62.6" x2="165.57" y2="62.6" class="guide-line" />
+  <text x="172.97" y="63.50" class="guide-label" text-anchor="start">Første ioniseringsenergi (kJ/mol)</text>
+  <line x1="130.5" y1="66.8" x2="141.585" y2="66.8" class="guide-line" />
+  <text x="129.00" y="67.70" class="guide-label" text-anchor="end">Oksidasjonstall (C: −4…+4 = alle heltall)</text>
+  <line x1="171.47" y1="71.7" x2="162.485" y2="71.7" class="guide-line" />
+  <text x="172.97" y="72.60" class="guide-label" text-anchor="start">Elektronkonfigurasjon (grunntilstand; beregnet for Rf–Og)</text>
+  <text x="150.99" y="39.80" class="guide-label" text-anchor="middle">Radioaktivitetssymbol</text>
+  <line x1="150.985" y1="40.6" x2="150.985" y2="43.2" class="guide-line" />
+  <g class="legend-item" data-category="alkali-metal">
+    <rect x="10.2" y="251.0" width="8" height="5" fill="#EE8866" class="legend-swatch" />
+    <text x="20.20" y="254.60" class="legend-label">Alkalimetaller</text>
+  </g>
+  <g class="legend-item" data-category="alkaline-earth-metal">
+    <rect x="76.2" y="251.0" width="8" height="5" fill="#EEDD88" class="legend-swatch" />
+    <text x="86.20" y="254.60" class="legend-label">Jordalkalimetaller</text>
+  </g>
+  <g class="legend-item" data-category="transition-metal">
+    <rect x="142.2" y="251.0" width="8" height="5" fill="#77AADD" class="legend-swatch" />
+    <text x="152.20" y="254.60" class="legend-label">Overgangsmetaller</text>
+  </g>
+  <g class="legend-item" data-category="post-transition-metal">
+    <rect x="208.2" y="251.0" width="8" height="5" fill="#99DDFF" class="legend-swatch" />
+    <text x="218.20" y="254.60" class="legend-label">Andre metaller</text>
+  </g>
+  <g class="legend-item" data-category="metalloid">
+    <rect x="274.2" y="251.0" width="8" height="5" fill="#44BB99" class="legend-swatch" />
+    <text x="284.20" y="254.60" class="legend-label">Halvmetaller</text>
+  </g>
+  <g class="legend-item" data-category="reactive-nonmetal">
+    <rect x="340.2" y="251.0" width="8" height="5" fill="#BBCC33" class="legend-swatch" />
+    <text x="350.20" y="254.60" class="legend-label">Ikke-metaller</text>
+  </g>
+  <g class="legend-item" data-category="halogen">
+    <rect x="10.2" y="259.0" width="8" height="5" fill="#AAAA00" class="legend-swatch" />
+    <text x="20.20" y="262.60" class="legend-label">Halogener</text>
+  </g>
+  <g class="legend-item" data-category="noble-gas">
+    <rect x="76.2" y="259.0" width="8" height="5" fill="#DDDDDD" class="legend-swatch" />
+    <text x="86.20" y="262.60" class="legend-label">Edelgasser</text>
+  </g>
+  <g class="legend-item" data-category="lanthanide">
+    <rect x="142.2" y="259.0" width="8" height="5" fill="#DDBBDD" class="legend-swatch" />
+    <text x="152.20" y="262.60" class="legend-label">Lantanoider</text>
+  </g>
+  <g class="legend-item" data-category="actinide">
+    <rect x="208.2" y="259.0" width="8" height="5" fill="#FFAABB" class="legend-swatch" />
+    <text x="218.20" y="262.60" class="legend-label">Actinoider</text>
+  </g>
+  <g class="legend-item" data-category="unknown-chemistry">
+    <rect x="274.2" y="259.0" width="8" height="5" fill="#F4F4F4" class="legend-swatch" />
+    <text x="284.20" y="262.60" class="legend-label">Ufullstendig karakterisert</text>
+  </g>
+  <g class="legend-item" data-category="split-classification">
+    <polygon points="340.2,259 348.2,259 340.2,264" fill="#99DDFF" class="legend-split-fill" />
+    <polygon points="348.2,259 348.2,264 340.2,264" fill="#44BB99" class="legend-split-fill" />
+    <rect x="340.2" y="259.0" width="8" height="5" class="legend-swatch split-outline" />
+    <text x="350.20" y="262.60" class="legend-label">To klassifiseringer</text>
+  </g>
+  <text x="45.00" y="28.00" class="source" text-anchor="start">Kilder: CIAAW 2024 (atommasser)   ·   NIST ASD (ioniseringsenergier)   ·   CRC Handbook (Pauling-elektronegativitet)</text>
+  <text x="45.00" y="32.00" class="source" text-anchor="start">Mendeleev 1.2.0 (elektronkonfigurasjoner; Ds og Rg fra nyere beregninger)   ·   Oksidasjonstall: utvalg bearbeidet fra Mendeleev 1.2.0</text>
+  <text x="409.80" y="277.00" class="footer" text-anchor="end">© 2026 Periodisk contributors · CC BY 4.0</text>
+</svg>
