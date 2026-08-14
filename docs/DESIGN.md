@@ -30,7 +30,9 @@ colour-universal palette developed by Masataka Okabe and Kei Ito[^okabe-ito]
 and described by Bang Wong.[^wong] Other schemes provide lighter, muted,
 vivid, grayscale, and print-oriented alternatives.
 
-![Compare all selectable colour schemes](colour-schemes.svg). The chart is
+![Compare all selectable colour schemes](colour-schemes.svg)
+
+The chart is
 generated from the renderer's palette definitions with:
 
 ```console
