@@ -1,3 +1,5 @@
+import importlib.util
+import inspect
 import re
 import tomllib
 from pathlib import Path
@@ -42,3 +44,10 @@ def test_local_markdown_links_resolve() -> None:
 def test_package_version_matches_project_metadata() -> None:
     metadata = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
     assert periodisk.__version__ == metadata["project"]["version"]
+
+
+def test_rendering_entry_points_are_top_level_functions() -> None:
+    for name in ("render_svg", "render_pdf", "render_table"):
+        assert inspect.isfunction(getattr(periodisk, name))
+    assert importlib.util.find_spec("periodisk.render_svg") is None
+    assert importlib.util.find_spec("periodisk.render_pdf") is None

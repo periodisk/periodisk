@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from .render_svg import render_svg
+from ._render_svg import render_svg
 
 
 def render_pdf(

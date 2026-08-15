@@ -4,14 +4,14 @@ from __future__ import annotations
 
 import argparse
 
-from .data import load_elements, load_locale, load_sources
-from .palettes import SUPPORTED_COLOUR_SCHEMES
-from .render import render_table
-from .render_svg import (
+from ._render_svg import (
     SUPPORTED_CELL_STYLES,
     SUPPORTED_CLASSIFICATION_MODES,
     SUPPORTED_CONTENT_MODES,
 )
+from .data import load_elements, load_locale, load_sources
+from .palettes import SUPPORTED_COLOUR_SCHEMES
+from .render import render_table
 from .settings import SUPPORTED_ELECTRONEGATIVITY_SCALES, SUPPORTED_LOCALES
 from .validation import validate_dataset
 
