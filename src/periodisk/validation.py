@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from collections import Counter
 from collections.abc import Iterable, Mapping
 
@@ -20,6 +21,22 @@ CLASSIFICATIONS = {
     "actinide",
 }
 CHEMISTRY_STATUSES = {"established", "partly-characterised", "unknown"}
+
+
+def _is_integer(value: object) -> bool:
+    """Return whether value is an integer, excluding booleans."""
+
+    return isinstance(value, int) and not isinstance(value, bool)
+
+
+def _is_number(value: object) -> bool:
+    """Return whether value is a finite real number, excluding booleans."""
+
+    return (
+        isinstance(value, (int, float))
+        and not isinstance(value, bool)
+        and math.isfinite(value)
+    )
 
 
 def validate_dataset(
@@ -44,11 +61,16 @@ def validate_dataset(
 
     for element in records:
         label = f"{element.symbol} ({element.atomic_number})"
-        if not 1 <= element.atomic_number <= 118:
+        if (
+            not _is_integer(element.atomic_number)
+            or not 1 <= element.atomic_number <= 118
+        ):
             errors.append(f"{label}: atomic number must be between 1 and 118")
-        if not 1 <= element.period <= 7:
+        if not _is_integer(element.period) or not 1 <= element.period <= 7:
             errors.append(f"{label}: period must be between 1 and 7")
-        if element.group is not None and not 1 <= element.group <= 18:
+        if element.group is not None and (
+            not _is_integer(element.group) or not 1 <= element.group <= 18
+        ):
             errors.append(f"{label}: group must be between 1 and 18 or null")
         if not 1 <= len(element.classifications) <= 2:
             errors.append(f"{label}: must have one or two classifications")
@@ -67,7 +89,7 @@ def validate_dataset(
                 f"{IONISATION_ENERGY_UNIT!r}"
             )
         energy = element.first_ionisation_energy.value
-        if energy is not None and (not isinstance(energy, (int, float)) or energy <= 0):
+        if energy is not None and (not _is_number(energy) or energy <= 0):
             errors.append(f"{label}: first ionisation energy must be positive or null")
         if not isinstance(element.has_no_stable_isotopes.value, bool):
             errors.append(f"{label}: stable-isotope flag must be boolean")
@@ -80,7 +102,7 @@ def validate_dataset(
             if not element.atomic_weight.value.get("display"):
                 errors.append(f"{label}: atomic weight requires a display value")
         for scale, value in element.electronegativity.items():
-            if not isinstance(value.value, (int, float)) or value.value <= 0:
+            if not _is_number(value.value) or value.value <= 0:
                 errors.append(f"{label}: {scale} electronegativity must be positive")
         states = element.oxidation_states.value
         if not isinstance(states, dict) or set(states) != {"main", "additional"}:
@@ -89,6 +111,12 @@ def validate_dataset(
             )
         elif not all(isinstance(states[key], list) for key in ("main", "additional")):
             errors.append(f"{label}: oxidation-state groups must be lists")
+        elif not all(
+            _is_integer(state)
+            for key in ("main", "additional")
+            for state in states[key]
+        ):
+            errors.append(f"{label}: oxidation states must be integers")
 
         sourced_values = [
             element.atomic_weight,

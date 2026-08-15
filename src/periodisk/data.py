@@ -37,18 +37,19 @@ _REQUIRED_LABELS = {
     "sources",
     "split_classification",
 }
-_REQUIRED_ABBREVIATIONS = {
-    "electronegativity",
-    "first_ionisation_energy",
-    "oxidation_states",
+_REQUIRED_BROAD_CLASSIFICATIONS = {
+    "transition-metal",
+    "metalloid",
+    "reactive-nonmetal",
+    "noble-gas",
 }
+_REQUIRED_UNITS = {"first_ionisation_energy"}
 _REQUIRED_SOURCE_NOTES = {
     "atomic_masses",
     "ionisation_energies",
-    "pauling",
-    "allred-rochow",
     "electron_configurations",
     "oxidation_states",
+    *SUPPORTED_ELECTRONEGATIVITY_SCALES,
 }
 
 
@@ -82,12 +83,17 @@ def load_locale(locale: str) -> dict[str, Any]:
 def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
     """Fail early when a translation resource is incomplete or malformed."""
 
+    if not isinstance(resource, dict):
+        raise ValueError(f"{expected_locale}: locale resource must be an object")
     if resource.get("locale") != expected_locale:
         raise ValueError(
             f"Locale resource identifies itself as {resource.get('locale')!r}"
         )
     if resource.get("decimal_separator") not in {".", ","}:
         raise ValueError(f"Invalid decimal separator for {expected_locale}")
+    missing_value = resource.get("missing_value")
+    if not isinstance(missing_value, str) or not missing_value:
+        raise ValueError(f"{expected_locale}: missing_value must be a non-empty string")
     element_names = resource.get("element_names")
     if not isinstance(element_names, dict) or len(element_names) != 118:
         raise ValueError(f"{expected_locale}: element_names must contain 118 entries")
@@ -104,9 +110,9 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
         raise ValueError(f"{expected_locale}: missing element_names_source")
     requirements = {
         "labels": _REQUIRED_LABELS,
-        "abbreviations": _REQUIRED_ABBREVIATIONS,
         "classifications": _REQUIRED_CLASSIFICATIONS,
-        "electronegativity_scales": set(SUPPORTED_ELECTRONEGATIVITY_SCALES),
+        "broad_classifications": _REQUIRED_BROAD_CLASSIFICATIONS,
+        "units": _REQUIRED_UNITS,
         "source_notes": _REQUIRED_SOURCE_NOTES,
     }
     for section, required_keys in requirements.items():

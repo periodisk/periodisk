@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 
-from .data import load_elements, load_sources
+from .data import load_elements, load_locale, load_sources
 from .palettes import SUPPORTED_COLOUR_SCHEMES
 from .render import render_table
 from .render_svg import (
@@ -23,7 +23,7 @@ def _parser() -> argparse.ArgumentParser:
     validate.add_argument(
         "--release",
         action="store_true",
-        help="also require all 118 elements and both supported languages",
+        help="also require all 118 elements and all supported languages",
     )
     render = commands.add_parser("render", help="render a landscape SVG or PDF table")
     render.add_argument("output", help="output path; suffix selects SVG or PDF")
@@ -68,6 +68,12 @@ def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
     if args.command == "validate":
         errors = validate_dataset(load_elements(), load_sources(), release=args.release)
+        if args.release:
+            for locale in SUPPORTED_LOCALES:
+                try:
+                    load_locale(locale)
+                except (OSError, ValueError) as error:
+                    errors.append(f"{locale}: invalid locale resource: {error}")
         if errors:
             for error in errors:
                 print(f"ERROR: {error}")

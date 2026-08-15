@@ -1,3 +1,7 @@
+from dataclasses import replace
+
+import pytest
+
 from periodisk.models import Element, Source, SourcedValue
 from periodisk.validation import validate_dataset
 
@@ -42,3 +46,51 @@ def test_unknown_source_is_rejected() -> None:
 def test_release_validation_requires_all_elements() -> None:
     errors = validate_dataset([element()], {"test": SOURCE}, release=True)
     assert any("118 elements" in error for error in errors)
+
+
+@pytest.mark.parametrize(
+    ("field", "message"),
+    [
+        ("atomic_number", "atomic number"),
+        ("period", "period"),
+        ("group", "group"),
+    ],
+)
+def test_boolean_is_not_an_integer_field(field: str, message: str) -> None:
+    record = replace(element(), **{field: True})
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any(message in error for error in errors)
+
+
+def test_boolean_is_not_an_ionisation_energy() -> None:
+    record = replace(
+        element(),
+        first_ionisation_energy=SourcedValue(
+            value=True,
+            source="test",
+            unit="kJ/mol",
+        ),
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("ionisation energy must be positive" in error for error in errors)
+
+
+def test_boolean_is_not_an_electronegativity() -> None:
+    record = replace(
+        element(),
+        electronegativity={"pauling": SourcedValue(value=True, source="test")},
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("electronegativity must be positive" in error for error in errors)
+
+
+def test_boolean_is_not_an_oxidation_state() -> None:
+    record = replace(
+        element(),
+        oxidation_states=SourcedValue(
+            value={"main": [True], "additional": []},
+            source="test",
+        ),
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("oxidation states must be integers" in error for error in errors)
