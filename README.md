@@ -37,11 +37,14 @@ conventions, or [compare all selectable colour schemes](docs/colour-schemes.svg)
 
 ## Installing
 
-Install the package from the repository root:
+Periodisk requires Python 3.13 or newer. Install the latest release from PyPI:
 
 ```console
-python -m pip install .
+python -m pip install periodisk
 ```
+
+Instructions for installing a development checkout are given in
+[Development](#development).
 
 ## Usage
 
