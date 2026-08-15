@@ -74,6 +74,7 @@ content. Common options include:
 
 - `--language en_GB|nb_NO`
 - `--page-size A3|A4`
+- `--format svg|pdf` to override format inference from the filename
 - `--content full|simplified`
 - `--classification detailed|broad`
 - `--colour-scheme SCHEME`

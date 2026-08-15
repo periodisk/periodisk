@@ -72,8 +72,8 @@ platform-specific symbol font.
 
 ## Layout options
 
-Cells are square with full fills by default. The independent visual options
-are:
+Cells are slightly taller than wide (22.2 × 24.5 mm in the canonical A3
+layout) and have full fills by default. The independent visual options are:
 
 - `--rounded-corners` for a subtle 0.8 mm radius in the canonical A3 output;
 - `--cell-style gutters` for narrow white separation between cells; and
