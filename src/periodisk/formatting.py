@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any
+import re
 
 from .models import Element
 
@@ -47,8 +47,6 @@ def oxidation_states(element: Element, missing: str = "—") -> str:
 def electron_configuration(element: Element) -> str:
     """Use compact notation with an explicit superscript occupancy per subshell."""
 
-    import re
-
     value = str(element.electron_configuration.value)
     formatted: list[str] = []
     for token in value.split():
@@ -64,7 +62,3 @@ def electron_configuration(element: Element) -> str:
             f"{shell}{subshell}{(occupancy or '1').translate(SUPERSCRIPTS)}"
         )
     return "".join(formatted)
-
-
-def text_value(value: Any) -> str:
-    return "—" if value is None else str(value)

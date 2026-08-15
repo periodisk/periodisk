@@ -34,7 +34,7 @@ CATEGORY_ORDER = (
     "actinide",
 )
 
-# Light variants of the Okabe–Ito/Wong family, selected for black text.
+# Ten-family adaptation of Paul Tol's Light qualitative palette.
 CATEGORY_COLOURS = PALETTES["default"]
 
 PAGE_SIZES_MM = {
@@ -159,7 +159,7 @@ def _cell_background(
     corner_radius: float,
     clip_id: str,
     cell_style: str,
-    classification: str,
+    categories: tuple[str, ...],
 ) -> None:
     inset = 0.45 if cell_style == "gutters" else 0.0
     x, y = x + inset, y + inset
@@ -177,10 +177,8 @@ def _cell_background(
             **rounded,
             **{"class": "cell-fill unknown-fill"},
         )
-    else:
-        categories = _display_categories(element, classification)
-    if element.chemistry_status == "unknown":
         return
+
     if len(categories) == 2:
         first, second = categories
         _node(
@@ -335,7 +333,9 @@ def _render_cell(
     cell_x, cell_y = x + inset, y + inset
     cell_width = page.cell_width - 2 * inset
     cell_height = page.cell_height - 2 * inset
-    if rounded_corners and len(element.classifications) == 2:
+    categories = _display_categories(element, classification)
+    split_background = element.chemistry_status != "unknown" and len(categories) == 2
+    if rounded_corners and split_background:
         clip = _node(group, "clipPath", id=clip_id)
         _node(
             clip,
@@ -357,7 +357,7 @@ def _render_cell(
         corner_radius,
         clip_id,
         cell_style,
-        classification,
+        categories,
     )
     rounded = {"rx": corner_radius, "ry": corner_radius} if rounded_corners else {}
     _node(

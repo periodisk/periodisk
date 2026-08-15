@@ -1,9 +1,12 @@
+from dataclasses import replace
 from xml.etree import ElementTree as ET
 
 import pytest
 
+from periodisk.data import load_elements, load_locale
+from periodisk.layout import Page
 from periodisk.palettes import PALETTE_THEMES, PALETTES
-from periodisk.render_svg import CATEGORY_COLOURS, SVG, render_svg
+from periodisk.render_svg import CATEGORY_COLOURS, SVG, _render_cell, render_svg
 
 
 def _relative_luminance(hex_colour: str) -> float:
@@ -302,6 +305,33 @@ def test_rounded_corners_are_opt_in_and_clip_split_cells(tmp_path) -> None:
     assert all(
         polygon.attrib["clip-path"] == "url(#clip-element-Po)"
         for polygon in polonium.findall(f"{{{SVG}}}polygon")
+    )
+
+
+def test_broad_classification_does_not_clip_collapsed_detailed_split() -> None:
+    element = replace(
+        load_elements()[2],
+        classifications=("alkali-metal", "transition-metal"),
+    )
+    group = ET.Element(f"{{{SVG}}}svg")
+
+    _render_cell(
+        group,
+        element,
+        0,
+        0,
+        Page(),
+        load_locale("en_GB"),
+        "pauling",
+        CATEGORY_COLOURS,
+        rounded_corners=True,
+        classification="broad",
+    )
+
+    assert group.find(f".//{{{SVG}}}clipPath") is None
+    assert (
+        group.find(f".//{{{SVG}}}rect[@class='cell-fill category-transition-metal']")
+        is not None
     )
 
 
