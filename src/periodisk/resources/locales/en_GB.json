@@ -19,16 +19,6 @@
     "sources": "Sources",
     "split_classification": "Two classifications"
   },
-  "abbreviations": {
-    "electronegativity": "χ",
-    "first_ionisation_energy": "IE",
-    "oxidation_states": "ox"
-  },
-  "electronegativity_scales": {
-    "pauling": "Pauling",
-    "allred-rochow": "Allred–Rochow (calculated)",
-    "allen": "Allen (rescaled)"
-  },
   "source_notes": {
     "atomic_masses": "atomic masses",
     "ionisation_energies": "ionisation energies",

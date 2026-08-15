@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 import pytest
 
 from periodisk.data import (
@@ -6,6 +8,7 @@ from periodisk.data import (
     load_locale,
     load_sources,
 )
+from periodisk.settings import SUPPORTED_LOCALES
 
 
 def test_complete_resources_load() -> None:
@@ -13,6 +16,11 @@ def test_complete_resources_load() -> None:
     assert len(elements) == 118
     assert [element.atomic_number for element in elements] == list(range(1, 119))
     assert "giuliani-et-al-2019" in load_sources()
+
+
+@pytest.mark.parametrize("locale", SUPPORTED_LOCALES)
+def test_every_supported_locale_resource_is_valid(locale: str) -> None:
+    assert load_locale(locale)["locale"] == locale
 
 
 def test_british_and_norwegian_names() -> None:
@@ -89,8 +97,6 @@ def test_ionisation_energy_is_converted_to_kilojoules_per_mole() -> None:
 def test_locales_use_requested_decimal_separators() -> None:
     assert load_locale("en_GB")["decimal_separator"] == "."
     assert load_locale("nb_NO")["decimal_separator"] == ","
-    assert load_locale("en_GB")["abbreviations"]["oxidation_states"] == "ox"
-    assert load_locale("nb_NO")["abbreviations"]["oxidation_states"] == "oks"
     assert (
         load_locale("en_GB")["source_notes"]["oxidation_states"]
         == "Oxidation states: selection adapted from Mendeleev 1.2.0"
@@ -111,7 +117,36 @@ def test_locales_use_requested_decimal_separators() -> None:
 
 def test_incomplete_locale_is_rejected() -> None:
     with pytest.raises(ValueError, match="element_names"):
-        _validate_locale({"locale": "en_GB", "decimal_separator": "."}, "en_GB")
+        _validate_locale(
+            {
+                "locale": "en_GB",
+                "decimal_separator": ".",
+                "missing_value": "—",
+            },
+            "en_GB",
+        )
+
+
+@pytest.mark.parametrize(
+    ("section", "key"),
+    [
+        (None, "missing_value"),
+        ("units", "first_ionisation_energy"),
+        ("broad_classifications", "transition-metal"),
+        ("source_notes", "allen"),
+    ],
+)
+def test_renderer_locale_requirements_are_validated(
+    section: str | None, key: str
+) -> None:
+    locale = deepcopy(load_locale("en_GB"))
+    if section is None:
+        del locale[key]
+    else:
+        del locale[section][key]
+
+    with pytest.raises(ValueError, match=section or key):
+        _validate_locale(locale, "en_GB")
 
 
 def test_unknown_locale_is_rejected() -> None:

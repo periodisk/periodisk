@@ -19,16 +19,6 @@
     "sources": "Kilder",
     "split_classification": "To klassifiseringer"
   },
-  "abbreviations": {
-    "electronegativity": "χ",
-    "first_ionisation_energy": "IE",
-    "oxidation_states": "oks"
-  },
-  "electronegativity_scales": {
-    "pauling": "Pauling",
-    "allred-rochow": "Allred–Rochow (beregnet)",
-    "allen": "Allen (reskalert)"
-  },
   "source_notes": {
     "atomic_masses": "atommasser",
     "ionisation_energies": "ioniseringsenergier",

@@ -8,9 +8,7 @@ Each JSON file in `src/periodisk/resources/locales/` defines:
 
 - the decimal separator and missing-value mark;
 - table and scientific-field labels;
-- compact abbreviations used inside cells;
 - all 118 localised element names, keyed by symbol;
-- display names for electronegativity scales;
 - chemical-classification names; and
 - displayed units.
 
