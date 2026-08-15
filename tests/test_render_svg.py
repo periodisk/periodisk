@@ -5,7 +5,7 @@ import pytest
 
 from periodisk.data import load_elements, load_locale
 from periodisk.layout import Page
-from periodisk.palettes import PALETTE_THEMES, PALETTES
+from periodisk.palettes import PALETTES, THEME
 from periodisk.render_svg import CATEGORY_COLOURS, SVG, _render_cell, render_svg
 
 
@@ -103,8 +103,8 @@ def test_categories_have_solid_colour_legend(tmp_path) -> None:
 
 def test_palette_has_at_least_wcag_aa_contrast_with_its_text_colour() -> None:
     assert all(
-        _contrast(colour, PALETTE_THEMES[name]["text"]) >= 4.5
-        for name, palette in PALETTES.items()
+        _contrast(colour, THEME["text"]) >= 4.5
+        for palette in PALETTES.values()
         for colour in palette.values()
     )
 
@@ -157,7 +157,7 @@ def test_colour_scheme_is_selectable_and_rejects_unknown_names(tmp_path) -> None
 
 
 def test_default_palette_is_tol_light_inspired_and_classic_is_preserved() -> None:
-    assert PALETTES["default"] == PALETTES["tol-light-inspired"]
+    assert PALETTES["default"] is PALETTES["tol-light-inspired"]
     assert PALETTES["classic"]["transition-metal"] == "#8EC9E6"
 
 
@@ -268,7 +268,7 @@ def test_cell_styles_are_selectable_and_structurally_distinct(tmp_path) -> None:
     )
 
     soft = render_svg(tmp_path / "soft.svg", cell_style="soft-rules").read_text()
-    assert "stroke: #777777; stroke-width: 0.16" in soft
+    assert f"stroke: {THEME['soft_rule']}; stroke-width: 0.16" in soft
 
     rounded_gutters = ET.parse(
         render_svg(

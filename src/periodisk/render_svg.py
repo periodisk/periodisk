@@ -15,7 +15,7 @@ from .formatting import (
 )
 from .layout import Page, placeholder_positions, placements
 from .models import Element
-from .palettes import PALETTES, get_palette, get_palette_theme
+from .palettes import PALETTES, THEME, get_palette
 from .settings import validate_electronegativity_scale
 
 SVG = "http://www.w3.org/2000/svg"
@@ -647,7 +647,7 @@ def render_svg(
             f"Unsupported classification mode: {classification!r}; choose {choices}"
         )
     colours = get_palette(colour_scheme)
-    theme = get_palette_theme(colour_scheme)
+    theme = THEME
     page_size = page_size.upper()
     if page_size not in PAGE_SIZES_MM:
         raise ValueError(f"Unsupported page size: {page_size!r}; choose A3 or A4")
@@ -679,7 +679,7 @@ def render_svg(
         "used to generate this table is separately licensed under MIT."
     )
     style = _node(root, "style")
-    cell_rule = "#777777" if cell_style == "soft-rules" else theme["rule"]
+    cell_rule = theme["soft_rule"] if cell_style == "soft-rules" else theme["rule"]
     cell_rule_width = "0.16" if cell_style == "soft-rules" else "0.25"
     style.text = f"""
       text {{ fill: {theme["text"]}; font-family: \"Noto Sans\", \"DejaVu Sans\", sans-serif; }}
