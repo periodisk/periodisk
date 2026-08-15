@@ -1,19 +1,21 @@
 """Colour schemes for chemical classifications."""
 
+_TOL_LIGHT = {
+    "alkali-metal": "#EE8866",
+    "alkaline-earth-metal": "#EEDD88",
+    "transition-metal": "#77AADD",
+    "post-transition-metal": "#99DDFF",
+    "metalloid": "#44BB99",
+    "reactive-nonmetal": "#BBCC33",
+    "halogen": "#AAAA00",
+    "noble-gas": "#DDDDDD",
+    "lanthanide": "#DDBBDD",
+    "actinide": "#FFAABB",
+    "unknown-chemistry": "#F4F4F4",
+}
+
 PALETTES = {
-    "default": {
-        "alkali-metal": "#EE8866",
-        "alkaline-earth-metal": "#EEDD88",
-        "transition-metal": "#77AADD",
-        "post-transition-metal": "#99DDFF",
-        "metalloid": "#44BB99",
-        "reactive-nonmetal": "#BBCC33",
-        "halogen": "#AAAA00",
-        "noble-gas": "#DDDDDD",
-        "lanthanide": "#DDBBDD",
-        "actinide": "#FFAABB",
-        "unknown-chemistry": "#F4F4F4",
-    },
+    "default": _TOL_LIGHT,
     "classic": {
         "alkali-metal": "#F3C363",
         "alkaline-earth-metal": "#F5E77A",
@@ -144,19 +146,7 @@ PALETTES = {
         "actinide": "#8B9CBB",
         "unknown-chemistry": "#E8EBEC",
     },
-    "tol-light-inspired": {
-        "alkali-metal": "#EE8866",
-        "alkaline-earth-metal": "#EEDD88",
-        "transition-metal": "#77AADD",
-        "post-transition-metal": "#99DDFF",
-        "metalloid": "#44BB99",
-        "reactive-nonmetal": "#BBCC33",
-        "halogen": "#AAAA00",
-        "noble-gas": "#DDDDDD",
-        "lanthanide": "#DDBBDD",
-        "actinide": "#FFAABB",
-        "unknown-chemistry": "#F4F4F4",
-    },
+    "tol-light-inspired": _TOL_LIGHT,
     "tol-muted-inspired": {
         "alkali-metal": "#DE9BA7",
         "alkaline-earth-metal": "#E9DFA6",
@@ -198,16 +188,14 @@ PALETTES = {
     },
 }
 
-PALETTE_THEMES = {
-    name: {
-        "page": "#FFFFFF",
-        "text": "#111111",
-        "source": "#666666",
-        "rule": "#222222",
-        "guide": "#555555",
-        "placeholder": "#F2F2F2",
-    }
-    for name in PALETTES
+THEME = {
+    "page": "#FFFFFF",
+    "text": "#111111",
+    "source": "#666666",
+    "rule": "#222222",
+    "soft_rule": "#777777",
+    "guide": "#555555",
+    "placeholder": "#F2F2F2",
 }
 SUPPORTED_COLOUR_SCHEMES = tuple(PALETTES)
 
@@ -221,9 +209,3 @@ def get_palette(name: str) -> dict[str, str]:
         raise ValueError(
             f"Unsupported colour scheme: {name!r}; choose {choices}"
         ) from error
-
-
-def get_palette_theme(name: str) -> dict[str, str]:
-    """Return page, text, and rule colours for a named palette."""
-    get_palette(name)
-    return PALETTE_THEMES[name]
