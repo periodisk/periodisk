@@ -3,10 +3,11 @@ from xml.etree import ElementTree as ET
 
 import pytest
 
+from periodisk import render_svg
+from periodisk._render_svg import CATEGORY_COLOURS, SVG, _render_cell
 from periodisk.data import load_elements, load_locale
 from periodisk.layout import Page
 from periodisk.palettes import PALETTES, THEME
-from periodisk.render_svg import CATEGORY_COLOURS, SVG, _render_cell, render_svg
 
 
 def _relative_luminance(hex_colour: str) -> float:

@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .render_pdf import render_pdf
-from .render_svg import render_svg
+from ._render_pdf import render_pdf
+from ._render_svg import render_svg
 
 
 def render_table(

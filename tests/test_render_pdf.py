@@ -1,8 +1,8 @@
 import pytest
 from pypdf import PdfReader
 
+from periodisk import render_pdf
 from periodisk.render import render_table
-from periodisk.render_pdf import render_pdf
 
 
 def _page_size_points(path):
