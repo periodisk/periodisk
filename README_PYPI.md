@@ -14,13 +14,21 @@ python -m pip install periodisk
 
 ## Usage
 
-Render an English A3 periodic table from the command line:
+### Command line
+
+The `periodisk render` command writes a periodic table to an SVG or PDF file.
+The output format is inferred from the filename extension. For example, render
+the default English table on an A3 page with:
 
 ```console
 periodisk render periodic-table.pdf --language en_GB --page-size A3
 ```
 
-The equivalent Python API is:
+Run `periodisk render --help` for every option and its description.
+
+### Python API
+
+The same table can be generated through the Python API:
 
 ```python
 from periodisk import render_table
@@ -41,8 +49,6 @@ Periodisk supports:
 - Configurable cell styles and rounded corners
 - Pauling, Allred-Rochow, and Allen electronegativity scales
 - SVG and PDF output
-
-Run `periodisk render --help` for the complete set of options.
 
 ## Documentation
 

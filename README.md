@@ -2,7 +2,7 @@
 
 An open-source Python package for generating accessible, source-traceable
 periodic tables for chemistry teaching in SVG and PDF formats.
-Version **2026.1** includes an offline, 118-element dataset, with British
+Version **2026.2** includes an offline, 118-element dataset, with British
 English and Norwegian Bokmål localisation.
 
 See [DATA_SOURCES.md](docs/DATA_SOURCES.md) for data sources, scientific
