@@ -92,7 +92,7 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
     if resource.get("decimal_separator") not in {".", ","}:
         raise ValueError(f"Invalid decimal separator for {expected_locale}")
     missing_value = resource.get("missing_value")
-    if not isinstance(missing_value, str) or not missing_value:
+    if not isinstance(missing_value, str) or not missing_value.strip():
         raise ValueError(f"{expected_locale}: missing_value must be a non-empty string")
     element_names = resource.get("element_names")
     if not isinstance(element_names, dict) or len(element_names) != 118:
@@ -106,8 +106,20 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
         raise ValueError(
             f"{expected_locale}: invalid element names for {invalid_names}"
         )
-    if not isinstance(resource.get("element_names_source"), str):
-        raise ValueError(f"{expected_locale}: missing element_names_source")
+    expected_symbols = {element.symbol for element in load_elements()}
+    actual_symbols = set(element_names)
+    if actual_symbols != expected_symbols:
+        missing = sorted(expected_symbols - actual_symbols)
+        unknown = sorted(actual_symbols - expected_symbols)
+        raise ValueError(
+            f"{expected_locale}: element_names do not match the element dataset "
+            f"(missing {missing}, unknown {unknown})"
+        )
+    element_names_source = resource.get("element_names_source")
+    if not isinstance(element_names_source, str) or not element_names_source.strip():
+        raise ValueError(
+            f"{expected_locale}: element_names_source must be a non-empty string"
+        )
     requirements = {
         "labels": _REQUIRED_LABELS,
         "classifications": _REQUIRED_CLASSIFICATIONS,
@@ -123,4 +135,13 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
         if missing:
             raise ValueError(
                 f"{expected_locale}: {section} is missing {sorted(missing)}"
+            )
+        invalid = sorted(
+            key
+            for key in required_keys
+            if not isinstance(actual[key], str) or not actual[key].strip()
+        )
+        if invalid:
+            raise ValueError(
+                f"{expected_locale}: {section} has invalid values for {invalid}"
             )
