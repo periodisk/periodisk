@@ -521,6 +521,10 @@ def _uranium_guide(
     simplified = content == "simplified"
     symbol_baseline = y + factor * (13.4 if simplified else 9.2)
     name_baseline = y + factor * (19.2 if simplified else 12.5)
+    name = locale["element_names"][uranium.symbol]
+    # Estimate the rendered half-width from the name length so the leader
+    # clears both short names such as "uran" and longer ones such as "uranium".
+    name_edge_offset = max(6.2, factor * 0.9 * len(name) + 0.5)
     _guide_callout(
         root,
         locale["labels"]["atomic_number"],
@@ -550,7 +554,7 @@ def _uranium_guide(
         locale["labels"]["element_name"],
         right,
         name_baseline - 1.2,
-        x + width / 2 + 6.2,
+        x + width / 2 + name_edge_offset,
         anchor="start",
     )
     if simplified:

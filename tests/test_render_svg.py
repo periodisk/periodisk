@@ -443,6 +443,34 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
 
 
+def test_simplified_name_leader_clears_localised_name(tmp_path) -> None:
+    endpoints = {}
+    for language in ("en_GB", "nb_NO"):
+        root = ET.parse(
+            render_svg(
+                tmp_path / f"simplified-{language}.svg",
+                language=language,
+                content="simplified",
+            )
+        ).getroot()
+        label = load_locale(language)["labels"]["element_name"]
+        label_node = next(
+            node
+            for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
+            if node.text == label
+        )
+        line_y = float(label_node.attrib["y"]) - 0.9
+        line = next(
+            node
+            for node in root.findall(f".//{{{SVG}}}line[@class='guide-line']")
+            if float(node.attrib["y1"]) == pytest.approx(line_y)
+            and node.attrib["y1"] == node.attrib["y2"]
+        )
+        endpoints[language] = float(line.attrib["x2"])
+
+    assert endpoints["en_GB"] > endpoints["nb_NO"]
+
+
 def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
     root = ET.parse(
         render_svg(tmp_path / "table.svg", electronegativity_scale="pauling")
