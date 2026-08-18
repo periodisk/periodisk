@@ -14,14 +14,15 @@
       .placeholder { fill: #F2F2F2; stroke: #222222; stroke-width: 0.25; }
       .placeholder { stroke-dasharray: 1 0.7; }
       .atomic-number { font-size: 2.55px; font-weight: 600; }
+      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .radioactive { fill: #111111; }
       .radioactive-ring { fill: none; stroke: #111111; stroke-width: 0.11; }
       .symbol { font-size: 6.2px; font-weight: 700; }
       .name { font-size: 2.3px; }
       .simplified-top-number { font-size: 3.55px; font-weight: 650; }
+      .atomic-weight.simplified-top-number { font-size: 2.35px; }
       .simplified-symbol { font-size: 9.5px; }
       .simplified-name { font-size: 3.1px; font-weight: 500; }
-      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .property { font-size: 2.05px; }
       .configuration { font-size: 2.45px; }
       .series-label { font-size: 3.2px; font-weight: 650; }
@@ -1812,10 +1813,10 @@
   <text x="129.00" y="45.90" class="guide-label" text-anchor="end">Atomic number</text>
   <line x1="171.47" y1="45.0" x2="165.57" y2="45.0" class="guide-line" />
   <text x="172.97" y="45.90" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
-  <line x1="171.47" y1="50.9" x2="157.78500000000003" y2="50.9" class="guide-line" />
-  <text x="172.97" y="51.80" class="guide-label" text-anchor="start">Symbol</text>
-  <line x1="171.47" y1="57.7" x2="157.185" y2="57.7" class="guide-line" />
-  <text x="172.97" y="58.60" class="guide-label" text-anchor="start">Name</text>
+  <line x1="171.47" y1="50.92" x2="157.78500000000003" y2="50.92" class="guide-line" />
+  <text x="172.97" y="51.82" class="guide-label" text-anchor="start">Symbol</text>
+  <line x1="171.47" y1="57.675" x2="159.99" y2="57.675" class="guide-line" />
+  <text x="172.97" y="58.57" class="guide-label" text-anchor="start">Name</text>
   <line x1="130.5" y1="62.6" x2="136.4" y2="62.6" class="guide-line" />
   <text x="129.00" y="63.50" class="guide-label" text-anchor="end">Electronegativity</text>
   <line x1="171.47" y1="62.6" x2="165.57" y2="62.6" class="guide-line" />
