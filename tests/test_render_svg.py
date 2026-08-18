@@ -419,6 +419,82 @@ def test_unheaded_uranium_guide_and_period_numbers_are_present(tmp_path) -> None
     assert "Electron configuration (ground state; predicted for Rf–Og)" in guide_labels
 
 
+def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> None:
+    root = ET.parse(
+        render_svg(tmp_path / "simplified.svg", content="simplified")
+    ).getroot()
+    guide = root.find(f".//{{{SVG}}}g[@id='guide-U']")
+    assert guide is not None
+    atomic_number = guide.find(
+        f"{{{SVG}}}text[@class='atomic-number simplified-top-number']"
+    )
+    atomic_weight = guide.find(
+        f"{{{SVG}}}text[@class='atomic-weight simplified-top-number']"
+    )
+    symbol = guide.find(f"{{{SVG}}}text[@class='symbol simplified-symbol']")
+    name = guide.find(f"{{{SVG}}}text[@class='name simplified-name']")
+    assert atomic_number is not None
+    assert atomic_weight is not None
+    assert symbol is not None
+    assert name is not None
+    style = root.find(f"{{{SVG}}}style")
+    assert style is not None and style.text is not None
+    assert ".atomic-weight.simplified-top-number { font-size: 2.35px; }" in style.text
+
+    guide_labels = {
+        node.text: node
+        for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
+    }
+    locale_labels = load_locale("en_GB")["labels"]
+    symbol_line_y = (
+        float(guide_labels[locale_labels["element_symbol"]].attrib["y"]) - 0.9
+    )
+    name_line_y = float(guide_labels[locale_labels["element_name"]].attrib["y"]) - 0.9
+    number_line_y = (
+        float(guide_labels[locale_labels["atomic_number"]].attrib["y"]) - 0.9
+    )
+    mass_line_y = float(guide_labels[locale_labels["atomic_weight"]].attrib["y"]) - 0.9
+    assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
+    assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
+    expected_number_line_y = (
+        42.0 + 1.35 * float(atomic_number.attrib["y"]) - 1.35 * 3.55 * 0.26
+    )
+    assert atomic_weight.attrib["y"] == atomic_number.attrib["y"]
+    expected_mass_line_y = (
+        42.0 + 1.35 * float(atomic_weight.attrib["y"]) - 1.35 * 2.35 * 0.26
+    )
+    assert number_line_y == pytest.approx(expected_number_line_y, abs=0.01)
+    assert mass_line_y == pytest.approx(expected_mass_line_y, abs=0.01)
+
+
+def test_simplified_name_leader_clears_localised_name(tmp_path) -> None:
+    endpoints = {}
+    for language in ("en_GB", "nb_NO"):
+        root = ET.parse(
+            render_svg(
+                tmp_path / f"simplified-{language}.svg",
+                language=language,
+                content="simplified",
+            )
+        ).getroot()
+        label = load_locale(language)["labels"]["element_name"]
+        label_node = next(
+            node
+            for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
+            if node.text == label
+        )
+        line_y = float(label_node.attrib["y"]) - 0.9
+        line = next(
+            node
+            for node in root.findall(f".//{{{SVG}}}line[@class='guide-line']")
+            if float(node.attrib["y1"]) == pytest.approx(line_y)
+            and node.attrib["y1"] == node.attrib["y2"]
+        )
+        endpoints[language] = float(line.attrib["x2"])
+
+    assert endpoints["en_GB"] > endpoints["nb_NO"]
+
+
 def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
     root = ET.parse(
         render_svg(tmp_path / "table.svg", electronegativity_scale="pauling")

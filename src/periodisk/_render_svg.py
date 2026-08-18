@@ -518,11 +518,23 @@ def _uranium_guide(
     # rules appear to touch—or, for a wide value, cross—the glyphs.
     left_value_edge = x + 0.4
     right_value_edge = x + width - 0.4
+    simplified = content == "simplified"
+    top_baseline = y + factor * (4.0 if simplified else 3.2)
+    # Simplified cells enlarge the atomic number but keep the mass compact to
+    # clear the radioactive symbol. Centre each leader on its own font size.
+    number_line_y = top_baseline - factor * 3.55 * 0.26 if simplified else y + 3.0
+    mass_line_y = top_baseline - factor * 2.35 * 0.26 if simplified else y + 3.0
+    symbol_baseline = y + factor * (13.4 if simplified else 9.2)
+    name_baseline = y + factor * (19.2 if simplified else 12.5)
+    name = locale["element_names"][uranium.symbol]
+    # Estimate the rendered half-width from the name length so the leader
+    # clears both short names such as "uran" and longer ones such as "uranium".
+    name_edge_offset = max(6.2, factor * 0.9 * len(name) + 0.5)
     _guide_callout(
         root,
         locale["labels"]["atomic_number"],
         left,
-        y + 3.0,
+        number_line_y,
         left_value_edge,
         anchor="end",
     )
@@ -530,7 +542,7 @@ def _uranium_guide(
         root,
         locale["labels"]["atomic_weight"],
         right,
-        y + 3.0,
+        mass_line_y,
         right_value_edge,
         anchor="start",
     )
@@ -538,7 +550,7 @@ def _uranium_guide(
         root,
         locale["labels"]["element_symbol"],
         right,
-        y + (13.1 if content == "simplified" else 8.9),
+        symbol_baseline - 3.5,
         x + width / 2 + 6.8,
         anchor="start",
     )
@@ -546,11 +558,11 @@ def _uranium_guide(
         root,
         locale["labels"]["element_name"],
         right,
-        y + (19.2 if content == "simplified" else 15.7),
-        x + width / 2 + 6.2,
+        name_baseline - 1.2,
+        x + width / 2 + name_edge_offset,
         anchor="start",
     )
-    if content == "simplified":
+    if simplified:
         _text(
             root,
             locale["labels"]["radioactive_sign"],
@@ -692,14 +704,15 @@ def render_svg(
       .placeholder {{ fill: {theme["placeholder"]}; stroke: {theme["rule"]}; stroke-width: 0.25; }}
       .placeholder {{ stroke-dasharray: 1 0.7; }}
       .atomic-number {{ font-size: 2.55px; font-weight: 600; }}
+      .atomic-weight {{ font-size: 2.35px; font-weight: 600; }}
       .radioactive {{ fill: {theme["text"]}; }}
       .radioactive-ring {{ fill: none; stroke: {theme["text"]}; stroke-width: 0.11; }}
       .symbol {{ font-size: 6.2px; font-weight: 700; }}
       .name {{ font-size: 2.3px; }}
       .simplified-top-number {{ font-size: 3.55px; font-weight: 650; }}
+      .atomic-weight.simplified-top-number {{ font-size: 2.35px; }}
       .simplified-symbol {{ font-size: 9.5px; }}
       .simplified-name {{ font-size: 3.1px; font-weight: 500; }}
-      .atomic-weight {{ font-size: 2.35px; font-weight: 600; }}
       .property {{ font-size: 2.05px; }}
       .configuration {{ font-size: 2.45px; }}
       .series-label {{ font-size: 3.2px; font-weight: 650; }}
