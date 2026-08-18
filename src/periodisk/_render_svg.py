@@ -519,6 +519,10 @@ def _uranium_guide(
     left_value_edge = x + 0.4
     right_value_edge = x + width - 0.4
     simplified = content == "simplified"
+    top_baseline = y + factor * (4.0 if simplified else 3.2)
+    # The simplified top values use a larger font. Align their leaders with
+    # the optical centre of the scaled digits while preserving the full guide.
+    top_line_y = top_baseline - factor * 3.55 * 0.38 if simplified else y + 3.0
     symbol_baseline = y + factor * (13.4 if simplified else 9.2)
     name_baseline = y + factor * (19.2 if simplified else 12.5)
     name = locale["element_names"][uranium.symbol]
@@ -529,7 +533,7 @@ def _uranium_guide(
         root,
         locale["labels"]["atomic_number"],
         left,
-        y + 3.0,
+        top_line_y,
         left_value_edge,
         anchor="end",
     )
@@ -537,7 +541,7 @@ def _uranium_guide(
         root,
         locale["labels"]["atomic_weight"],
         right,
-        y + 3.0,
+        top_line_y,
         right_value_edge,
         anchor="start",
     )

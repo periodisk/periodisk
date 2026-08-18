@@ -425,8 +425,16 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     ).getroot()
     guide = root.find(f".//{{{SVG}}}g[@id='guide-U']")
     assert guide is not None
+    atomic_number = guide.find(
+        f"{{{SVG}}}text[@class='atomic-number simplified-top-number']"
+    )
+    atomic_weight = guide.find(
+        f"{{{SVG}}}text[@class='atomic-weight simplified-top-number']"
+    )
     symbol = guide.find(f"{{{SVG}}}text[@class='symbol simplified-symbol']")
     name = guide.find(f"{{{SVG}}}text[@class='name simplified-name']")
+    assert atomic_number is not None
+    assert atomic_weight is not None
     assert symbol is not None
     assert name is not None
 
@@ -439,8 +447,18 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
         float(guide_labels[locale_labels["element_symbol"]].attrib["y"]) - 0.9
     )
     name_line_y = float(guide_labels[locale_labels["element_name"]].attrib["y"]) - 0.9
+    number_line_y = (
+        float(guide_labels[locale_labels["atomic_number"]].attrib["y"]) - 0.9
+    )
+    mass_line_y = float(guide_labels[locale_labels["atomic_weight"]].attrib["y"]) - 0.9
     assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
     assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
+    expected_top_line_y = (
+        42.0 + 1.35 * float(atomic_number.attrib["y"]) - 1.35 * 3.55 * 0.38
+    )
+    assert atomic_weight.attrib["y"] == atomic_number.attrib["y"]
+    assert number_line_y == pytest.approx(expected_top_line_y, abs=0.01)
+    assert mass_line_y == pytest.approx(expected_top_line_y, abs=0.01)
 
 
 def test_simplified_name_leader_clears_localised_name(tmp_path) -> None:
