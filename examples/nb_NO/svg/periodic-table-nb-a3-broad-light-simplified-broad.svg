@@ -416,7 +416,7 @@
     <text x="166.60" y="120.00" class="atomic-number simplified-top-number">44</text>
     <text x="186.80" y="120.00" class="atomic-weight simplified-top-number" text-anchor="end">101,07</text>
     <text x="176.70" y="129.40" class="symbol simplified-symbol" text-anchor="middle">Ru</text>
-    <text x="176.70" y="135.20" class="name simplified-name" text-anchor="middle">rutenium</text>
+    <text x="176.70" y="135.20" class="name simplified-name" text-anchor="middle">ruthenium</text>
   </g>
   <g id="element-Rh" data-z="45" data-classifications="transition-metal" data-chemistry-status="established">
     <rect x="187.80" y="116.00" width="22.2" height="24.5" fill="#A8CBEB" class="cell-fill category-transition-metal" />
