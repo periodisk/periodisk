@@ -518,6 +518,9 @@ def _uranium_guide(
     # rules appear to touch—or, for a wide value, cross—the glyphs.
     left_value_edge = x + 0.4
     right_value_edge = x + width - 0.4
+    simplified = content == "simplified"
+    symbol_baseline = y + factor * (13.4 if simplified else 9.2)
+    name_baseline = y + factor * (19.2 if simplified else 12.5)
     _guide_callout(
         root,
         locale["labels"]["atomic_number"],
@@ -538,7 +541,7 @@ def _uranium_guide(
         root,
         locale["labels"]["element_symbol"],
         right,
-        y + (13.1 if content == "simplified" else 8.9),
+        symbol_baseline - 3.5,
         x + width / 2 + 6.8,
         anchor="start",
     )
@@ -546,11 +549,11 @@ def _uranium_guide(
         root,
         locale["labels"]["element_name"],
         right,
-        y + (19.2 if content == "simplified" else 15.7),
+        name_baseline - 1.2,
         x + width / 2 + 6.2,
         anchor="start",
     )
-    if content == "simplified":
+    if simplified:
         _text(
             root,
             locale["labels"]["radioactive_sign"],

@@ -1336,10 +1336,10 @@
   <text x="129.00" y="45.90" class="guide-label" text-anchor="end">Atomnummer</text>
   <line x1="171.47" y1="45.0" x2="165.57" y2="45.0" class="guide-line" />
   <text x="172.97" y="45.90" class="guide-label" text-anchor="start">Atommasse ([ ] = massetall for isotopen med lengst halveringstid)</text>
-  <line x1="171.47" y1="55.1" x2="157.78500000000003" y2="55.1" class="guide-line" />
-  <text x="172.97" y="56.00" class="guide-label" text-anchor="start">Atomsymbol</text>
-  <line x1="171.47" y1="61.2" x2="157.185" y2="61.2" class="guide-line" />
-  <text x="172.97" y="62.10" class="guide-label" text-anchor="start">Navn</text>
+  <line x1="171.47" y1="56.59" x2="157.78500000000003" y2="56.59" class="guide-line" />
+  <text x="172.97" y="57.49" class="guide-label" text-anchor="start">Atomsymbol</text>
+  <line x1="171.47" y1="66.72" x2="157.185" y2="66.72" class="guide-line" />
+  <text x="172.97" y="67.62" class="guide-label" text-anchor="start">Navn</text>
   <text x="150.99" y="39.80" class="guide-label" text-anchor="middle">Radioaktivitetssymbol</text>
   <line x1="150.985" y1="40.6" x2="150.985" y2="43.2" class="guide-line" />
   <g class="legend-item" data-category="transition-metal">

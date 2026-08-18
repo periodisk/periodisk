@@ -419,6 +419,30 @@ def test_unheaded_uranium_guide_and_period_numbers_are_present(tmp_path) -> None
     assert "Electron configuration (ground state; predicted for Rf–Og)" in guide_labels
 
 
+def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> None:
+    root = ET.parse(
+        render_svg(tmp_path / "simplified.svg", content="simplified")
+    ).getroot()
+    guide = root.find(f".//{{{SVG}}}g[@id='guide-U']")
+    assert guide is not None
+    symbol = guide.find(f"{{{SVG}}}text[@class='symbol simplified-symbol']")
+    name = guide.find(f"{{{SVG}}}text[@class='name simplified-name']")
+    assert symbol is not None
+    assert name is not None
+
+    guide_labels = {
+        node.text: node
+        for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
+    }
+    locale_labels = load_locale("en_GB")["labels"]
+    symbol_line_y = (
+        float(guide_labels[locale_labels["element_symbol"]].attrib["y"]) - 0.9
+    )
+    name_line_y = float(guide_labels[locale_labels["element_name"]].attrib["y"]) - 0.9
+    assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
+    assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
+
+
 def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
     root = ET.parse(
         render_svg(tmp_path / "table.svg", electronegativity_scale="pauling")
