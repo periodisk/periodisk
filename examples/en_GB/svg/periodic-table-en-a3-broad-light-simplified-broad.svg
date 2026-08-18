@@ -20,6 +20,7 @@
       .symbol { font-size: 6.2px; font-weight: 700; }
       .name { font-size: 2.3px; }
       .simplified-top-number { font-size: 3.55px; font-weight: 650; }
+      .atomic-weight.simplified-top-number { font-size: 2.35px; }
       .simplified-symbol { font-size: 9.5px; }
       .simplified-name { font-size: 3.1px; font-weight: 500; }
       .property { font-size: 2.05px; }
@@ -1334,8 +1335,8 @@
   </g>
   <line x1="130.5" y1="46.15395" x2="136.4" y2="46.15395" class="guide-line" />
   <text x="129.00" y="47.05" class="guide-label" text-anchor="end">Atomic number</text>
-  <line x1="171.47" y1="46.15395" x2="165.57" y2="46.15395" class="guide-line" />
-  <text x="172.97" y="47.05" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
+  <line x1="171.47" y1="46.57515" x2="165.57" y2="46.57515" class="guide-line" />
+  <text x="172.97" y="47.48" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
   <line x1="171.47" y1="56.59" x2="157.78500000000003" y2="56.59" class="guide-line" />
   <text x="172.97" y="57.49" class="guide-label" text-anchor="start">Symbol</text>
   <line x1="171.47" y1="66.72" x2="159.99" y2="66.72" class="guide-line" />

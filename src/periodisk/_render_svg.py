@@ -520,9 +520,10 @@ def _uranium_guide(
     right_value_edge = x + width - 0.4
     simplified = content == "simplified"
     top_baseline = y + factor * (4.0 if simplified else 3.2)
-    # The simplified top values use a larger font. Align their leaders with
-    # the optical centre of the scaled digits while preserving the full guide.
-    top_line_y = top_baseline - factor * 3.55 * 0.26 if simplified else y + 3.0
+    # Simplified cells enlarge the atomic number but keep the mass compact to
+    # clear the radioactive symbol. Centre each leader on its own font size.
+    number_line_y = top_baseline - factor * 3.55 * 0.26 if simplified else y + 3.0
+    mass_line_y = top_baseline - factor * 2.35 * 0.26 if simplified else y + 3.0
     symbol_baseline = y + factor * (13.4 if simplified else 9.2)
     name_baseline = y + factor * (19.2 if simplified else 12.5)
     name = locale["element_names"][uranium.symbol]
@@ -533,7 +534,7 @@ def _uranium_guide(
         root,
         locale["labels"]["atomic_number"],
         left,
-        top_line_y,
+        number_line_y,
         left_value_edge,
         anchor="end",
     )
@@ -541,7 +542,7 @@ def _uranium_guide(
         root,
         locale["labels"]["atomic_weight"],
         right,
-        top_line_y,
+        mass_line_y,
         right_value_edge,
         anchor="start",
     )
@@ -709,6 +710,7 @@ def render_svg(
       .symbol {{ font-size: 6.2px; font-weight: 700; }}
       .name {{ font-size: 2.3px; }}
       .simplified-top-number {{ font-size: 3.55px; font-weight: 650; }}
+      .atomic-weight.simplified-top-number {{ font-size: 2.35px; }}
       .simplified-symbol {{ font-size: 9.5px; }}
       .simplified-name {{ font-size: 3.1px; font-weight: 500; }}
       .property {{ font-size: 2.05px; }}
