@@ -55,9 +55,39 @@ jobs:
           path: dist/
           if-no-files-found: error
 
+  smoke-test:
+    name: Smoke-test built wheel
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Download distributions
+        uses: actions/download-artifact@v6
+        with:
+          name: python-package-distributions
+          path: dist/
+
+      - name: Install built wheel
+        run: python -m pip install dist/*.whl
+
+      - name: Validate installed data
+        run: periodisk validate --release
+
+      - name: Render smoke-test files
+        run: |
+          periodisk render smoke-test.svg
+          periodisk render smoke-test.pdf
+          test -s smoke-test.svg
+          test -s smoke-test.pdf
+
   publish:
     name: Publish to PyPI
-    needs: [tests, build]
+    needs: [tests, smoke-test]
     runs-on: ubuntu-latest
     environment:
       name: pypi
