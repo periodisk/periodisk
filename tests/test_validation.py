@@ -94,3 +94,24 @@ def test_boolean_is_not_an_oxidation_state() -> None:
     )
     errors = validate_dataset([record], {"test": SOURCE})
     assert any("oxidation states must be integers" in error for error in errors)
+
+
+def test_atomic_weight_display_must_be_a_non_empty_string() -> None:
+    record = replace(
+        element(),
+        atomic_weight=SourcedValue(
+            value={"kind": "abridged-standard", "display": 1.008},
+            source="test",
+        ),
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("atomic-weight display" in error for error in errors)
+
+
+def test_unknown_electronegativity_scale_is_rejected() -> None:
+    record = replace(
+        element(),
+        electronegativity={"paulng": SourcedValue(value=2.2, source="test")},
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("unknown electronegativity scales" in error for error in errors)

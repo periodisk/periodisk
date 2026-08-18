@@ -127,6 +127,14 @@ def test_incomplete_locale_is_rejected() -> None:
         )
 
 
+def test_locale_element_names_must_match_element_dataset() -> None:
+    locale = deepcopy(load_locale("en_GB"))
+    locale["element_names"]["Xx"] = locale["element_names"].pop("H")
+
+    with pytest.raises(ValueError, match="element_names do not match"):
+        _validate_locale(locale, "en_GB")
+
+
 @pytest.mark.parametrize(
     ("section", "key"),
     [
@@ -146,6 +154,34 @@ def test_renderer_locale_requirements_are_validated(
         del locale[section][key]
 
     with pytest.raises(ValueError, match=section or key):
+        _validate_locale(locale, "en_GB")
+
+
+@pytest.mark.parametrize(
+    ("section", "key", "value"),
+    [
+        ("labels", "title", None),
+        ("classifications", "alkali-metal", ""),
+        ("broad_classifications", "transition-metal", []),
+        ("units", "first_ionisation_energy", 0),
+        ("source_notes", "atomic_masses", "   "),
+    ],
+)
+def test_locale_display_values_must_be_non_empty_strings(
+    section: str, key: str, value: object
+) -> None:
+    locale = deepcopy(load_locale("en_GB"))
+    locale[section][key] = value
+
+    with pytest.raises(ValueError, match=f"{section} has invalid values"):
+        _validate_locale(locale, "en_GB")
+
+
+def test_element_names_source_must_be_a_non_empty_string() -> None:
+    locale = deepcopy(load_locale("en_GB"))
+    locale["element_names_source"] = ""
+
+    with pytest.raises(ValueError, match="element_names_source"):
         _validate_locale(locale, "en_GB")
 
 

@@ -7,6 +7,7 @@ from collections import Counter
 from collections.abc import Iterable, Mapping
 
 from .models import IONISATION_ENERGY_UNIT, Element, Source
+from .settings import SUPPORTED_ELECTRONEGATIVITY_SCALES
 
 CLASSIFICATIONS = {
     "alkali-metal",
@@ -99,8 +100,18 @@ def validate_dataset(
             kind = element.atomic_weight.value.get("kind")
             if kind not in {"abridged-standard", "mass-number"}:
                 errors.append(f"{label}: invalid atomic-weight kind {kind!r}")
-            if not element.atomic_weight.value.get("display"):
-                errors.append(f"{label}: atomic weight requires a display value")
+            display = element.atomic_weight.value.get("display")
+            if not isinstance(display, str) or not display.strip():
+                errors.append(
+                    f"{label}: atomic-weight display must be a non-empty string"
+                )
+        unknown_scales = set(element.electronegativity) - set(
+            SUPPORTED_ELECTRONEGATIVITY_SCALES
+        )
+        if unknown_scales:
+            errors.append(
+                f"{label}: unknown electronegativity scales: {sorted(unknown_scales)}"
+            )
         for scale, value in element.electronegativity.items():
             if not _is_number(value.value) or value.value <= 0:
                 errors.append(f"{label}: {scale} electronegativity must be positive")
