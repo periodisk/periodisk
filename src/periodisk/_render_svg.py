@@ -522,7 +522,7 @@ def _uranium_guide(
     top_baseline = y + factor * (4.0 if simplified else 3.2)
     # The simplified top values use a larger font. Align their leaders with
     # the optical centre of the scaled digits while preserving the full guide.
-    top_line_y = top_baseline - factor * 3.55 * 0.38 if simplified else y + 3.0
+    top_line_y = top_baseline - factor * 3.55 * 0.26 if simplified else y + 3.0
     symbol_baseline = y + factor * (13.4 if simplified else 9.2)
     name_baseline = y + factor * (19.2 if simplified else 12.5)
     name = locale["element_names"][uranium.symbol]
@@ -703,6 +703,7 @@ def render_svg(
       .placeholder {{ fill: {theme["placeholder"]}; stroke: {theme["rule"]}; stroke-width: 0.25; }}
       .placeholder {{ stroke-dasharray: 1 0.7; }}
       .atomic-number {{ font-size: 2.55px; font-weight: 600; }}
+      .atomic-weight {{ font-size: 2.35px; font-weight: 600; }}
       .radioactive {{ fill: {theme["text"]}; }}
       .radioactive-ring {{ fill: none; stroke: {theme["text"]}; stroke-width: 0.11; }}
       .symbol {{ font-size: 6.2px; font-weight: 700; }}
@@ -710,7 +711,6 @@ def render_svg(
       .simplified-top-number {{ font-size: 3.55px; font-weight: 650; }}
       .simplified-symbol {{ font-size: 9.5px; }}
       .simplified-name {{ font-size: 3.1px; font-weight: 500; }}
-      .atomic-weight {{ font-size: 2.35px; font-weight: 600; }}
       .property {{ font-size: 2.05px; }}
       .configuration {{ font-size: 2.45px; }}
       .series-label {{ font-size: 3.2px; font-weight: 650; }}

@@ -437,6 +437,11 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     assert atomic_weight is not None
     assert symbol is not None
     assert name is not None
+    style = root.find(f"{{{SVG}}}style")
+    assert style is not None and style.text is not None
+    assert style.text.index(".atomic-weight") < style.text.index(
+        ".simplified-top-number"
+    )
 
     guide_labels = {
         node.text: node
@@ -454,7 +459,7 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
     assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
     expected_top_line_y = (
-        42.0 + 1.35 * float(atomic_number.attrib["y"]) - 1.35 * 3.55 * 0.38
+        42.0 + 1.35 * float(atomic_number.attrib["y"]) - 1.35 * 3.55 * 0.26
     )
     assert atomic_weight.attrib["y"] == atomic_number.attrib["y"]
     assert number_line_y == pytest.approx(expected_top_line_y, abs=0.01)

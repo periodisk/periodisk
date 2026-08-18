@@ -14,6 +14,7 @@
       .placeholder { fill: #F2F2F2; stroke: #222222; stroke-width: 0.25; }
       .placeholder { stroke-dasharray: 1 0.7; }
       .atomic-number { font-size: 2.55px; font-weight: 600; }
+      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .radioactive { fill: #111111; }
       .radioactive-ring { fill: none; stroke: #111111; stroke-width: 0.11; }
       .symbol { font-size: 6.2px; font-weight: 700; }
@@ -21,7 +22,6 @@
       .simplified-top-number { font-size: 3.55px; font-weight: 650; }
       .simplified-symbol { font-size: 9.5px; }
       .simplified-name { font-size: 3.1px; font-weight: 500; }
-      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .property { font-size: 2.05px; }
       .configuration { font-size: 2.45px; }
       .series-label { font-size: 3.2px; font-weight: 650; }
@@ -1332,10 +1332,10 @@
       <text x="11.10" y="19.20" class="name simplified-name" text-anchor="middle">uranium</text>
     </g>
   </g>
-  <line x1="130.5" y1="45.578849999999996" x2="136.4" y2="45.578849999999996" class="guide-line" />
-  <text x="129.00" y="46.48" class="guide-label" text-anchor="end">Atomic number</text>
-  <line x1="171.47" y1="45.578849999999996" x2="165.57" y2="45.578849999999996" class="guide-line" />
-  <text x="172.97" y="46.48" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
+  <line x1="130.5" y1="46.15395" x2="136.4" y2="46.15395" class="guide-line" />
+  <text x="129.00" y="47.05" class="guide-label" text-anchor="end">Atomic number</text>
+  <line x1="171.47" y1="46.15395" x2="165.57" y2="46.15395" class="guide-line" />
+  <text x="172.97" y="47.05" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
   <line x1="171.47" y1="56.59" x2="157.78500000000003" y2="56.59" class="guide-line" />
   <text x="172.97" y="57.49" class="guide-label" text-anchor="start">Symbol</text>
   <line x1="171.47" y1="66.72" x2="159.99" y2="66.72" class="guide-line" />
