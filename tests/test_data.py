@@ -30,6 +30,7 @@ def test_british_and_norwegian_names() -> None:
     assert english["Al"] == "aluminium"
     assert english["Cs"] == "caesium"
     assert norwegian["Fe"] == "jern"
+    assert norwegian["Ru"] == "ruthenium"
     assert set(english) == set(norwegian) == symbols
 
 
