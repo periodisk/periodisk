@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from importlib.resources import files
+from string import Formatter
 from typing import Any
 
 from .models import Element, Source
@@ -167,9 +168,17 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
             raise ValueError(
                 f"{expected_locale}: {section} has invalid values for {invalid}"
             )
+    template = resource["labels"]["accessible_description"]
     try:
-        resource["labels"]["accessible_description"].format(page_size="A3")
-    except (KeyError, ValueError) as error:
+        fields = [
+            field_name
+            for _, field_name, _, _ in Formatter().parse(template)
+            if field_name is not None
+        ]
+        if not fields or any(field_name != "page_size" for field_name in fields):
+            raise ValueError("only the page_size placeholder is supported")
+        template.format(page_size="A3")
+    except (IndexError, KeyError, ValueError) as error:
         raise ValueError(
             f"{expected_locale}: accessible_description has invalid placeholders"
         ) from error
