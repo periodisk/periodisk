@@ -5,6 +5,7 @@
   "missing_value": "—",
   "labels": {
     "title": "Periodic table of the elements",
+    "accessible_description": "{page_size} landscape periodic table containing 118 chemical elements. Cell colours identify chemical classifications.",
     "atomic_number": "Atomic number",
     "element_symbol": "Symbol",
     "element_name": "Name",

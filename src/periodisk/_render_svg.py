@@ -666,6 +666,7 @@ def render_svg(
     page = Page()
     physical_width, physical_height = PAGE_SIZES_MM[page_size]
     locale = load_locale(language)
+    language_tag = language.replace("_", "-")
     root = ET.Element(
         f"{{{SVG}}}svg",
         {
@@ -674,14 +675,15 @@ def render_svg(
             "viewBox": f"0 0 {page.width:g} {page.height:g}",
             "role": "img",
             "aria-labelledby": "title description",
+            "lang": language_tag,
+            "{http://www.w3.org/XML/1998/namespace}lang": language_tag,
         },
     )
     title = _node(root, "title", id="title")
     title.text = locale["labels"]["title"]
     description = _node(root, "desc", id="description")
-    description.text = (
-        f"{page_size} landscape periodic table containing 118 chemical elements. "
-        "Solid colours identify chemical classifications."
+    description.text = locale["labels"]["accessible_description"].format(
+        page_size=page_size
     )
     metadata = _node(root, "metadata")
     metadata.text = (

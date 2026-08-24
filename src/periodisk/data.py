@@ -25,6 +25,7 @@ _REQUIRED_CLASSIFICATIONS = {
 }
 _REQUIRED_LABELS = {
     "title",
+    "accessible_description",
     "atomic_number",
     "element_symbol",
     "element_name",
@@ -166,3 +167,9 @@ def _validate_locale(resource: dict[str, Any], expected_locale: str) -> None:
             raise ValueError(
                 f"{expected_locale}: {section} has invalid values for {invalid}"
             )
+    try:
+        resource["labels"]["accessible_description"].format(page_size="A3")
+    except (KeyError, ValueError) as error:
+        raise ValueError(
+            f"{expected_locale}: accessible_description has invalid placeholders"
+        ) from error

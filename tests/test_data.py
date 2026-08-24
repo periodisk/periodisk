@@ -187,6 +187,14 @@ def test_element_names_source_must_be_a_non_empty_string() -> None:
         _validate_locale(locale, "en_GB")
 
 
+def test_accessible_description_placeholders_are_validated() -> None:
+    locale = deepcopy(load_locale("en_GB"))
+    locale["labels"]["accessible_description"] = "A {paper_size} table"
+
+    with pytest.raises(ValueError, match="accessible_description"):
+        _validate_locale(locale, "en_GB")
+
+
 def test_unknown_locale_is_rejected() -> None:
     with pytest.raises(ValueError, match="Unsupported locale"):
         load_locale("en_US")
