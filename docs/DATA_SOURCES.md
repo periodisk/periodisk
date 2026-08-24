@@ -1,9 +1,12 @@
 # Scientific data and provenance
 
-This file records the scientific data decisions for release 2026.1. The
-packaged JSON is a reviewed, offline snapshot: rendering does not access the
-network or import Mendeleev. Machine-readable citations and access dates are
-kept in the [source registry](../src/periodisk/resources/sources.json).
+This file records the scientific data decisions behind the packaged dataset,
+which was initially prepared for release 2026.1 and remains the basis of current
+releases. Subsequent changes are recorded in the project
+[changelog](../CHANGELOG.md). The packaged JSON is an offline snapshot:
+rendering does not access the network or import Mendeleev. Machine-readable
+citations and access dates are kept in the
+[source registry](../src/periodisk/resources/sources.json).
 Oxidation-state selections and their supporting review notes are kept in the
 [curation worksheet](../curation/oxidation_states/review.json).
 

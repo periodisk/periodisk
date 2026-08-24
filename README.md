@@ -148,7 +148,7 @@ methods, and known limitations.
 
 Releases use a calendar-based `YYYY.N` scheme. `YYYY` is the release year and
 `N` counts releases within that year; for example, `2026.1` is the first 2026
-release.
+release. See the [changelog](CHANGELOG.md) for release history.
 
 ## Licence
 
