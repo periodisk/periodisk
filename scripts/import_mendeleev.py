@@ -14,11 +14,15 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
-from mendeleev import element
-
 EV_TO_KJ_PER_MOL = 96.48533212331002
 ALLEN_TO_PAULING_UNITS = 0.169
 EXPECTED_MENDELEEV_VERSION = "1.2.0"
+_HALF_LIFE_PATTERN = re.compile(
+    r"\s*(?:approx\.\s*)?"
+    r"(?P<value>(?:[0-9]+(?:\.[0-9]*)?|\.[0-9]+)(?:[eE][+-]?[0-9]+)?)"
+    r"(?:\s*\([^)]*\))?\s*"
+    r"(?P<unit>Ma|ka|min|ms|a|d|h|s)\s*"
+)
 
 
 class _TableParser(HTMLParser):
@@ -81,7 +85,7 @@ def _atomic_weights(path: Path) -> dict[int, dict[str, Any]]:
 def _half_life_seconds(text: str) -> float:
     """Return the recommended central half-life in a common unit."""
 
-    match = re.search(r"(?:approx\.\s*)?([0-9]+(?:\.[0-9]+)?)", text)
+    match = _HALF_LIFE_PATTERN.fullmatch(text)
     if match is None:
         raise ValueError(f"Unexpected CIAAW half-life: {text!r}")
     factors = {
@@ -94,10 +98,7 @@ def _half_life_seconds(text: str) -> float:
         "ms": 0.001,
         "s": 1,
     }
-    unit = next((unit for unit in factors if text.rstrip().endswith(unit)), None)
-    if unit is None:
-        raise ValueError(f"Unexpected CIAAW half-life unit: {text!r}")
-    return float(match.group(1)) * factors[unit]
+    return float(match.group("value")) * factors[match.group("unit")]
 
 
 def _radioactive_mass_numbers(path: Path) -> dict[int, int]:
@@ -230,7 +231,7 @@ def build(ciaaw_weights: Path, ciaaw_radioactive: Path) -> dict[str, Any]:
         102: [2, 3],
     }
     for number in range(1, 119):
-        item = element(number)
+        item = mendeleev.element(number)
         group = item.group_id
         weight = weights.get(number)
         weight_source = "ciaaw-abridged-atomic-weights-2024"

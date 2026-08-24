@@ -21,7 +21,7 @@ def apply_review(
     *,
     require_complete: bool = False,
 ) -> tuple[dict[str, Any], list[str]]:
-    """Return an updated dataset and the symbols whose reviewed values changed."""
+    """Return an updated dataset and the symbols whose reviewed values were applied."""
 
     errors = validate(review, require_complete=require_complete)
     if errors:
