@@ -55,6 +55,26 @@ def test_norwegian_rendering_uses_decimal_comma(tmp_path) -> None:
     assert "røntgenium" in text
 
 
+@pytest.mark.parametrize(
+    ("language", "language_tag", "description"),
+    [
+        ("en_GB", "en-GB", "A3 landscape periodic table"),
+        ("nb_NO", "nb-NO", "Liggende periodesystem i A3-format"),
+    ],
+)
+def test_svg_accessibility_metadata_is_localised(
+    tmp_path, language: str, language_tag: str, description: str
+) -> None:
+    root = ET.parse(
+        render_svg(tmp_path / f"{language}.svg", language=language)
+    ).getroot()
+    assert root.attrib["lang"] == language_tag
+    assert root.attrib["{http://www.w3.org/XML/1998/namespace}lang"] == language_tag
+    node = root.find(f"{{{SVG}}}desc[@id='description']")
+    assert node is not None
+    assert node.text is not None and node.text.startswith(description)
+
+
 def test_electronegativity_scale_is_selectable_and_localised(tmp_path) -> None:
     output = render_svg(
         tmp_path / "table-nb-allred.svg",

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title description" lang="nb-NO" xml:lang="nb-NO">
   <title id="title">Periodesystemet</title>
-  <desc id="description">A3 landscape periodic table containing 118 chemical elements. Solid colours identify chemical classifications.</desc>
+  <desc id="description">Liggende periodesystem i A3-format med 118 grunnstoffer. Cellefargene viser kjemisk klassifisering.</desc>
   <metadata>Copyright 2026 Periodisk contributors. Original table design and explanatory content licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The Python software used to generate this table is separately licensed under MIT.</metadata>
   <style>
       text { fill: #111111; font-family: "Noto Sans", "DejaVu Sans", sans-serif; }

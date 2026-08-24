@@ -5,6 +5,7 @@
   "missing_value": "—",
   "labels": {
     "title": "Periodesystemet",
+    "accessible_description": "Liggende periodesystem i {page_size}-format med 118 grunnstoffer. Cellefargene viser kjemisk klassifisering.",
     "atomic_number": "Atomnummer",
     "element_symbol": "Atomsymbol",
     "element_name": "Navn",
