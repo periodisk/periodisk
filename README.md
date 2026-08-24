@@ -129,6 +129,12 @@ palette definitions with:
 PYTHONPATH=src python scripts/render_palette_preview.py
 ```
 
+Regenerate all committed English and Norwegian examples with:
+
+```console
+PYTHONPATH=src python scripts/render_examples.py
+```
+
 ## Scientific data
 
 Scientific data are stored locally as JSON. Runtime generation will therefore
