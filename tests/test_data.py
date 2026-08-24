@@ -4,6 +4,7 @@ import pytest
 
 from periodisk.data import (
     _validate_locale,
+    _validate_resource_root,
     load_elements,
     load_locale,
     load_sources,
@@ -189,3 +190,25 @@ def test_element_names_source_must_be_a_non_empty_string() -> None:
 def test_unknown_locale_is_rejected() -> None:
     with pytest.raises(ValueError, match="Unsupported locale"):
         load_locale("en_US")
+
+
+@pytest.mark.parametrize("resource", [[], {"schema": 999}, {"schema": "1"}])
+def test_resource_root_requires_supported_schema(resource: object) -> None:
+    with pytest.raises(ValueError, match="resource|schema"):
+        _validate_resource_root(resource, "test.json")
+
+
+def test_locale_element_name_source_must_be_registered(monkeypatch) -> None:
+    import periodisk.data as data_module
+
+    original_read_json = data_module._read_json
+
+    def read_json(relative_path: str) -> dict:
+        resource = deepcopy(original_read_json(relative_path))
+        if relative_path == "locales/en_GB.json":
+            resource["element_names_source"] = "missing-source"
+        return resource
+
+    monkeypatch.setattr(data_module, "_read_json", read_json)
+    with pytest.raises(ValueError, match="unknown element_names_source"):
+        load_locale("en_GB")

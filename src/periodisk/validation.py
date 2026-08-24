@@ -5,6 +5,7 @@ from __future__ import annotations
 import math
 from collections import Counter
 from collections.abc import Iterable, Mapping
+from decimal import Decimal, InvalidOperation
 
 from .models import IONISATION_ENERGY_UNIT, Element, Source
 from .settings import SUPPORTED_ELECTRONEGATIVITY_SCALES
@@ -38,6 +39,16 @@ def _is_number(value: object) -> bool:
         and not isinstance(value, bool)
         and math.isfinite(value)
     )
+
+
+def _is_positive_decimal_text(value: object) -> bool:
+    if not isinstance(value, str) or not value.strip():
+        return False
+    try:
+        number = Decimal(value)
+    except InvalidOperation:
+        return False
+    return number.is_finite() and number > 0
 
 
 def validate_dataset(
@@ -75,6 +86,8 @@ def validate_dataset(
             errors.append(f"{label}: group must be between 1 and 18 or null")
         if not 1 <= len(element.classifications) <= 2:
             errors.append(f"{label}: must have one or two classifications")
+        elif len(set(element.classifications)) != len(element.classifications):
+            errors.append(f"{label}: classifications must be unique")
         unknown = set(element.classifications) - CLASSIFICATIONS
         if unknown:
             errors.append(f"{label}: unknown classifications: {sorted(unknown)}")
@@ -105,6 +118,33 @@ def validate_dataset(
                 errors.append(
                     f"{label}: atomic-weight display must be a non-empty string"
                 )
+            elif kind == "abridged-standard":
+                value = element.atomic_weight.value.get("value")
+                uncertainty = element.atomic_weight.value.get("uncertainty")
+                if not _is_positive_decimal_text(value):
+                    errors.append(
+                        f"{label}: abridged atomic weight requires a positive "
+                        "decimal-string value"
+                    )
+                if not _is_positive_decimal_text(uncertainty):
+                    errors.append(
+                        f"{label}: abridged atomic weight requires a positive "
+                        "decimal-string uncertainty"
+                    )
+                if isinstance(value, str) and display != value:
+                    errors.append(
+                        f"{label}: abridged atomic-weight display must match value"
+                    )
+            elif kind == "mass-number":
+                value = element.atomic_weight.value.get("value")
+                if not _is_integer(value) or value <= 0:
+                    errors.append(
+                        f"{label}: mass-number atomic weight requires a positive integer"
+                    )
+                elif display != f"[{value}]":
+                    errors.append(
+                        f"{label}: mass-number display must be formatted as [{value}]"
+                    )
         unknown_scales = set(element.electronegativity) - set(
             SUPPORTED_ELECTRONEGATIVITY_SCALES
         )
@@ -128,6 +168,21 @@ def validate_dataset(
             for state in states[key]
         ):
             errors.append(f"{label}: oxidation states must be integers")
+        else:
+            main = states["main"]
+            additional = states["additional"]
+            if main != sorted(set(main)) or additional != sorted(set(additional)):
+                errors.append(
+                    f"{label}: oxidation-state groups must be sorted and unique"
+                )
+            if set(main) & set(additional):
+                errors.append(
+                    f"{label}: main and additional oxidation states must be disjoint"
+                )
+
+        configuration = element.electron_configuration.value
+        if not isinstance(configuration, str) or not configuration.strip():
+            errors.append(f"{label}: electron configuration must be a non-empty string")
 
         sourced_values = [
             element.atomic_weight,

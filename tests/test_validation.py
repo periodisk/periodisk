@@ -16,12 +16,18 @@ def element(*, unit: str = "kJ/mol", source: str = "test") -> Element:
         period=1,
         group=1,
         atomic_weight=SourcedValue(
-            value={"kind": "abridged-standard", "display": "1.0080"}, source=source
+            value={
+                "kind": "abridged-standard",
+                "value": "1.0080",
+                "uncertainty": "0.0002",
+                "display": "1.0080",
+            },
+            source=source,
         ),
         electronegativity={"pauling": SourcedValue(value=2.2, source=source)},
         first_ionisation_energy=SourcedValue(value=1312.0, source=source, unit=unit),
         oxidation_states=SourcedValue(
-            value={"main": [1, -1], "additional": []}, source=source
+            value={"main": [-1, 1], "additional": []}, source=source
         ),
         electron_configuration=sourced,
         has_no_stable_isotopes=SourcedValue(value=False, source=source),
@@ -115,3 +121,63 @@ def test_unknown_electronegativity_scale_is_rejected() -> None:
     )
     errors = validate_dataset([record], {"test": SOURCE})
     assert any("unknown electronegativity scales" in error for error in errors)
+
+
+@pytest.mark.parametrize(
+    "value",
+    [
+        {"kind": "mass-number", "display": "[1]"},
+        {"kind": "mass-number", "value": 1, "display": "1"},
+        {
+            "kind": "abridged-standard",
+            "value": "1.0080",
+            "display": "1.0080",
+        },
+        {
+            "kind": "abridged-standard",
+            "value": "not-a-number",
+            "uncertainty": "0.0002",
+            "display": "not-a-number",
+        },
+    ],
+)
+def test_atomic_weight_kind_requires_complete_consistent_fields(value: dict) -> None:
+    record = replace(
+        element(),
+        atomic_weight=SourcedValue(value=value, source="test"),
+    )
+    assert validate_dataset([record], {"test": SOURCE})
+
+
+def test_electron_configuration_must_be_non_empty() -> None:
+    record = replace(
+        element(),
+        electron_configuration=SourcedValue(value=None, source="test"),
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("electron configuration" in error for error in errors)
+
+
+def test_classifications_must_be_unique() -> None:
+    record = replace(
+        element(), classifications=("reactive-nonmetal", "reactive-nonmetal")
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("classifications must be unique" in error for error in errors)
+
+
+@pytest.mark.parametrize(
+    "states",
+    [
+        {"main": [1, -1], "additional": []},
+        {"main": [-1, 1], "additional": [1]},
+        {"main": [-1, -1, 1], "additional": []},
+    ],
+)
+def test_oxidation_state_groups_must_be_canonical(states: dict) -> None:
+    record = replace(
+        element(),
+        oxidation_states=SourcedValue(value=states, source="test"),
+    )
+    errors = validate_dataset([record], {"test": SOURCE})
+    assert any("oxidation" in error for error in errors)

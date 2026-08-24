@@ -9,6 +9,8 @@ from typing import Any
 from .models import Element, Source
 from .settings import SUPPORTED_ELECTRONEGATIVITY_SCALES, SUPPORTED_LOCALES
 
+RESOURCE_SCHEMA_VERSION = 1
+
 _REQUIRED_CLASSIFICATIONS = {
     "alkali-metal",
     "alkaline-earth-metal",
@@ -56,7 +58,21 @@ _REQUIRED_SOURCE_NOTES = {
 def _read_json(relative_path: str) -> dict[str, Any]:
     resource = files("periodisk").joinpath("resources", relative_path)
     with resource.open("r", encoding="utf-8") as stream:
-        return json.load(stream)
+        data = json.load(stream)
+    _validate_resource_root(data, relative_path)
+    return data
+
+
+def _validate_resource_root(resource: object, relative_path: str) -> None:
+    """Reject malformed or unsupported top-level resource formats."""
+
+    if not isinstance(resource, dict):
+        raise ValueError(f"{relative_path}: resource must be an object")
+    if resource.get("schema") != RESOURCE_SCHEMA_VERSION:
+        raise ValueError(
+            f"{relative_path}: unsupported resource schema "
+            f"{resource.get('schema')!r}; expected {RESOURCE_SCHEMA_VERSION}"
+        )
 
 
 def load_elements() -> tuple[Element, ...]:
@@ -77,6 +93,11 @@ def load_locale(locale: str) -> dict[str, Any]:
         raise ValueError(f"Unsupported locale: {locale}")
     resource = _read_json(f"locales/{locale}.json")
     _validate_locale(resource, locale)
+    source_id = resource["element_names_source"]
+    if source_id not in load_sources():
+        raise ValueError(
+            f"{locale}: unknown element_names_source identifier {source_id!r}"
+        )
     return resource
 
 
