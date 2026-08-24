@@ -187,9 +187,20 @@ def test_element_names_source_must_be_a_non_empty_string() -> None:
         _validate_locale(locale, "en_GB")
 
 
-def test_accessible_description_placeholders_are_validated() -> None:
+@pytest.mark.parametrize(
+    "template",
+    [
+        "A {paper_size} table",
+        "A {0} table",
+        "A {page_size} {1} table",
+        "A {page_size table",
+        "A table without a placeholder",
+        "A {{page_size}} table",
+    ],
+)
+def test_accessible_description_placeholders_are_validated(template: str) -> None:
     locale = deepcopy(load_locale("en_GB"))
-    locale["labels"]["accessible_description"] = "A {paper_size} table"
+    locale["labels"]["accessible_description"] = template
 
     with pytest.raises(ValueError, match="accessible_description"):
         _validate_locale(locale, "en_GB")
