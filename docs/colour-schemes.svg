@@ -712,10 +712,10 @@
     <title>broad-tol-light · actinide: #77AADD</title>
   </rect>
   <text x="1082.0" y="637" class="hex">#77AADD</text>
-  <rect x="1132" y="614" width="92" height="34" rx="3" fill="#DDDDDD" stroke="#333333" stroke-width="0.7">
-    <title>broad-tol-light · unknown-chemistry: #DDDDDD</title>
+  <rect x="1132" y="614" width="92" height="34" rx="3" fill="#FFFFFF" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-light · unknown-chemistry: #FFFFFF</title>
   </rect>
-  <text x="1178.0" y="637" class="hex">#DDDDDD</text>
+  <text x="1178.0" y="637" class="hex">#FFFFFF</text>
   <text x="12" y="674" class="scheme">broad-grey</text>
   <rect x="172" y="652" width="92" height="34" rx="3" fill="#FFFFFF" stroke="#333333" stroke-width="0.7">
     <title>broad-grey · alkali-metal: #FFFFFF</title>

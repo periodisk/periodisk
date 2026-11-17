@@ -266,7 +266,13 @@ def test_broad_tol_light_uses_tol_light_subset(tmp_path) -> None:
             classification="broad",
         )
     ).getroot()
-    expected = {"Fe": "#77AADD", "B": "#44BB99", "O": "#EE8866", "Ne": "#FFAABB"}
+    expected = {
+        "Fe": "#77AADD",
+        "B": "#44BB99",
+        "O": "#EE8866",
+        "Ne": "#FFAABB",
+        "Og": "#FFFFFF",
+    }
     for symbol, colour in expected.items():
         element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
         assert element is not None

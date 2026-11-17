@@ -184,7 +184,7 @@ PALETTES = {
         "noble-gas": "#FFAABB",
         "lanthanide": "#77AADD",
         "actinide": "#77AADD",
-        "unknown-chemistry": "#DDDDDD",
+        "unknown-chemistry": "#FFFFFF",
     },
     # Clearly separated neutral steps for black-and-white output. Metals, the
     # largest class, are white for maximum text contrast; incompletely
