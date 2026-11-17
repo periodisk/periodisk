@@ -1,0 +1,603 @@
+{
+  "$schema": "classifications.schema.json",
+  "schema": 1,
+  "locale": "nb_NO",
+  "reviewed_date": "2026-11-17",
+  "terms": [
+    {
+      "mode": "detailed",
+      "key": "alkali-metal",
+      "reviewed_term": "Alkalimetaller",
+      "decision": "retained",
+      "members": [
+        "Li",
+        "Na",
+        "K",
+        "Rb",
+        "Cs",
+        "Fr"
+      ],
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "alkalimetall",
+          "url": "https://naob.no/ordbok/alkalimetall"
+        },
+        {
+          "source": "bokmaalsordboka",
+          "entry": "alkalimetall",
+          "url": "https://ordbokene.no/bm/alkalimetall"
+        },
+        {
+          "source": "snl",
+          "entry": "alkalimetallene",
+          "url": "https://snl.no/alkalimetallene"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Term in BM and NAOB. Membership Li–Fr matches SNL and the Red Book."
+    },
+    {
+      "mode": "detailed",
+      "key": "alkaline-earth-metal",
+      "reviewed_term": "Jordalkalimetaller",
+      "decision": "retained",
+      "members": [
+        "Be",
+        "Mg",
+        "Ca",
+        "Sr",
+        "Ba",
+        "Ra"
+      ],
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "jordalkalimetall",
+          "url": "https://naob.no/ordbok/jordalkalimetall"
+        },
+        {
+          "source": "snl",
+          "entry": "jordalkalimetallene",
+          "url": "https://snl.no/jordalkalimetallene"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Jordalkalimetall",
+          "url": "https://no.wikipedia.org/wiki/Jordalkalimetall"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka"
+      ],
+      "notes": "Membership Be–Ra matches SNL and the Red Book."
+    },
+    {
+      "mode": "detailed",
+      "key": "transition-metal",
+      "reviewed_term": "Overgangsmetaller",
+      "decision": "retained",
+      "members": [
+        "Sc",
+        "Ti",
+        "V",
+        "Cr",
+        "Mn",
+        "Fe",
+        "Co",
+        "Ni",
+        "Cu",
+        "Zn",
+        "Y",
+        "Zr",
+        "Nb",
+        "Mo",
+        "Tc",
+        "Ru",
+        "Rh",
+        "Pd",
+        "Ag",
+        "Cd",
+        "Hf",
+        "Ta",
+        "W",
+        "Re",
+        "Os",
+        "Ir",
+        "Pt",
+        "Au",
+        "Hg",
+        "Rf",
+        "Db",
+        "Sg",
+        "Bh",
+        "Hs",
+        "Mt",
+        "Ds",
+        "Rg",
+        "Cn"
+      ],
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "overgangsmetall",
+          "url": "https://naob.no/ordbok/overgangsmetall"
+        },
+        {
+          "source": "naob",
+          "entry": "innskuddsmetall",
+          "url": "https://naob.no/ordbok/innskuddsmetall"
+        },
+        {
+          "source": "snl",
+          "entry": "innskuddsmetallene",
+          "url": "https://snl.no/innskuddsmetallene"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Innskuddsmetall",
+          "url": "https://no.wikipedia.org/wiki/Innskuddsmetall"
+        },
+        {
+          "source": "wikipedia-en",
+          "entry": "Transition metal",
+          "url": "https://en.wikipedia.org/wiki/Transition_metal"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        },
+        {
+          "source": "chebi",
+          "entry": "transition element atom (IUPAC Gold Book definition)",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:27081"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka"
+      ],
+      "notes": "Both overgangsmetall and innskuddsmetall are in NAOB. SNL and no.wikipedia title their articles innskuddsmetall(ene), but no.wikipedia opens with overgangsmetall and lists innskuddsmetall as a synonym; overgangsmetall is retained for now as the familiar form closest to transition metal. The Red Book allows groups 3–12, noting that group 12 is not always included; the Gold Book definition and SNL give groups 3–11. Groups 3–12 are retained."
+    },
+    {
+      "mode": "detailed",
+      "key": "post-transition-metal",
+      "reviewed_term": "Andre metaller",
+      "decision": "retained",
+      "members": [
+        "Al",
+        "Ga",
+        "In",
+        "Sn",
+        "Tl",
+        "Pb",
+        "Bi",
+        "Po",
+        "Nh",
+        "Fl",
+        "Mc",
+        "Lv"
+      ],
+      "sources": [
+        {
+          "source": "wikipedia-en",
+          "entry": "Post-transition metal",
+          "url": "https://en.wikipedia.org/wiki/Post-transition_metal"
+        }
+      ],
+      "not_listed": [
+        "snl",
+        "wikipedia-no"
+      ],
+      "notes": "Editorial label. IUPAC has no collective name; en.wikipedia lists 'other metals' among several competing names."
+    },
+    {
+      "mode": "detailed",
+      "key": "metalloid",
+      "reviewed_term": "Halvmetaller",
+      "decision": "retained",
+      "members": [
+        "B",
+        "Si",
+        "Ge",
+        "As",
+        "Sb",
+        "Te",
+        "Po",
+        "At"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "halvmetall",
+          "url": "https://ordbokene.no/bm/halvmetall"
+        },
+        {
+          "source": "naob",
+          "entry": "halvmetall",
+          "url": "https://naob.no/ordbok/halvmetall"
+        },
+        {
+          "source": "snl",
+          "entry": "halvmetaller",
+          "url": "https://snl.no/halvmetaller"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Halvmetall",
+          "url": "https://no.wikipedia.org/wiki/Halvmetall"
+        },
+        {
+          "source": "wikipedia-en",
+          "entry": "Metalloid",
+          "url": "https://en.wikipedia.org/wiki/Metalloid"
+        }
+      ],
+      "not_listed": [],
+      "notes": "BM marks metalloid as an older term. IUPAC defines no such category. B, Si, Ge, As, Sb and Te are commonly recognised; Po and At are less frequently included (en.wikipedia) but listed by no.wikipedia, so their split cells are retained."
+    },
+    {
+      "mode": "detailed",
+      "key": "reactive-nonmetal",
+      "reviewed_term": "Andre ikke-metaller",
+      "decision": "changed",
+      "previous_term": "Ikke-metaller",
+      "members": [
+        "H",
+        "C",
+        "N",
+        "O",
+        "P",
+        "S",
+        "Se"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "ikke-metall",
+          "url": "https://ordbokene.no/bm/ikke-metall"
+        },
+        {
+          "source": "naob",
+          "entry": "ikke-metall",
+          "url": "https://naob.no/ordbok/ikke-metall"
+        },
+        {
+          "source": "snl",
+          "entry": "ikke-metaller",
+          "url": "https://snl.no/ikke-metaller"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Ikke-metall",
+          "url": "https://no.wikipedia.org/wiki/Ikke-metall"
+        },
+        {
+          "source": "wikipedia-en",
+          "entry": "List of alternative nonmetal classes",
+          "url": "https://en.wikipedia.org/wiki/List_of_alternative_nonmetal_classes"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Previously Ikke-metaller. SNL, BM and no.wikipedia define ikke-metaller to include the halogens and noble gases, which have their own categories in detailed mode. The qualified label parallels Andre metaller. Broad mode keeps Ikke-metaller."
+    },
+    {
+      "mode": "detailed",
+      "key": "halogen",
+      "reviewed_term": "Halogener",
+      "decision": "retained",
+      "members": [
+        "F",
+        "Cl",
+        "Br",
+        "I",
+        "At",
+        "Ts"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "halogen",
+          "url": "https://ordbokene.no/bm/halogen"
+        },
+        {
+          "source": "naob",
+          "entry": "halogen",
+          "url": "https://naob.no/ordbok/halogen"
+        },
+        {
+          "source": "snl",
+          "entry": "halogenene",
+          "url": "https://snl.no/halogenene"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Halogen",
+          "url": "https://no.wikipedia.org/wiki/Halogen"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Membership F–Ts matches SNL and no.wikipedia; BM and the 2005 Red Book list F–At, predating the naming of Ts."
+    },
+    {
+      "mode": "detailed",
+      "key": "noble-gas",
+      "reviewed_term": "Edelgasser",
+      "decision": "retained",
+      "members": [
+        "He",
+        "Ne",
+        "Ar",
+        "Kr",
+        "Xe",
+        "Rn",
+        "Og"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "edelgass",
+          "url": "https://ordbokene.no/bm/edelgass"
+        },
+        {
+          "source": "naob",
+          "entry": "edelgass",
+          "url": "https://naob.no/ordbok/edelgass"
+        },
+        {
+          "source": "snl",
+          "entry": "edelgassene",
+          "url": "https://snl.no/edelgassene"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Edelgass",
+          "url": "https://no.wikipedia.org/wiki/Edelgass"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Membership He–Og matches SNL and no.wikipedia; the 2005 Red Book lists He–Rn, predating the naming of Og."
+    },
+    {
+      "mode": "detailed",
+      "key": "lanthanide",
+      "reviewed_term": "Lantanoider",
+      "decision": "retained",
+      "members": [
+        "La",
+        "Ce",
+        "Pr",
+        "Nd",
+        "Pm",
+        "Sm",
+        "Eu",
+        "Gd",
+        "Tb",
+        "Dy",
+        "Ho",
+        "Er",
+        "Tm",
+        "Yb",
+        "Lu"
+      ],
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "lantanoid",
+          "url": "https://naob.no/ordbok/lantanoid"
+        },
+        {
+          "source": "snl",
+          "entry": "lantanoidene",
+          "url": "https://snl.no/lantanoidene"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Lantanoid",
+          "url": "https://no.wikipedia.org/wiki/Lantanoid"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka"
+      ],
+      "notes": "The Red Book prefers lanthanoid to lanthanide and includes La by common usage, as do SNL and no.wikipedia."
+    },
+    {
+      "mode": "detailed",
+      "key": "actinide",
+      "reviewed_term": "Actinoider",
+      "decision": "retained",
+      "members": [
+        "Ac",
+        "Th",
+        "Pa",
+        "U",
+        "Np",
+        "Pu",
+        "Am",
+        "Cm",
+        "Bk",
+        "Cf",
+        "Es",
+        "Fm",
+        "Md",
+        "No",
+        "Lr"
+      ],
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "actinoid",
+          "url": "https://naob.no/ordbok/actinoid"
+        },
+        {
+          "source": "snl",
+          "entry": "actinoider",
+          "url": "https://snl.no/actinoider"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Actinoid",
+          "url": "https://no.wikipedia.org/wiki/Actinoid"
+        },
+        {
+          "source": "iupac-red-book-2005",
+          "entry": "IR-3.5, p. 51",
+          "url": "https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka"
+      ],
+      "notes": "Spelled after the element name actinium, as in SNL and NAOB; aktinoid has no NAOB entry. The Red Book includes Ac by common usage."
+    },
+    {
+      "mode": "broad",
+      "key": "transition-metal",
+      "reviewed_term": "Metaller",
+      "decision": "retained",
+      "includes": [
+        "alkali-metal",
+        "alkaline-earth-metal",
+        "transition-metal",
+        "post-transition-metal",
+        "lanthanide",
+        "actinide"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "metall",
+          "url": "https://ordbokene.no/bm/metall"
+        },
+        {
+          "source": "naob",
+          "entry": "metall",
+          "url": "https://naob.no/ordbok/metall_2"
+        },
+        {
+          "source": "snl",
+          "entry": "metall",
+          "url": "https://snl.no/metall"
+        },
+        {
+          "source": "wikipedia-no",
+          "entry": "Metall",
+          "url": "https://no.wikipedia.org/wiki/Metall"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Merges all metallic detailed categories."
+    },
+    {
+      "mode": "broad",
+      "key": "metalloid",
+      "reviewed_term": "Halvmetaller",
+      "decision": "retained",
+      "includes": [
+        "metalloid"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "halvmetall",
+          "url": "https://ordbokene.no/bm/halvmetall"
+        },
+        {
+          "source": "naob",
+          "entry": "halvmetall",
+          "url": "https://naob.no/ordbok/halvmetall"
+        },
+        {
+          "source": "snl",
+          "entry": "halvmetaller",
+          "url": "https://snl.no/halvmetaller"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Same scope as the detailed category."
+    },
+    {
+      "mode": "broad",
+      "key": "reactive-nonmetal",
+      "reviewed_term": "Ikke-metaller",
+      "decision": "retained",
+      "includes": [
+        "reactive-nonmetal",
+        "halogen"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "ikke-metall",
+          "url": "https://ordbokene.no/bm/ikke-metall"
+        },
+        {
+          "source": "naob",
+          "entry": "ikke-metall",
+          "url": "https://naob.no/ordbok/ikke-metall"
+        },
+        {
+          "source": "snl",
+          "entry": "ikke-metaller",
+          "url": "https://snl.no/ikke-metaller"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Includes the halogens, matching the dictionary sense more closely; noble gases remain separate."
+    },
+    {
+      "mode": "broad",
+      "key": "noble-gas",
+      "reviewed_term": "Edelgasser",
+      "decision": "retained",
+      "includes": [
+        "noble-gas"
+      ],
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "edelgass",
+          "url": "https://ordbokene.no/bm/edelgass"
+        },
+        {
+          "source": "naob",
+          "entry": "edelgass",
+          "url": "https://naob.no/ordbok/edelgass"
+        },
+        {
+          "source": "snl",
+          "entry": "edelgassene",
+          "url": "https://snl.no/edelgassene"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Same scope as the detailed category."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "classifications.schema.json",
+  "title": "Norwegian classification-term review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schema", "locale", "reviewed_date", "terms"],
+  "properties": {
+    "$schema": {
+      "const": "classifications.schema.json"
+    },
+    "schema": {
+      "const": 1
+    },
+    "locale": {
+      "const": "nb_NO"
+    },
+    "reviewed_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "terms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/term"
+      }
+    }
+  },
+  "$defs": {
+    "source_id": {
+      "enum": [
+        "naob",
+        "bokmaalsordboka",
+        "snl",
+        "iupac-red-book-2005",
+        "chebi",
+        "wikipedia-no",
+        "wikipedia-en"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "entry", "url"],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/source_id"
+        },
+        "entry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "key",
+        "reviewed_term",
+        "decision",
+        "sources",
+        "not_listed",
+        "notes"
+      ],
+      "properties": {
+        "mode": {
+          "enum": ["detailed", "broad"]
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": ["retained", "changed", "unresolved"]
+        },
+        "previous_term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][a-z]?$"
+          }
+        },
+        "includes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "not_listed": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/source_id"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "mode": { "const": "detailed" } }
+          },
+          "then": {
+            "required": ["members"],
+            "not": { "required": ["includes"] }
+          },
+          "else": {
+            "required": ["includes"],
+            "not": { "required": ["members"] }
+          }
+        },
+        {
+          "if": {
+            "properties": { "decision": { "const": "changed" } }
+          },
+          "then": {
+            "required": ["previous_term"]
+          },
+          "else": {
+            "not": { "required": ["previous_term"] }
+          }
+        }
+      ]
+    }
+  }
+}
