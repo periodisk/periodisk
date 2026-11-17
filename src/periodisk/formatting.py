@@ -41,7 +41,10 @@ def oxidation_states(element: Element, missing: str = "—") -> str:
         return missing
     if states == list(range(-4, 5)):
         return "−4…+4"
-    return " ".join(f"{state:+d}" if state else "0" for state in states)
+    # U+2212 MINUS SIGN, not a hyphen, matching the "−4…+4" range display.
+    return " ".join(
+        f"{state:+d}".replace("-", "\u2212") if state else "0" for state in states
+    )
 
 
 def electron_configuration(element: Element) -> str:

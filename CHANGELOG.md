@@ -7,6 +7,8 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 ## Unreleased
 
 - Added a sourced audit of all 118 Bokmål element names; every name was retained.
+- Corrected the Norwegian spelling of the actinoids (`Aktinoider`).
+- Used a true minus sign (−) for negative oxidation states in element cells.
 - Corrected leader alignment in the enlarged simplified element guide.
 - Strengthened scientific-resource and locale validation.
 - Localised SVG accessibility descriptions and language metadata.

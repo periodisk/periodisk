@@ -544,9 +544,10 @@ def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
     assert "separately licensed under MIT" in (metadata.text or "")
 
 
-def test_norwegian_uses_lantanoider_and_actinoider(tmp_path) -> None:
+def test_norwegian_uses_lantanoider_and_aktinoider(tmp_path) -> None:
     text = render_svg(tmp_path / "nb.svg", language="nb_NO").read_text(encoding="utf-8")
     assert "Lantanoider" in text
-    assert "Actinoider" in text
+    assert "Aktinoider" in text
+    assert "Actinoider" not in text
     assert "Lantanider" not in text
     assert "Aktinider" not in text

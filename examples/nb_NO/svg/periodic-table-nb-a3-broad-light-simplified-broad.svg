@@ -1314,7 +1314,7 @@
   <rect x="54.60" y="165.00" width="22.2" height="24.5" class="placeholder" />
   <text x="65.70" y="177.00" class="series-label" text-anchor="middle">89–103</text>
   <text x="52.60" y="211.00" class="series-label" text-anchor="end">Lantanoider</text>
-  <text x="52.60" y="235.50" class="series-label" text-anchor="end">Actinoider</text>
+  <text x="52.60" y="235.50" class="series-label" text-anchor="end">Aktinoider</text>
   <g transform="translate(136 42) scale(1.35)" class="uranium-guide">
     <g id="guide-U" data-z="92" data-classifications="actinide" data-chemistry-status="established">
       <rect x="0.00" y="0.00" width="22.2" height="24.5" fill="#A8CBEB" class="cell-fill category-transition-metal" />

@@ -17,3 +17,9 @@ def test_carbon_complete_integer_range_has_compact_display() -> None:
     carbon = next(element for element in load_elements() if element.symbol == "C")
     assert carbon.oxidation_states.value["main"] == list(range(-4, 5))
     assert oxidation_states(carbon) == "−4…+4"
+
+
+def test_negative_oxidation_states_use_true_minus_sign() -> None:
+    by_symbol = {element.symbol: element for element in load_elements()}
+    assert oxidation_states(by_symbol["H"]) == "\u22121 +1"
+    assert all("-" not in oxidation_states(element) for element in load_elements())
