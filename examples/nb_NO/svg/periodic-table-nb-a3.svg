@@ -1849,7 +1849,7 @@
   </g>
   <g class="legend-item" data-category="reactive-nonmetal">
     <rect x="340.2" y="251.0" width="8" height="5" fill="#BBCC33" class="legend-swatch" />
-    <text x="350.20" y="254.60" class="legend-label">Ikke-metaller</text>
+    <text x="350.20" y="254.60" class="legend-label">Andre ikke-metaller</text>
   </g>
   <g class="legend-item" data-category="halogen">
     <rect x="10.2" y="259.0" width="8" height="5" fill="#AAAA00" class="legend-swatch" />

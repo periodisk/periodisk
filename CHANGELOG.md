@@ -6,6 +6,9 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Renamed the detailed nonmetal category to `Andre ikke-metaller` and
+  `Other nonmetals`, since halogens and noble gases are also nonmetals; broad
+  mode keeps `Ikke-metaller` and `Nonmetals`.
 - Made incompletely characterised elements white in `broad-tol-light`, separating
   Og from the noble gases more clearly.
 - Added the `broad-grey` colour scheme for black-and-white printing.
