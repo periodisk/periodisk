@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review.schema.json",
+  "title": "Norwegian element-name review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schema", "locale", "reviewed_date", "elements"],
+  "properties": {
+    "$schema": {
+      "const": "review.schema.json"
+    },
+    "schema": {
+      "const": 1
+    },
+    "locale": {
+      "const": "nb_NO"
+    },
+    "reviewed_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "elements": {
+      "type": "array",
+      "minItems": 118,
+      "maxItems": 118,
+      "items": {
+        "$ref": "#/$defs/element"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headword", "url"],
+      "properties": {
+        "headword": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "element": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "atomic_number",
+        "symbol",
+        "reviewed_name",
+        "decision",
+        "sources",
+        "notes"
+      ],
+      "properties": {
+        "atomic_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 118
+        },
+        "symbol": {
+          "type": "string",
+          "pattern": "^[A-Z][a-z]?$"
+        },
+        "reviewed_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": ["retained", "changed", "unresolved"]
+        },
+        "sources": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "naob",
+            "bokmaalsordboka",
+            "nynorskordboka",
+            "snl"
+          ],
+          "properties": {
+            "naob": {
+              "$ref": "#/$defs/source"
+            },
+            "bokmaalsordboka": {
+              "$ref": "#/$defs/source"
+            },
+            "nynorskordboka": {
+              "$ref": "#/$defs/source"
+            },
+            "snl": {
+              "$ref": "#/$defs/source"
+            }
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

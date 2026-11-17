@@ -266,7 +266,13 @@ def test_broad_tol_light_uses_tol_light_subset(tmp_path) -> None:
             classification="broad",
         )
     ).getroot()
-    expected = {"Fe": "#77AADD", "B": "#44BB99", "O": "#EE8866", "Ne": "#FFAABB"}
+    expected = {
+        "Fe": "#77AADD",
+        "B": "#44BB99",
+        "O": "#EE8866",
+        "Ne": "#FFAABB",
+        "Og": "#FFFFFF",
+    }
     for symbol, colour in expected.items():
         element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
         assert element is not None
@@ -276,6 +282,37 @@ def test_broad_tol_light_uses_tol_light_subset(tmp_path) -> None:
             if node.attrib.get("class", "").startswith("cell-fill")
         )
         assert fill.attrib["fill"] == colour
+
+
+def test_broad_grey_uses_distinct_neutral_steps_per_broad_class(tmp_path) -> None:
+    root = ET.parse(
+        render_svg(
+            tmp_path / "broad-grey.svg",
+            colour_scheme="broad-grey",
+            classification="broad",
+        )
+    ).getroot()
+    expected = {
+        "Fe": "#FFFFFF",
+        "B": "#CCCCCC",
+        "O": "#B3B3B3",
+        "Ne": "#999999",
+        "Og": "#E6E6E6",
+    }
+    for symbol, colour in expected.items():
+        element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
+        assert element is not None
+        fill = next(
+            node
+            for node in element.findall(f"{{{SVG}}}rect")
+            if node.attrib.get("class", "").startswith("cell-fill")
+        )
+        assert fill.attrib["fill"] == colour
+
+    # Neutral greys survive black-and-white printing; each step must stay distinct.
+    levels = sorted({int(colour[1:3], 16) for colour in expected.values()})
+    assert all(colour[1:3] * 3 == colour[1:] for colour in expected.values())
+    assert all(b - a >= 25 for a, b in zip(levels, levels[1:], strict=False))
 
 
 def test_cell_styles_are_selectable_and_structurally_distinct(tmp_path) -> None:
@@ -545,8 +582,10 @@ def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
 
 
 def test_norwegian_uses_lantanoider_and_actinoider(tmp_path) -> None:
+    # SNL and NAOB spell the class after the element names lantan and actinium.
     text = render_svg(tmp_path / "nb.svg", language="nb_NO").read_text(encoding="utf-8")
     assert "Lantanoider" in text
     assert "Actinoider" in text
+    assert "Aktinoider" not in text
     assert "Lantanider" not in text
     assert "Aktinider" not in text

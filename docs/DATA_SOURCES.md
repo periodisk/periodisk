@@ -9,6 +9,8 @@ citations and access dates are kept in the
 [source registry](../src/periodisk/resources/sources.json).
 Oxidation-state selections and their supporting review notes are kept in the
 [curation worksheet](../curation/oxidation_states/review.json).
+The Norwegian element-name audit is kept in a separate
+[curation record](../curation/norwegian_terminology/review.json).
 
 The project's CC BY 4.0 content licence applies only to the project's original
 contributions. It does not grant rights in third-party source material. See
@@ -16,11 +18,11 @@ contributions. It does not grant rights in third-party source material. See
 
 Atomic numbers, symbols, periods, groups, and British English names follow the
 IUPAC periodic table dated 4 May 2022.[^iupac-table] Element names are stored
-once, in the corresponding locale resource. Bokmål names are a reviewed
-project list, with
-[Wikipedia](https://no.wikipedia.org/wiki/Periodesystemet),
-[Store norske leksikon](https://snl.no/periodesystemet), and
-[periodesystemet.no](https://www.periodesystemet.no/) used for comparison.
+once, in the corresponding locale resource. The Bokmål names were checked
+manually against Bokmålsordboka, NAOB, and Store norske leksikon. Corresponding
+Nynorskordboka headwords were recorded as supplementary information. The
+[complete audit](../curation/norwegian_terminology/REVIEW_TABLE.md) gives the
+resolved entry URLs and decisions for all 118 elements.
 
 ## Atomic weights
 

@@ -1,0 +1,2958 @@
+{
+  "$schema": "review.schema.json",
+  "schema": 1,
+  "locale": "nb_NO",
+  "reviewed_date": "2026-08-24",
+  "elements": [
+    {
+      "atomic_number": 1,
+      "symbol": "H",
+      "reviewed_name": "hydrogen",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "hydrogen",
+          "url": "https://naob.no/ordbok/hydrogen"
+        },
+        "bokmaalsordboka": {
+          "headword": "hydrogen",
+          "url": "https://ordbokene.no/bm/hydrogen"
+        },
+        "nynorskordboka": {
+          "headword": "hydrogen",
+          "url": "https://ordbokene.no/nn/hydrogen"
+        },
+        "snl": {
+          "headword": "hydrogen",
+          "url": "https://snl.no/hydrogen"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 2,
+      "symbol": "He",
+      "reviewed_name": "helium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "helium",
+          "url": "https://naob.no/ordbok/helium"
+        },
+        "bokmaalsordboka": {
+          "headword": "helium",
+          "url": "https://ordbokene.no/bm/helium"
+        },
+        "nynorskordboka": {
+          "headword": "helium",
+          "url": "https://ordbokene.no/nn/helium"
+        },
+        "snl": {
+          "headword": "helium",
+          "url": "https://snl.no/helium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 3,
+      "symbol": "Li",
+      "reviewed_name": "litium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "litium",
+          "url": "https://naob.no/ordbok/litium"
+        },
+        "bokmaalsordboka": {
+          "headword": "litium",
+          "url": "https://ordbokene.no/bm/litium"
+        },
+        "nynorskordboka": {
+          "headword": "litium",
+          "url": "https://ordbokene.no/nn/litium"
+        },
+        "snl": {
+          "headword": "litium",
+          "url": "https://snl.no/litium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 4,
+      "symbol": "Be",
+      "reviewed_name": "beryllium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "beryllium",
+          "url": "https://naob.no/ordbok/beryllium"
+        },
+        "bokmaalsordboka": {
+          "headword": "beryllium",
+          "url": "https://ordbokene.no/bm/beryllium"
+        },
+        "nynorskordboka": {
+          "headword": "beryllium",
+          "url": "https://ordbokene.no/nn/beryllium"
+        },
+        "snl": {
+          "headword": "beryllium",
+          "url": "https://snl.no/beryllium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 5,
+      "symbol": "B",
+      "reviewed_name": "bor",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "bor",
+          "url": "https://naob.no/ordbok/bor"
+        },
+        "bokmaalsordboka": {
+          "headword": "bor",
+          "url": "https://ordbokene.no/bm/bor"
+        },
+        "nynorskordboka": {
+          "headword": "bor",
+          "url": "https://ordbokene.no/nn/bor"
+        },
+        "snl": {
+          "headword": "bor",
+          "url": "https://snl.no/bor_-_grunnstoff"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 6,
+      "symbol": "C",
+      "reviewed_name": "karbon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "karbon",
+          "url": "https://naob.no/ordbok/karbon"
+        },
+        "bokmaalsordboka": {
+          "headword": "karbon",
+          "url": "https://ordbokene.no/bm/karbon"
+        },
+        "nynorskordboka": {
+          "headword": "karbon",
+          "url": "https://ordbokene.no/nn/karbon"
+        },
+        "snl": {
+          "headword": "karbon",
+          "url": "https://snl.no/karbon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 7,
+      "symbol": "N",
+      "reviewed_name": "nitrogen",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "nitrogen",
+          "url": "https://naob.no/ordbok/nitrogen"
+        },
+        "bokmaalsordboka": {
+          "headword": "nitrogen",
+          "url": "https://ordbokene.no/bm/nitrogen"
+        },
+        "nynorskordboka": {
+          "headword": "nitrogen",
+          "url": "https://ordbokene.no/nn/nitrogen"
+        },
+        "snl": {
+          "headword": "nitrogen",
+          "url": "https://snl.no/nitrogen"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 8,
+      "symbol": "O",
+      "reviewed_name": "oksygen",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "oksygen",
+          "url": "https://naob.no/ordbok/oksygen"
+        },
+        "bokmaalsordboka": {
+          "headword": "oksygen",
+          "url": "https://ordbokene.no/bm/oksygen"
+        },
+        "nynorskordboka": {
+          "headword": "oksygen",
+          "url": "https://ordbokene.no/nn/oksygen"
+        },
+        "snl": {
+          "headword": "oksygen",
+          "url": "https://snl.no/oksygen"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 9,
+      "symbol": "F",
+      "reviewed_name": "fluor",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "fluor",
+          "url": "https://naob.no/ordbok/fluor"
+        },
+        "bokmaalsordboka": {
+          "headword": "fluor",
+          "url": "https://ordbokene.no/bm/fluor"
+        },
+        "nynorskordboka": {
+          "headword": "fluor",
+          "url": "https://ordbokene.no/nn/fluor"
+        },
+        "snl": {
+          "headword": "fluor",
+          "url": "https://snl.no/fluor"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 10,
+      "symbol": "Ne",
+      "reviewed_name": "neon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "neon",
+          "url": "https://naob.no/ordbok/neon"
+        },
+        "bokmaalsordboka": {
+          "headword": "neon",
+          "url": "https://ordbokene.no/bm/neon"
+        },
+        "nynorskordboka": {
+          "headword": "neon",
+          "url": "https://ordbokene.no/nn/neon"
+        },
+        "snl": {
+          "headword": "neon",
+          "url": "https://snl.no/neon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 11,
+      "symbol": "Na",
+      "reviewed_name": "natrium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "natrium",
+          "url": "https://naob.no/ordbok/natrium"
+        },
+        "bokmaalsordboka": {
+          "headword": "natrium",
+          "url": "https://ordbokene.no/bm/natrium"
+        },
+        "nynorskordboka": {
+          "headword": "natrium",
+          "url": "https://ordbokene.no/nn/natrium"
+        },
+        "snl": {
+          "headword": "natrium",
+          "url": "https://snl.no/natrium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 12,
+      "symbol": "Mg",
+      "reviewed_name": "magnesium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "magnesium",
+          "url": "https://naob.no/ordbok/magnesium"
+        },
+        "bokmaalsordboka": {
+          "headword": "magnesium",
+          "url": "https://ordbokene.no/bm/magnesium"
+        },
+        "nynorskordboka": {
+          "headword": "magnesium",
+          "url": "https://ordbokene.no/nn/magnesium"
+        },
+        "snl": {
+          "headword": "magnesium",
+          "url": "https://snl.no/magnesium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 13,
+      "symbol": "Al",
+      "reviewed_name": "aluminium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "aluminium",
+          "url": "https://naob.no/ordbok/aluminium"
+        },
+        "bokmaalsordboka": {
+          "headword": "aluminium",
+          "url": "https://ordbokene.no/bm/aluminium"
+        },
+        "nynorskordboka": {
+          "headword": "aluminium",
+          "url": "https://ordbokene.no/nn/aluminium"
+        },
+        "snl": {
+          "headword": "aluminium",
+          "url": "https://snl.no/aluminium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 14,
+      "symbol": "Si",
+      "reviewed_name": "silisium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "silisium",
+          "url": "https://naob.no/ordbok/silisium"
+        },
+        "bokmaalsordboka": {
+          "headword": "silisium",
+          "url": "https://ordbokene.no/bm/silisium"
+        },
+        "nynorskordboka": {
+          "headword": "silisium",
+          "url": "https://ordbokene.no/nn/silisium"
+        },
+        "snl": {
+          "headword": "silisium",
+          "url": "https://snl.no/silisium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 15,
+      "symbol": "P",
+      "reviewed_name": "fosfor",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "fosfor",
+          "url": "https://naob.no/ordbok/fosfor"
+        },
+        "bokmaalsordboka": {
+          "headword": "fosfor",
+          "url": "https://ordbokene.no/bm/fosfor"
+        },
+        "nynorskordboka": {
+          "headword": "fosfor",
+          "url": "https://ordbokene.no/nn/fosfor"
+        },
+        "snl": {
+          "headword": "fosfor",
+          "url": "https://snl.no/fosfor"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 16,
+      "symbol": "S",
+      "reviewed_name": "svovel",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "svovel",
+          "url": "https://naob.no/ordbok/svovel"
+        },
+        "bokmaalsordboka": {
+          "headword": "svovel",
+          "url": "https://ordbokene.no/bm/svovel"
+        },
+        "nynorskordboka": {
+          "headword": "svovel",
+          "url": "https://ordbokene.no/nn/svovel"
+        },
+        "snl": {
+          "headword": "svovel",
+          "url": "https://snl.no/svovel"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 17,
+      "symbol": "Cl",
+      "reviewed_name": "klor",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "klor",
+          "url": "https://naob.no/ordbok/klor"
+        },
+        "bokmaalsordboka": {
+          "headword": "klor",
+          "url": "https://ordbokene.no/bm/klor"
+        },
+        "nynorskordboka": {
+          "headword": "klor",
+          "url": "https://ordbokene.no/nn/klor"
+        },
+        "snl": {
+          "headword": "klor",
+          "url": "https://snl.no/klor"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 18,
+      "symbol": "Ar",
+      "reviewed_name": "argon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "argon",
+          "url": "https://naob.no/ordbok/argon"
+        },
+        "bokmaalsordboka": {
+          "headword": "argon",
+          "url": "https://ordbokene.no/bm/argon"
+        },
+        "nynorskordboka": {
+          "headword": "argon",
+          "url": "https://ordbokene.no/nn/argon"
+        },
+        "snl": {
+          "headword": "argon",
+          "url": "https://snl.no/argon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 19,
+      "symbol": "K",
+      "reviewed_name": "kalium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kalium",
+          "url": "https://naob.no/ordbok/kalium"
+        },
+        "bokmaalsordboka": {
+          "headword": "kalium",
+          "url": "https://ordbokene.no/bm/kalium"
+        },
+        "nynorskordboka": {
+          "headword": "kalium",
+          "url": "https://ordbokene.no/nn/kalium"
+        },
+        "snl": {
+          "headword": "kalium",
+          "url": "https://snl.no/kalium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 20,
+      "symbol": "Ca",
+      "reviewed_name": "kalsium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kalsium",
+          "url": "https://naob.no/ordbok/kalsium"
+        },
+        "bokmaalsordboka": {
+          "headword": "kalsium",
+          "url": "https://ordbokene.no/bm/kalsium"
+        },
+        "nynorskordboka": {
+          "headword": "kalsium",
+          "url": "https://ordbokene.no/nn/kalsium"
+        },
+        "snl": {
+          "headword": "kalsium",
+          "url": "https://snl.no/kalsium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 21,
+      "symbol": "Sc",
+      "reviewed_name": "scandium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "scandium",
+          "url": "https://naob.no/ordbok/scandium"
+        },
+        "bokmaalsordboka": {
+          "headword": "scandium",
+          "url": "https://ordbokene.no/bm/scandium"
+        },
+        "nynorskordboka": {
+          "headword": "scandium",
+          "url": "https://ordbokene.no/nn/scandium"
+        },
+        "snl": {
+          "headword": "scandium",
+          "url": "https://snl.no/scandium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 22,
+      "symbol": "Ti",
+      "reviewed_name": "titan",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "titan",
+          "url": "https://naob.no/ordbok/titan"
+        },
+        "bokmaalsordboka": {
+          "headword": "titan",
+          "url": "https://ordbokene.no/bm/titan"
+        },
+        "nynorskordboka": {
+          "headword": "titan",
+          "url": "https://ordbokene.no/nn/titan"
+        },
+        "snl": {
+          "headword": "titan",
+          "url": "https://snl.no/titan"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 23,
+      "symbol": "V",
+      "reviewed_name": "vanadium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "vanadium",
+          "url": "https://naob.no/ordbok/vanadium"
+        },
+        "bokmaalsordboka": {
+          "headword": "vanadium",
+          "url": "https://ordbokene.no/bm/vanadium"
+        },
+        "nynorskordboka": {
+          "headword": "vanadium",
+          "url": "https://ordbokene.no/nn/vanadium"
+        },
+        "snl": {
+          "headword": "vanadium",
+          "url": "https://snl.no/vanadium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 24,
+      "symbol": "Cr",
+      "reviewed_name": "krom",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "krom",
+          "url": "https://naob.no/ordbok/krom"
+        },
+        "bokmaalsordboka": {
+          "headword": "krom",
+          "url": "https://ordbokene.no/bm/krom"
+        },
+        "nynorskordboka": {
+          "headword": "krom",
+          "url": "https://ordbokene.no/nn/krom"
+        },
+        "snl": {
+          "headword": "krom",
+          "url": "https://snl.no/krom"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 25,
+      "symbol": "Mn",
+      "reviewed_name": "mangan",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "mangan",
+          "url": "https://naob.no/ordbok/mangan"
+        },
+        "bokmaalsordboka": {
+          "headword": "mangan",
+          "url": "https://ordbokene.no/bm/mangan"
+        },
+        "nynorskordboka": {
+          "headword": "mangan",
+          "url": "https://ordbokene.no/nn/mangan"
+        },
+        "snl": {
+          "headword": "mangan",
+          "url": "https://snl.no/mangan"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 26,
+      "symbol": "Fe",
+      "reviewed_name": "jern",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "jern",
+          "url": "https://naob.no/ordbok/jern"
+        },
+        "bokmaalsordboka": {
+          "headword": "jern",
+          "url": "https://ordbokene.no/bm/jern"
+        },
+        "nynorskordboka": {
+          "headword": "jern",
+          "url": "https://ordbokene.no/nn/jern"
+        },
+        "snl": {
+          "headword": "jern",
+          "url": "https://snl.no/jern"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 27,
+      "symbol": "Co",
+      "reviewed_name": "kobolt",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kobolt",
+          "url": "https://naob.no/ordbok/kobolt"
+        },
+        "bokmaalsordboka": {
+          "headword": "kobolt",
+          "url": "https://ordbokene.no/bm/kobolt"
+        },
+        "nynorskordboka": {
+          "headword": "kobolt",
+          "url": "https://ordbokene.no/nn/kobolt"
+        },
+        "snl": {
+          "headword": "kobolt",
+          "url": "https://snl.no/kobolt"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 28,
+      "symbol": "Ni",
+      "reviewed_name": "nikkel",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "nikkel",
+          "url": "https://naob.no/ordbok/nikkel"
+        },
+        "bokmaalsordboka": {
+          "headword": "nikkel",
+          "url": "https://ordbokene.no/bm/nikkel"
+        },
+        "nynorskordboka": {
+          "headword": "nikkel",
+          "url": "https://ordbokene.no/nn/nikkel"
+        },
+        "snl": {
+          "headword": "nikkel",
+          "url": "https://snl.no/nikkel"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 29,
+      "symbol": "Cu",
+      "reviewed_name": "kobber",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kobber",
+          "url": "https://naob.no/ordbok/kobber"
+        },
+        "bokmaalsordboka": {
+          "headword": "kobber",
+          "url": "https://ordbokene.no/bm/kobber"
+        },
+        "nynorskordboka": {
+          "headword": "kopar",
+          "url": "https://ordbokene.no/nob/nn/kopar"
+        },
+        "snl": {
+          "headword": "kobber",
+          "url": "https://snl.no/kobber"
+        }
+      },
+      "notes": "Nynorsk: kopar."
+    },
+    {
+      "atomic_number": 30,
+      "symbol": "Zn",
+      "reviewed_name": "sink",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "sink",
+          "url": "https://naob.no/ordbok/sink"
+        },
+        "bokmaalsordboka": {
+          "headword": "sink",
+          "url": "https://ordbokene.no/bm/sink"
+        },
+        "nynorskordboka": {
+          "headword": "sink",
+          "url": "https://ordbokene.no/nn/sink"
+        },
+        "snl": {
+          "headword": "sink",
+          "url": "https://snl.no/sink"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 31,
+      "symbol": "Ga",
+      "reviewed_name": "gallium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "gallium",
+          "url": "https://naob.no/ordbok/gallium"
+        },
+        "bokmaalsordboka": {
+          "headword": "gallium",
+          "url": "https://ordbokene.no/bm/gallium"
+        },
+        "nynorskordboka": {
+          "headword": "gallium",
+          "url": "https://ordbokene.no/nn/gallium"
+        },
+        "snl": {
+          "headword": "gallium",
+          "url": "https://snl.no/gallium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 32,
+      "symbol": "Ge",
+      "reviewed_name": "germanium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "germanium",
+          "url": "https://naob.no/ordbok/germanium"
+        },
+        "bokmaalsordboka": {
+          "headword": "germanium",
+          "url": "https://ordbokene.no/bm/germanium"
+        },
+        "nynorskordboka": {
+          "headword": "germanium",
+          "url": "https://ordbokene.no/nn/germanium"
+        },
+        "snl": {
+          "headword": "germanium",
+          "url": "https://snl.no/germanium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 33,
+      "symbol": "As",
+      "reviewed_name": "arsen",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "arsen",
+          "url": "https://naob.no/ordbok/arsen"
+        },
+        "bokmaalsordboka": {
+          "headword": "arsen",
+          "url": "https://ordbokene.no/bm/arsen"
+        },
+        "nynorskordboka": {
+          "headword": "arsen",
+          "url": "https://ordbokene.no/nn/arsen"
+        },
+        "snl": {
+          "headword": "arsen",
+          "url": "https://snl.no/arsen"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 34,
+      "symbol": "Se",
+      "reviewed_name": "selen",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "selen",
+          "url": "https://naob.no/ordbok/selen"
+        },
+        "bokmaalsordboka": {
+          "headword": "selen",
+          "url": "https://ordbokene.no/bm/selen"
+        },
+        "nynorskordboka": {
+          "headword": "selen",
+          "url": "https://ordbokene.no/nn/selen"
+        },
+        "snl": {
+          "headword": "selen",
+          "url": "https://snl.no/selen"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 35,
+      "symbol": "Br",
+      "reviewed_name": "brom",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "brom",
+          "url": "https://naob.no/ordbok/brom_2"
+        },
+        "bokmaalsordboka": {
+          "headword": "brom",
+          "url": "https://ordbokene.no/bm/brom"
+        },
+        "nynorskordboka": {
+          "headword": "brom",
+          "url": "https://ordbokene.no/nn/brom"
+        },
+        "snl": {
+          "headword": "brom",
+          "url": "https://snl.no/brom"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 36,
+      "symbol": "Kr",
+      "reviewed_name": "krypton",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "krypton",
+          "url": "https://naob.no/ordbok/krypton"
+        },
+        "bokmaalsordboka": {
+          "headword": "krypton",
+          "url": "https://ordbokene.no/bm/krypton"
+        },
+        "nynorskordboka": {
+          "headword": "krypton",
+          "url": "https://ordbokene.no/nn/krypton"
+        },
+        "snl": {
+          "headword": "krypton",
+          "url": "https://snl.no/krypton"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 37,
+      "symbol": "Rb",
+      "reviewed_name": "rubidium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "rubidium",
+          "url": "https://naob.no/ordbok/rubidium"
+        },
+        "bokmaalsordboka": {
+          "headword": "rubidium",
+          "url": "https://ordbokene.no/bm/rubidium"
+        },
+        "nynorskordboka": {
+          "headword": "rubidium",
+          "url": "https://ordbokene.no/nn/rubidium"
+        },
+        "snl": {
+          "headword": "rubidium",
+          "url": "https://snl.no/rubidium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 38,
+      "symbol": "Sr",
+      "reviewed_name": "strontium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "strontium",
+          "url": "https://naob.no/ordbok/strontium"
+        },
+        "bokmaalsordboka": {
+          "headword": "strontium",
+          "url": "https://ordbokene.no/bm/strontium"
+        },
+        "nynorskordboka": {
+          "headword": "strontium",
+          "url": "https://ordbokene.no/nn/strontium"
+        },
+        "snl": {
+          "headword": "strontium",
+          "url": "https://snl.no/strontium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 39,
+      "symbol": "Y",
+      "reviewed_name": "yttrium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "yttrium",
+          "url": "https://naob.no/ordbok/yttrium"
+        },
+        "bokmaalsordboka": {
+          "headword": "yttrium",
+          "url": "https://ordbokene.no/bm/yttrium"
+        },
+        "nynorskordboka": {
+          "headword": "yttrium",
+          "url": "https://ordbokene.no/nn/yttrium"
+        },
+        "snl": {
+          "headword": "yttrium",
+          "url": "https://snl.no/yttrium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 40,
+      "symbol": "Zr",
+      "reviewed_name": "zirkonium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "zirkonium",
+          "url": "https://naob.no/ordbok/zirkonium"
+        },
+        "bokmaalsordboka": {
+          "headword": "zirkonium",
+          "url": "https://ordbokene.no/bm/zirkonium"
+        },
+        "nynorskordboka": {
+          "headword": "zirkonium",
+          "url": "https://ordbokene.no/nn/zirkonium"
+        },
+        "snl": {
+          "headword": "zirkonium",
+          "url": "https://snl.no/zirkonium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 41,
+      "symbol": "Nb",
+      "reviewed_name": "niob",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "niob",
+          "url": "https://naob.no/ordbok/niob"
+        },
+        "bokmaalsordboka": {
+          "headword": "niob",
+          "url": "https://ordbokene.no/bm/niob"
+        },
+        "nynorskordboka": {
+          "headword": "niob",
+          "url": "https://ordbokene.no/nn/niob"
+        },
+        "snl": {
+          "headword": "niob",
+          "url": "https://snl.no/niob"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 42,
+      "symbol": "Mo",
+      "reviewed_name": "molybden",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "molybden",
+          "url": "https://naob.no/ordbok/molybden"
+        },
+        "bokmaalsordboka": {
+          "headword": "molybden",
+          "url": "https://ordbokene.no/bm/molybden"
+        },
+        "nynorskordboka": {
+          "headword": "molybden",
+          "url": "https://ordbokene.no/nn/molybden"
+        },
+        "snl": {
+          "headword": "molybden",
+          "url": "https://snl.no/molybden"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 43,
+      "symbol": "Tc",
+      "reviewed_name": "technetium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "technetium",
+          "url": "https://naob.no/ordbok/technetium"
+        },
+        "bokmaalsordboka": {
+          "headword": "technetium",
+          "url": "https://ordbokene.no/bm/technetium"
+        },
+        "nynorskordboka": {
+          "headword": "technetium",
+          "url": "https://ordbokene.no/nn/technetium"
+        },
+        "snl": {
+          "headword": "technetium",
+          "url": "https://snl.no/technetium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 44,
+      "symbol": "Ru",
+      "reviewed_name": "ruthenium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "ruthenium",
+          "url": "https://naob.no/ordbok/ruthenium"
+        },
+        "bokmaalsordboka": {
+          "headword": "ruthenium",
+          "url": "https://ordbokene.no/bm/ruthenium"
+        },
+        "nynorskordboka": {
+          "headword": "ruthenium",
+          "url": "https://ordbokene.no/nn/ruthenium"
+        },
+        "snl": {
+          "headword": "ruthenium",
+          "url": "https://snl.no/ruthenium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 45,
+      "symbol": "Rh",
+      "reviewed_name": "rhodium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "rhodium",
+          "url": "https://naob.no/ordbok/rhodium"
+        },
+        "bokmaalsordboka": {
+          "headword": "rhodium",
+          "url": "https://ordbokene.no/bm/rhodium"
+        },
+        "nynorskordboka": {
+          "headword": "rhodium",
+          "url": "https://ordbokene.no/nn/rhodium"
+        },
+        "snl": {
+          "headword": "rhodium",
+          "url": "https://snl.no/rhodium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 46,
+      "symbol": "Pd",
+      "reviewed_name": "palladium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "palladium",
+          "url": "https://naob.no/ordbok/palladium_1"
+        },
+        "bokmaalsordboka": {
+          "headword": "palladium",
+          "url": "https://ordbokene.no/bm/palladium"
+        },
+        "nynorskordboka": {
+          "headword": "palladium",
+          "url": "https://ordbokene.no/nn/palladium"
+        },
+        "snl": {
+          "headword": "palladium",
+          "url": "https://snl.no/palladium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 47,
+      "symbol": "Ag",
+      "reviewed_name": "sølv",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "sølv",
+          "url": "https://naob.no/ordbok/s%C3%B8lv_1"
+        },
+        "bokmaalsordboka": {
+          "headword": "sølv",
+          "url": "https://ordbokene.no/bm/s%C3%B8lv"
+        },
+        "nynorskordboka": {
+          "headword": "sølv",
+          "url": "https://ordbokene.no/nn/s%C3%B8lv"
+        },
+        "snl": {
+          "headword": "sølv",
+          "url": "https://snl.no/s%C3%B8lv"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 48,
+      "symbol": "Cd",
+      "reviewed_name": "kadmium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kadmium",
+          "url": "https://naob.no/ordbok/kadmium"
+        },
+        "bokmaalsordboka": {
+          "headword": "kadmium",
+          "url": "https://ordbokene.no/bm/kadmium"
+        },
+        "nynorskordboka": {
+          "headword": "kadmium",
+          "url": "https://ordbokene.no/nn/kadmium"
+        },
+        "snl": {
+          "headword": "kadmium",
+          "url": "https://snl.no/kadmium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 49,
+      "symbol": "In",
+      "reviewed_name": "indium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "indium",
+          "url": "https://naob.no/ordbok/indium"
+        },
+        "bokmaalsordboka": {
+          "headword": "indium",
+          "url": "https://ordbokene.no/bm/indium"
+        },
+        "nynorskordboka": {
+          "headword": "indium",
+          "url": "https://ordbokene.no/nn/indium"
+        },
+        "snl": {
+          "headword": "indium",
+          "url": "https://snl.no/indium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 50,
+      "symbol": "Sn",
+      "reviewed_name": "tinn",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "tinn",
+          "url": "https://naob.no/ordbok/tinn"
+        },
+        "bokmaalsordboka": {
+          "headword": "tinn",
+          "url": "https://ordbokene.no/bm/tinn"
+        },
+        "nynorskordboka": {
+          "headword": "tinn",
+          "url": "https://ordbokene.no/nn/tinn"
+        },
+        "snl": {
+          "headword": "tinn",
+          "url": "https://snl.no/tinn"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 51,
+      "symbol": "Sb",
+      "reviewed_name": "antimon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "antimon",
+          "url": "https://naob.no/ordbok/antimon"
+        },
+        "bokmaalsordboka": {
+          "headword": "antimon",
+          "url": "https://ordbokene.no/bm/antimon"
+        },
+        "nynorskordboka": {
+          "headword": "antimon",
+          "url": "https://ordbokene.no/nn/antimon"
+        },
+        "snl": {
+          "headword": "antimon",
+          "url": "https://snl.no/antimon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 52,
+      "symbol": "Te",
+      "reviewed_name": "tellur",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "tellur",
+          "url": "https://naob.no/ordbok/tellur"
+        },
+        "bokmaalsordboka": {
+          "headword": "tellur",
+          "url": "https://ordbokene.no/bm/tellur"
+        },
+        "nynorskordboka": {
+          "headword": "tellur",
+          "url": "https://ordbokene.no/nn/tellur"
+        },
+        "snl": {
+          "headword": "tellur",
+          "url": "https://snl.no/tellur"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 53,
+      "symbol": "I",
+      "reviewed_name": "jod",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "jod",
+          "url": "https://naob.no/ordbok/jod"
+        },
+        "bokmaalsordboka": {
+          "headword": "jod",
+          "url": "https://ordbokene.no/bm/jod"
+        },
+        "nynorskordboka": {
+          "headword": "jod",
+          "url": "https://ordbokene.no/nn/jod"
+        },
+        "snl": {
+          "headword": "jod",
+          "url": "https://snl.no/jod"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 54,
+      "symbol": "Xe",
+      "reviewed_name": "xenon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "xenon",
+          "url": "https://naob.no/ordbok/xenon"
+        },
+        "bokmaalsordboka": {
+          "headword": "xenon",
+          "url": "https://ordbokene.no/bm/xenon"
+        },
+        "nynorskordboka": {
+          "headword": "xenon",
+          "url": "https://ordbokene.no/nn/xenon"
+        },
+        "snl": {
+          "headword": "xenon",
+          "url": "https://snl.no/xenon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 55,
+      "symbol": "Cs",
+      "reviewed_name": "cesium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "cesium",
+          "url": "https://naob.no/ordbok/cesium"
+        },
+        "bokmaalsordboka": {
+          "headword": "cesium",
+          "url": "https://ordbokene.no/bm/cesium"
+        },
+        "nynorskordboka": {
+          "headword": "cesium",
+          "url": "https://ordbokene.no/nn/cesium"
+        },
+        "snl": {
+          "headword": "cesium",
+          "url": "https://snl.no/cesium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 56,
+      "symbol": "Ba",
+      "reviewed_name": "barium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "barium",
+          "url": "https://naob.no/ordbok/barium"
+        },
+        "bokmaalsordboka": {
+          "headword": "barium",
+          "url": "https://ordbokene.no/bm/barium"
+        },
+        "nynorskordboka": {
+          "headword": "barium",
+          "url": "https://ordbokene.no/nn/barium"
+        },
+        "snl": {
+          "headword": "barium",
+          "url": "https://snl.no/barium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 57,
+      "symbol": "La",
+      "reviewed_name": "lantan",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "lantan",
+          "url": "https://naob.no/ordbok/lantan"
+        },
+        "bokmaalsordboka": {
+          "headword": "lantan",
+          "url": "https://ordbokene.no/bm/lantan"
+        },
+        "nynorskordboka": {
+          "headword": "lantan",
+          "url": "https://ordbokene.no/nn/lantan"
+        },
+        "snl": {
+          "headword": "lantan",
+          "url": "https://snl.no/lantan"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 58,
+      "symbol": "Ce",
+      "reviewed_name": "cerium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "cerium",
+          "url": "https://naob.no/ordbok/cerium"
+        },
+        "bokmaalsordboka": {
+          "headword": "cerium",
+          "url": "https://ordbokene.no/bm/cerium"
+        },
+        "nynorskordboka": {
+          "headword": "cerium",
+          "url": "https://ordbokene.no/nn/cerium"
+        },
+        "snl": {
+          "headword": "cerium",
+          "url": "https://snl.no/cerium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 59,
+      "symbol": "Pr",
+      "reviewed_name": "praseodym",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "praseodym",
+          "url": "https://naob.no/ordbok/praseodym"
+        },
+        "bokmaalsordboka": {
+          "headword": "praseodym",
+          "url": "https://ordbokene.no/bm/praseodym"
+        },
+        "nynorskordboka": {
+          "headword": "praseodym",
+          "url": "https://ordbokene.no/nn/praseodym"
+        },
+        "snl": {
+          "headword": "praseodym",
+          "url": "https://snl.no/praseodym"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 60,
+      "symbol": "Nd",
+      "reviewed_name": "neodym",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "neodym",
+          "url": "https://naob.no/ordbok/neodym"
+        },
+        "bokmaalsordboka": {
+          "headword": "neodym",
+          "url": "https://ordbokene.no/bm/neodym"
+        },
+        "nynorskordboka": {
+          "headword": "neodym",
+          "url": "https://ordbokene.no/nn/neodym"
+        },
+        "snl": {
+          "headword": "neodym",
+          "url": "https://snl.no/neodym"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 61,
+      "symbol": "Pm",
+      "reviewed_name": "promethium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "promethium",
+          "url": "https://naob.no/ordbok/promethium"
+        },
+        "bokmaalsordboka": {
+          "headword": "promethium",
+          "url": "https://ordbokene.no/bm/promethium"
+        },
+        "nynorskordboka": {
+          "headword": "promethium",
+          "url": "https://ordbokene.no/nn/promethium"
+        },
+        "snl": {
+          "headword": "promethium",
+          "url": "https://snl.no/promethium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 62,
+      "symbol": "Sm",
+      "reviewed_name": "samarium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "samarium",
+          "url": "https://naob.no/ordbok/samarium"
+        },
+        "bokmaalsordboka": {
+          "headword": "samarium",
+          "url": "https://ordbokene.no/bm/samarium"
+        },
+        "nynorskordboka": {
+          "headword": "samarium",
+          "url": "https://ordbokene.no/nn/samarium"
+        },
+        "snl": {
+          "headword": "samarium",
+          "url": "https://snl.no/samarium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 63,
+      "symbol": "Eu",
+      "reviewed_name": "europium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "europium",
+          "url": "https://naob.no/ordbok/europium"
+        },
+        "bokmaalsordboka": {
+          "headword": "europium",
+          "url": "https://ordbokene.no/bm/europium"
+        },
+        "nynorskordboka": {
+          "headword": "europium",
+          "url": "https://ordbokene.no/nn/europium"
+        },
+        "snl": {
+          "headword": "europium",
+          "url": "https://snl.no/europium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 64,
+      "symbol": "Gd",
+      "reviewed_name": "gadolinium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "gadolinium",
+          "url": "https://naob.no/ordbok/gadolinium"
+        },
+        "bokmaalsordboka": {
+          "headword": "gadolinium",
+          "url": "https://ordbokene.no/bm/gadolinium"
+        },
+        "nynorskordboka": {
+          "headword": "gadolinium",
+          "url": "https://ordbokene.no/nn/gadolinium"
+        },
+        "snl": {
+          "headword": "gadolinium",
+          "url": "https://snl.no/gadolinium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 65,
+      "symbol": "Tb",
+      "reviewed_name": "terbium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "terbium",
+          "url": "https://naob.no/ordbok/terbium"
+        },
+        "bokmaalsordboka": {
+          "headword": "terbium",
+          "url": "https://ordbokene.no/bm/terbium"
+        },
+        "nynorskordboka": {
+          "headword": "terbium",
+          "url": "https://ordbokene.no/nn/terbium"
+        },
+        "snl": {
+          "headword": "terbium",
+          "url": "https://snl.no/terbium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 66,
+      "symbol": "Dy",
+      "reviewed_name": "dysprosium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "dysprosium",
+          "url": "https://naob.no/ordbok/dysprosium"
+        },
+        "bokmaalsordboka": {
+          "headword": "dysprosium",
+          "url": "https://ordbokene.no/bm/dysprosium"
+        },
+        "nynorskordboka": {
+          "headword": "dysprosium",
+          "url": "https://ordbokene.no/nn/dysprosium"
+        },
+        "snl": {
+          "headword": "dysprosium",
+          "url": "https://snl.no/dysprosium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 67,
+      "symbol": "Ho",
+      "reviewed_name": "holmium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "holmium",
+          "url": "https://naob.no/ordbok/holmium"
+        },
+        "bokmaalsordboka": {
+          "headword": "holmium",
+          "url": "https://ordbokene.no/bm/holmium"
+        },
+        "nynorskordboka": {
+          "headword": "holmium",
+          "url": "https://ordbokene.no/nn/holmium"
+        },
+        "snl": {
+          "headword": "holmium",
+          "url": "https://snl.no/holmium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 68,
+      "symbol": "Er",
+      "reviewed_name": "erbium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "erbium",
+          "url": "https://naob.no/ordbok/erbium"
+        },
+        "bokmaalsordboka": {
+          "headword": "erbium",
+          "url": "https://ordbokene.no/bm/erbium"
+        },
+        "nynorskordboka": {
+          "headword": "erbium",
+          "url": "https://ordbokene.no/nn/erbium"
+        },
+        "snl": {
+          "headword": "erbium",
+          "url": "https://snl.no/erbium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 69,
+      "symbol": "Tm",
+      "reviewed_name": "thulium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "thulium",
+          "url": "https://naob.no/ordbok/thulium"
+        },
+        "bokmaalsordboka": {
+          "headword": "thulium",
+          "url": "https://ordbokene.no/bm/thulium"
+        },
+        "nynorskordboka": {
+          "headword": "thulium",
+          "url": "https://ordbokene.no/nn/thulium"
+        },
+        "snl": {
+          "headword": "thulium",
+          "url": "https://snl.no/thulium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 70,
+      "symbol": "Yb",
+      "reviewed_name": "ytterbium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "ytterbium",
+          "url": "https://naob.no/ordbok/ytterbium"
+        },
+        "bokmaalsordboka": {
+          "headword": "ytterbium",
+          "url": "https://ordbokene.no/bm/ytterbium"
+        },
+        "nynorskordboka": {
+          "headword": "ytterbium",
+          "url": "https://ordbokene.no/nn/ytterbium"
+        },
+        "snl": {
+          "headword": "ytterbium",
+          "url": "https://snl.no/ytterbium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 71,
+      "symbol": "Lu",
+      "reviewed_name": "lutetium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "lutetium",
+          "url": "https://naob.no/ordbok/lutetium"
+        },
+        "bokmaalsordboka": {
+          "headword": "lutetium",
+          "url": "https://ordbokene.no/bm/lutetium"
+        },
+        "nynorskordboka": {
+          "headword": "lutetium",
+          "url": "https://ordbokene.no/nn/lutetium"
+        },
+        "snl": {
+          "headword": "lutetium",
+          "url": "https://snl.no/lutetium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 72,
+      "symbol": "Hf",
+      "reviewed_name": "hafnium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "hafnium",
+          "url": "https://naob.no/ordbok/hafnium"
+        },
+        "bokmaalsordboka": {
+          "headword": "hafnium",
+          "url": "https://ordbokene.no/bm/hafnium"
+        },
+        "nynorskordboka": {
+          "headword": "hafnium",
+          "url": "https://ordbokene.no/nn/hafnium"
+        },
+        "snl": {
+          "headword": "hafnium",
+          "url": "https://snl.no/hafnium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 73,
+      "symbol": "Ta",
+      "reviewed_name": "tantal",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "tantal",
+          "url": "https://naob.no/ordbok/tantal"
+        },
+        "bokmaalsordboka": {
+          "headword": "tantal",
+          "url": "https://ordbokene.no/bm/tantal"
+        },
+        "nynorskordboka": {
+          "headword": "tantal",
+          "url": "https://ordbokene.no/nn/tantal"
+        },
+        "snl": {
+          "headword": "tantal",
+          "url": "https://snl.no/tantal"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 74,
+      "symbol": "W",
+      "reviewed_name": "wolfram",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "wolfram",
+          "url": "https://naob.no/ordbok/wolfram"
+        },
+        "bokmaalsordboka": {
+          "headword": "wolfram",
+          "url": "https://ordbokene.no/bm/wolfram"
+        },
+        "nynorskordboka": {
+          "headword": "wolfram",
+          "url": "https://ordbokene.no/nn/wolfram"
+        },
+        "snl": {
+          "headword": "wolfram",
+          "url": "https://snl.no/wolfram"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 75,
+      "symbol": "Re",
+      "reviewed_name": "rhenium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "rhenium",
+          "url": "https://naob.no/ordbok/rhenium"
+        },
+        "bokmaalsordboka": {
+          "headword": "rhenium",
+          "url": "https://ordbokene.no/bm/rhenium"
+        },
+        "nynorskordboka": {
+          "headword": "rhenium",
+          "url": "https://ordbokene.no/nn/rhenium"
+        },
+        "snl": {
+          "headword": "rhenium",
+          "url": "https://snl.no/rhenium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 76,
+      "symbol": "Os",
+      "reviewed_name": "osmium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "osmium",
+          "url": "https://naob.no/ordbok/osmium"
+        },
+        "bokmaalsordboka": {
+          "headword": "osmium",
+          "url": "https://ordbokene.no/bm/osmium"
+        },
+        "nynorskordboka": {
+          "headword": "osmium",
+          "url": "https://ordbokene.no/nn/osmium"
+        },
+        "snl": {
+          "headword": "osmium",
+          "url": "https://snl.no/osmium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 77,
+      "symbol": "Ir",
+      "reviewed_name": "iridium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "iridium",
+          "url": "https://naob.no/ordbok/iridium"
+        },
+        "bokmaalsordboka": {
+          "headword": "iridium",
+          "url": "https://ordbokene.no/bm/iridium"
+        },
+        "nynorskordboka": {
+          "headword": "iridium",
+          "url": "https://ordbokene.no/nn/iridium"
+        },
+        "snl": {
+          "headword": "iridium",
+          "url": "https://snl.no/iridium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 78,
+      "symbol": "Pt",
+      "reviewed_name": "platina",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "platina",
+          "url": "https://naob.no/ordbok/platina"
+        },
+        "bokmaalsordboka": {
+          "headword": "platina",
+          "url": "https://ordbokene.no/bm/platina"
+        },
+        "nynorskordboka": {
+          "headword": "platina",
+          "url": "https://ordbokene.no/nn/platina"
+        },
+        "snl": {
+          "headword": "platina",
+          "url": "https://snl.no/platina"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 79,
+      "symbol": "Au",
+      "reviewed_name": "gull",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "gull",
+          "url": "https://naob.no/ordbok/gull_2"
+        },
+        "bokmaalsordboka": {
+          "headword": "gull",
+          "url": "https://ordbokene.no/bm/gull"
+        },
+        "nynorskordboka": {
+          "headword": "gull",
+          "url": "https://ordbokene.no/nn/gull"
+        },
+        "snl": {
+          "headword": "gull",
+          "url": "https://snl.no/gull"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 80,
+      "symbol": "Hg",
+      "reviewed_name": "kvikksølv",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "kvikksølv",
+          "url": "https://naob.no/ordbok/kvikks%C3%B8lv"
+        },
+        "bokmaalsordboka": {
+          "headword": "kvikksølv",
+          "url": "https://ordbokene.no/bm/kvikks%C3%B8lv"
+        },
+        "nynorskordboka": {
+          "headword": "kvikksølv",
+          "url": "https://ordbokene.no/nn/kvikks%C3%B8lv"
+        },
+        "snl": {
+          "headword": "kvikksølv",
+          "url": "https://snl.no/kvikks%C3%B8lv"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 81,
+      "symbol": "Tl",
+      "reviewed_name": "thallium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "thallium",
+          "url": "https://naob.no/ordbok/thallium"
+        },
+        "bokmaalsordboka": {
+          "headword": "thallium",
+          "url": "https://ordbokene.no/bm/thallium"
+        },
+        "nynorskordboka": {
+          "headword": "thallium",
+          "url": "https://ordbokene.no/nn/thallium"
+        },
+        "snl": {
+          "headword": "thallium",
+          "url": "https://snl.no/thallium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 82,
+      "symbol": "Pb",
+      "reviewed_name": "bly",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "bly",
+          "url": "https://naob.no/ordbok/bly"
+        },
+        "bokmaalsordboka": {
+          "headword": "bly",
+          "url": "https://ordbokene.no/bm/bly"
+        },
+        "nynorskordboka": {
+          "headword": "bly",
+          "url": "https://ordbokene.no/nn/bly"
+        },
+        "snl": {
+          "headword": "bly",
+          "url": "https://snl.no/bly"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 83,
+      "symbol": "Bi",
+      "reviewed_name": "vismut",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "vismut",
+          "url": "https://naob.no/ordbok/vismut"
+        },
+        "bokmaalsordboka": {
+          "headword": "vismut",
+          "url": "https://ordbokene.no/bm/vismut"
+        },
+        "nynorskordboka": {
+          "headword": "vismut",
+          "url": "https://ordbokene.no/nn/vismut"
+        },
+        "snl": {
+          "headword": "vismut",
+          "url": "https://snl.no/vismut"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 84,
+      "symbol": "Po",
+      "reviewed_name": "polonium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "polonium",
+          "url": "https://naob.no/ordbok/polonium"
+        },
+        "bokmaalsordboka": {
+          "headword": "polonium",
+          "url": "https://ordbokene.no/bm/polonium"
+        },
+        "nynorskordboka": {
+          "headword": "polonium",
+          "url": "https://ordbokene.no/nn/polonium"
+        },
+        "snl": {
+          "headword": "polonium",
+          "url": "https://snl.no/polonium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 85,
+      "symbol": "At",
+      "reviewed_name": "astat",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "astat",
+          "url": "https://naob.no/ordbok/astat"
+        },
+        "bokmaalsordboka": {
+          "headword": "astat",
+          "url": "https://ordbokene.no/bm/astat"
+        },
+        "nynorskordboka": {
+          "headword": "astat",
+          "url": "https://ordbokene.no/nn/astat"
+        },
+        "snl": {
+          "headword": "astat",
+          "url": "https://snl.no/astat"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 86,
+      "symbol": "Rn",
+      "reviewed_name": "radon",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "radon",
+          "url": "https://naob.no/ordbok/radon"
+        },
+        "bokmaalsordboka": {
+          "headword": "radon",
+          "url": "https://ordbokene.no/bm/radon"
+        },
+        "nynorskordboka": {
+          "headword": "radon",
+          "url": "https://ordbokene.no/nn/radon"
+        },
+        "snl": {
+          "headword": "radon",
+          "url": "https://snl.no/radon"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 87,
+      "symbol": "Fr",
+      "reviewed_name": "francium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "francium",
+          "url": "https://naob.no/ordbok/francium"
+        },
+        "bokmaalsordboka": {
+          "headword": "francium",
+          "url": "https://ordbokene.no/bm/francium"
+        },
+        "nynorskordboka": {
+          "headword": "francium",
+          "url": "https://ordbokene.no/nn/francium"
+        },
+        "snl": {
+          "headword": "francium",
+          "url": "https://snl.no/francium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 88,
+      "symbol": "Ra",
+      "reviewed_name": "radium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "radium",
+          "url": "https://naob.no/ordbok/radium"
+        },
+        "bokmaalsordboka": {
+          "headword": "radium",
+          "url": "https://ordbokene.no/bm/radium"
+        },
+        "nynorskordboka": {
+          "headword": "radium",
+          "url": "https://ordbokene.no/nn/radium"
+        },
+        "snl": {
+          "headword": "radium",
+          "url": "https://snl.no/radium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 89,
+      "symbol": "Ac",
+      "reviewed_name": "actinium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "actinium",
+          "url": "https://naob.no/ordbok/actinium"
+        },
+        "bokmaalsordboka": {
+          "headword": "actinium",
+          "url": "https://ordbokene.no/bm/actinium"
+        },
+        "nynorskordboka": {
+          "headword": "actinium",
+          "url": "https://ordbokene.no/nn/actinium"
+        },
+        "snl": {
+          "headword": "actinium",
+          "url": "https://snl.no/actinium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 90,
+      "symbol": "Th",
+      "reviewed_name": "thorium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "thorium",
+          "url": "https://naob.no/ordbok/thorium"
+        },
+        "bokmaalsordboka": {
+          "headword": "thorium",
+          "url": "https://ordbokene.no/bm/thorium"
+        },
+        "nynorskordboka": {
+          "headword": "thorium",
+          "url": "https://ordbokene.no/nn/thorium"
+        },
+        "snl": {
+          "headword": "thorium",
+          "url": "https://snl.no/thorium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 91,
+      "symbol": "Pa",
+      "reviewed_name": "protactinium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "protactinium",
+          "url": "https://naob.no/ordbok/protactinium"
+        },
+        "bokmaalsordboka": {
+          "headword": "protactinium",
+          "url": "https://ordbokene.no/bm/protactinium"
+        },
+        "nynorskordboka": {
+          "headword": "protactinium",
+          "url": "https://ordbokene.no/nn/protactinium"
+        },
+        "snl": {
+          "headword": "protactinium",
+          "url": "https://snl.no/protactinium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 92,
+      "symbol": "U",
+      "reviewed_name": "uran",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "uran",
+          "url": "https://naob.no/ordbok/uran"
+        },
+        "bokmaalsordboka": {
+          "headword": "uran",
+          "url": "https://ordbokene.no/bm/uran"
+        },
+        "nynorskordboka": {
+          "headword": "uran",
+          "url": "https://ordbokene.no/nn/uran"
+        },
+        "snl": {
+          "headword": "uran",
+          "url": "https://snl.no/uran"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 93,
+      "symbol": "Np",
+      "reviewed_name": "neptunium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "neptunium",
+          "url": "https://naob.no/ordbok/neptunium"
+        },
+        "bokmaalsordboka": {
+          "headword": "neptunium",
+          "url": "https://ordbokene.no/bm/neptunium"
+        },
+        "nynorskordboka": {
+          "headword": "neptunium",
+          "url": "https://ordbokene.no/nn/neptunium"
+        },
+        "snl": {
+          "headword": "neptunium",
+          "url": "https://snl.no/neptunium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 94,
+      "symbol": "Pu",
+      "reviewed_name": "plutonium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "plutonium",
+          "url": "https://naob.no/ordbok/plutonium"
+        },
+        "bokmaalsordboka": {
+          "headword": "plutonium",
+          "url": "https://ordbokene.no/bm/plutonium"
+        },
+        "nynorskordboka": {
+          "headword": "plutonium",
+          "url": "https://ordbokene.no/nn/plutonium"
+        },
+        "snl": {
+          "headword": "plutonium",
+          "url": "https://snl.no/plutonium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 95,
+      "symbol": "Am",
+      "reviewed_name": "americium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "americium",
+          "url": "https://naob.no/ordbok/americium"
+        },
+        "bokmaalsordboka": {
+          "headword": "americium",
+          "url": "https://ordbokene.no/bm/americium"
+        },
+        "nynorskordboka": {
+          "headword": "americium",
+          "url": "https://ordbokene.no/nn/americium"
+        },
+        "snl": {
+          "headword": "americium",
+          "url": "https://snl.no/americium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 96,
+      "symbol": "Cm",
+      "reviewed_name": "curium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "curium",
+          "url": "https://naob.no/ordbok/curium"
+        },
+        "bokmaalsordboka": {
+          "headword": "curium",
+          "url": "https://ordbokene.no/bm/curium"
+        },
+        "nynorskordboka": {
+          "headword": "curium",
+          "url": "https://ordbokene.no/nn/curium"
+        },
+        "snl": {
+          "headword": "curium",
+          "url": "https://snl.no/curium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 97,
+      "symbol": "Bk",
+      "reviewed_name": "berkelium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "berkelium",
+          "url": "https://naob.no/ordbok/berkelium"
+        },
+        "bokmaalsordboka": {
+          "headword": "berkelium",
+          "url": "https://ordbokene.no/bm/berkelium"
+        },
+        "nynorskordboka": {
+          "headword": "berkelium",
+          "url": "https://ordbokene.no/nn/berkelium"
+        },
+        "snl": {
+          "headword": "berkelium",
+          "url": "https://snl.no/berkelium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 98,
+      "symbol": "Cf",
+      "reviewed_name": "californium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "californium",
+          "url": "https://naob.no/ordbok/californium"
+        },
+        "bokmaalsordboka": {
+          "headword": "californium",
+          "url": "https://ordbokene.no/bm/californium"
+        },
+        "nynorskordboka": {
+          "headword": "californium",
+          "url": "https://ordbokene.no/nn/californium"
+        },
+        "snl": {
+          "headword": "californium",
+          "url": "https://snl.no/californium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 99,
+      "symbol": "Es",
+      "reviewed_name": "einsteinium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "einsteinium",
+          "url": "https://naob.no/ordbok/einsteinium"
+        },
+        "bokmaalsordboka": {
+          "headword": "einsteinium",
+          "url": "https://ordbokene.no/bm/einsteinium"
+        },
+        "nynorskordboka": {
+          "headword": "einsteinium",
+          "url": "https://ordbokene.no/nn/einsteinium"
+        },
+        "snl": {
+          "headword": "einsteinium",
+          "url": "https://snl.no/einsteinium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 100,
+      "symbol": "Fm",
+      "reviewed_name": "fermium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "fermium",
+          "url": "https://naob.no/ordbok/fermium"
+        },
+        "bokmaalsordboka": {
+          "headword": "fermium",
+          "url": "https://ordbokene.no/bm/fermium"
+        },
+        "nynorskordboka": {
+          "headword": "fermium",
+          "url": "https://ordbokene.no/nn/fermium"
+        },
+        "snl": {
+          "headword": "fermium",
+          "url": "https://snl.no/fermium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 101,
+      "symbol": "Md",
+      "reviewed_name": "mendelevium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "mendelevium",
+          "url": "https://naob.no/ordbok/mendelevium"
+        },
+        "bokmaalsordboka": {
+          "headword": "mendelevium",
+          "url": "https://ordbokene.no/bm/mendelevium"
+        },
+        "nynorskordboka": {
+          "headword": "mendelevium",
+          "url": "https://ordbokene.no/nn/mendelevium"
+        },
+        "snl": {
+          "headword": "mendelevium",
+          "url": "https://snl.no/mendelevium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 102,
+      "symbol": "No",
+      "reviewed_name": "nobelium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "nobelium",
+          "url": "https://naob.no/ordbok/nobelium"
+        },
+        "bokmaalsordboka": {
+          "headword": "nobelium",
+          "url": "https://ordbokene.no/bm/nobelium"
+        },
+        "nynorskordboka": {
+          "headword": "nobelium",
+          "url": "https://ordbokene.no/nn/nobelium"
+        },
+        "snl": {
+          "headword": "nobelium",
+          "url": "https://snl.no/nobelium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 103,
+      "symbol": "Lr",
+      "reviewed_name": "lawrencium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "lawrencium",
+          "url": "https://naob.no/ordbok/lawrencium"
+        },
+        "bokmaalsordboka": {
+          "headword": "lawrencium",
+          "url": "https://ordbokene.no/bm/lawrencium"
+        },
+        "nynorskordboka": {
+          "headword": "lawrencium",
+          "url": "https://ordbokene.no/nn/lawrencium"
+        },
+        "snl": {
+          "headword": "lawrencium",
+          "url": "https://snl.no/lawrencium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 104,
+      "symbol": "Rf",
+      "reviewed_name": "rutherfordium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "rutherfordium",
+          "url": "https://naob.no/ordbok/rutherfordium"
+        },
+        "bokmaalsordboka": {
+          "headword": "rutherfordium",
+          "url": "https://ordbokene.no/bm/rutherfordium"
+        },
+        "nynorskordboka": {
+          "headword": "rutherfordium",
+          "url": "https://ordbokene.no/nn/rutherfordium"
+        },
+        "snl": {
+          "headword": "rutherfordium",
+          "url": "https://snl.no/rutherfordium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 105,
+      "symbol": "Db",
+      "reviewed_name": "dubnium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "dubnium",
+          "url": "https://naob.no/ordbok/dubnium"
+        },
+        "bokmaalsordboka": {
+          "headword": "dubnium",
+          "url": "https://ordbokene.no/bm/dubnium"
+        },
+        "nynorskordboka": {
+          "headword": "dubnium",
+          "url": "https://ordbokene.no/nn/dubnium"
+        },
+        "snl": {
+          "headword": "dubnium",
+          "url": "https://snl.no/dubnium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 106,
+      "symbol": "Sg",
+      "reviewed_name": "seaborgium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "seaborgium",
+          "url": "https://naob.no/ordbok/seaborgium"
+        },
+        "bokmaalsordboka": {
+          "headword": "seaborgium",
+          "url": "https://ordbokene.no/bm/seaborgium"
+        },
+        "nynorskordboka": {
+          "headword": "seaborgium",
+          "url": "https://ordbokene.no/nn/seaborgium"
+        },
+        "snl": {
+          "headword": "seaborgium",
+          "url": "https://snl.no/seaborgium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 107,
+      "symbol": "Bh",
+      "reviewed_name": "bohrium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "bohrium",
+          "url": "https://naob.no/ordbok/bohrium"
+        },
+        "bokmaalsordboka": {
+          "headword": "bohrium",
+          "url": "https://ordbokene.no/bm/bohrium"
+        },
+        "nynorskordboka": {
+          "headword": "bohrium",
+          "url": "https://ordbokene.no/nn/bohrium"
+        },
+        "snl": {
+          "headword": "bohrium",
+          "url": "https://snl.no/bohrium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 108,
+      "symbol": "Hs",
+      "reviewed_name": "hassium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "hassium",
+          "url": "https://naob.no/ordbok/hassium"
+        },
+        "bokmaalsordboka": {
+          "headword": "hassium",
+          "url": "https://ordbokene.no/bm/hassium"
+        },
+        "nynorskordboka": {
+          "headword": "hassium",
+          "url": "https://ordbokene.no/nn/hassium"
+        },
+        "snl": {
+          "headword": "hassium",
+          "url": "https://snl.no/hassium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 109,
+      "symbol": "Mt",
+      "reviewed_name": "meitnerium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "meitnerium",
+          "url": "https://naob.no/ordbok/meitnerium"
+        },
+        "bokmaalsordboka": {
+          "headword": "meitnerium",
+          "url": "https://ordbokene.no/bm/meitnerium"
+        },
+        "nynorskordboka": {
+          "headword": "meitnerium",
+          "url": "https://ordbokene.no/nn/meitnerium"
+        },
+        "snl": {
+          "headword": "meitnerium",
+          "url": "https://snl.no/meitnerium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 110,
+      "symbol": "Ds",
+      "reviewed_name": "darmstadtium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "darmstadtium",
+          "url": "https://naob.no/ordbok/darmstadtium"
+        },
+        "bokmaalsordboka": {
+          "headword": "darmstadtium",
+          "url": "https://ordbokene.no/bm/darmstadtium"
+        },
+        "nynorskordboka": {
+          "headword": "darmstadtium",
+          "url": "https://ordbokene.no/nn/darmstadtium"
+        },
+        "snl": {
+          "headword": "darmstadtium",
+          "url": "https://snl.no/darmstadtium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 111,
+      "symbol": "Rg",
+      "reviewed_name": "røntgenium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "røntgenium",
+          "url": "https://naob.no/ordbok/r%C3%B8ntgenium"
+        },
+        "bokmaalsordboka": {
+          "headword": "røntgenium",
+          "url": "https://ordbokene.no/bm/r%C3%B8ntgenium"
+        },
+        "nynorskordboka": {
+          "headword": "røntgenium",
+          "url": "https://ordbokene.no/nn/r%C3%B8ntgenium"
+        },
+        "snl": {
+          "headword": "røntgenium",
+          "url": "https://snl.no/r%C3%B8ntgenium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 112,
+      "symbol": "Cn",
+      "reviewed_name": "copernicium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "copernicium",
+          "url": "https://naob.no/ordbok/copernicium"
+        },
+        "bokmaalsordboka": {
+          "headword": "copernicium",
+          "url": "https://ordbokene.no/bm/copernicium"
+        },
+        "nynorskordboka": {
+          "headword": "copernicium",
+          "url": "https://ordbokene.no/nn/copernicium"
+        },
+        "snl": {
+          "headword": "copernicium",
+          "url": "https://snl.no/copernicium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 113,
+      "symbol": "Nh",
+      "reviewed_name": "nihonium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "nihonium",
+          "url": "https://naob.no/ordbok/nihonium"
+        },
+        "bokmaalsordboka": {
+          "headword": "nihonium",
+          "url": "https://ordbokene.no/bm/nihonium"
+        },
+        "nynorskordboka": {
+          "headword": "nihonium",
+          "url": "https://ordbokene.no/nn/nihonium"
+        },
+        "snl": {
+          "headword": "nihonium",
+          "url": "https://snl.no/nihonium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 114,
+      "symbol": "Fl",
+      "reviewed_name": "flerovium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "flerovium",
+          "url": "https://naob.no/ordbok/flerovium"
+        },
+        "bokmaalsordboka": {
+          "headword": "flerovium",
+          "url": "https://ordbokene.no/bm/flerovium"
+        },
+        "nynorskordboka": {
+          "headword": "flerovium",
+          "url": "https://ordbokene.no/nn/flerovium"
+        },
+        "snl": {
+          "headword": "flerovium",
+          "url": "https://snl.no/flerovium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 115,
+      "symbol": "Mc",
+      "reviewed_name": "moscovium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "moscovium",
+          "url": "https://naob.no/ordbok/moscovium"
+        },
+        "bokmaalsordboka": {
+          "headword": "moscovium",
+          "url": "https://ordbokene.no/bm/moscovium"
+        },
+        "nynorskordboka": {
+          "headword": "moscovium",
+          "url": "https://ordbokene.no/nn/moscovium"
+        },
+        "snl": {
+          "headword": "moscovium",
+          "url": "https://snl.no/moscovium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 116,
+      "symbol": "Lv",
+      "reviewed_name": "livermorium",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "livermorium",
+          "url": "https://naob.no/ordbok/livermorium"
+        },
+        "bokmaalsordboka": {
+          "headword": "livermorium",
+          "url": "https://ordbokene.no/bm/livermorium"
+        },
+        "nynorskordboka": {
+          "headword": "livermorium",
+          "url": "https://ordbokene.no/nn/livermorium"
+        },
+        "snl": {
+          "headword": "livermorium",
+          "url": "https://snl.no/livermorium"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 117,
+      "symbol": "Ts",
+      "reviewed_name": "tenness",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "tenness",
+          "url": "https://naob.no/ordbok/tenness"
+        },
+        "bokmaalsordboka": {
+          "headword": "tenness",
+          "url": "https://ordbokene.no/bm/tenness"
+        },
+        "nynorskordboka": {
+          "headword": "tenness",
+          "url": "https://ordbokene.no/nn/tenness"
+        },
+        "snl": {
+          "headword": "tenness",
+          "url": "https://snl.no/tenness"
+        }
+      },
+      "notes": ""
+    },
+    {
+      "atomic_number": 118,
+      "symbol": "Og",
+      "reviewed_name": "oganesson",
+      "decision": "retained",
+      "sources": {
+        "naob": {
+          "headword": "oganesson",
+          "url": "https://naob.no/ordbok/oganesson"
+        },
+        "bokmaalsordboka": {
+          "headword": "oganesson",
+          "url": "https://ordbokene.no/bm/oganesson"
+        },
+        "nynorskordboka": {
+          "headword": "oganesson",
+          "url": "https://ordbokene.no/nn/oganesson"
+        },
+        "snl": {
+          "headword": "oganesson",
+          "url": "https://snl.no/oganesson"
+        }
+      },
+      "notes": ""
+    }
+  ]
+}

@@ -47,7 +47,9 @@ neutral fill. The SVG retains conventional family information in
 The optional `broad` mode merges the families into metals, metalloids,
 nonmetals, and noble gases. It preserves the neutral chemistry status and the
 split treatment of Po and At. `broad-light` and `broad-tol-light` are designed
-specifically for this four-colour classification.
+specifically for this four-colour classification. `broad-grey` is designed
+for black-and-white printing: metals, the largest class, are white, and the
+other classes use clearly separated neutral greys.
 
 Every rendered table includes a legend that names the colour categories, but
 the legend is not a redundant visual encoding. Readers who cannot distinguish
