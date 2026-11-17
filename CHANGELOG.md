@@ -10,7 +10,6 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
   Og from the noble gases more clearly.
 - Added the `broad-grey` colour scheme for black-and-white printing.
 - Added a sourced audit of all 118 Bokmål element names; every name was retained.
-- Corrected the Norwegian spelling of the actinoids (`Aktinoider`).
 - Used a true minus sign (−) for negative oxidation states in element cells.
 - Corrected leader alignment in the enlarged simplified element guide.
 - Strengthened scientific-resource and locale validation.
