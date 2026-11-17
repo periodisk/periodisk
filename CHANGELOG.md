@@ -6,6 +6,7 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Added a sourced audit of all 118 Bokmål element names; every name was retained.
 - Corrected leader alignment in the enlarged simplified element guide.
 - Strengthened scientific-resource and locale validation.
 - Localised SVG accessibility descriptions and language metadata.

@@ -27,8 +27,8 @@ Documentation = "https://github.com/periodisk/periodisk#readme"
 Issues = "https://github.com/periodisk/periodisk/issues"
 
 [project.optional-dependencies]
-test = ["pytest>=8", "pypdf>=5"]
-dev = ["pytest>=8", "pypdf>=5", "ruff"]
+test = ["pytest>=8", "pypdf>=5", "jsonschema>=4.18"]
+dev = ["pytest>=8", "pypdf>=5", "jsonschema>=4.18", "ruff"]
 
 [project.scripts]
 periodisk = "periodisk.cli:main"
