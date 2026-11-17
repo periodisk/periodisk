@@ -278,6 +278,37 @@ def test_broad_tol_light_uses_tol_light_subset(tmp_path) -> None:
         assert fill.attrib["fill"] == colour
 
 
+def test_broad_grey_uses_distinct_neutral_steps_per_broad_class(tmp_path) -> None:
+    root = ET.parse(
+        render_svg(
+            tmp_path / "broad-grey.svg",
+            colour_scheme="broad-grey",
+            classification="broad",
+        )
+    ).getroot()
+    expected = {
+        "Fe": "#FFFFFF",
+        "B": "#CCCCCC",
+        "O": "#B3B3B3",
+        "Ne": "#999999",
+        "Og": "#E6E6E6",
+    }
+    for symbol, colour in expected.items():
+        element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
+        assert element is not None
+        fill = next(
+            node
+            for node in element.findall(f"{{{SVG}}}rect")
+            if node.attrib.get("class", "").startswith("cell-fill")
+        )
+        assert fill.attrib["fill"] == colour
+
+    # Neutral greys survive black-and-white printing; each step must stay distinct.
+    levels = sorted({int(colour[1:3], 16) for colour in expected.values()})
+    assert all(colour[1:3] * 3 == colour[1:] for colour in expected.values())
+    assert all(b - a >= 25 for a, b in zip(levels, levels[1:], strict=False))
+
+
 def test_cell_styles_are_selectable_and_structurally_distinct(tmp_path) -> None:
     gutters = ET.parse(
         render_svg(tmp_path / "gutters.svg", cell_style="gutters")

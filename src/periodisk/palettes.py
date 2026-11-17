@@ -186,6 +186,22 @@ PALETTES = {
         "actinide": "#77AADD",
         "unknown-chemistry": "#DDDDDD",
     },
+    # Clearly separated neutral steps for black-and-white output. Metals, the
+    # largest class, are white for maximum text contrast; incompletely
+    # characterised elements take the lightest grey to stay distinct.
+    "broad-grey": {
+        "alkali-metal": "#FFFFFF",
+        "alkaline-earth-metal": "#FFFFFF",
+        "transition-metal": "#FFFFFF",
+        "post-transition-metal": "#FFFFFF",
+        "metalloid": "#CCCCCC",
+        "reactive-nonmetal": "#B3B3B3",
+        "halogen": "#B3B3B3",
+        "noble-gas": "#999999",
+        "lanthanide": "#FFFFFF",
+        "actinide": "#FFFFFF",
+        "unknown-chemistry": "#E6E6E6",
+    },
 }
 
 THEME = {
