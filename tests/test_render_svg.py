@@ -297,7 +297,7 @@ def test_broad_grey_uses_distinct_neutral_steps_per_broad_class(tmp_path) -> Non
         "B": "#CCCCCC",
         "O": "#B3B3B3",
         "Ne": "#999999",
-        "Og": "#E6E6E6",
+        "Og": "#FFFFFF",
     }
     for symbol, colour in expected.items():
         element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
@@ -610,3 +610,65 @@ def test_full_guide_atomic_weight_label_clears_the_symbol_label(tmp_path) -> Non
             guide_labels[labels["element_symbol"]] - guide_labels[last_weight_line]
             >= 2.9
         )
+
+
+def test_broad_grey_hatches_incompletely_characterised_elements(tmp_path) -> None:
+    grey = ET.parse(
+        render_svg(
+            tmp_path / "grey.svg", colour_scheme="broad-grey", classification="broad"
+        )
+    ).getroot()
+    hatched = {
+        node.attrib["clip-path"]
+        for node in grey.findall(f".//{{{SVG}}}g[@class='unknown-hatch']")
+    }
+    # Six incompletely characterised elements plus the legend swatch.
+    assert len(hatched) == 7
+    og = grey.find(f".//{{{SVG}}}g[@id='element-Og']")
+    assert og is not None
+    assert og.find(f".//{{{SVG}}}g[@class='unknown-hatch']") is not None
+    assert len(og.findall(f".//{{{SVG}}}line")) >= 5
+
+    default = ET.parse(render_svg(tmp_path / "default.svg")).getroot()
+    assert default.find(f".//{{{SVG}}}g[@class='unknown-hatch']") is None
+
+
+def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
+    root = ET.parse(
+        render_svg(
+            tmp_path / "pale.svg",
+            colour_scheme="broad-tol-pale",
+            classification="broad",
+        )
+    ).getroot()
+    expected = {
+        "Fe": "#B4D0EC",
+        "B": "#60C5A8",
+        "O": "#F19A7D",
+        "Ne": "#FFB7C5",
+        "Og": "#FFFFFF",
+    }
+    for symbol, colour in expected.items():
+        element = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
+        assert element is not None
+        fill = next(
+            node
+            for node in element.findall(f"{{{SVG}}}rect")
+            if node.attrib.get("class", "").startswith("cell-fill")
+        )
+        assert fill.attrib["fill"] == colour
+
+    # Metals are broad-tol-light mixed with 45 % white, the others with 15 %.
+    base, pale = PALETTES["broad-tol-light"], PALETTES["broad-tol-pale"]
+    mixes = {
+        "transition-metal": 0.45,
+        "metalloid": 0.15,
+        "reactive-nonmetal": 0.15,
+        "noble-gas": 0.15,
+    }
+    for key, mix in mixes.items():
+        for index in (1, 3, 5):
+            channel = int(base[key][index : index + 2], 16)
+            assert int(pale[key][index : index + 2], 16) == round(
+                channel + (255 - channel) * mix
+            )

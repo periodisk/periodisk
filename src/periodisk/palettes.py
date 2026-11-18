@@ -188,7 +188,7 @@ PALETTES = {
     },
     # Clearly separated neutral steps for black-and-white output. Metals, the
     # largest class, are white for maximum text contrast; incompletely
-    # characterised elements take the lightest grey to stay distinct.
+    # characterised elements are white with hatching (see HATCHED_UNKNOWN).
     "broad-grey": {
         "alkali-metal": "#FFFFFF",
         "alkaline-earth-metal": "#FFFFFF",
@@ -200,9 +200,30 @@ PALETTES = {
         "noble-gas": "#999999",
         "lanthanide": "#FFFFFF",
         "actinide": "#FFFFFF",
-        "unknown-chemistry": "#E6E6E6",
+        "unknown-chemistry": "#FFFFFF",
+    },
+    # broad-tol-light lightened for on-screen reading: metals, which cover most
+    # of the table, are mixed with 45 % white and the other classes with 15 %,
+    # so the page is calm while the smaller classes stay distinct.
+    "broad-tol-pale": {
+        "alkali-metal": "#B4D0EC",
+        "alkaline-earth-metal": "#B4D0EC",
+        "transition-metal": "#B4D0EC",
+        "post-transition-metal": "#B4D0EC",
+        "metalloid": "#60C5A8",
+        "reactive-nonmetal": "#F19A7D",
+        "halogen": "#F19A7D",
+        "noble-gas": "#FFB7C5",
+        "lanthanide": "#B4D0EC",
+        "actinide": "#B4D0EC",
+        "unknown-chemistry": "#FFFFFF",
     },
 }
+
+# Schemes that mark incompletely characterised elements with hatching as well
+# as a fill, mapped to the hatch colour. A pattern survives greyscale output
+# where a further grey step would be too close to its neighbours.
+HATCHED_UNKNOWN = {"broad-grey": "#BDBDBD"}
 
 THEME = {
     "page": "#FFFFFF",
