@@ -6,6 +6,10 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Added the `broad-tol-pale` colour scheme, a lighter `broad-tol-light` for
+  on-screen reading with especially light metals.
+- Marked incompletely characterised elements with diagonal hatching in
+  `broad-grey`, replacing a grey step that was hard to tell apart on screen.
 - Labelled the displayed standard atomic weights as `Relativ atommasse` and
   `Atomic weight`, with the bracket explanation on a second guide line.
 - Replaced `reskalert` with `skalert` in the Norwegian Allen source note.

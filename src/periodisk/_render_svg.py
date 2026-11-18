@@ -15,7 +15,7 @@ from .formatting import (
 )
 from .layout import Page, placeholder_positions, placements
 from .models import Element
-from .palettes import PALETTES, THEME, get_palette
+from .palettes import HATCHED_UNKNOWN, PALETTES, THEME, get_palette
 from .settings import validate_electronegativity_scale
 
 SVG = "http://www.w3.org/2000/svg"
@@ -177,6 +177,17 @@ def _cell_background(
             **rounded,
             **{"class": "cell-fill unknown-fill"},
         )
+        if "unknown-hatch" in colours:
+            _hatch(
+                group,
+                x,
+                y,
+                width,
+                height,
+                colours["unknown-hatch"],
+                f"{clip_id}-hatch",
+                corner_radius,
+            )
         return
 
     if len(categories) == 2:
@@ -289,6 +300,17 @@ def _legend(
                 fill=colours[category],
                 **{"class": "legend-swatch"},
             )
+            if category == "unknown-chemistry" and "unknown-hatch" in colours:
+                _hatch(group, x, y, 8, 5, colours["unknown-hatch"], "legend-hatch", 0.0)
+                _node(
+                    group,
+                    "rect",
+                    x=x,
+                    y=y,
+                    width=8,
+                    height=5,
+                    **{"class": "legend-swatch split-outline"},
+                )
         label = labels[category]
         _text(
             group,
@@ -451,6 +473,54 @@ def _render_cell(
         anchor="middle",
         max_width=_fit_width(config, threshold=18, width=page.cell_width - 2),
     )
+
+
+# Diagonal hatching for incompletely characterised elements, in page units.
+# Explicit clipped lines render identically in SVG viewers and CairoSVG PDFs,
+# whereas pattern fills can show seams between tiles.
+HATCH_SPACING = 2.2
+HATCH_WIDTH = 0.15
+
+
+def _hatch(
+    parent: ET.Element,
+    x: float,
+    y: float,
+    width: float,
+    height: float,
+    colour: str,
+    clip_id: str,
+    corner_radius: float,
+) -> None:
+    clip = _node(parent, "clipPath", id=clip_id)
+    rounded = {"rx": corner_radius, "ry": corner_radius} if corner_radius else {}
+    _node(
+        clip, "rect", x=f"{x:.2f}", y=f"{y:.2f}", width=width, height=height, **rounded
+    )
+    lines = _node(
+        parent,
+        "g",
+        stroke=colour,
+        **{
+            "class": "unknown-hatch",
+            "clip-path": f"url(#{clip_id})",
+            "stroke-width": HATCH_WIDTH,
+        },
+    )
+    # 45° lines rising to the right; the horizontal step gives the requested
+    # perpendicular spacing.
+    step = HATCH_SPACING * 2**0.5
+    offset = -height
+    while offset < width:
+        _node(
+            lines,
+            "line",
+            x1=f"{x + offset:.2f}",
+            y1=f"{y + height:.2f}",
+            x2=f"{x + offset + height:.2f}",
+            y2=f"{y:.2f}",
+        )
+        offset += step
 
 
 # Baseline spacing for continuation lines of a guide label (2.9 px font).
@@ -674,7 +744,9 @@ def render_svg(
         raise ValueError(
             f"Unsupported classification mode: {classification!r}; choose {choices}"
         )
-    colours = get_palette(colour_scheme)
+    colours = dict(get_palette(colour_scheme))
+    if colour_scheme in HATCHED_UNKNOWN:
+        colours["unknown-hatch"] = HATCHED_UNKNOWN[colour_scheme]
     theme = THEME
     page_size = page_size.upper()
     if page_size not in PAGE_SIZES_MM:
