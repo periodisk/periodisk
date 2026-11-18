@@ -6,25 +6,34 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
-- Labelled the English f-block series `Lanthanoids` and `Actinoids`, following
-  the IUPAC periodic table and recommendations.
-- Added the `broad-tol-pale` colour scheme, a lighter `broad-tol-light` for
-  on-screen reading with especially light metals.
-- Marked incompletely characterised elements with diagonal hatching in
-  `broad-grey`, replacing a grey step that was hard to tell apart on screen.
+## 2026.5 — 2026-11-18
+
+### Terminology
+
+- Audited every displayed Bokmål term against Bokmålsordboka, NAOB, Store
+  norske leksikon, and IUPAC, with validated curation records for the 118
+  element names, the classification terms and their scope, and the labels,
+  source notes, and units.
 - Labelled the displayed standard atomic weights as `Relativ atommasse` and
-  `Atomic weight`, with the bracket explanation on a second guide line.
-- Replaced `reskalert` with `skalert` in the Norwegian Allen source note.
-- Added a sourced audit of the Bokmål labels, source notes, and units.
+  `Atomic weight`; the bracket explanation moves to a second guide line.
 - Renamed the detailed nonmetal category to `Andre ikke-metaller` and
   `Other nonmetals`, since halogens and noble gases are also nonmetals; broad
   mode keeps `Ikke-metaller` and `Nonmetals`.
-- Added a sourced audit of the Bokmål classification terms and their scope.
-- Made incompletely characterised elements white in `broad-tol-light`, separating
-  Og from the noble gases more clearly.
-- Added the `broad-grey` colour scheme for black-and-white printing.
-- Added a sourced audit of all 118 Bokmål element names; every name was retained.
+- Labelled the English f-block series `Lanthanoids` and `Actinoids`, following
+  the IUPAC periodic table and recommendations.
+- Replaced `reskalert` with `skalert` in the Norwegian Allen source note.
 - Used a true minus sign (−) for negative oxidation states in element cells.
+
+### Colour schemes
+
+- Added `broad-grey` for black-and-white printing, with clearly separated grey
+  steps and hatched cells for incompletely characterised elements.
+- Added `broad-tol-pale`, a lighter `broad-tol-light` for on-screen reading.
+- Made incompletely characterised elements white in `broad-tol-light`,
+  separating Og from the noble gases more clearly.
+
+### Other changes
+
 - Corrected leader alignment in the enlarged simplified element guide.
 - Strengthened scientific-resource and locale validation.
 - Localised SVG accessibility descriptions and language metadata.
