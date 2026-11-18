@@ -9,8 +9,8 @@ citations and access dates are kept in the
 [source registry](../src/periodisk/resources/sources.json).
 Oxidation-state selections and their supporting review notes are kept in the
 [curation worksheet](../curation/oxidation_states/review.json).
-The Norwegian element-name audit is kept in a separate
-[curation record](../curation/norwegian_terminology/review.json).
+The Norwegian element-name and classification-term audits are kept in
+separate [curation records](../curation/norwegian_terminology/README.md).
 
 The project's CC BY 4.0 content licence applies only to the project's original
 contributions. It does not grant rights in third-party source material. See
@@ -150,10 +150,22 @@ and Og are marked as insufficiently characterised, so the renderer gives them
 a neutral fill while retaining their conventional families for table
 placement and navigation.
 
+Detailed membership follows common usage where IUPAC allows a choice. The
+transition metals are groups 3–12, which the IUPAC 2005 recommendations permit
+although group 12 is not always included.[^iupac-red-book] IUPAC defines no
+metalloid category; the six commonly recognised metalloids are shown, with Po
+and At split to reflect their less frequent inclusion. The Bokmål terms, their
+scope, and their sources are documented in the
+[classification audit](../curation/norwegian_terminology/CLASSIFICATIONS_TABLE.md).
+
 ## References
 
 [^iupac-table]: IUPAC, [*Periodic Table of the Elements*, release 4 May
     2022](https://iupac.org/what-we-do/periodic-table-of-elements/).
+
+[^iupac-red-book]: IUPAC, [*Nomenclature of Inorganic Chemistry: IUPAC
+    Recommendations 2005*](https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf),
+    section IR-3.5.
 
 [^ciaaw-weights]: CIAAW, [*Abridged Standard Atomic Weights
     2024*](https://ciaaw.org/abridged-atomic-weights.htm).

@@ -18,9 +18,9 @@ the source of its element-name list. Locale resources are validated when
 loaded, so an incomplete set of 118 names, an empty name, or a missing section
 fails before rendering.
 
-The Bokmål element names have a separate
-[curation record](../curation/norwegian_terminology/README.md). It documents
-the review without becoming a second runtime source of element names.
+The Bokmål element names and classification terms have separate
+[curation records](../curation/norwegian_terminology/README.md). They document
+the review without becoming a second runtime source of displayed terms.
 
 The SVG root uses the locale identifier as a BCP 47 language tag, and its
 accessible title and description are taken from the locale resource.

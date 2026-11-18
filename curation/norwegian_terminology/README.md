@@ -1,10 +1,14 @@
-# Norwegian element-name curation
+# Norwegian terminology curation
 
-This directory records the review of the 118 Bokmål element names displayed by
-Periodisk. The review was completed on 24 August 2026. All existing names were
-retained.
+This directory records the review of the Bokmål terms displayed by Periodisk:
 
-## Scope and sources
+- the 118 element names, reviewed on 24 August 2026; all existing names were
+  retained
+- the ten detailed and four broad classification terms, reviewed on
+  17 November 2026; the detailed `Ikke-metaller` label became
+  `Andre ikke-metaller`, and all other terms were retained
+
+## Element names
 
 Each name was checked manually against entries in:
 
@@ -24,30 +28,55 @@ The links in the worksheet point to the entries actually inspected. A few
 sources use disambiguated URLs even though the displayed headword is identical
 to the Periodisk name.
 
+## Classification terms
+
+Classification terms were reviewed for both wording and scope: the term must
+be established Norwegian usage, and the elements it colours must match how the
+sources define it. The sources were:
+
+- Bokmålsordboka, NAOB, and SNL for the Norwegian terms
+- [IUPAC *Nomenclature of Inorganic Chemistry* (2005)](https://iupac.org/wp-content/uploads/2016/07/Red_Book_2005.pdf),
+  section IR-3.5, for collective names and their membership; its lists predate
+  the naming of tennessine and oganesson
+- the IUPAC Gold Book definition of *transition element*, cited through ChEBI
+  because the Gold Book site blocks automated access
+- Norwegian and English Wikipedia for comparison and for categories without an
+  authoritative definition
+
+Many general dictionaries have no entry for specialist collective names. A
+source listed under `not_listed` was searched and has no entry; that is
+recorded as absence of evidence, not as a rejection. `Andre metaller` has no
+authoritative Norwegian or IUPAC source and is recorded as an editorial label.
+
 ## Files
 
-[`review.json`](review.json) is the structured audit record. It contains one
-record per element in atomic-number order, including the reviewed name, source
-headwords and URLs, decision, and notes. Its format is described by
-[`review.schema.json`](review.schema.json).
+| Record | Schema | Generated table | Validator |
+|---|---|---|---|
+| [`review.json`](review.json) (element names) | [`review.schema.json`](review.schema.json) | [`REVIEW_TABLE.md`](REVIEW_TABLE.md) | `scripts/validate_norwegian_name_review.py` |
+| [`classifications.json`](classifications.json) | [`classifications.schema.json`](classifications.schema.json) | [`CLASSIFICATIONS_TABLE.md`](CLASSIFICATIONS_TABLE.md) | `scripts/validate_norwegian_classification_review.py` |
 
-[`REVIEW_TABLE.md`](REVIEW_TABLE.md) is a generated, browser-friendly view of
-the audit. Regenerate it after changing the JSON record with:
+Regenerate the tables after changing a JSON record with:
 
 ```console
 python scripts/render_norwegian_name_review_markdown.py
+python scripts/render_norwegian_classification_review_markdown.py
 ```
 
-Validate the record against the runtime locale and element dataset with:
+Validate the records against the runtime locale and element dataset with:
 
 ```console
 python scripts/validate_norwegian_name_review.py
+python scripts/validate_norwegian_classification_review.py
 ```
+
+The classification validator also checks that each detailed term's recorded
+members match `elements.json`, and that each broad term's recorded detailed
+categories match the renderer's mapping.
 
 ## Runtime data
 
-The review record documents the decision but is not read during rendering.
+The review records document decisions but are not read during rendering.
 The runtime source of truth remains
-`src/periodisk/resources/locales/nb_NO.json`. Tests ensure that every retained
-name in the audit matches that locale resource, avoiding a second independent
-copy of the displayed vocabulary.
+`src/periodisk/resources/locales/nb_NO.json`. Tests ensure that every reviewed
+term matches that locale resource, avoiding a second independent copy of the
+displayed vocabulary.
