@@ -6,6 +6,8 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Labelled the English f-block series `Lanthanoids` and `Actinoids`, following
+  the IUPAC periodic table and recommendations.
 - Added the `broad-tol-pale` colour scheme, a lighter `broad-tol-light` for
   on-screen reading with especially light metals.
 - Marked incompletely characterised elements with diagonal hatching in

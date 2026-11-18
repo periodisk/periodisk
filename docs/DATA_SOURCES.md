@@ -154,9 +154,13 @@ Detailed membership follows common usage where IUPAC allows a choice. The
 transition metals are groups 3–12, which the IUPAC 2005 recommendations permit
 although group 12 is not always included.[^iupac-red-book] IUPAC defines no
 metalloid category; the six commonly recognised metalloids are shown, with Po
-and At split to reflect their less frequent inclusion. The Bokmål terms, their
-scope, and their sources are documented in the
-[classification audit](../curation/norwegian_terminology/CLASSIFICATIONS_TABLE.md).
+and At split to reflect their less frequent inclusion. The f-block series are
+labelled lanthanoids and actinoids, as on the IUPAC periodic
+table[^iupac-table] and in the 2005 recommendations,[^iupac-red-book] which
+prefer them because the ending *-ide* normally denotes an anion; *lanthanide*
+and *actinide* remain far more common in research titles. The Bokmål terms,
+their scope, and their sources are documented in the [classification
+audit](../curation/norwegian_terminology/CLASSIFICATIONS_TABLE.md).
 
 ## References
 

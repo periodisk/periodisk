@@ -38,8 +38,8 @@
     "reactive-nonmetal": "Other nonmetals",
     "halogen": "Halogens",
     "noble-gas": "Noble gases",
-    "lanthanide": "Lanthanides",
-    "actinide": "Actinides"
+    "lanthanide": "Lanthanoids",
+    "actinide": "Actinoids"
   },
   "broad_classifications": {
     "transition-metal": "Metals",
