@@ -90,7 +90,7 @@ def test_electronegativity_scale_is_selectable_and_localised(tmp_path) -> None:
         language="nb_NO",
         electronegativity_scale="allen",
     ).read_text(encoding="utf-8")
-    assert "Allen/Mendeleev 1.2.0 (reskalert Allen-elektronegativitet)" in allen
+    assert "Allen/Mendeleev 1.2.0 (skalert Allen-elektronegativitet)" in allen
     assert ">2,3</text>" in allen
 
 
@@ -472,7 +472,8 @@ def test_unheaded_uranium_guide_and_period_numbers_are_present(tmp_path) -> None
     guide_labels = [
         node.text for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
     ]
-    assert "Atomic mass ([ ] = mass number of longest-lived isotope)" in guide_labels
+    assert "Atomic weight" in guide_labels
+    assert "([ ] = mass number of longest-lived isotope)" in guide_labels
     assert "Electron configuration (ground state; predicted for Rf–Og)" in guide_labels
 
 
@@ -510,7 +511,9 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     number_line_y = (
         float(guide_labels[locale_labels["atomic_number"]].attrib["y"]) - 0.9
     )
-    mass_line_y = float(guide_labels[locale_labels["atomic_weight"]].attrib["y"]) - 0.9
+    # The leader aligns with the first line of a multi-line label.
+    mass_label = locale_labels["atomic_weight"].split("\n")[0]
+    mass_line_y = float(guide_labels[mass_label].attrib["y"]) - 0.9
     assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
     assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
     expected_number_line_y = (
@@ -558,7 +561,7 @@ def test_scientific_sources_are_in_heading_block(tmp_path) -> None:
     ).getroot()
     sources = root.findall(f".//{{{SVG}}}text[@class='source']")
     source_text = " ".join(node.text or "" for node in sources)
-    assert "Sources: CIAAW 2024 (atomic masses)" in source_text
+    assert "Sources: CIAAW 2024 (atomic weights)" in source_text
     assert "NIST ASD (ionisation energies)" in source_text
     assert "CRC Handbook (Pauling electronegativity)" in source_text
     assert "Mendeleev 1.2.0" in source_text
@@ -589,3 +592,21 @@ def test_norwegian_uses_lantanoider_and_actinoider(tmp_path) -> None:
     assert "Aktinoider" not in text
     assert "Lantanider" not in text
     assert "Aktinider" not in text
+
+
+def test_full_guide_atomic_weight_label_clears_the_symbol_label(tmp_path) -> None:
+    for language in ("en_GB", "nb_NO"):
+        root = ET.parse(
+            render_svg(tmp_path / f"{language}.svg", language=language)
+        ).getroot()
+        labels = load_locale(language)["labels"]
+        guide_labels = {
+            node.text: float(node.attrib["y"])
+            for node in root.findall(f".//{{{SVG}}}text[@class='guide-label']")
+        }
+        last_weight_line = labels["atomic_weight"].split("\n")[-1]
+        # 2.9 px labels: keep at least one font size between the baselines.
+        assert (
+            guide_labels[labels["element_symbol"]] - guide_labels[last_weight_line]
+            >= 2.9
+        )

@@ -9,7 +9,7 @@
     "atomic_number": "Atomic number",
     "element_symbol": "Symbol",
     "element_name": "Name",
-    "atomic_weight": "Atomic mass ([ ] = mass number of longest-lived isotope)",
+    "atomic_weight": "Atomic weight\n([ ] = mass number of longest-lived isotope)",
     "electronegativity": "Electronegativity",
     "first_ionisation_energy": "First ionisation energy",
     "oxidation_states": "Oxidation states (C: −4…+4 = every integer)",
@@ -21,7 +21,7 @@
     "split_classification": "Two classifications"
   },
   "source_notes": {
-    "atomic_masses": "atomic masses",
+    "atomic_masses": "atomic weights",
     "ionisation_energies": "ionisation energies",
     "pauling": "CRC Handbook (Pauling electronegativity)",
     "allred-rochow": "Allred–Rochow/Pyykkö (calculated electronegativity)",

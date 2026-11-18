@@ -9,7 +9,7 @@
     "atomic_number": "Atomnummer",
     "element_symbol": "Atomsymbol",
     "element_name": "Navn",
-    "atomic_weight": "Atommasse ([ ] = massetall for isotopen med lengst halveringstid)",
+    "atomic_weight": "Relativ atommasse\n([ ] = massetall for isotopen med lengst halveringstid)",
     "electronegativity": "Elektronegativitet",
     "first_ionisation_energy": "Første ioniseringsenergi",
     "oxidation_states": "Oksidasjonstall (C: −4…+4 = alle heltall)",
@@ -21,11 +21,11 @@
     "split_classification": "To klassifiseringer"
   },
   "source_notes": {
-    "atomic_masses": "atommasser",
+    "atomic_masses": "relative atommasser",
     "ionisation_energies": "ioniseringsenergier",
     "pauling": "CRC Handbook (Pauling-elektronegativitet)",
     "allred-rochow": "Allred–Rochow/Pyykkö (beregnet elektronegativitet)",
-    "allen": "Allen/Mendeleev 1.2.0 (reskalert Allen-elektronegativitet)",
+    "allen": "Allen/Mendeleev 1.2.0 (skalert Allen-elektronegativitet)",
     "electron_configurations": "elektronkonfigurasjoner; Ds og Rg fra nyere beregninger",
     "oxidation_states": "Oksidasjonstall: utvalg bearbeidet fra Mendeleev 1.2.0"
   },

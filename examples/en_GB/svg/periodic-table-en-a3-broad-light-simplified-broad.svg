@@ -1336,7 +1336,8 @@
   <line x1="130.5" y1="46.15395" x2="136.4" y2="46.15395" class="guide-line" />
   <text x="129.00" y="47.05" class="guide-label" text-anchor="end">Atomic number</text>
   <line x1="171.47" y1="46.57515" x2="165.57" y2="46.57515" class="guide-line" />
-  <text x="172.97" y="47.48" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
+  <text x="172.97" y="47.48" class="guide-label" text-anchor="start">Atomic weight</text>
+  <text x="172.97" y="50.88" class="guide-label" text-anchor="start">([ ] = mass number of longest-lived isotope)</text>
   <line x1="171.47" y1="56.59" x2="157.78500000000003" y2="56.59" class="guide-line" />
   <text x="172.97" y="57.49" class="guide-label" text-anchor="start">Symbol</text>
   <line x1="171.47" y1="66.72" x2="159.99" y2="66.72" class="guide-line" />
@@ -1369,6 +1370,6 @@
     <rect x="340.2" y="251.0" width="8" height="5" class="legend-swatch split-outline" />
     <text x="350.20" y="254.60" class="legend-label">Two classifications</text>
   </g>
-  <text x="45.00" y="28.00" class="source" text-anchor="start">Sources: CIAAW 2024 (atomic masses)</text>
+  <text x="45.00" y="28.00" class="source" text-anchor="start">Sources: CIAAW 2024 (atomic weights)</text>
   <text x="409.80" y="277.00" class="footer" text-anchor="end">© 2026 Periodisk contributors · CC BY 4.0</text>
 </svg>
