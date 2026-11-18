@@ -672,3 +672,12 @@ def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
             assert int(pale[key][index : index + 2], 16) == round(
                 channel + (255 - channel) * mix
             )
+
+
+def test_english_uses_iupac_lanthanoids_and_actinoids(tmp_path) -> None:
+    # IUPAC (Red Book 2005, IR-3.5; periodic table 2022) prefers -oid to -ide.
+    text = render_svg(tmp_path / "en.svg", language="en_GB").read_text(encoding="utf-8")
+    assert "Lanthanoids" in text
+    assert "Actinoids" in text
+    assert "Lanthanides" not in text
+    assert "Actinides" not in text
