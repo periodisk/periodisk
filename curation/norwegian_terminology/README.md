@@ -7,6 +7,9 @@ This directory records the review of the Bokmål terms displayed by Periodisk:
 - the ten detailed and four broad classification terms, reviewed on
   17 November 2026; the detailed `Ikke-metaller` label became
   `Andre ikke-metaller`, and all other terms were retained
+- the scientific labels, source notes, and units, reviewed on 18 November
+  2026; `Atommasse` became `Relativ atommasse` and `reskalert` became
+  `skalert`, and all other text was retained
 
 ## Element names
 
@@ -48,18 +51,29 @@ source listed under `not_listed` was searched and has no entry; that is
 recorded as absence of evidence, not as a rejection. `Andre metaller` has no
 authoritative Norwegian or IUPAC source and is recorded as an editorial label.
 
+## Labels and explanatory text
+
+Labels were checked against Bokmålsordboka, NAOB, and SNL. Where the
+displayed values are a specific quantity, the label must name that quantity:
+the table shows CIAAW standard atomic weights, which SNL calls *relativ
+atommasse*, whereas *atommasse* is the mass of a single atom. Plain
+descriptive or structural text, such as `Navn` and `Kilder`, is recorded as
+editorial.
+
 ## Files
 
 | Record | Schema | Generated table | Validator |
 |---|---|---|---|
 | [`review.json`](review.json) (element names) | [`review.schema.json`](review.schema.json) | [`REVIEW_TABLE.md`](REVIEW_TABLE.md) | `scripts/validate_norwegian_name_review.py` |
 | [`classifications.json`](classifications.json) | [`classifications.schema.json`](classifications.schema.json) | [`CLASSIFICATIONS_TABLE.md`](CLASSIFICATIONS_TABLE.md) | `scripts/validate_norwegian_classification_review.py` |
+| [`labels.json`](labels.json) | [`labels.schema.json`](labels.schema.json) | [`LABELS_TABLE.md`](LABELS_TABLE.md) | `scripts/validate_norwegian_label_review.py` |
 
 Regenerate the tables after changing a JSON record with:
 
 ```console
 python scripts/render_norwegian_name_review_markdown.py
 python scripts/render_norwegian_classification_review_markdown.py
+python scripts/render_norwegian_label_review_markdown.py
 ```
 
 Validate the records against the runtime locale and element dataset with:
@@ -67,6 +81,7 @@ Validate the records against the runtime locale and element dataset with:
 ```console
 python scripts/validate_norwegian_name_review.py
 python scripts/validate_norwegian_classification_review.py
+python scripts/validate_norwegian_label_review.py
 ```
 
 The classification validator also checks that each detailed term's recorded

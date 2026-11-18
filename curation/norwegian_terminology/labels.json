@@ -1,0 +1,440 @@
+{
+  "$schema": "labels.schema.json",
+  "schema": 1,
+  "locale": "nb_NO",
+  "reviewed_date": "2026-11-18",
+  "items": [
+    {
+      "section": "labels",
+      "key": "title",
+      "reviewed_text": "Periodesystemet",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "periodesystem",
+          "url": "https://ordbokene.no/bm/periodesystem"
+        },
+        {
+          "source": "naob",
+          "entry": "periodesystem",
+          "url": "https://naob.no/ordbok/periodesystem"
+        },
+        {
+          "source": "snl",
+          "entry": "periodesystemet",
+          "url": "https://snl.no/periodesystemet"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Definite form of periodesystem, as in the SNL headword."
+    },
+    {
+      "section": "labels",
+      "key": "accessible_description",
+      "reviewed_text": "Liggende periodesystem i {page_size}-format med 118 grunnstoffer. Cellefargene viser kjemisk klassifisering.",
+      "decision": "retained",
+      "sources": [],
+      "not_listed": [],
+      "notes": "Editorial screen-reader description; reviewed for grammar and consistency with the visible terms."
+    },
+    {
+      "section": "labels",
+      "key": "atomic_number",
+      "reviewed_text": "Atomnummer",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "atomnummer",
+          "url": "https://ordbokene.no/bm/atomnummer"
+        },
+        {
+          "source": "naob",
+          "entry": "atomnummer",
+          "url": "https://naob.no/ordbok/atomnummer"
+        },
+        {
+          "source": "snl",
+          "entry": "atomnummer",
+          "url": "https://snl.no/atomnummer"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Established term in all three sources."
+    },
+    {
+      "section": "labels",
+      "key": "element_symbol",
+      "reviewed_text": "Atomsymbol",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "atomsymbol",
+          "url": "https://ordbokene.no/bm/atomsymbol"
+        },
+        {
+          "source": "naob",
+          "entry": "atomsymbol",
+          "url": "https://naob.no/ordbok/atomsymbol"
+        },
+        {
+          "source": "snl",
+          "entry": "atomsymbol",
+          "url": "https://snl.no/atomsymbol"
+        },
+        {
+          "source": "snl",
+          "entry": "kjemisk symbol",
+          "url": "https://snl.no/kjemisk_symbol"
+        }
+      ],
+      "not_listed": [],
+      "notes": "SNL headword; SNL states that kjemisk symbol is the same."
+    },
+    {
+      "section": "labels",
+      "key": "element_name",
+      "reviewed_text": "Navn",
+      "decision": "retained",
+      "sources": [],
+      "not_listed": [],
+      "notes": "Editorial wording with no specialist term to verify."
+    },
+    {
+      "section": "labels",
+      "key": "atomic_weight",
+      "reviewed_text": "Relativ atommasse\n([ ] = massetall for isotopen med lengst halveringstid)",
+      "decision": "changed",
+      "previous_text": "Atommasse ([ ] = massetall for isotopen med lengst halveringstid)",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "relativ atommasse",
+          "url": "https://snl.no/relativ_atommasse"
+        },
+        {
+          "source": "snl",
+          "entry": "atommasse",
+          "url": "https://snl.no/atommasse"
+        },
+        {
+          "source": "bokmaalsordboka",
+          "entry": "massetall",
+          "url": "https://ordbokene.no/bm/massetall"
+        },
+        {
+          "source": "bokmaalsordboka",
+          "entry": "halveringstid",
+          "url": "https://ordbokene.no/bm/halveringstid"
+        }
+      ],
+      "not_listed": [],
+      "notes": "SNL defines atommasse as the mass of a single atom, usually in u, and relativ atommasse as the dimensionless isotope-averaged value given in the periodic table. The displayed values are CIAAW standard atomic weights. The bracket explanation moves to a second line so the longer label clears the table."
+    },
+    {
+      "section": "labels",
+      "key": "electronegativity",
+      "reviewed_text": "Elektronegativitet",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "elektronegativitet",
+          "url": "https://ordbokene.no/bm/elektronegativitet"
+        },
+        {
+          "source": "naob",
+          "entry": "elektronegativitet",
+          "url": "https://naob.no/ordbok/elektronegativitet"
+        },
+        {
+          "source": "snl",
+          "entry": "elektronegativitet",
+          "url": "https://snl.no/elektronegativitet"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Established term in all three sources."
+    },
+    {
+      "section": "labels",
+      "key": "first_ionisation_energy",
+      "reviewed_text": "Første ioniseringsenergi",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "ioniseringsenergi",
+          "url": "https://snl.no/ioniseringsenergi"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka",
+        "naob"
+      ],
+      "notes": "SNL headword. The alternative ionisasjonsenergi was found in none of Bokmålsordboka, NAOB or SNL."
+    },
+    {
+      "section": "labels",
+      "key": "oxidation_states",
+      "reviewed_text": "Oksidasjonstall (C: −4…+4 = alle heltall)",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "oksidasjonstall",
+          "url": "https://ordbokene.no/bm/oksidasjonstall"
+        },
+        {
+          "source": "naob",
+          "entry": "oksidasjonstall",
+          "url": "https://naob.no/ordbok/oksidasjonstall"
+        },
+        {
+          "source": "snl",
+          "entry": "oksidasjonstall",
+          "url": "https://snl.no/oksidasjonstall"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Established term in all three sources."
+    },
+    {
+      "section": "labels",
+      "key": "electron_configuration",
+      "reviewed_text": "Elektronkonfigurasjon (grunntilstand; beregnet for Rf–Og)",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "naob",
+          "entry": "elektronkonfigurasjon",
+          "url": "https://naob.no/ordbok/elektronkonfigurasjon"
+        },
+        {
+          "source": "snl",
+          "entry": "elektronkonfigurasjon",
+          "url": "https://snl.no/elektronkonfigurasjon"
+        },
+        {
+          "source": "naob",
+          "entry": "grunntilstand",
+          "url": "https://naob.no/ordbok/grunntilstand"
+        },
+        {
+          "source": "snl",
+          "entry": "grunntilstand",
+          "url": "https://snl.no/grunntilstand"
+        }
+      ],
+      "not_listed": [
+        "bokmaalsordboka"
+      ],
+      "notes": "Both terms are in NAOB and SNL."
+    },
+    {
+      "section": "labels",
+      "key": "radioactive",
+      "reviewed_text": "Ingen stabile isotoper",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "isotop",
+          "url": "https://ordbokene.no/bm/isotop"
+        },
+        {
+          "source": "snl",
+          "entry": "isotop",
+          "url": "https://snl.no/isotop"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Plain description; isotop is established."
+    },
+    {
+      "section": "labels",
+      "key": "unknown_chemistry",
+      "reviewed_text": "Ufullstendig karakterisert",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "karakterisere",
+          "url": "https://ordbokene.no/bm/karakterisere"
+        },
+        {
+          "source": "naob",
+          "entry": "karakterisere",
+          "url": "https://naob.no/ordbok/karakterisere"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Editorial status label."
+    },
+    {
+      "section": "labels",
+      "key": "radioactive_sign",
+      "reviewed_text": "Radioaktivitetssymbol",
+      "decision": "retained",
+      "sources": [],
+      "not_listed": [
+        "bokmaalsordboka",
+        "naob",
+        "snl"
+      ],
+      "notes": "Editorial compound. No source has a term for the symbol, and none offers an alternative."
+    },
+    {
+      "section": "labels",
+      "key": "sources",
+      "reviewed_text": "Kilder",
+      "decision": "retained",
+      "sources": [],
+      "not_listed": [],
+      "notes": "Editorial wording with no specialist term to verify."
+    },
+    {
+      "section": "labels",
+      "key": "split_classification",
+      "reviewed_text": "To klassifiseringer",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "klassifisering",
+          "url": "https://ordbokene.no/bm/klassifisering"
+        },
+        {
+          "source": "naob",
+          "entry": "klassifisering",
+          "url": "https://naob.no/ordbok/klassifisering"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Editorial legend label."
+    },
+    {
+      "section": "source_notes",
+      "key": "atomic_masses",
+      "reviewed_text": "relative atommasser",
+      "decision": "changed",
+      "previous_text": "atommasser",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "relativ atommasse",
+          "url": "https://snl.no/relativ_atommasse"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Follows the label change; CIAAW publishes standard atomic weights, which SNL calls relativ atommasse."
+    },
+    {
+      "section": "source_notes",
+      "key": "ionisation_energies",
+      "reviewed_text": "ioniseringsenergier",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "ioniseringsenergi",
+          "url": "https://snl.no/ioniseringsenergi"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Plural of the SNL headword."
+    },
+    {
+      "section": "source_notes",
+      "key": "pauling",
+      "reviewed_text": "CRC Handbook (Pauling-elektronegativitet)",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "elektronegativitet",
+          "url": "https://snl.no/elektronegativitet"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Names the source and scale."
+    },
+    {
+      "section": "source_notes",
+      "key": "allred-rochow",
+      "reviewed_text": "Allred–Rochow/Pyykkö (beregnet elektronegativitet)",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "elektronegativitet",
+          "url": "https://snl.no/elektronegativitet"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Names the source and scale."
+    },
+    {
+      "section": "source_notes",
+      "key": "allen",
+      "reviewed_text": "Allen/Mendeleev 1.2.0 (skalert Allen-elektronegativitet)",
+      "decision": "changed",
+      "previous_text": "Allen/Mendeleev 1.2.0 (reskalert Allen-elektronegativitet)",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "skalere",
+          "url": "https://ordbokene.no/bm/skalere"
+        },
+        {
+          "source": "naob",
+          "entry": "skalere",
+          "url": "https://naob.no/ordbok/skalere"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Reskalere is in neither Bokmålsordboka nor NAOB; skalere is in both. The values are Allen energies multiplied by 0.169."
+    },
+    {
+      "section": "source_notes",
+      "key": "electron_configurations",
+      "reviewed_text": "elektronkonfigurasjoner; Ds og Rg fra nyere beregninger",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "elektronkonfigurasjon",
+          "url": "https://snl.no/elektronkonfigurasjon"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Names the source and the newer calculations for Ds and Rg."
+    },
+    {
+      "section": "source_notes",
+      "key": "oxidation_states",
+      "reviewed_text": "Oksidasjonstall: utvalg bearbeidet fra Mendeleev 1.2.0",
+      "decision": "retained",
+      "sources": [
+        {
+          "source": "snl",
+          "entry": "oksidasjonstall",
+          "url": "https://snl.no/oksidasjonstall"
+        }
+      ],
+      "not_listed": [],
+      "notes": "Names the source and the editorial selection."
+    },
+    {
+      "section": "units",
+      "key": "first_ionisation_energy",
+      "reviewed_text": "kJ/mol",
+      "decision": "retained",
+      "sources": [],
+      "not_listed": [],
+      "notes": "SI unit symbol; language-independent."
+    }
+  ]
+}

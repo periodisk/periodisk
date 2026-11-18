@@ -5,11 +5,13 @@ from pathlib import Path
 from scripts.render_norwegian_classification_review_markdown import (
     render as render_classifications,
 )
+from scripts.render_norwegian_label_review_markdown import render as render_labels
 from scripts.render_norwegian_name_review_markdown import render
 from scripts.validate_norwegian_classification_review import BROAD_INCLUDES
 from scripts.validate_norwegian_classification_review import (
     validate as validate_classifications,
 )
+from scripts.validate_norwegian_label_review import validate as validate_labels
 from scripts.validate_norwegian_name_review import validate
 
 ROOT = Path(__file__).parents[1]
@@ -185,3 +187,50 @@ def test_generated_classification_table_is_current() -> None:
     ).read_text(encoding="utf-8")
 
     assert generated == render_classifications(review)
+
+
+# Label and explanatory-text review
+
+LABELS_PATH = ROOT / "curation/norwegian_terminology/labels.json"
+
+
+def _label_resources() -> tuple[dict, dict]:
+    return tuple(
+        json.loads(path.read_text(encoding="utf-8"))
+        for path in (LABELS_PATH, LOCALE_PATH)
+    )
+
+
+def test_label_review_is_complete_and_matches_runtime_text() -> None:
+    review, locale = _label_resources()
+
+    assert validate_labels(review, locale) == []
+
+
+def test_label_review_detects_a_runtime_text_mismatch() -> None:
+    review, locale = _label_resources()
+    edited = deepcopy(locale)
+    edited["labels"]["atomic_number"] = "Protontall"
+
+    assert "items[2].reviewed_text must match nb_NO.json" in validate_labels(
+        review, edited
+    )
+
+
+def test_label_review_detects_a_missing_locale_key() -> None:
+    review, locale = _label_resources()
+    edited = deepcopy(review)
+    del edited["items"][0]
+
+    assert "review.items must cover every locale label in locale order" in (
+        validate_labels(edited, locale)
+    )
+
+
+def test_generated_label_table_is_current() -> None:
+    review, _ = _label_resources()
+    generated = (ROOT / "curation/norwegian_terminology/LABELS_TABLE.md").read_text(
+        encoding="utf-8"
+    )
+
+    assert generated == render_labels(review)

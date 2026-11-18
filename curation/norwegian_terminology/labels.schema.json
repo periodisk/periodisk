@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "labels.schema.json",
+  "title": "Norwegian label and explanatory-text review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema",
+    "locale",
+    "reviewed_date",
+    "items"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "labels.schema.json"
+    },
+    "schema": {
+      "const": 1
+    },
+    "locale": {
+      "const": "nb_NO"
+    },
+    "reviewed_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "$defs": {
+    "source_id": {
+      "enum": [
+        "naob",
+        "bokmaalsordboka",
+        "snl"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "entry",
+        "url"
+      ],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/source_id"
+        },
+        "entry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "section",
+        "key",
+        "reviewed_text",
+        "decision",
+        "sources",
+        "not_listed",
+        "notes"
+      ],
+      "properties": {
+        "section": {
+          "enum": [
+            "labels",
+            "source_notes",
+            "units"
+          ]
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "retained",
+            "changed",
+            "unresolved"
+          ]
+        },
+        "previous_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "not_listed": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/source_id"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "changed"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "previous_text"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "previous_text"
+          ]
+        }
+      }
+    }
+  }
+}

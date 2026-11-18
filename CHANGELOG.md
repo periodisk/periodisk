@@ -9,6 +9,7 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 - Labelled the displayed standard atomic weights as `Relativ atommasse` and
   `Atomic weight`, with the bracket explanation on a second guide line.
 - Replaced `reskalert` with `skalert` in the Norwegian Allen source note.
+- Added a sourced audit of the Bokmål labels, source notes, and units.
 - Renamed the detailed nonmetal category to `Andre ikke-metaller` and
   `Other nonmetals`, since halogens and noble gases are also nonmetals; broad
   mode keeps `Ikke-metaller` and `Nonmetals`.
