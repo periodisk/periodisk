@@ -59,13 +59,13 @@ not currently provide a non-colour classification encoding.
 
 ## Cell content
 
-The full layout contains atomic number, atomic mass, symbol, name,
+The full layout contains atomic number, atomic weight, symbol, name,
 electronegativity, first ionisation energy, oxidation states, and ground-state
 electron configuration. Labels for the compact scientific fields are omitted
 from individual cells. An enlarged uranium example explains their positions.
 Its callouts also explain bracketed isotope mass numbers.
 
-The simplified layout retains atomic number, atomic mass, symbol, name, and
+The simplified layout retains atomic number, atomic weight, symbol, name, and
 the radioactivity marker, using larger type to make better use of each cell.
 
 The radioactivity symbol means that an element has no stable isotopes. It is

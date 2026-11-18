@@ -453,6 +453,10 @@ def _render_cell(
     )
 
 
+# Baseline spacing for continuation lines of a guide label (2.9 px font).
+GUIDE_LINE_SPACING = 3.4
+
+
 def _guide_callout(
     parent: ET.Element,
     label: str,
@@ -472,7 +476,18 @@ def _guide_callout(
         y2=line_y,
         **{"class": "guide-line"},
     )
-    _text(parent, label, x, line_y + 0.9, "guide-label", anchor=anchor)
+    first, *rest = label.split("\n")
+    _text(parent, first, x, line_y + 0.9, "guide-label", anchor=anchor)
+    # Continuation lines keep a long label clear of neighbouring cells.
+    for index, line in enumerate(rest, start=1):
+        _text(
+            parent,
+            line,
+            x,
+            line_y + 0.9 + index * GUIDE_LINE_SPACING,
+            "guide-label",
+            anchor=anchor,
+        )
 
 
 def _uranium_guide(
@@ -550,7 +565,8 @@ def _uranium_guide(
         root,
         locale["labels"]["element_symbol"],
         right,
-        symbol_baseline - 3.5,
+        # In the full layout, sit lower to clear a two-line atomic-weight label.
+        symbol_baseline - (3.5 if simplified else 2.0),
         x + width / 2 + 6.8,
         anchor="start",
     )

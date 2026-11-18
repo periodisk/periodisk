@@ -1812,9 +1812,10 @@
   <line x1="130.5" y1="45.0" x2="136.4" y2="45.0" class="guide-line" />
   <text x="129.00" y="45.90" class="guide-label" text-anchor="end">Atomic number</text>
   <line x1="171.47" y1="45.0" x2="165.57" y2="45.0" class="guide-line" />
-  <text x="172.97" y="45.90" class="guide-label" text-anchor="start">Atomic mass ([ ] = mass number of longest-lived isotope)</text>
-  <line x1="171.47" y1="50.92" x2="157.78500000000003" y2="50.92" class="guide-line" />
-  <text x="172.97" y="51.82" class="guide-label" text-anchor="start">Symbol</text>
+  <text x="172.97" y="45.90" class="guide-label" text-anchor="start">Atomic weight</text>
+  <text x="172.97" y="49.30" class="guide-label" text-anchor="start">([ ] = mass number of longest-lived isotope)</text>
+  <line x1="171.47" y1="52.42" x2="157.78500000000003" y2="52.42" class="guide-line" />
+  <text x="172.97" y="53.32" class="guide-label" text-anchor="start">Symbol</text>
   <line x1="171.47" y1="57.675" x2="159.99" y2="57.675" class="guide-line" />
   <text x="172.97" y="58.57" class="guide-label" text-anchor="start">Name</text>
   <line x1="130.5" y1="62.6" x2="136.4" y2="62.6" class="guide-line" />
@@ -1877,7 +1878,7 @@
     <rect x="340.2" y="259.0" width="8" height="5" class="legend-swatch split-outline" />
     <text x="350.20" y="262.60" class="legend-label">Two classifications</text>
   </g>
-  <text x="45.00" y="28.00" class="source" text-anchor="start">Sources: CIAAW 2024 (atomic masses)   ·   NIST ASD (ionisation energies)   ·   CRC Handbook (Pauling electronegativity)</text>
+  <text x="45.00" y="28.00" class="source" text-anchor="start">Sources: CIAAW 2024 (atomic weights)   ·   NIST ASD (ionisation energies)   ·   CRC Handbook (Pauling electronegativity)</text>
   <text x="45.00" y="32.00" class="source" text-anchor="start">Mendeleev 1.2.0 (electron configurations; reviewed overrides)   ·   Oxidation states: selection adapted from Mendeleev 1.2.0</text>
   <text x="409.80" y="277.00" class="footer" text-anchor="end">© 2026 Periodisk contributors · CC BY 4.0</text>
 </svg>
