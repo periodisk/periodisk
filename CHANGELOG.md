@@ -6,6 +6,9 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Added a test that fails if any rendered character has no glyph in the font
+  CairoSVG selects for it, which would show as a box in the PDF.
+
 ## 2026.6 — 2026-11-21
 
 ### Fixes

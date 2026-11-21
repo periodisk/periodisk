@@ -66,6 +66,11 @@ only uses the first family in a stack and aligns each span separately, so
 before PDF conversion centred and right-aligned text containing such a span is
 measured with Cairo and redrawn left-aligned at the equivalent position.
 
+A [test](../tests/test_render_pdf.py) renders every combination of language,
+content, classification, and electronegativity scale, resolves each text
+run's font as CairoSVG does, and fails if any character has no glyph in that
+font. The result depends on the fonts installed where the tests run.
+
 Every rendered table includes a legend that names the colour categories, but
 the legend is not a redundant visual encoding. Readers who cannot distinguish
 two fills may also be unable to assign the corresponding elements to their
