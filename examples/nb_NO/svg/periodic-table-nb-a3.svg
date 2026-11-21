@@ -5,6 +5,7 @@
   <metadata>Copyright 2026 Periodisk contributors. Original table design and explanatory content licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The Python software used to generate this table is separately licensed under MIT.</metadata>
   <style>
       text { fill: #111111; font-family: "Noto Sans", "DejaVu Sans", sans-serif; }
+      .minus { font-family: "DejaVu Sans", "Liberation Sans", "Noto Sans Math", sans-serif; }
       .page-title { font-size: 6.5px; font-weight: 700; }
       .group-number, .period-number { font-size: 3px; font-weight: 700; }
       .footer { fill: #666666; font-size: 2.2px; }
@@ -13,10 +14,10 @@
       .cell-fill { stroke: none; }
       .placeholder { fill: #F2F2F2; stroke: #222222; stroke-width: 0.25; }
       .placeholder { stroke-dasharray: 1 0.7; }
-      .atomic-number { font-size: 2.55px; font-weight: 600; }
-      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .radioactive { fill: #111111; }
       .radioactive-ring { fill: none; stroke: #111111; stroke-width: 0.11; }
+      .atomic-number { font-size: 2.55px; font-weight: 600; }
+      .atomic-weight { font-size: 2.35px; font-weight: 600; }
       .symbol { font-size: 6.2px; font-weight: 700; }
       .name { font-size: 2.3px; }
       .simplified-top-number { font-size: 3.55px; font-weight: 650; }
@@ -68,7 +69,7 @@
     <text x="21.30" y="30.50" class="name" text-anchor="middle">hydrogen</text>
     <text x="11.20" y="34.00" class="property">2,2</text>
     <text x="31.40" y="34.00" class="property" text-anchor="end">1312,0</text>
-    <text x="21.30" y="37.20" class="property" text-anchor="middle">−1 +1</text>
+    <text x="21.30" y="37.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>1 +1</text>
     <text x="21.30" y="41.00" class="configuration" text-anchor="middle">1s¹</text>
   </g>
   <g id="element-He" data-z="2" data-classifications="noble-gas" data-chemistry-status="established">
@@ -128,7 +129,7 @@
     <text x="309.90" y="55.00" class="name" text-anchor="middle">karbon</text>
     <text x="299.80" y="58.50" class="property">2,55</text>
     <text x="320.00" y="58.50" class="property" text-anchor="end">1086,5</text>
-    <text x="309.90" y="61.70" class="property" text-anchor="middle">−4…+4</text>
+    <text x="309.90" y="61.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>4…+4</text>
     <text x="309.90" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p²</text>
   </g>
   <g id="element-N" data-z="7" data-classifications="reactive-nonmetal" data-chemistry-status="established">
@@ -140,7 +141,7 @@
     <text x="332.10" y="55.00" class="name" text-anchor="middle">nitrogen</text>
     <text x="322.00" y="58.50" class="property">3,04</text>
     <text x="342.20" y="58.50" class="property" text-anchor="end">1402,3</text>
-    <text x="332.10" y="61.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">−3 +1 +2 +3 +4 +5</text>
+    <text x="332.10" y="61.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs"><tspan class="minus">−</tspan>3 +1 +2 +3 +4 +5</text>
     <text x="332.10" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p³</text>
   </g>
   <g id="element-O" data-z="8" data-classifications="reactive-nonmetal" data-chemistry-status="established">
@@ -152,7 +153,7 @@
     <text x="354.30" y="55.00" class="name" text-anchor="middle">oksygen</text>
     <text x="344.20" y="58.50" class="property">3,44</text>
     <text x="364.40" y="58.50" class="property" text-anchor="end">1313,9</text>
-    <text x="354.30" y="61.70" class="property" text-anchor="middle">−2</text>
+    <text x="354.30" y="61.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2</text>
     <text x="354.30" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁴</text>
   </g>
   <g id="element-F" data-z="9" data-classifications="halogen" data-chemistry-status="established">
@@ -164,7 +165,7 @@
     <text x="376.50" y="55.00" class="name" text-anchor="middle">fluor</text>
     <text x="366.40" y="58.50" class="property">3,98</text>
     <text x="386.60" y="58.50" class="property" text-anchor="end">1681,0</text>
-    <text x="376.50" y="61.70" class="property" text-anchor="middle">−1</text>
+    <text x="376.50" y="61.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>1</text>
     <text x="376.50" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁵</text>
   </g>
   <g id="element-Ne" data-z="10" data-classifications="noble-gas" data-chemistry-status="established">
@@ -224,7 +225,7 @@
     <text x="309.90" y="79.50" class="name" text-anchor="middle">silisium</text>
     <text x="299.80" y="83.00" class="property">1,9</text>
     <text x="320.00" y="83.00" class="property" text-anchor="end">786,5</text>
-    <text x="309.90" y="86.20" class="property" text-anchor="middle">−4 +4</text>
+    <text x="309.90" y="86.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>4 +4</text>
     <text x="309.90" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p²</text>
   </g>
   <g id="element-P" data-z="15" data-classifications="reactive-nonmetal" data-chemistry-status="established">
@@ -236,7 +237,7 @@
     <text x="332.10" y="79.50" class="name" text-anchor="middle">fosfor</text>
     <text x="322.00" y="83.00" class="property">2,19</text>
     <text x="342.20" y="83.00" class="property" text-anchor="end">1011,8</text>
-    <text x="332.10" y="86.20" class="property" text-anchor="middle">−3 +3 +5</text>
+    <text x="332.10" y="86.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>3 +3 +5</text>
     <text x="332.10" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p³</text>
   </g>
   <g id="element-S" data-z="16" data-classifications="reactive-nonmetal" data-chemistry-status="established">
@@ -248,7 +249,7 @@
     <text x="354.30" y="79.50" class="name" text-anchor="middle">svovel</text>
     <text x="344.20" y="83.00" class="property">2,58</text>
     <text x="364.40" y="83.00" class="property" text-anchor="end">999,6</text>
-    <text x="354.30" y="86.20" class="property" text-anchor="middle">−2 +2 +4 +6</text>
+    <text x="354.30" y="86.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 +2 +4 +6</text>
     <text x="354.30" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p⁴</text>
   </g>
   <g id="element-Cl" data-z="17" data-classifications="halogen" data-chemistry-status="established">
@@ -260,7 +261,7 @@
     <text x="376.50" y="79.50" class="name" text-anchor="middle">klor</text>
     <text x="366.40" y="83.00" class="property">3,16</text>
     <text x="386.60" y="83.00" class="property" text-anchor="end">1251,2</text>
-    <text x="376.50" y="86.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">−1 +1 +3 +5 +7</text>
+    <text x="376.50" y="86.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs"><tspan class="minus">−</tspan>1 +1 +3 +5 +7</text>
     <text x="376.50" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p⁵</text>
   </g>
   <g id="element-Ar" data-z="18" data-classifications="noble-gas" data-chemistry-status="established">
@@ -440,7 +441,7 @@
     <text x="309.90" y="104.00" class="name" text-anchor="middle">germanium</text>
     <text x="299.80" y="107.50" class="property">2,01</text>
     <text x="320.00" y="107.50" class="property" text-anchor="end">762,2</text>
-    <text x="309.90" y="110.70" class="property" text-anchor="middle">−4 +2 +4</text>
+    <text x="309.90" y="110.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>4 +2 +4</text>
     <text x="309.90" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p²</text>
   </g>
   <g id="element-As" data-z="33" data-classifications="metalloid" data-chemistry-status="established">
@@ -452,7 +453,7 @@
     <text x="332.10" y="104.00" class="name" text-anchor="middle">arsen</text>
     <text x="322.00" y="107.50" class="property">2,18</text>
     <text x="342.20" y="107.50" class="property" text-anchor="end">944,5</text>
-    <text x="332.10" y="110.70" class="property" text-anchor="middle">−3 +3 +5</text>
+    <text x="332.10" y="110.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>3 +3 +5</text>
     <text x="332.10" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p³</text>
   </g>
   <g id="element-Se" data-z="34" data-classifications="reactive-nonmetal" data-chemistry-status="established">
@@ -464,7 +465,7 @@
     <text x="354.30" y="104.00" class="name" text-anchor="middle">selen</text>
     <text x="344.20" y="107.50" class="property">2,55</text>
     <text x="364.40" y="107.50" class="property" text-anchor="end">941,0</text>
-    <text x="354.30" y="110.70" class="property" text-anchor="middle">−2 +2 +4 +6</text>
+    <text x="354.30" y="110.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 +2 +4 +6</text>
     <text x="354.30" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p⁴</text>
   </g>
   <g id="element-Br" data-z="35" data-classifications="halogen" data-chemistry-status="established">
@@ -476,7 +477,7 @@
     <text x="376.50" y="104.00" class="name" text-anchor="middle">brom</text>
     <text x="366.40" y="107.50" class="property">2,96</text>
     <text x="386.60" y="107.50" class="property" text-anchor="end">1139,9</text>
-    <text x="376.50" y="110.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">−1 +1 +3 +5 +7</text>
+    <text x="376.50" y="110.70" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs"><tspan class="minus">−</tspan>1 +1 +3 +5 +7</text>
     <text x="376.50" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s²4p⁵</text>
   </g>
   <g id="element-Kr" data-z="36" data-classifications="noble-gas" data-chemistry-status="established">
@@ -664,7 +665,7 @@
     <text x="309.90" y="128.50" class="name" text-anchor="middle">tinn</text>
     <text x="299.80" y="132.00" class="property">1,96</text>
     <text x="320.00" y="132.00" class="property" text-anchor="end">708,6</text>
-    <text x="309.90" y="135.20" class="property" text-anchor="middle">−4 +2 +4</text>
+    <text x="309.90" y="135.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>4 +2 +4</text>
     <text x="309.90" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p²</text>
   </g>
   <g id="element-Sb" data-z="51" data-classifications="metalloid" data-chemistry-status="established">
@@ -676,7 +677,7 @@
     <text x="332.10" y="128.50" class="name" text-anchor="middle">antimon</text>
     <text x="322.00" y="132.00" class="property">2,05</text>
     <text x="342.20" y="132.00" class="property" text-anchor="end">830,6</text>
-    <text x="332.10" y="135.20" class="property" text-anchor="middle">−3 +3 +5</text>
+    <text x="332.10" y="135.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>3 +3 +5</text>
     <text x="332.10" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p³</text>
   </g>
   <g id="element-Te" data-z="52" data-classifications="metalloid" data-chemistry-status="established">
@@ -688,7 +689,7 @@
     <text x="354.30" y="128.50" class="name" text-anchor="middle">tellur</text>
     <text x="344.20" y="132.00" class="property">2,1</text>
     <text x="364.40" y="132.00" class="property" text-anchor="end">869,3</text>
-    <text x="354.30" y="135.20" class="property" text-anchor="middle">−2 +2 +4 +6</text>
+    <text x="354.30" y="135.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 +2 +4 +6</text>
     <text x="354.30" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁴</text>
   </g>
   <g id="element-I" data-z="53" data-classifications="halogen" data-chemistry-status="established">
@@ -700,7 +701,7 @@
     <text x="376.50" y="128.50" class="name" text-anchor="middle">jod</text>
     <text x="366.40" y="132.00" class="property">2,66</text>
     <text x="386.60" y="132.00" class="property" text-anchor="end">1008,4</text>
-    <text x="376.50" y="135.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs">−1 +1 +3 +5 +7</text>
+    <text x="376.50" y="135.20" class="property" text-anchor="middle" textLength="20.20" lengthAdjust="spacingAndGlyphs"><tspan class="minus">−</tspan>1 +1 +3 +5 +7</text>
     <text x="376.50" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁵</text>
   </g>
   <g id="element-Xe" data-z="54" data-classifications="noble-gas" data-chemistry-status="established">
@@ -1097,7 +1098,7 @@
     <text x="354.30" y="153.00" class="name" text-anchor="middle">polonium</text>
     <text x="344.20" y="156.50" class="property">2</text>
     <text x="364.40" y="156.50" class="property" text-anchor="end">812,2</text>
-    <text x="354.30" y="159.70" class="property" text-anchor="middle">−2 +2 +4</text>
+    <text x="354.30" y="159.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 +2 +4</text>
     <text x="354.30" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁴</text>
   </g>
   <g id="element-At" data-z="85" data-classifications="halogen metalloid" data-chemistry-status="established">
@@ -1118,7 +1119,7 @@
     <text x="376.50" y="153.00" class="name" text-anchor="middle">astat</text>
     <text x="366.40" y="156.50" class="property">2,2</text>
     <text x="386.60" y="156.50" class="property" text-anchor="end">899,0</text>
-    <text x="376.50" y="159.70" class="property" text-anchor="middle">−1 +1</text>
+    <text x="376.50" y="159.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>1 +1</text>
     <text x="376.50" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁵</text>
   </g>
   <g id="element-Rn" data-z="86" data-classifications="noble-gas" data-chemistry-status="established">
@@ -1823,7 +1824,7 @@
   <line x1="171.47" y1="62.6" x2="165.57" y2="62.6" class="guide-line" />
   <text x="172.97" y="63.50" class="guide-label" text-anchor="start">Første ioniseringsenergi (kJ/mol)</text>
   <line x1="130.5" y1="66.8" x2="141.585" y2="66.8" class="guide-line" />
-  <text x="129.00" y="67.70" class="guide-label" text-anchor="end">Oksidasjonstall (C: −4…+4 = alle heltall)</text>
+  <text x="129.00" y="67.70" class="guide-label" text-anchor="end">Oksidasjonstall (C: <tspan class="minus">−</tspan>4…+4 = alle heltall)</text>
   <line x1="171.47" y1="71.7" x2="162.485" y2="71.7" class="guide-line" />
   <text x="172.97" y="72.60" class="guide-label" text-anchor="start">Elektronkonfigurasjon (grunntilstand; beregnet for Rf–Og)</text>
   <text x="150.99" y="39.80" class="guide-label" text-anchor="middle">Radioaktivitetssymbol</text>

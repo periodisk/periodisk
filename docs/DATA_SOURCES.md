@@ -125,8 +125,8 @@ The selections and their supporting evidence are listed in the
 [oxidation-state review table](../curation/oxidation_states/REVIEW_TABLE.md).
 
 The selection is intended for general-chemistry teaching and is not an
-inventory of every reported state. Zero is normally omitted. Carbon is the
-documented exception and is printed as the range `−4…+4`. An empty list is a
+inventory of every reported state. Zero is normally omitted, except within
+carbon's range. An empty list is a
 reviewed editorial decision, not missing data. Rn and Db–Og remain blank
 because their compound chemistry does not meet the project's inclusion
 threshold. Rf(+4), supported by tracer-scale chloride-complex chemistry, is

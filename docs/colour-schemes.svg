@@ -324,10 +324,10 @@
     <title>print · transition-metal: #D8D8D8</title>
   </rect>
   <text x="410.0" y="333" class="hex">#D8D8D8</text>
-  <rect x="460" y="310" width="92" height="34" rx="3" fill="#E3E3E3" stroke="#333333" stroke-width="0.7">
-    <title>print · post-transition-metal: #E3E3E3</title>
+  <rect x="460" y="310" width="92" height="34" rx="3" fill="#E6E6E6" stroke="#333333" stroke-width="0.7">
+    <title>print · post-transition-metal: #E6E6E6</title>
   </rect>
-  <text x="506.0" y="333" class="hex">#E3E3E3</text>
+  <text x="506.0" y="333" class="hex">#E6E6E6</text>
   <rect x="556" y="310" width="92" height="34" rx="3" fill="#EEEEEE" stroke="#333333" stroke-width="0.7">
     <title>print · metalloid: #EEEEEE</title>
   </rect>
@@ -733,22 +733,22 @@
     <title>broad-grey · post-transition-metal: #FFFFFF</title>
   </rect>
   <text x="506.0" y="675" class="hex">#FFFFFF</text>
-  <rect x="556" y="652" width="92" height="34" rx="3" fill="#CCCCCC" stroke="#333333" stroke-width="0.7">
-    <title>broad-grey · metalloid: #CCCCCC</title>
+  <rect x="556" y="652" width="92" height="34" rx="3" fill="#E6E6E6" stroke="#333333" stroke-width="0.7">
+    <title>broad-grey · metalloid: #E6E6E6</title>
   </rect>
-  <text x="602.0" y="675" class="hex">#CCCCCC</text>
-  <rect x="652" y="652" width="92" height="34" rx="3" fill="#B3B3B3" stroke="#333333" stroke-width="0.7">
-    <title>broad-grey · reactive-nonmetal: #B3B3B3</title>
+  <text x="602.0" y="675" class="hex">#E6E6E6</text>
+  <rect x="652" y="652" width="92" height="34" rx="3" fill="#CCCCCC" stroke="#333333" stroke-width="0.7">
+    <title>broad-grey · reactive-nonmetal: #CCCCCC</title>
   </rect>
-  <text x="698.0" y="675" class="hex">#B3B3B3</text>
-  <rect x="748" y="652" width="92" height="34" rx="3" fill="#B3B3B3" stroke="#333333" stroke-width="0.7">
-    <title>broad-grey · halogen: #B3B3B3</title>
+  <text x="698.0" y="675" class="hex">#CCCCCC</text>
+  <rect x="748" y="652" width="92" height="34" rx="3" fill="#CCCCCC" stroke="#333333" stroke-width="0.7">
+    <title>broad-grey · halogen: #CCCCCC</title>
   </rect>
-  <text x="794.0" y="675" class="hex">#B3B3B3</text>
-  <rect x="844" y="652" width="92" height="34" rx="3" fill="#999999" stroke="#333333" stroke-width="0.7">
-    <title>broad-grey · noble-gas: #999999</title>
+  <text x="794.0" y="675" class="hex">#CCCCCC</text>
+  <rect x="844" y="652" width="92" height="34" rx="3" fill="#B3B3B3" stroke="#333333" stroke-width="0.7">
+    <title>broad-grey · noble-gas: #B3B3B3</title>
   </rect>
-  <text x="890.0" y="675" class="hex">#999999</text>
+  <text x="890.0" y="675" class="hex">#B3B3B3</text>
   <rect x="940" y="652" width="92" height="34" rx="3" fill="#FFFFFF" stroke="#333333" stroke-width="0.7">
     <title>broad-grey · lanthanide: #FFFFFF</title>
   </rect>

@@ -294,9 +294,9 @@ def test_broad_grey_uses_distinct_neutral_steps_per_broad_class(tmp_path) -> Non
     ).getroot()
     expected = {
         "Fe": "#FFFFFF",
-        "B": "#CCCCCC",
-        "O": "#B3B3B3",
-        "Ne": "#999999",
+        "B": "#E6E6E6",
+        "O": "#CCCCCC",
+        "Ne": "#B3B3B3",
         "Og": "#FFFFFF",
     }
     for symbol, colour in expected.items():
@@ -629,8 +629,23 @@ def test_broad_grey_hatches_incompletely_characterised_elements(tmp_path) -> Non
     assert og.find(f".//{{{SVG}}}g[@class='unknown-hatch']") is not None
     assert len(og.findall(f".//{{{SVG}}}line")) >= 5
 
+    # Each label and the trefoil get a white knock-out inside the clipped
+    # hatch group, so the hatching never crosses text.
+    og_hatch = og.find(f".//{{{SVG}}}g[@class='unknown-hatch']")
+    knockouts = og_hatch.findall(f"{{{SVG}}}*[@class='hatch-knockout']")
+    assert len(knockouts) == len(og.findall(f".//{{{SVG}}}text")) + 1
+    assert {node.attrib["fill"] for node in knockouts} == {"#FFFFFF"}
+    assert {node.attrib["stroke"] for node in knockouts} == {"none"}
+    legend_hatch = grey.find(f".//{{{SVG}}}g[@clip-path='url(#legend-hatch)']")
+    assert legend_hatch is not None
+    assert legend_hatch.find(f"{{{SVG}}}*[@class='hatch-knockout']") is None
+
     default = ET.parse(render_svg(tmp_path / "default.svg")).getroot()
     assert default.find(f".//{{{SVG}}}g[@class='unknown-hatch']") is None
+    assert default.find(f".//{{{SVG}}}*[@class='hatch-knockout']") is None
+    style = default.find(f"{{{SVG}}}style").text
+    assert ".symbol { font-size: 6.2px; font-weight: 700; }" in style
+    assert ".atomic-weight.simplified-top-number { font-size: 2.35px; }" in style
 
 
 def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
@@ -681,3 +696,21 @@ def test_english_uses_iupac_lanthanoids_and_actinoids(tmp_path) -> None:
     assert "Actinoids" in text
     assert "Lanthanides" not in text
     assert "Actinides" not in text
+
+
+def test_minus_signs_use_a_fallback_font_with_the_glyph(tmp_path) -> None:
+    root = ET.parse(render_svg(tmp_path / "table.svg")).getroot()
+    hydrogen = root.find(f".//{{{SVG}}}g[@id='element-H']")
+    assert hydrogen is not None
+    oxidation = next(
+        node
+        for node in hydrogen.iter(f"{{{SVG}}}text")
+        if "\u2212" in "".join(node.itertext())
+    )
+    assert "".join(oxidation.itertext()) == "\u22121 +1"
+    assert "\u2212" not in (oxidation.text or "")
+    (minus,) = oxidation.findall(f"{{{SVG}}}tspan[@class='minus']")
+    assert minus.text == "\u2212"
+    style = root.find(f"{{{SVG}}}style")
+    assert style is not None
+    assert '.minus { font-family: "DejaVu Sans"' in style.text

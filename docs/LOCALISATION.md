@@ -12,8 +12,8 @@ Each JSON file in `src/periodisk/resources/locales/` defines:
 - chemical-classification names; and
 - displayed units.
 
-Element names live only in the locale resources. The scientific element
-records therefore remain language-independent. Each locale also identifies
+Element names live only in the locale resources, not in the scientific
+element records. Each locale also identifies
 the source of its element-name list. Locale resources are validated when
 loaded, so an incomplete set of 118 names, an empty name, or a missing section
 fails before rendering.
