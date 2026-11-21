@@ -82,6 +82,9 @@ def _node(parent: ET.Element, tag: str, **attributes: object) -> ET.Element:
     )
 
 
+MINUS = "\u2212"
+
+
 def _text(
     parent: ET.Element,
     text: str,
@@ -99,7 +102,15 @@ def _text(
         attrs["textLength"] = f"{max_width:.2f}"
         attrs["lengthAdjust"] = "spacingAndGlyphs"
     node = _node(parent, "text", **attrs)
-    node.text = text
+    # Some Noto Sans builds (e.g. Debian's fonts-noto-core) lack U+2212 MINUS
+    # SIGN, and CairoSVG has no per-glyph font fallback, so the PDF would show
+    # a missing-glyph box. Set each minus in a fallback font that has it.
+    first, *rest = text.split(MINUS)
+    node.text = first
+    for segment in rest:
+        minus = _node(node, "tspan", **{"class": "minus"})
+        minus.text = MINUS
+        minus.tail = segment
     return node
 
 
@@ -331,13 +342,28 @@ def _render_cell(
     locale: dict,
     scale: str,
     colours: dict[str, str],
+    **options: object,
+) -> None:
+    group = _draw_cell(parent, element, x, y, page, locale, scale, colours, **options)
+    _knock_out_hatching(group, colours["unknown-chemistry"])
+
+
+def _draw_cell(
+    parent: ET.Element,
+    element: Element,
+    x: float,
+    y: float,
+    page: Page,
+    locale: dict,
+    scale: str,
+    colours: dict[str, str],
     *,
     element_id: str | None = None,
     rounded_corners: bool = False,
     cell_style: str = "full",
     content: str = "full",
     classification: str = "detailed",
-) -> None:
+) -> ET.Element:
     resolved_id = element_id or f"element-{element.symbol}"
     corner_radius = 0.8 if rounded_corners else 0.0
     group = _node(
@@ -448,7 +474,7 @@ def _render_cell(
         ),
     )
     if simplified:
-        return
+        return group
     en = electronegativity(element, scale, decimal, missing)
     ie = ionisation_energy(element, decimal, missing)
     _text(group, en, x + pad, y + 16.0, "property")
@@ -473,12 +499,105 @@ def _render_cell(
         anchor="middle",
         max_width=_fit_width(config, threshold=18, width=page.cell_width - 2),
     )
+    return group
+
+
+# Element-cell text sizes and weights, in cascade order. They generate the
+# stylesheet rules and size the knock-outs behind text in hatched cells.
+CELL_FONTS: tuple[tuple[tuple[str, ...], dict[str, str]], ...] = (
+    (("atomic-number",), {"font-size": "2.55px", "font-weight": "600"}),
+    (("atomic-weight",), {"font-size": "2.35px", "font-weight": "600"}),
+    (("symbol",), {"font-size": "6.2px", "font-weight": "700"}),
+    (("name",), {"font-size": "2.3px"}),
+    (("simplified-top-number",), {"font-size": "3.55px", "font-weight": "650"}),
+    (("atomic-weight", "simplified-top-number"), {"font-size": "2.35px"}),
+    (("simplified-symbol",), {"font-size": "9.5px"}),
+    (("simplified-name",), {"font-size": "3.1px", "font-weight": "500"}),
+    (("property",), {"font-size": "2.05px"}),
+    (("configuration",), {"font-size": "2.45px"}),
+)
+
+# Knock-outs are estimated from character counts rather than measured, so they
+# use a generous average advance (Noto Sans averages about 0.55 em) and padding.
+KNOCKOUT_ADVANCE = {False: 0.6, True: 0.68}
+KNOCKOUT_PADDING = 0.35
+RADIOACTIVE_KNOCKOUT_RADIUS = 1.6
+
+
+def _cell_font(css_class: str) -> tuple[float, bool]:
+    classes = set(css_class.split())
+    font: dict[str, str] = {}
+    for selector, declarations in CELL_FONTS:
+        if classes.issuperset(selector):
+            font.update(declarations)
+    weight = font.get("font-weight", "400")
+    return float(font["font-size"].removesuffix("px")), int(weight) >= 550
+
+
+def _knock_out_hatching(group: ET.Element, fill: str) -> None:
+    """Clear the hatching behind each label so dense hatching stays readable.
+
+    CairoSVG fills text before stroking it, so a stroked halo would eat into
+    the glyphs; a duplicated halo would repeat the text in PDF copy and paste.
+    """
+
+    hatch = group.find(f"{{{SVG}}}g[@class='unknown-hatch']")
+    if hatch is None:
+        return
+    knockouts = []
+    for node in group.iter(f"{{{SVG}}}text"):
+        size, bold = _cell_font(node.attrib["class"])
+        text = "".join(node.itertext())
+        width = float(
+            node.attrib.get("textLength", len(text) * size * KNOCKOUT_ADVANCE[bold])
+        )
+        x = float(node.attrib["x"])
+        anchor = node.attrib.get("text-anchor", "start")
+        left = x - {"start": 0.0, "middle": width / 2, "end": width}[anchor]
+        baseline = float(node.attrib["y"])
+        knockouts.append(
+            (
+                "rect",
+                {
+                    "x": f"{left - KNOCKOUT_PADDING:.2f}",
+                    "y": f"{baseline - 0.78 * size - KNOCKOUT_PADDING:.2f}",
+                    "width": f"{width + 2 * KNOCKOUT_PADDING:.2f}",
+                    "height": f"{size + 2 * KNOCKOUT_PADDING:.2f}",
+                },
+            )
+        )
+    for trefoil in group.iter(f"{{{SVG}}}g"):
+        if trefoil.attrib.get("class") == "radioactive":
+            x, y = map(
+                float, trefoil.attrib["transform"].split("(")[1].split(")")[0].split()
+            )
+            knockouts.append(
+                (
+                    "circle",
+                    {
+                        "cx": f"{x:.2f}",
+                        "cy": f"{y:.2f}",
+                        "r": f"{RADIOACTIVE_KNOCKOUT_RADIUS}",
+                    },
+                )
+            )
+    # Inside the hatch group, the knock-outs share its clip to the cell, so
+    # generous estimates never cover text overflowing from a neighbour.
+    for tag, attributes in knockouts:
+        _node(
+            hatch,
+            tag,
+            **attributes,
+            fill=fill,
+            stroke="none",
+            **{"class": "hatch-knockout"},
+        )
 
 
 # Diagonal hatching for incompletely characterised elements, in page units.
 # Explicit clipped lines render identically in SVG viewers and CairoSVG PDFs,
 # whereas pattern fills can show seams between tiles.
-HATCH_SPACING = 2.2
+HATCH_SPACING = 3.0
 HATCH_WIDTH = 0.15
 
 
@@ -781,10 +900,17 @@ def render_svg(
         "used to generate this table is separately licensed under MIT."
     )
     style = _node(root, "style")
+    cell_font_css = "\n".join(
+        f"      .{'.'.join(classes)} {{ "
+        + " ".join(f"{name}: {value};" for name, value in font.items())
+        + " }"
+        for classes, font in CELL_FONTS
+    )
     cell_rule = theme["soft_rule"] if cell_style == "soft-rules" else theme["rule"]
     cell_rule_width = "0.16" if cell_style == "soft-rules" else "0.25"
     style.text = f"""
       text {{ fill: {theme["text"]}; font-family: \"Noto Sans\", \"DejaVu Sans\", sans-serif; }}
+      .minus {{ font-family: \"DejaVu Sans\", \"Liberation Sans\", \"Noto Sans Math\", sans-serif; }}
       .page-title {{ font-size: 6.5px; font-weight: 700; }}
       .group-number, .period-number {{ font-size: 3px; font-weight: 700; }}
       .footer {{ fill: #666666; font-size: 2.2px; }}
@@ -793,18 +919,9 @@ def render_svg(
       .cell-fill {{ stroke: none; }}
       .placeholder {{ fill: {theme["placeholder"]}; stroke: {theme["rule"]}; stroke-width: 0.25; }}
       .placeholder {{ stroke-dasharray: 1 0.7; }}
-      .atomic-number {{ font-size: 2.55px; font-weight: 600; }}
-      .atomic-weight {{ font-size: 2.35px; font-weight: 600; }}
       .radioactive {{ fill: {theme["text"]}; }}
       .radioactive-ring {{ fill: none; stroke: {theme["text"]}; stroke-width: 0.11; }}
-      .symbol {{ font-size: 6.2px; font-weight: 700; }}
-      .name {{ font-size: 2.3px; }}
-      .simplified-top-number {{ font-size: 3.55px; font-weight: 650; }}
-      .atomic-weight.simplified-top-number {{ font-size: 2.35px; }}
-      .simplified-symbol {{ font-size: 9.5px; }}
-      .simplified-name {{ font-size: 3.1px; font-weight: 500; }}
-      .property {{ font-size: 2.05px; }}
-      .configuration {{ font-size: 2.45px; }}
+{cell_font_css}
       .series-label {{ font-size: 3.2px; font-weight: 650; }}
       .legend-swatch {{ stroke: {theme["rule"]}; stroke-width: 0.25; }}
       .split-outline {{ fill: none; }}
@@ -929,7 +1046,18 @@ def render_svg(
     )
 
     tree = ET.ElementTree(root)
+    # ET.indent would add whitespace inside mixed content such as minus spans,
+    # which renders as visible spaces; restore those text runs afterwards.
+    mixed = [
+        (node, node.text, [(child, child.tail) for child in node])
+        for node in root.iter(f"{{{SVG}}}text")
+        if len(node)
+    ]
     ET.indent(tree, space="  ")
+    for node, text, children in mixed:
+        node.text = text
+        for child, tail in children:
+            child.tail = tail
     destination = Path(output)
     destination.parent.mkdir(parents=True, exist_ok=True)
     tree.write(destination, encoding="utf-8", xml_declaration=True)

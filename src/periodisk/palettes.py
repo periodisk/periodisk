@@ -85,7 +85,7 @@ PALETTES = {
         "alkali-metal": "#FFFFFF",
         "alkaline-earth-metal": "#F5F5F5",
         "transition-metal": "#D8D8D8",
-        "post-transition-metal": "#E3E3E3",
+        "post-transition-metal": "#E6E6E6",
         "metalloid": "#EEEEEE",
         "reactive-nonmetal": "#CCCCCC",
         "halogen": "#F9F9F9",
@@ -194,10 +194,10 @@ PALETTES = {
         "alkaline-earth-metal": "#FFFFFF",
         "transition-metal": "#FFFFFF",
         "post-transition-metal": "#FFFFFF",
-        "metalloid": "#CCCCCC",
-        "reactive-nonmetal": "#B3B3B3",
-        "halogen": "#B3B3B3",
-        "noble-gas": "#999999",
+        "metalloid": "#E6E6E6",
+        "reactive-nonmetal": "#CCCCCC",
+        "halogen": "#CCCCCC",
+        "noble-gas": "#B3B3B3",
         "lanthanide": "#FFFFFF",
         "actinide": "#FFFFFF",
         "unknown-chemistry": "#FFFFFF",
@@ -223,7 +223,7 @@ PALETTES = {
 # Schemes that mark incompletely characterised elements with hatching as well
 # as a fill, mapped to the hatch colour. A pattern survives greyscale output
 # where a further grey step would be too close to its neighbours.
-HATCHED_UNKNOWN = {"broad-grey": "#BDBDBD"}
+HATCHED_UNKNOWN = {"broad-grey": "#999999"}
 
 THEME = {
     "page": "#FFFFFF",
