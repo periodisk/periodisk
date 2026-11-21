@@ -6,6 +6,17 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Added A4 exam examples in `broad-tol-light` and `broad-grey`, and a
+  simplified A4 example, for both locales.
+- Reorganised the README around side-by-side detailed and simplified English
+  previews and a download table of ready-made PDFs for readers who do not
+  install the package.
+- Fixed minus signs rendering as missing-glyph boxes in PDFs on systems whose
+  Noto Sans lacks U+2212; minus signs now use a fallback font that has it.
+- Lightened `broad-grey` (metalloids `#E6E6E6`, nonmetals `#CCCCCC`, noble
+  gases `#B3B3B3`). Its hatching is darker and sparser, with white
+  knock-outs behind every label so it never crosses text.
+
 ## 2026.5 — 2026-11-18
 
 ### Terminology
@@ -55,7 +66,7 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## 2026.2 — 2026-08-15
 
-- Added a concise, self-contained PyPI README with working documentation links.
+- Added a PyPI README with working documentation links.
 - Refined installation, usage, development, and licensing documentation.
 
 ## 2026.1 — 2026-08-14

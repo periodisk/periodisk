@@ -10,30 +10,39 @@ citations, and known limitations.
 
 ## Examples
 
-| Detailed English table | Simplified Norwegian table |
+| Detailed table | Simplified table |
 | --- | --- |
-| [![Detailed English periodic table rendered with the default colour scheme](examples/en_GB/svg/periodic-table-en-a3.svg)](examples/en_GB/pdf/periodic-table-en-a3.pdf) | [![Simplified Norwegian periodic table using broad element classes](examples/nb_NO/svg/periodic-table-nb-a3-broad-light-simplified-broad.svg)](examples/nb_NO/pdf/periodic-table-nb-a3-broad-light-simplified-broad.pdf) |
+| [![Detailed English periodic table rendered with the default colour scheme](examples/en_GB/svg/periodic-table-en-a3.svg)](examples/en_GB/pdf/periodic-table-en-a3.pdf) | [![Simplified English periodic table using broad element classes](examples/en_GB/svg/periodic-table-en-a3-broad-light-simplified-broad.svg)](examples/en_GB/pdf/periodic-table-en-a3-broad-light-simplified-broad.pdf) |
 
-Select a preview to open its print-ready PDF. These tables correspond to the
-two command-line examples in the [Usage](#usage) section.
+Select a preview to open its print-ready PDF. The detailed table shows
+electronegativity, first ionisation energy, oxidation states and electron
+configurations; the simplified table keeps the atomic number, symbol, name and
+atomic weight, and groups the elements into metals, metalloids, nonmetals and
+noble gases.
 
-Print-ready PDFs and editable SVGs are available in [`examples/`](examples/).
-They are grouped by locale and file format:
+## Download
 
-```text
-examples/
-├── en_GB/
-│   ├── pdf/
-│   └── svg/
-└── nb_NO/
-    ├── pdf/
-    └── svg/
-```
+You do not need to install Periodisk to use the tables. These print-ready PDFs
+are generated from the current source:
 
-The examples include selected colour schemes and cell styles, plus simplified
-tables (using the broad classes metals, metalloids, nonmetals, and noble gases).
-See [`examples/README.md`](examples/README.md) for the inventory and filename
-conventions, or [compare all selectable colour schemes](docs/colour-schemes.svg).
+| Table | English | Norwegian Bokmål |
+| --- | :---: | :---: |
+| Detailed, A3 | [PDF](examples/en_GB/pdf/periodic-table-en-a3.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a3.pdf) |
+| Detailed, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4.pdf) |
+| Simplified, A3 | [PDF](examples/en_GB/pdf/periodic-table-en-a3-broad-light-simplified-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a3-broad-light-simplified-broad.pdf) |
+| Simplified, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-light-simplified-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-light-simplified-broad.pdf) |
+| Exam, colour, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-tol-light-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-tol-light-broad.pdf) |
+| Exam, black and white, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-grey-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-grey-broad.pdf) |
+
+A3 is recommended for the detailed table; A4 uses the same layout at a
+smaller scale. The exam tables keep the detailed content but use the four
+broad classes, in colours chosen for colour printing or in clearly separated
+greys for black-and-white printing.
+
+The PDFs are licensed under CC BY 4.0 (see [Licence](#licence)). Editable SVGs
+and further variants are in [`examples/`](examples/); see
+[`examples/README.md`](examples/README.md) for the full inventory, or
+[compare all selectable colour schemes](docs/colour-schemes.svg).
 
 ## Installing
 
@@ -68,6 +77,15 @@ periodisk render periodesystemet.pdf --language nb_NO --content simplified --cla
 ```
 
 [View the resulting table](examples/nb_NO/pdf/periodic-table-nb-a3-broad-light-simplified-broad.pdf).
+
+Render the Norwegian exam tables for colour and black-and-white printing:
+
+```console
+periodisk render eksamen.pdf --language nb_NO --page-size A4 --classification broad --colour-scheme broad-tol-light
+periodisk render eksamen-gratone.pdf --language nb_NO --page-size A4 --classification broad --colour-scheme broad-grey
+```
+
+Use `broad-tol-pale` instead of `broad-tol-light` for on-screen reading.
 
 The default uses the Tol Light-inspired colour scheme and the full scientific
 content. Common options include:
@@ -121,9 +139,7 @@ Ruff checks the Python code for common errors and style problems and enforces
 consistent formatting. Run `ruff check --fix .` followed by `ruff format .`
 before submitting changes.
 
-The radioactive sign is native vector geometry and requires no separately
-installed symbol font. Regenerate the web palette preview after changing
-palette definitions with:
+Regenerate the palette preview after changing palette definitions with:
 
 ```console
 PYTHONPATH=src python scripts/render_palette_preview.py
@@ -137,8 +153,8 @@ PYTHONPATH=src python scripts/render_examples.py
 
 ## Scientific data
 
-Scientific data are stored locally as JSON. Runtime generation will therefore
-never need to query Mendeleev or another online service. Sourced scientific
+Scientific data are stored locally as JSON, so rendering never queries
+Mendeleev or any other online service. Sourced scientific
 values carry identifiers from `sources.json`; editorial classifications and
 translations are documented separately. First ionisation energies use
 **kJ/mol**. See [DATA_SOURCES.md](docs/DATA_SOURCES.md) for sources, curation
@@ -152,7 +168,7 @@ release. See the [changelog](CHANGELOG.md) for release history.
 
 ## Licence
 
-The project uses a simple dual-licence arrangement:
+The project uses a dual-licence arrangement:
 
 - Python source code is licensed under the [MIT License](LICENSE).
 - Original documentation and rendered periodic tables are licensed under

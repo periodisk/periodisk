@@ -20,21 +20,29 @@ resolution-independent renders for the canonical tables and selected variants.
 Files without a variant suffix use Pauling electronegativity, full scientific
 content, detailed classification, and the default Tol Light–inspired colours.
 
-Each locale contains the same six outputs:
+English and Norwegian contain the same nine outputs:
 
 | Variant | PDF | SVG |
 |---|:---:|:---:|
 | Default, full content, A3 | Yes | Yes |
 | Default, full content, A4 | Yes | — |
 | `broad-light`, simplified broad classification, A3 | Yes | Yes |
+| `broad-light`, simplified broad classification, A4 | Yes | — |
 | Powder, gutters and rounded corners, A3 | Yes | — |
+| Exam, light colour: `broad-tol-light`, broad classification, A4 | Yes | — |
+| Exam, greyscale: `broad-grey`, broad classification, A4 | Yes | — |
 
 A3 is recommended for the dense full-data layout. A4 uses the same vector
 composition at a smaller physical scale.
 
-English and Norwegian therefore have equal format and feature coverage. The
-example set demonstrates the main use cases without duplicating every palette;
-all selectable colours are shown in
+The two exam variants are A4 handouts. `broad-tol-light` is for colour
+printing. `broad-grey` is for black-and-white printing: it separates the
+classes with distinct grey steps and hatches incompletely characterised
+elements. For on-screen
+use, `broad-tol-pale` is a lighter version of `broad-tol-light`.
+
+The example set covers the main use cases rather than every palette; all
+selectable colours are shown in
 [`../docs/colour-schemes.svg`](../docs/colour-schemes.svg).
 
 Regenerate the complete example set from the repository root with:
@@ -54,6 +62,8 @@ suffixes are:
 
 - `-broad-light-simplified-broad`
 - `-powder-gutters-rounded`
+- `-broad-tol-light-broad`
+- `-broad-grey-broad`
 
 Suffixes describe non-default choices in this order: colour scheme, cell
 treatment, content mode, and classification mode. Other palettes, soft rules,

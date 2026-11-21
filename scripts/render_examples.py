@@ -38,6 +38,16 @@ EXAMPLES = (
         },
     ),
     Example(
+        "a4-broad-light-simplified-broad",
+        ("pdf",),
+        {
+            "page_size": "A4",
+            "colour_scheme": "broad-light",
+            "content": "simplified",
+            "classification": "broad",
+        },
+    ),
+    Example(
         "a3-powder-gutters-rounded",
         ("pdf",),
         {
@@ -45,6 +55,24 @@ EXAMPLES = (
             "colour_scheme": "powder",
             "cell_style": "gutters",
             "rounded_corners": True,
+        },
+    ),
+    Example(
+        "a4-broad-tol-light-broad",
+        ("pdf",),
+        {
+            "page_size": "A4",
+            "colour_scheme": "broad-tol-light",
+            "classification": "broad",
+        },
+    ),
+    Example(
+        "a4-broad-grey-broad",
+        ("pdf",),
+        {
+            "page_size": "A4",
+            "colour_scheme": "broad-grey",
+            "classification": "broad",
         },
     ),
 )
