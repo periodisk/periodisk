@@ -6,21 +6,34 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+## 2026.7 — 2026-11-25
+
+### Fixes
+
 - Fixed electronegativities losing their trailing zeros: Pauling values now
   print with the CRC Handbook precision (Ca `1,00` rather than `1`, Po `2,0`
   rather than `2`, H `2,20`), and the calculated Allen and Allred–Rochow
   values always show two decimals. Electronegativity records in
   `elements.json` gain a `display` string, exposed as `SourcedValue.display`.
+
+### Content
+
 - Oxidation states: oxygen now shows −1 alongside −2, for peroxides such as
   H₂O₂, and nickel shows only +2.
 - The example-cell legend now says that the printed oxidation states are a
   selection and that others occur, and explains the radioactivity symbol
   ("Radioactive (no stable isotopes)") instead of only naming it, in both
   locales.
+
+### Colour schemes
+
 - Lightened the metalloid and nonmetal colours of `broad-tol-pale`
   (`#8FD6C2` and `#F5B8A3`, 40 % white instead of 15 %) so the small text
-  reads more easily on screen, and added an A4 on-screen exam example in that
-  scheme for both locales.
+  reads more easily on screen.
+
+### Examples and tests
+
+- Added an A4 on-screen exam example in `broad-tol-pale` for both locales.
 - Added a test that fails if any rendered character has no glyph in the font
   CairoSVG selects for it, which would show as a box in the PDF.
 
