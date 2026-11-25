@@ -48,6 +48,7 @@ class SourcedValue:
     source: str
     unit: str | None = None
     note: str | None = None
+    display: str | None = None
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any]) -> SourcedValue:

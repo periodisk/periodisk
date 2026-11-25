@@ -6,6 +6,13 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+- Fixed electronegativities losing their trailing zeros: Pauling values now
+  print with the CRC Handbook precision (Ca `1,00` rather than `1`, Po `2,0`
+  rather than `2`, H `2,20`), and the calculated Allen and Allred–Rochow
+  values always show two decimals. Electronegativity records in
+  `elements.json` gain a `display` string, exposed as `SourcedValue.display`.
+- Oxidation states: oxygen now shows −1 alongside −2, for peroxides such as
+  H₂O₂, and nickel shows only +2.
 - Added a test that fails if any rendered character has no glyph in the font
   CairoSVG selects for it, which would show as a box in the PDF.
 

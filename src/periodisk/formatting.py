@@ -23,7 +23,8 @@ def electronegativity(
     sourced = element.electronegativity.get(scale)
     if sourced is None:
         return missing
-    return localise_number(f"{sourced.value:g}", decimal_separator)
+    text = sourced.display if sourced.display is not None else f"{sourced.value:g}"
+    return localise_number(text, decimal_separator)
 
 
 def ionisation_energy(

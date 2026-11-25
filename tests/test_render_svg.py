@@ -91,7 +91,7 @@ def test_electronegativity_scale_is_selectable_and_localised(tmp_path) -> None:
         electronegativity_scale="allen",
     ).read_text(encoding="utf-8")
     assert "Allen/Mendeleev 1.2.0 (skalert Allen-elektronegativitet)" in allen
-    assert ">2,3</text>" in allen
+    assert ">2,30</text>" in allen
 
 
 def test_unknown_electronegativity_scale_is_rejected(tmp_path) -> None:

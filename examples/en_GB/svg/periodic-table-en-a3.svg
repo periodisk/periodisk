@@ -67,7 +67,7 @@
     <text x="31.40" y="21.20" class="atomic-weight" text-anchor="end">1.0080</text>
     <text x="21.30" y="27.20" class="symbol" text-anchor="middle">H</text>
     <text x="21.30" y="30.50" class="name" text-anchor="middle">hydrogen</text>
-    <text x="11.20" y="34.00" class="property">2.2</text>
+    <text x="11.20" y="34.00" class="property">2.20</text>
     <text x="31.40" y="34.00" class="property" text-anchor="end">1312.0</text>
     <text x="21.30" y="37.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>1 +1</text>
     <text x="21.30" y="41.00" class="configuration" text-anchor="middle">1s¹</text>
@@ -153,7 +153,7 @@
     <text x="354.30" y="55.00" class="name" text-anchor="middle">oxygen</text>
     <text x="344.20" y="58.50" class="property">3.44</text>
     <text x="364.40" y="58.50" class="property" text-anchor="end">1313.9</text>
-    <text x="354.30" y="61.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2</text>
+    <text x="354.30" y="61.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 <tspan class="minus">−</tspan>1</text>
     <text x="354.30" y="65.50" class="configuration" text-anchor="middle">[He]2s²2p⁴</text>
   </g>
   <g id="element-F" data-z="9" data-classifications="halogen" data-chemistry-status="established">
@@ -223,7 +223,7 @@
     <text x="320.00" y="70.20" class="atomic-weight" text-anchor="end">28.085</text>
     <text x="309.90" y="76.20" class="symbol" text-anchor="middle">Si</text>
     <text x="309.90" y="79.50" class="name" text-anchor="middle">silicon</text>
-    <text x="299.80" y="83.00" class="property">1.9</text>
+    <text x="299.80" y="83.00" class="property">1.90</text>
     <text x="320.00" y="83.00" class="property" text-anchor="end">786.5</text>
     <text x="309.90" y="86.20" class="property" text-anchor="middle"><tspan class="minus">−</tspan>4 +4</text>
     <text x="309.90" y="90.00" class="configuration" text-anchor="middle">[Ne]3s²3p²</text>
@@ -295,7 +295,7 @@
     <text x="53.60" y="94.70" class="atomic-weight" text-anchor="end">40.078</text>
     <text x="43.50" y="100.70" class="symbol" text-anchor="middle">Ca</text>
     <text x="43.50" y="104.00" class="name" text-anchor="middle">calcium</text>
-    <text x="33.40" y="107.50" class="property">1</text>
+    <text x="33.40" y="107.50" class="property">1.00</text>
     <text x="53.60" y="107.50" class="property" text-anchor="end">589.8</text>
     <text x="43.50" y="110.70" class="property" text-anchor="middle">+2</text>
     <text x="43.50" y="114.50" class="configuration" text-anchor="middle">[Ar]4s²</text>
@@ -393,7 +393,7 @@
     <text x="221.10" y="104.00" class="name" text-anchor="middle">nickel</text>
     <text x="211.00" y="107.50" class="property">1.91</text>
     <text x="231.20" y="107.50" class="property" text-anchor="end">737.1</text>
-    <text x="221.10" y="110.70" class="property" text-anchor="middle">+2 +3</text>
+    <text x="221.10" y="110.70" class="property" text-anchor="middle">+2</text>
     <text x="221.10" y="114.50" class="configuration" text-anchor="middle">[Ar]3d⁸4s²</text>
   </g>
   <g id="element-Cu" data-z="29" data-classifications="transition-metal" data-chemistry-status="established">
@@ -403,7 +403,7 @@
     <text x="253.40" y="94.70" class="atomic-weight" text-anchor="end">63.546</text>
     <text x="243.30" y="100.70" class="symbol" text-anchor="middle">Cu</text>
     <text x="243.30" y="104.00" class="name" text-anchor="middle">copper</text>
-    <text x="233.20" y="107.50" class="property">1.9</text>
+    <text x="233.20" y="107.50" class="property">1.90</text>
     <text x="253.40" y="107.50" class="property" text-anchor="end">745.5</text>
     <text x="243.30" y="110.70" class="property" text-anchor="middle">+1 +2</text>
     <text x="243.30" y="114.50" class="configuration" text-anchor="middle">[Ar]3d¹⁰4s¹</text>
@@ -579,7 +579,7 @@
     </g>
     <text x="154.50" y="125.20" class="symbol" text-anchor="middle">Tc</text>
     <text x="154.50" y="128.50" class="name" text-anchor="middle">technetium</text>
-    <text x="144.40" y="132.00" class="property">2.1</text>
+    <text x="144.40" y="132.00" class="property">2.10</text>
     <text x="164.60" y="132.00" class="property" text-anchor="end">686.9</text>
     <text x="154.50" y="135.20" class="property" text-anchor="middle">+4 +7</text>
     <text x="154.50" y="139.00" class="configuration" text-anchor="middle">[Kr]4d⁵5s²</text>
@@ -615,7 +615,7 @@
     <text x="231.20" y="119.20" class="atomic-weight" text-anchor="end">106.42</text>
     <text x="221.10" y="125.20" class="symbol" text-anchor="middle">Pd</text>
     <text x="221.10" y="128.50" class="name" text-anchor="middle">palladium</text>
-    <text x="211.00" y="132.00" class="property">2.2</text>
+    <text x="211.00" y="132.00" class="property">2.20</text>
     <text x="231.20" y="132.00" class="property" text-anchor="end">804.4</text>
     <text x="221.10" y="135.20" class="property" text-anchor="middle">+2 +4</text>
     <text x="221.10" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰</text>
@@ -711,7 +711,7 @@
     <text x="408.80" y="119.20" class="atomic-weight" text-anchor="end">131.29</text>
     <text x="398.70" y="125.20" class="symbol" text-anchor="middle">Xe</text>
     <text x="398.70" y="128.50" class="name" text-anchor="middle">xenon</text>
-    <text x="388.60" y="132.00" class="property">2.6</text>
+    <text x="388.60" y="132.00" class="property">2.60</text>
     <text x="408.80" y="132.00" class="property" text-anchor="end">1170.4</text>
     <text x="398.70" y="135.20" class="property" text-anchor="middle">+2 +4 +6 +8</text>
     <text x="398.70" y="139.00" class="configuration" text-anchor="middle">[Kr]4d¹⁰5s²5p⁶</text>
@@ -747,7 +747,7 @@
     <text x="75.80" y="201.20" class="atomic-weight" text-anchor="end">138.91</text>
     <text x="65.70" y="207.20" class="symbol" text-anchor="middle">La</text>
     <text x="65.70" y="210.50" class="name" text-anchor="middle">lanthanum</text>
-    <text x="55.60" y="214.00" class="property">1.1</text>
+    <text x="55.60" y="214.00" class="property">1.10</text>
     <text x="75.80" y="214.00" class="property" text-anchor="end">538.1</text>
     <text x="65.70" y="217.20" class="property" text-anchor="middle">+3</text>
     <text x="65.70" y="221.00" class="configuration" text-anchor="middle">[Xe]5d¹6s²</text>
@@ -839,7 +839,7 @@
     <text x="231.20" y="201.20" class="atomic-weight" text-anchor="end">157.25</text>
     <text x="221.10" y="207.20" class="symbol" text-anchor="middle">Gd</text>
     <text x="221.10" y="210.50" class="name" text-anchor="middle">gadolinium</text>
-    <text x="211.00" y="214.00" class="property">1.2</text>
+    <text x="211.00" y="214.00" class="property">1.20</text>
     <text x="231.20" y="214.00" class="property" text-anchor="end">593.4</text>
     <text x="221.10" y="217.20" class="property" text-anchor="middle">+3</text>
     <text x="221.10" y="221.00" class="configuration" text-anchor="middle">[Xe]4f⁷5d¹6s²</text>
@@ -923,7 +923,7 @@
     <text x="386.60" y="201.20" class="atomic-weight" text-anchor="end">174.97</text>
     <text x="376.50" y="207.20" class="symbol" text-anchor="middle">Lu</text>
     <text x="376.50" y="210.50" class="name" text-anchor="middle">lutetium</text>
-    <text x="366.40" y="214.00" class="property">1</text>
+    <text x="366.40" y="214.00" class="property">1.0</text>
     <text x="386.60" y="214.00" class="property" text-anchor="end">523.5</text>
     <text x="376.50" y="217.20" class="property" text-anchor="middle">+3</text>
     <text x="376.50" y="221.00" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹6s²</text>
@@ -1096,7 +1096,7 @@
     </g>
     <text x="354.30" y="149.70" class="symbol" text-anchor="middle">Po</text>
     <text x="354.30" y="153.00" class="name" text-anchor="middle">polonium</text>
-    <text x="344.20" y="156.50" class="property">2</text>
+    <text x="344.20" y="156.50" class="property">2.0</text>
     <text x="364.40" y="156.50" class="property" text-anchor="end">812.2</text>
     <text x="354.30" y="159.70" class="property" text-anchor="middle"><tspan class="minus">−</tspan>2 +2 +4</text>
     <text x="354.30" y="163.50" class="configuration" text-anchor="middle">[Xe]4f¹⁴5d¹⁰6s²6p⁴</text>

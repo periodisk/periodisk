@@ -16,6 +16,22 @@ from typing import Any
 
 EV_TO_KJ_PER_MOL = 96.48533212331002
 ALLEN_TO_PAULING_UNITS = 0.169
+# Mendeleev stores Pauling electronegativities as floats, which drops the
+# trailing zeros printed in the CRC Handbook table. These are the values whose
+# printed precision cannot be recovered from the float alone.
+PAULING_TRAILING_ZERO_DISPLAY = {
+    "H": "2.20",
+    "Si": "1.90",
+    "Ca": "1.00",
+    "Cu": "1.90",
+    "Tc": "2.10",
+    "Pd": "2.20",
+    "Xe": "2.60",
+    "La": "1.10",
+    "Gd": "1.20",
+    "Lu": "1.0",
+    "Po": "2.0",
+}
 EXPECTED_MENDELEEV_VERSION = "1.2.0"
 _HALF_LIFE_PATTERN = re.compile(
     r"\s*(?:approx\.\s*)?"
@@ -159,14 +175,30 @@ def _classification(number: int, group: int | None) -> list[str]:
 
 
 def _sourced(
-    value: Any, source: str, unit: str | None = None, note: str | None = None
+    value: Any,
+    source: str,
+    unit: str | None = None,
+    note: str | None = None,
+    display: str | None = None,
 ) -> dict[str, Any]:
     record: dict[str, Any] = {"value": value, "source": source}
     if unit is not None:
         record["unit"] = unit
     if note is not None:
         record["note"] = note
+    if display is not None:
+        record["display"] = display
     return record
+
+
+def pauling_display(symbol: str, value: float) -> str:
+    """Return a Pauling value with the precision printed in the CRC Handbook."""
+    display = PAULING_TRAILING_ZERO_DISPLAY.get(symbol, f"{value:g}")
+    if float(display) != value:
+        raise ValueError(
+            f"{symbol}: Pauling display {display!r} does not equal value {value!r}"
+        )
+    return display
 
 
 def build(ciaaw_weights: Path, ciaaw_radioactive: Path) -> dict[str, Any]:
@@ -246,12 +278,18 @@ def build(ciaaw_weights: Path, ciaaw_radioactive: Path) -> dict[str, Any]:
 
         electronegativity: dict[str, Any] = {}
         if item.en_pauling is not None:
-            electronegativity["pauling"] = _sourced(item.en_pauling, "crc-handbook-95")
+            electronegativity["pauling"] = _sourced(
+                item.en_pauling,
+                "crc-handbook-95",
+                display=pauling_display(item.symbol, item.en_pauling),
+            )
         allen = item.electronegativity("allen")
         if allen is not None:
+            allen_value = round(allen * ALLEN_TO_PAULING_UNITS, 2)
             electronegativity["allen"] = _sourced(
-                round(allen * ALLEN_TO_PAULING_UNITS, 2),
+                allen_value,
                 "allen-electronegativity-via-mendeleev",
+                display=f"{allen_value:.2f}",
                 note="Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
             )
         raw_allred_rochow = item.electronegativity("allred-rochow")
@@ -261,6 +299,7 @@ def build(ciaaw_weights: Path, ciaaw_radioactive: Path) -> dict[str, Any]:
             electronegativity["allred-rochow"] = _sourced(
                 value,
                 "allred-rochow-calculated",
+                display=f"{value:.2f}",
                 note="Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
             )
 
