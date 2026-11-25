@@ -279,16 +279,18 @@
         2
       ],
       "print": [
-        -2
+        -2,
+        -1
       ],
       "principal": [],
       "evidence": {
-        "-2": {"representative": "H₂O", "reason": "The overwhelmingly characteristic oxygen state and the standard introductory rule.", "source": "housecroft-sharpe-2018"}
+        "-2": {"representative": "H₂O", "reason": "The overwhelmingly characteristic oxygen state and the standard introductory rule.", "source": "housecroft-sharpe-2018"},
+        "-1": {"representative": "H₂O₂", "reason": "Hydrogen peroxide is a standard general-chemistry oxidising and reducing agent and appears in tables of standard reduction potentials.", "source": "housecroft-sharpe-2018"}
       },
       "status": "reviewed",
       "reviewer": "Periodisk contributors",
-      "reviewed_date": "2026-08-12",
-      "notes": "Keep only −2 for a simple general-chemistry table. Peroxide and oxygen-fluoride exceptions are deliberately omitted."
+      "reviewed_date": "2026-11-25",
+      "notes": "Retain −2 and add −1 for peroxides, which are used in general-chemistry redox work. Oxygen-fluoride exceptions are deliberately omitted."
     },
     {
       "atomic_number": 9,
@@ -983,18 +985,16 @@
         4
       ],
       "print": [
-        2,
-        3
+        2
       ],
       "principal": [],
       "evidence": {
-        "2": {"representative": "NiO", "reason": "The dominant state in simple nickel compounds.", "source": "housecroft-sharpe-2018"},
-        "3": {"representative": "NiO(OH)", "reason": "Nickel oxyhydroxide makes +3 important in electrochemistry and batteries.", "source": "greenwood-earnshaw-1997"}
+        "2": {"representative": "NiO", "reason": "The dominant state in simple nickel compounds.", "source": "housecroft-sharpe-2018"}
       },
       "status": "reviewed",
       "reviewer": "Periodisk contributors",
-      "reviewed_date": "2026-08-12",
-      "notes": "Retain dominant +2 and add +3 for oxide, oxyhydroxide and battery chemistry."
+      "reviewed_date": "2026-11-25",
+      "notes": "Retain only the dominant +2, in line with the Mendeleev and Wikipedia main states. The +3 state of nickel oxyhydroxide is deliberately omitted from this compact teaching table."
     },
     {
       "atomic_number": 29,

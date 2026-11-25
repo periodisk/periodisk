@@ -68,6 +68,18 @@ Pauling values are the CRC Handbook values distributed by Mendeleev
 1.2.0.[^mendeleev][^crc]
 Absent values remain absent.
 
+Mendeleev stores these values as floating-point numbers, which drops trailing
+zeros. Each value therefore carries a `display` string with the precision
+printed in the CRC table: most values have two decimals (Ca `1.00`, H `2.20`),
+while 26 values, mainly for the heavier elements, are given to one decimal
+(Nb `1.6`, Po `2.0`). The eleven values whose trailing zeros cannot be
+recovered from the float (H, Si, Ca, Cu, Tc, Pd, Xe, La, Gd, Lu, Po) are
+listed in the dataset-preparation script; their precision was checked against
+the CRC column of Wikipedia's [electronegativity data
+page](https://en.wikipedia.org/wiki/Electronegativities_of_the_elements_(data_page)),
+not against a printed copy of the handbook. The calculated Allen and
+Allred–Rochow values are always shown with two decimals.
+
 Allen electronegativities are the valence-shell configuration energies, in
 eV, distributed by Mendeleev and attributed to Allen's 1989
 definition.[^mendeleev][^allen]

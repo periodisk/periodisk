@@ -12,11 +12,11 @@
     "atomic_weight": "Atomic weight\n([ ] = mass number of longest-lived isotope)",
     "electronegativity": "Electronegativity",
     "first_ionisation_energy": "First ionisation energy",
-    "oxidation_states": "Oxidation states (C: −4…+4 = every integer)",
+    "oxidation_states": "Oxidation states (selection, others occur)\n(C: −4…+4 = every integer)",
     "electron_configuration": "Electron configuration (ground state; predicted for Rf–Og)",
     "radioactive": "No stable isotopes",
     "unknown_chemistry": "Chemistry insufficiently characterised",
-    "radioactive_sign": "Radioactive sign",
+    "radioactive_sign": "Radioactive (no stable isotopes)",
     "sources": "Sources",
     "split_classification": "Two classifications"
   },

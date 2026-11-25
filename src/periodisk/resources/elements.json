@@ -27,17 +27,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.20"
         },
         "allred-rochow": {
           "value": 4.25,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "4.25"
         },
         "allen": {
           "value": 2.3,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.30"
         }
       },
       "first_ionisation_energy": {
@@ -92,12 +95,14 @@
         "allred-rochow": {
           "value": 3.63,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "3.63"
         },
         "allen": {
           "value": 4.16,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "4.16"
         }
       },
       "first_ionisation_energy": {
@@ -147,17 +152,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.98,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.98"
         },
         "allred-rochow": {
           "value": 1.01,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.01"
         },
         "allen": {
           "value": 0.91,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.91"
         }
       },
       "first_ionisation_energy": {
@@ -206,17 +214,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.57,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.57"
         },
         "allred-rochow": {
           "value": 1.42,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.42"
         },
         "allen": {
           "value": 1.58,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.58"
         }
       },
       "first_ionisation_energy": {
@@ -270,17 +281,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.04,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.04"
         },
         "allred-rochow": {
           "value": 2.04,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.04"
         },
         "allen": {
           "value": 2.05,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.05"
         }
       },
       "first_ionisation_energy": {
@@ -334,17 +348,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.55,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.55"
         },
         "allred-rochow": {
           "value": 2.82,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.82"
         },
         "allen": {
           "value": 2.54,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.54"
         }
       },
       "first_ionisation_energy": {
@@ -404,17 +421,20 @@
       "electronegativity": {
         "pauling": {
           "value": 3.04,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "3.04"
         },
         "allred-rochow": {
           "value": 3.52,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "3.52"
         },
         "allen": {
           "value": 3.06,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "3.06"
         }
       },
       "first_ionisation_energy": {
@@ -474,17 +494,20 @@
       "electronegativity": {
         "pauling": {
           "value": 3.44,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "3.44"
         },
         "allred-rochow": {
           "value": 4.86,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "4.86"
         },
         "allen": {
           "value": 3.61,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "3.61"
         }
       },
       "first_ionisation_energy": {
@@ -496,10 +519,10 @@
       "oxidation_states": {
         "value": {
           "main": [
-            -2
+            -2,
+            -1
           ],
           "additional": [
-            -1,
             1,
             2
           ]
@@ -537,17 +560,20 @@
       "electronegativity": {
         "pauling": {
           "value": 3.98,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "3.98"
         },
         "allred-rochow": {
           "value": 5.3,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "5.30"
         },
         "allen": {
           "value": 4.19,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "4.19"
         }
       },
       "first_ionisation_energy": {
@@ -601,12 +627,14 @@
         "allred-rochow": {
           "value": 5.42,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "5.42"
         },
         "allen": {
           "value": 4.78,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "4.78"
         }
       },
       "first_ionisation_energy": {
@@ -653,17 +681,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.93,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.93"
         },
         "allred-rochow": {
           "value": 1.07,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.07"
         },
         "allen": {
           "value": 0.87,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.87"
         }
       },
       "first_ionisation_energy": {
@@ -714,17 +745,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.31,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.31"
         },
         "allred-rochow": {
           "value": 1.27,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.27"
         },
         "allen": {
           "value": 1.29,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.29"
         }
       },
       "first_ionisation_energy": {
@@ -775,17 +809,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.61,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.61"
         },
         "allred-rochow": {
           "value": 1.54,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.54"
         },
         "allen": {
           "value": 1.61,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.61"
         }
       },
       "first_ionisation_energy": {
@@ -839,17 +876,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.90"
         },
         "allred-rochow": {
           "value": 1.85,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.85"
         },
         "allen": {
           "value": 1.91,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.91"
         }
       },
       "first_ionisation_energy": {
@@ -906,17 +946,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.19,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.19"
         },
         "allred-rochow": {
           "value": 2.14,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.14"
         },
         "allen": {
           "value": 2.25,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.25"
         }
       },
       "first_ionisation_energy": {
@@ -973,17 +1016,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.58,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.58"
         },
         "allred-rochow": {
           "value": 2.59,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.59"
         },
         "allen": {
           "value": 2.59,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.59"
         }
       },
       "first_ionisation_energy": {
@@ -1043,17 +1089,20 @@
       "electronegativity": {
         "pauling": {
           "value": 3.16,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "3.16"
         },
         "allred-rochow": {
           "value": 2.98,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.98"
         },
         "allen": {
           "value": 2.87,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.87"
         }
       },
       "first_ionisation_energy": {
@@ -1111,12 +1160,14 @@
         "allred-rochow": {
           "value": 3.37,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "3.37"
         },
         "allen": {
           "value": 3.24,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "3.24"
         }
       },
       "first_ionisation_energy": {
@@ -1163,17 +1214,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.82,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.82"
         },
         "allred-rochow": {
           "value": 0.95,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "0.95"
         },
         "allen": {
           "value": 0.73,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.73"
         }
       },
       "first_ionisation_energy": {
@@ -1227,17 +1281,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.0,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.00"
         },
         "allred-rochow": {
           "value": 1.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.09"
         },
         "allen": {
           "value": 1.03,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.03"
         }
       },
       "first_ionisation_energy": {
@@ -1288,17 +1345,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.36,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.36"
         },
         "allred-rochow": {
           "value": 1.24,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.24"
         },
         "allen": {
           "value": 1.19,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.19"
         }
       },
       "first_ionisation_energy": {
@@ -1350,17 +1410,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.54,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.54"
         },
         "allred-rochow": {
           "value": 1.36,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.36"
         },
         "allen": {
           "value": 1.38,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.38"
         }
       },
       "first_ionisation_energy": {
@@ -1415,17 +1478,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.63,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.63"
         },
         "allred-rochow": {
           "value": 1.4,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.40"
         },
         "allen": {
           "value": 1.53,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.53"
         }
       },
       "first_ionisation_energy": {
@@ -1481,17 +1547,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.66,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.66"
         },
         "allred-rochow": {
           "value": 1.46,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.46"
         },
         "allen": {
           "value": 1.65,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.65"
         }
       },
       "first_ionisation_energy": {
@@ -1549,17 +1618,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.55,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.55"
         },
         "allred-rochow": {
           "value": 1.66,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.66"
         },
         "allen": {
           "value": 1.75,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.75"
         }
       },
       "first_ionisation_energy": {
@@ -1617,17 +1689,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.83,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.83"
         },
         "allred-rochow": {
           "value": 1.74,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.74"
         },
         "allen": {
           "value": 1.8,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.80"
         }
       },
       "first_ionisation_energy": {
@@ -1686,17 +1761,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.88,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.88"
         },
         "allred-rochow": {
           "value": 1.88,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.88"
         },
         "allen": {
           "value": 1.84,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.84"
         }
       },
       "first_ionisation_energy": {
@@ -1755,17 +1833,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.91,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.91"
         },
         "allred-rochow": {
           "value": 1.95,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.95"
         },
         "allen": {
           "value": 1.88,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.88"
         }
       },
       "first_ionisation_energy": {
@@ -1777,13 +1858,13 @@
       "oxidation_states": {
         "value": {
           "main": [
-            2,
-            3
+            2
           ],
           "additional": [
             -2,
             -1,
             1,
+            3,
             4
           ]
         },
@@ -1823,17 +1904,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.90"
         },
         "allred-rochow": {
           "value": 1.8,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.80"
         },
         "allen": {
           "value": 1.85,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.85"
         }
       },
       "first_ionisation_energy": {
@@ -1890,17 +1974,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.65,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.65"
         },
         "allred-rochow": {
           "value": 1.87,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.87"
         },
         "allen": {
           "value": 1.59,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.59"
         }
       },
       "first_ionisation_energy": {
@@ -1952,17 +2039,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.81,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.81"
         },
         "allred-rochow": {
           "value": 1.91,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.91"
         },
         "allen": {
           "value": 1.76,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.76"
         }
       },
       "first_ionisation_energy": {
@@ -2019,17 +2109,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.01,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.01"
         },
         "allred-rochow": {
           "value": 2.13,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.13"
         },
         "allen": {
           "value": 1.99,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.99"
         }
       },
       "first_ionisation_energy": {
@@ -2086,17 +2179,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.18,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.18"
         },
         "allred-rochow": {
           "value": 2.29,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.29"
         },
         "allen": {
           "value": 2.21,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.21"
         }
       },
       "first_ionisation_energy": {
@@ -2156,17 +2252,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.55,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.55"
         },
         "allred-rochow": {
           "value": 2.6,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.60"
         },
         "allen": {
           "value": 2.42,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.42"
         }
       },
       "first_ionisation_energy": {
@@ -2223,17 +2322,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.96,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.96"
         },
         "allred-rochow": {
           "value": 2.84,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.84"
         },
         "allen": {
           "value": 2.68,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.68"
         }
       },
       "first_ionisation_energy": {
@@ -2294,12 +2396,14 @@
         "allred-rochow": {
           "value": 2.91,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.91"
         },
         "allen": {
           "value": 2.96,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.96"
         }
       },
       "first_ionisation_energy": {
@@ -2353,17 +2457,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.82,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.82"
         },
         "allred-rochow": {
           "value": 0.92,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "0.92"
         },
         "allen": {
           "value": 0.71,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.71"
         }
       },
       "first_ionisation_energy": {
@@ -2418,17 +2525,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.95,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.95"
         },
         "allred-rochow": {
           "value": 1.04,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.04"
         },
         "allen": {
           "value": 0.96,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.96"
         }
       },
       "first_ionisation_energy": {
@@ -2479,17 +2589,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.22,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.22"
         },
         "allred-rochow": {
           "value": 1.15,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.15"
         },
         "allen": {
           "value": 1.12,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -2544,17 +2657,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.33,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.33"
         },
         "allred-rochow": {
           "value": 1.22,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.22"
         },
         "allen": {
           "value": 1.32,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.32"
         }
       },
       "first_ionisation_energy": {
@@ -2607,17 +2723,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.6,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.6"
         },
         "allred-rochow": {
           "value": 1.21,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.21"
         },
         "allen": {
           "value": 1.41,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.41"
         }
       },
       "first_ionisation_energy": {
@@ -2676,17 +2795,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.16,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.16"
         },
         "allred-rochow": {
           "value": 1.3,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.30"
         },
         "allen": {
           "value": 1.47,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.47"
         }
       },
       "first_ionisation_energy": {
@@ -2743,17 +2865,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.1,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.10"
         },
         "allred-rochow": {
           "value": 1.53,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.53"
         },
         "allen": {
           "value": 1.51,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.51"
         }
       },
       "first_ionisation_energy": {
@@ -2814,17 +2939,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.2"
         },
         "allred-rochow": {
           "value": 1.49,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.49"
         },
         "allen": {
           "value": 1.54,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.54"
         }
       },
       "first_ionisation_energy": {
@@ -2883,17 +3011,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.28,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.28"
         },
         "allred-rochow": {
           "value": 1.53,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.53"
         },
         "allen": {
           "value": 1.56,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.56"
         }
       },
       "first_ionisation_energy": {
@@ -2954,17 +3085,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.20"
         },
         "allred-rochow": {
           "value": 2.45,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.45"
         },
         "allen": {
           "value": 1.59,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.59"
         }
       },
       "first_ionisation_energy": {
@@ -3021,17 +3155,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.93,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.93"
         },
         "allred-rochow": {
           "value": 1.55,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.55"
         },
         "allen": {
           "value": 1.87,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.87"
         }
       },
       "first_ionisation_energy": {
@@ -3088,17 +3225,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.69,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.69"
         },
         "allred-rochow": {
           "value": 1.59,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.59"
         },
         "allen": {
           "value": 1.52,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.52"
         }
       },
       "first_ionisation_energy": {
@@ -3150,17 +3290,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.78,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.78"
         },
         "allred-rochow": {
           "value": 1.63,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.63"
         },
         "allen": {
           "value": 1.66,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.66"
         }
       },
       "first_ionisation_energy": {
@@ -3218,17 +3361,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.96,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.96"
         },
         "allred-rochow": {
           "value": 1.78,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.78"
         },
         "allen": {
           "value": 1.82,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.82"
         }
       },
       "first_ionisation_energy": {
@@ -3288,17 +3434,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.05,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.05"
         },
         "allred-rochow": {
           "value": 1.9,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.90"
         },
         "allen": {
           "value": 1.98,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.98"
         }
       },
       "first_ionisation_energy": {
@@ -3358,17 +3507,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.1,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.1"
         },
         "allred-rochow": {
           "value": 2.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.09"
         },
         "allen": {
           "value": 2.16,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.16"
         }
       },
       "first_ionisation_energy": {
@@ -3425,17 +3577,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.66,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.66"
         },
         "allred-rochow": {
           "value": 2.29,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.29"
         },
         "allen": {
           "value": 2.36,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.36"
         }
       },
       "first_ionisation_energy": {
@@ -3496,17 +3651,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.6,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.60"
         },
         "allred-rochow": {
           "value": 2.47,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.47"
         },
         "allen": {
           "value": 2.58,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.58"
         }
       },
       "first_ionisation_energy": {
@@ -3558,17 +3716,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.79,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.79"
         },
         "allred-rochow": {
           "value": 0.89,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "0.89"
         },
         "allen": {
           "value": 0.66,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.66"
         }
       },
       "first_ionisation_energy": {
@@ -3619,17 +3780,20 @@
       "electronegativity": {
         "pauling": {
           "value": 0.89,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.89"
         },
         "allred-rochow": {
           "value": 1.01,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.01"
         },
         "allen": {
           "value": 0.88,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "0.88"
         }
       },
       "first_ionisation_energy": {
@@ -3683,12 +3847,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.1,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.10"
         },
         "allred-rochow": {
           "value": 1.08,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.08"
         }
       },
       "first_ionisation_energy": {
@@ -3743,12 +3909,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.12,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.12"
         },
         "allred-rochow": {
           "value": 1.15,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.15"
         }
       },
       "first_ionisation_energy": {
@@ -3801,12 +3969,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.13,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.13"
         },
         "allred-rochow": {
           "value": 1.07,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.07"
         }
       },
       "first_ionisation_energy": {
@@ -3863,12 +4033,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.14,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.14"
         },
         "allred-rochow": {
           "value": 1.08,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.08"
         }
       },
       "first_ionisation_energy": {
@@ -3920,7 +4092,8 @@
         "allred-rochow": {
           "value": 1.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.09"
         }
       },
       "first_ionisation_energy": {
@@ -3974,12 +4147,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.17,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.17"
         },
         "allred-rochow": {
           "value": 1.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.09"
         }
       },
       "first_ionisation_energy": {
@@ -4035,7 +4210,8 @@
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -4088,12 +4264,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.20"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -4146,7 +4324,8 @@
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -4202,12 +4381,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.22,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.22"
         },
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -4260,12 +4441,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.23,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.23"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -4320,12 +4503,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.24,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.24"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -4377,12 +4562,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.25,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.25"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -4438,7 +4625,8 @@
         "allred-rochow": {
           "value": 1.1,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.10"
         }
       },
       "first_ionisation_energy": {
@@ -4493,17 +4681,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.0,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.0"
         },
         "allred-rochow": {
           "value": 1.15,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.15"
         },
         "allen": {
           "value": 1.09,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.09"
         }
       },
       "first_ionisation_energy": {
@@ -4555,17 +4746,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.3,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.3"
         },
         "allred-rochow": {
           "value": 1.23,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.23"
         },
         "allen": {
           "value": 1.15,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.15"
         }
       },
       "first_ionisation_energy": {
@@ -4619,17 +4813,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.5,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.5"
         },
         "allred-rochow": {
           "value": 1.3,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.30"
         },
         "allen": {
           "value": 1.34,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.34"
         }
       },
       "first_ionisation_energy": {
@@ -4685,17 +4882,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.7,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.7"
         },
         "allred-rochow": {
           "value": 1.4,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.40"
         },
         "allen": {
           "value": 1.47,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.47"
         }
       },
       "first_ionisation_energy": {
@@ -4753,17 +4953,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.9"
         },
         "allred-rochow": {
           "value": 1.5,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.50"
         },
         "allen": {
           "value": 1.6,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.60"
         }
       },
       "first_ionisation_energy": {
@@ -4824,17 +5027,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.2"
         },
         "allred-rochow": {
           "value": 1.55,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.55"
         },
         "allen": {
           "value": 1.65,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.65"
         }
       },
       "first_ionisation_energy": {
@@ -4894,17 +5100,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.2"
         },
         "allred-rochow": {
           "value": 1.68,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.68"
         },
         "allen": {
           "value": 1.68,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.68"
         }
       },
       "first_ionisation_energy": {
@@ -4965,17 +5174,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.2"
         },
         "allred-rochow": {
           "value": 1.59,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.59"
         },
         "allen": {
           "value": 1.72,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.72"
         }
       },
       "first_ionisation_energy": {
@@ -5033,17 +5245,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.4,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.4"
         },
         "allred-rochow": {
           "value": 1.61,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.61"
         },
         "allen": {
           "value": 1.91,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.91"
         }
       },
       "first_ionisation_energy": {
@@ -5099,17 +5314,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.9"
         },
         "allred-rochow": {
           "value": 1.63,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.63"
         },
         "allen": {
           "value": 1.76,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.76"
         }
       },
       "first_ionisation_energy": {
@@ -5161,12 +5379,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.8,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.8"
         },
         "allred-rochow": {
           "value": 1.61,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.61"
         }
       },
       "first_ionisation_energy": {
@@ -5221,17 +5441,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.8,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.8"
         },
         "allred-rochow": {
           "value": 1.72,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.72"
         },
         "allen": {
           "value": 1.85,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "1.85"
         }
       },
       "first_ionisation_energy": {
@@ -5287,17 +5510,20 @@
       "electronegativity": {
         "pauling": {
           "value": 1.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.9"
         },
         "allred-rochow": {
           "value": 1.74,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.74"
         },
         "allen": {
           "value": 2.01,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.01"
         }
       },
       "first_ionisation_energy": {
@@ -5353,17 +5579,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.0,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.0"
         },
         "allred-rochow": {
           "value": 1.93,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.93"
         },
         "allen": {
           "value": 2.2,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.20"
         }
       },
       "first_ionisation_energy": {
@@ -5417,17 +5646,20 @@
       "electronegativity": {
         "pauling": {
           "value": 2.2,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "2.2"
         },
         "allred-rochow": {
           "value": 2.01,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.01"
         },
         "allen": {
           "value": 2.38,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.38"
         }
       },
       "first_ionisation_energy": {
@@ -5482,12 +5714,14 @@
         "allred-rochow": {
           "value": 2.21,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "2.21"
         },
         "allen": {
           "value": 2.6,
           "source": "allen-electronegativity-via-mendeleev",
-          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places."
+          "note": "Mendeleev configuration energy in eV multiplied by 0.169 and rounded to two decimal places.",
+          "display": "2.60"
         }
       },
       "first_ionisation_energy": {
@@ -5536,12 +5770,14 @@
       "electronegativity": {
         "pauling": {
           "value": 0.7,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.7"
         },
         "allred-rochow": {
           "value": 0.9,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "0.90"
         }
       },
       "first_ionisation_energy": {
@@ -5589,12 +5825,14 @@
       "electronegativity": {
         "pauling": {
           "value": 0.9,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "0.9"
         },
         "allred-rochow": {
           "value": 1.0,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.00"
         }
       },
       "first_ionisation_energy": {
@@ -5642,12 +5880,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.1,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.1"
         },
         "allred-rochow": {
           "value": 1.06,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.06"
         }
       },
       "first_ionisation_energy": {
@@ -5699,12 +5939,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.3,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.3"
         },
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -5758,12 +6000,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.5,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.5"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -5820,12 +6064,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.7,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.7"
         },
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -5880,12 +6126,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.3,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.3"
         },
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -5939,12 +6187,14 @@
       "electronegativity": {
         "pauling": {
           "value": 1.3,
-          "source": "crc-handbook-95"
+          "source": "crc-handbook-95",
+          "display": "1.3"
         },
         "allred-rochow": {
           "value": 1.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.09"
         }
       },
       "first_ionisation_energy": {
@@ -6000,7 +6250,8 @@
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -6055,7 +6306,8 @@
         "allred-rochow": {
           "value": 1.13,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.13"
         }
       },
       "first_ionisation_energy": {
@@ -6108,7 +6360,8 @@
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -6161,7 +6414,8 @@
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -6214,7 +6468,8 @@
         "allred-rochow": {
           "value": 1.12,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.12"
         }
       },
       "first_ionisation_energy": {
@@ -6266,7 +6521,8 @@
         "allred-rochow": {
           "value": 1.11,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.11"
         }
       },
       "first_ionisation_energy": {
@@ -6317,7 +6573,8 @@
         "allred-rochow": {
           "value": 1.09,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.09"
         }
       },
       "first_ionisation_energy": {
@@ -6367,7 +6624,8 @@
         "allred-rochow": {
           "value": 1.07,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.07"
         }
       },
       "first_ionisation_energy": {
@@ -6417,7 +6675,8 @@
         "allred-rochow": {
           "value": 1.23,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.23"
         }
       },
       "first_ionisation_energy": {
@@ -6466,7 +6725,8 @@
         "allred-rochow": {
           "value": 1.2,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.20"
         }
       },
       "first_ionisation_energy": {
@@ -6518,7 +6778,8 @@
         "allred-rochow": {
           "value": 1.28,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.28"
         }
       },
       "first_ionisation_energy": {
@@ -6570,7 +6831,8 @@
         "allred-rochow": {
           "value": 1.35,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.35"
         }
       },
       "first_ionisation_energy": {
@@ -6623,7 +6885,8 @@
         "allred-rochow": {
           "value": 1.39,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.39"
         }
       },
       "first_ionisation_energy": {
@@ -6676,7 +6939,8 @@
         "allred-rochow": {
           "value": 1.49,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.49"
         }
       },
       "first_ionisation_energy": {
@@ -6864,7 +7128,8 @@
         "allred-rochow": {
           "value": 1.79,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.79"
         }
       },
       "first_ionisation_energy": {
@@ -6914,7 +7179,8 @@
         "allred-rochow": {
           "value": 1.71,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.71"
         }
       },
       "first_ionisation_energy": {
@@ -6961,7 +7227,8 @@
         "allred-rochow": {
           "value": 1.74,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.74"
         }
       },
       "first_ionisation_energy": {
@@ -7008,7 +7275,8 @@
         "allred-rochow": {
           "value": 1.61,
           "source": "allred-rochow-calculated",
-          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius."
+          "note": "Calculated with Slater effective charge and Pyykkö single-bond covalent radius.",
+          "display": "1.61"
         }
       },
       "first_ionisation_energy": {

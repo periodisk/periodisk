@@ -67,6 +67,15 @@ EXAMPLES = (
         },
     ),
     Example(
+        "a4-broad-tol-pale-broad",
+        ("pdf",),
+        {
+            "page_size": "A4",
+            "colour_scheme": "broad-tol-pale",
+            "classification": "broad",
+        },
+    ),
+    Example(
         "a4-broad-grey-broad",
         ("pdf",),
         {

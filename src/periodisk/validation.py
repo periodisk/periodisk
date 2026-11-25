@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import re
 from collections import Counter
 from collections.abc import Iterable, Mapping
 from decimal import Decimal, InvalidOperation
@@ -29,6 +30,14 @@ def _is_integer(value: object) -> bool:
     """Return whether value is an integer, excluding booleans."""
 
     return isinstance(value, int) and not isinstance(value, bool)
+
+
+def _displays_number(display: object, value: float) -> bool:
+    """Return whether display is a plain decimal string equal to value."""
+
+    if not isinstance(display, str) or not re.fullmatch(r"\d+(\.\d+)?", display):
+        return False
+    return float(display) == value
 
 
 def _is_number(value: object) -> bool:
@@ -155,6 +164,13 @@ def validate_dataset(
         for scale, value in element.electronegativity.items():
             if not _is_number(value.value) or value.value <= 0:
                 errors.append(f"{label}: {scale} electronegativity must be positive")
+            elif value.display is not None and not _displays_number(
+                value.display, value.value
+            ):
+                errors.append(
+                    f"{label}: {scale} electronegativity display {value.display!r} "
+                    f"does not equal its value {value.value!r}"
+                )
         states = element.oxidation_states.value
         if not isinstance(states, dict) or set(states) != {"main", "additional"}:
             errors.append(

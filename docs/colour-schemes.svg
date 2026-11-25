@@ -778,18 +778,18 @@
     <title>broad-tol-pale · post-transition-metal: #B4D0EC</title>
   </rect>
   <text x="506.0" y="713" class="hex">#B4D0EC</text>
-  <rect x="556" y="690" width="92" height="34" rx="3" fill="#60C5A8" stroke="#333333" stroke-width="0.7">
-    <title>broad-tol-pale · metalloid: #60C5A8</title>
+  <rect x="556" y="690" width="92" height="34" rx="3" fill="#8FD6C2" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-pale · metalloid: #8FD6C2</title>
   </rect>
-  <text x="602.0" y="713" class="hex">#60C5A8</text>
-  <rect x="652" y="690" width="92" height="34" rx="3" fill="#F19A7D" stroke="#333333" stroke-width="0.7">
-    <title>broad-tol-pale · reactive-nonmetal: #F19A7D</title>
+  <text x="602.0" y="713" class="hex">#8FD6C2</text>
+  <rect x="652" y="690" width="92" height="34" rx="3" fill="#F5B8A3" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-pale · reactive-nonmetal: #F5B8A3</title>
   </rect>
-  <text x="698.0" y="713" class="hex">#F19A7D</text>
-  <rect x="748" y="690" width="92" height="34" rx="3" fill="#F19A7D" stroke="#333333" stroke-width="0.7">
-    <title>broad-tol-pale · halogen: #F19A7D</title>
+  <text x="698.0" y="713" class="hex">#F5B8A3</text>
+  <rect x="748" y="690" width="92" height="34" rx="3" fill="#F5B8A3" stroke="#333333" stroke-width="0.7">
+    <title>broad-tol-pale · halogen: #F5B8A3</title>
   </rect>
-  <text x="794.0" y="713" class="hex">#F19A7D</text>
+  <text x="794.0" y="713" class="hex">#F5B8A3</text>
   <rect x="844" y="690" width="92" height="34" rx="3" fill="#FFB7C5" stroke="#333333" stroke-width="0.7">
     <title>broad-tol-pale · noble-gas: #FFB7C5</title>
   </rect>

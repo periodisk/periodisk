@@ -114,6 +114,29 @@ def test_atomic_weight_display_must_be_a_non_empty_string() -> None:
     assert any("atomic-weight display" in error for error in errors)
 
 
+@pytest.mark.parametrize("display", ["2.3", "2,20", "2.20 ", 2.2])
+def test_electronegativity_display_must_equal_value(display: object) -> None:
+    invalid = replace(
+        element(),
+        electronegativity={
+            "pauling": SourcedValue(value=2.2, source="test", display=display)
+        },
+    )
+    errors = validate_dataset([invalid], {"test": SOURCE})
+    assert any("electronegativity display" in error for error in errors)
+
+
+def test_electronegativity_display_may_carry_trailing_zeros() -> None:
+    valid = replace(
+        element(),
+        electronegativity={
+            "pauling": SourcedValue(value=2.2, source="test", display="2.20")
+        },
+    )
+    errors = validate_dataset([valid], {"test": SOURCE})
+    assert not any("electronegativity display" in error for error in errors)
+
+
 def test_unknown_electronegativity_scale_is_rejected() -> None:
     record = replace(
         element(),

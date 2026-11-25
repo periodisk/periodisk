@@ -91,7 +91,7 @@ def test_electronegativity_scale_is_selectable_and_localised(tmp_path) -> None:
         electronegativity_scale="allen",
     ).read_text(encoding="utf-8")
     assert "Allen/Mendeleev 1.2.0 (skalert Allen-elektronegativitet)" in allen
-    assert ">2,3</text>" in allen
+    assert ">2,30</text>" in allen
 
 
 def test_unknown_electronegativity_scale_is_rejected(tmp_path) -> None:
@@ -658,8 +658,8 @@ def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
     ).getroot()
     expected = {
         "Fe": "#B4D0EC",
-        "B": "#60C5A8",
-        "O": "#F19A7D",
+        "B": "#8FD6C2",
+        "O": "#F5B8A3",
         "Ne": "#FFB7C5",
         "Og": "#FFFFFF",
     }
@@ -673,12 +673,13 @@ def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
         )
         assert fill.attrib["fill"] == colour
 
-    # Metals are broad-tol-light mixed with 45 % white, the others with 15 %.
+    # broad-tol-light mixed with white: metals 45 %, metalloids and nonmetals
+    # 40 %, noble gases 15 %.
     base, pale = PALETTES["broad-tol-light"], PALETTES["broad-tol-pale"]
     mixes = {
         "transition-metal": 0.45,
-        "metalloid": 0.15,
-        "reactive-nonmetal": 0.15,
+        "metalloid": 0.40,
+        "reactive-nonmetal": 0.40,
         "noble-gas": 0.15,
     }
     for key, mix in mixes.items():

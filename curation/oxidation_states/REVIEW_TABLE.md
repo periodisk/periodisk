@@ -18,7 +18,7 @@ below.
 | 5 | B | — | — | — | — | — | — | — | <a href="#b-p3">BCl₃</a> | — | — | — | — | — |
 | 6 | C | <a href="#c-m4">CH₄</a> | <a href="#c-m3">C₂H₆</a> | <a href="#c-m2">C₂H₄</a> | <a href="#c-m1">C₂H₂</a> | <a href="#c-z0">CH₂O</a> | <a href="#c-p1">CH₃CHO</a> | <a href="#c-p2">CO</a> | <a href="#c-p3">H₂C₂O₄</a> | <a href="#c-p4">CO₂</a> | — | — | — | — |
 | 7 | N | — | <a href="#n-m3">NH₃</a> | — | — | — | <a href="#n-p1">N₂O₂²⁻</a> | <a href="#n-p2">NO</a> | <a href="#n-p3">NO₂⁻</a> | <a href="#n-p4">NO₂</a> | <a href="#n-p5">NO₃⁻</a> | — | — | — |
-| 8 | O | — | — | <a href="#o-m2">H₂O</a> | — | — | — | — | — | — | — | — | — | — |
+| 8 | O | — | — | <a href="#o-m2">H₂O</a> | <a href="#o-m1">H₂O₂</a> | — | — | — | — | — | — | — | — | — |
 | 9 | F | — | — | — | <a href="#f-m1">HF</a> | — | — | — | — | — | — | — | — | — |
 | 10 | Ne | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | 11 | Na | — | — | — | — | — | <a href="#na-p1">NaCl</a> | — | — | — | — | — | — | — |
@@ -38,7 +38,7 @@ below.
 | 25 | Mn | — | — | — | — | — | — | <a href="#mn-p2">MnCl₂</a> | <a href="#mn-p3">Mn₂O₃</a> | <a href="#mn-p4">MnO₂</a> | — | <a href="#mn-p6">MnO₄²⁻</a> | <a href="#mn-p7">MnO₄⁻</a> | — |
 | 26 | Fe | — | — | — | — | — | — | <a href="#fe-p2">FeSO₄</a> | <a href="#fe-p3">Fe₂O₃</a> | — | — | <a href="#fe-p6">FeO₄²⁻</a> | — | — |
 | 27 | Co | — | — | — | — | — | — | <a href="#co-p2">CoCl₂</a> | <a href="#co-p3">[Co(NH₃)₆]³⁺</a> | — | — | — | — | — |
-| 28 | Ni | — | — | — | — | — | — | <a href="#ni-p2">NiO</a> | <a href="#ni-p3">NiO(OH)</a> | — | — | — | — | — |
+| 28 | Ni | — | — | — | — | — | — | <a href="#ni-p2">NiO</a> | — | — | — | — | — | — |
 | 29 | Cu | — | — | — | — | — | <a href="#cu-p1">Cu₂O</a> | <a href="#cu-p2">CuO</a> | — | — | — | — | — | — |
 | 30 | Zn | — | — | — | — | — | — | <a href="#zn-p2">ZnO</a> | — | — | — | — | — | — |
 | 31 | Ga | — | — | — | — | — | — | — | <a href="#ga-p3">Ga₂O₃</a> | — | — | — | — | — |
@@ -158,6 +158,7 @@ The citation identifiers are broad rather than page-specific. See the
 | <a id="n-p4"></a>N | +4 | NO₂ | Nitrogen dioxide is a familiar nitrogen(+4) oxide. | [^housecroft-sharpe-2018] |
 | <a id="n-p5"></a>N | +5 | NO₃⁻ | Nitrate is a standard and widely encountered nitrogen(+5) ion. | [^housecroft-sharpe-2018] |
 | <a id="o-m2"></a>O | −2 | H₂O | The overwhelmingly characteristic oxygen state and the standard introductory rule. | [^housecroft-sharpe-2018] |
+| <a id="o-m1"></a>O | −1 | H₂O₂ | Hydrogen peroxide is a standard general-chemistry oxidising and reducing agent and appears in tables of standard reduction potentials. | [^housecroft-sharpe-2018] |
 | <a id="f-m1"></a>F | −1 | HF | Fluorine takes −1 in compounds under the electronegativity-based definition. | [^iupac-oxidation-state-2016] |
 | <a id="na-p1"></a>Na | +1 | NaCl | The standard and overwhelmingly characteristic state of sodium compounds. | [^housecroft-sharpe-2018] |
 | <a id="mg-p2"></a>Mg | +2 | MgO | The standard oxidation state throughout ordinary magnesium chemistry. | [^housecroft-sharpe-2018] |
@@ -200,7 +201,6 @@ The citation identifiers are broad rather than page-specific. See the
 | <a id="co-p2"></a>Co | +2 | CoCl₂ | The common cobalt state in simple salts and aqueous chemistry. | [^housecroft-sharpe-2018] |
 | <a id="co-p3"></a>Co | +3 | [Co(NH₃)₆]³⁺ | A classic coordination-chemistry example of cobalt(+3). | [^housecroft-sharpe-2018] |
 | <a id="ni-p2"></a>Ni | +2 | NiO | The dominant state in simple nickel compounds. | [^housecroft-sharpe-2018] |
-| <a id="ni-p3"></a>Ni | +3 | NiO(OH) | Nickel oxyhydroxide makes +3 important in electrochemistry and batteries. | [^greenwood-earnshaw-1997] |
 | <a id="cu-p1"></a>Cu | +1 | Cu₂O | Copper(I) is a standard state represented by cuprous oxide. | [^housecroft-sharpe-2018] |
 | <a id="cu-p2"></a>Cu | +2 | CuO | Copper(II) is the dominant state in ordinary copper chemistry. | [^housecroft-sharpe-2018] |
 | <a id="zn-p2"></a>Zn | +2 | ZnO | The characteristic oxidation state throughout ordinary zinc chemistry. | [^housecroft-sharpe-2018] |

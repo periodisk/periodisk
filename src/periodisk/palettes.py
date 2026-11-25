@@ -203,16 +203,17 @@ PALETTES = {
         "unknown-chemistry": "#FFFFFF",
     },
     # broad-tol-light lightened for on-screen reading: metals, which cover most
-    # of the table, are mixed with 45 % white and the other classes with 15 %,
-    # so the page is calm while the smaller classes stay distinct.
+    # of the table, are mixed with 45 % white, metalloids and nonmetals with
+    # 40 %, and the already light noble gases with 15 %, so the page is calm and
+    # the small text reads easily while the classes stay distinct.
     "broad-tol-pale": {
         "alkali-metal": "#B4D0EC",
         "alkaline-earth-metal": "#B4D0EC",
         "transition-metal": "#B4D0EC",
         "post-transition-metal": "#B4D0EC",
-        "metalloid": "#60C5A8",
-        "reactive-nonmetal": "#F19A7D",
-        "halogen": "#F19A7D",
+        "metalloid": "#8FD6C2",
+        "reactive-nonmetal": "#F5B8A3",
+        "halogen": "#F5B8A3",
         "noble-gas": "#FFB7C5",
         "lanthanide": "#B4D0EC",
         "actinide": "#B4D0EC",
