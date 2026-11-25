@@ -1824,10 +1824,11 @@
   <line x1="171.47" y1="62.6" x2="165.57" y2="62.6" class="guide-line" />
   <text x="172.97" y="63.50" class="guide-label" text-anchor="start">First ionisation energy (kJ/mol)</text>
   <line x1="130.5" y1="66.8" x2="141.585" y2="66.8" class="guide-line" />
-  <text x="129.00" y="67.70" class="guide-label" text-anchor="end">Oxidation states (C: <tspan class="minus">−</tspan>4…+4 = every integer)</text>
+  <text x="129.00" y="67.70" class="guide-label" text-anchor="end">Oxidation states (selection, others occur)</text>
+  <text x="129.00" y="71.10" class="guide-label" text-anchor="end">(C: <tspan class="minus">−</tspan>4…+4 = every integer)</text>
   <line x1="171.47" y1="71.7" x2="162.485" y2="71.7" class="guide-line" />
   <text x="172.97" y="72.60" class="guide-label" text-anchor="start">Electron configuration (ground state; predicted for Rf–Og)</text>
-  <text x="150.99" y="39.80" class="guide-label" text-anchor="middle">Radioactive sign</text>
+  <text x="150.99" y="39.80" class="guide-label" text-anchor="middle">Radioactive (no stable isotopes)</text>
   <line x1="150.985" y1="40.6" x2="150.985" y2="43.2" class="guide-line" />
   <g class="legend-item" data-category="alkali-metal">
     <rect x="10.2" y="251.0" width="8" height="5" fill="#EE8866" class="legend-swatch" />

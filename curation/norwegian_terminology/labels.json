@@ -2,7 +2,7 @@
   "$schema": "labels.schema.json",
   "schema": 1,
   "locale": "nb_NO",
-  "reviewed_date": "2026-11-18",
+  "reviewed_date": "2026-11-25",
   "items": [
     {
       "section": "labels",
@@ -179,8 +179,9 @@
     {
       "section": "labels",
       "key": "oxidation_states",
-      "reviewed_text": "Oksidasjonstall (C: −4…+4 = alle heltall)",
-      "decision": "retained",
+      "reviewed_text": "Oksidasjonstall (utvalg, andre kan forekomme)\n(C: −4…+4 = alle heltall)",
+      "decision": "changed",
+      "previous_text": "Oksidasjonstall (C: −4…+4 = alle heltall)",
       "sources": [
         {
           "source": "bokmaalsordboka",
@@ -199,7 +200,7 @@
         }
       ],
       "not_listed": [],
-      "notes": "Established term in all three sources."
+      "notes": "Established term in all three sources. The label now says that the printed values are a selection, so that an unlisted oxidation state is not read as impossible."
     },
     {
       "section": "labels",
@@ -276,15 +277,28 @@
     {
       "section": "labels",
       "key": "radioactive_sign",
-      "reviewed_text": "Radioaktivitetssymbol",
-      "decision": "retained",
-      "sources": [],
-      "not_listed": [
-        "bokmaalsordboka",
-        "naob",
-        "snl"
+      "reviewed_text": "Radioaktivt (ingen stabile isotoper)",
+      "decision": "changed",
+      "previous_text": "Radioaktivitetssymbol",
+      "sources": [
+        {
+          "source": "bokmaalsordboka",
+          "entry": "radioaktiv",
+          "url": "https://ordbokene.no/bm/radioaktiv"
+        },
+        {
+          "source": "naob",
+          "entry": "radioaktiv",
+          "url": "https://naob.no/ordbok/radioaktiv"
+        },
+        {
+          "source": "snl",
+          "entry": "radioaktivitet",
+          "url": "https://snl.no/radioaktivitet"
+        }
       ],
-      "notes": "Editorial compound. No source has a term for the symbol, and none offers an alternative."
+      "not_listed": [],
+      "notes": "Explains what the symbol means instead of naming it, reusing the wording of the label for elements with no stable isotopes."
     },
     {
       "section": "labels",

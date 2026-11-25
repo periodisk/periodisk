@@ -12,11 +12,11 @@
     "atomic_weight": "Relativ atommasse\n([ ] = massetall for isotopen med lengst halveringstid)",
     "electronegativity": "Elektronegativitet",
     "first_ionisation_energy": "Første ioniseringsenergi",
-    "oxidation_states": "Oksidasjonstall (C: −4…+4 = alle heltall)",
+    "oxidation_states": "Oksidasjonstall (utvalg, andre kan forekomme)\n(C: −4…+4 = alle heltall)",
     "electron_configuration": "Elektronkonfigurasjon (grunntilstand; beregnet for Rf–Og)",
     "radioactive": "Ingen stabile isotoper",
     "unknown_chemistry": "Ufullstendig karakterisert",
-    "radioactive_sign": "Radioaktivitetssymbol",
+    "radioactive_sign": "Radioaktivt (ingen stabile isotoper)",
     "sources": "Kilder",
     "split_classification": "To klassifiseringer"
   },

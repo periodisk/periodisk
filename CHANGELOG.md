@@ -13,6 +13,10 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
   `elements.json` gain a `display` string, exposed as `SourcedValue.display`.
 - Oxidation states: oxygen now shows −1 alongside −2, for peroxides such as
   H₂O₂, and nickel shows only +2.
+- The example-cell legend now says that the printed oxidation states are a
+  selection and that others occur, and explains the radioactivity symbol
+  ("Radioactive (no stable isotopes)") instead of only naming it, in both
+  locales.
 - Added a test that fails if any rendered character has no glyph in the font
   CairoSVG selects for it, which would show as a box in the PDF.
 
