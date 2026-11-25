@@ -17,6 +17,10 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
   selection and that others occur, and explains the radioactivity symbol
   ("Radioactive (no stable isotopes)") instead of only naming it, in both
   locales.
+- Lightened the metalloid and nonmetal colours of `broad-tol-pale`
+  (`#8FD6C2` and `#F5B8A3`, 40 % white instead of 15 %) so the small text
+  reads more easily on screen, and added an A4 on-screen exam example in that
+  scheme for both locales.
 - Added a test that fails if any rendered character has no glyph in the font
   CairoSVG selects for it, which would show as a box in the PDF.
 

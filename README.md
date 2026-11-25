@@ -31,13 +31,14 @@ are generated from the current source:
 | Detailed, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4.pdf) |
 | Simplified, A3 | [PDF](examples/en_GB/pdf/periodic-table-en-a3-broad-light-simplified-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a3-broad-light-simplified-broad.pdf) |
 | Simplified, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-light-simplified-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-light-simplified-broad.pdf) |
-| Exam, colour, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-tol-light-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-tol-light-broad.pdf) |
+| Exam, on screen, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-tol-pale-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-tol-pale-broad.pdf) |
+| Exam, colour print, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-tol-light-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-tol-light-broad.pdf) |
 | Exam, black and white, A4 | [PDF](examples/en_GB/pdf/periodic-table-en-a4-broad-grey-broad.pdf) | [PDF](examples/nb_NO/pdf/periodic-table-nb-a4-broad-grey-broad.pdf) |
 
 A3 is recommended for the detailed table; A4 uses the same layout at a
 smaller scale. The exam tables keep the detailed content but use the four
-broad classes, in colours chosen for colour printing or in clearly separated
-greys for black-and-white printing.
+broad classes, in pale colours for on-screen reading, stronger colours for
+colour printing, or clearly separated greys for black-and-white printing.
 
 The PDFs are licensed under CC BY 4.0 (see [Licence](#licence)). Editable SVGs
 and further variants are in [`examples/`](examples/); see
@@ -78,14 +79,14 @@ periodisk render periodesystemet.pdf --language nb_NO --content simplified --cla
 
 [View the resulting table](examples/nb_NO/pdf/periodic-table-nb-a3-broad-light-simplified-broad.pdf).
 
-Render the Norwegian exam tables for colour and black-and-white printing:
+Render the Norwegian exam tables for on-screen reading, colour printing and
+black-and-white printing:
 
 ```console
+periodisk render eksamen-skjerm.pdf --language nb_NO --page-size A4 --classification broad --colour-scheme broad-tol-pale
 periodisk render eksamen.pdf --language nb_NO --page-size A4 --classification broad --colour-scheme broad-tol-light
 periodisk render eksamen-gratone.pdf --language nb_NO --page-size A4 --classification broad --colour-scheme broad-grey
 ```
-
-Use `broad-tol-pale` instead of `broad-tol-light` for on-screen reading.
 
 The default uses the Tol Light-inspired colour scheme and the full scientific
 content. Common options include:

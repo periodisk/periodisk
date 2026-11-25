@@ -48,8 +48,9 @@ nonmetals, and noble gases. It preserves the neutral chemistry status and the
 split treatment of Po and At. `broad-light` and `broad-tol-light` are designed
 for this four-colour classification. `broad-tol-pale` lightens
 `broad-tol-light` for on-screen reading: metals, which cover most of the
-table, are mixed with 45 % white and the other classes with 15 %, raising text
-contrast while keeping the smaller classes distinct. `broad-grey` is designed
+table, are mixed with 45 % white, metalloids and nonmetals with 40 %, and the
+already light noble gases with 15 %, raising text contrast while keeping the
+classes distinct. `broad-grey` is designed
 for black-and-white printing: metals, the largest class, are white, the other
 classes use light, distinct neutral greys, and incompletely characterised
 elements are white with sparse diagonal hatching. White knock-outs behind each
