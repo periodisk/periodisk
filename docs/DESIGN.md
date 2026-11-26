@@ -92,6 +92,11 @@ the radioactivity marker, using larger type to make better use of each cell.
 The radioactivity symbol means that an element has no stable isotopes. It is
 drawn as native SVG geometry for consistent SVG and PDF output without a
 platform-specific symbol font.
+In full cells it sits at one fixed position left of centre, between the
+atomic number and the atomic weight, so that it lines up down each column and
+clears both a three-digit atomic number and a six-character atomic weight. In
+simplified cells the atomic number and atomic weight share one large size and
+fill the top row, so the symbol sits in the bottom-right corner.
 
 ## Layout options
 

@@ -6,6 +6,23 @@ separately in [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
 
 ## Unreleased
 
+## 2026.8 — 2026-11-26
+
+### Layout
+
+- Enlarged the atomic number, relative atomic mass, and symbol in full element
+  cells, as these are the values readers look up most; the element name sits
+  slightly lower. The radioactivity symbol moved left of centre to make room
+  and sits at the same position in every cell.
+- Simplified cells now set the relative atomic mass as large as the atomic
+  number. The radioactivity symbol moved from the top row to the free
+  bottom-right corner of the cell.
+### Colour schemes
+
+- Widened the grey steps of `broad-grey` (metalloids `#E2E2E2`, nonmetals
+  `#C4C4C4`, noble gases `#A3A3A3`) so that the classes, and groups 17 and 18
+  in particular, are easier to tell apart.
+
 ## 2026.7 — 2026-11-25
 
 ### Fixes
