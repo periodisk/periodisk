@@ -84,6 +84,23 @@ def _node(parent: ET.Element, tag: str, **attributes: object) -> ET.Element:
 
 MINUS = "\u2212"
 
+# Top row and symbol of the full element cell. The atomic number and relative
+# atomic mass are what readers look up most, so they are set as large as the
+# cell allows next to the radioactive symbol.
+FULL_NUMBER_SIZE = 3.1
+FULL_MASS_SIZE = 2.9
+FULL_TOP_BASELINE = 3.6
+FULL_SYMBOL_BASELINE = 9.6
+FULL_NAME_BASELINE = 13.3
+# The radioactive symbol sits at one fixed offset so it lines up down a group:
+# right of a three-digit atomic number and left of a six-character mass.
+FULL_TREFOIL_X = 9.2
+# Simplified cells set the mass as large as the atomic number, which fills the
+# top row, so the radioactive symbol goes in the free bottom-right corner.
+SIMPLIFIED_TOP_SIZE = 3.55
+SIMPLIFIED_TREFOIL_X = 20.0
+SIMPLIFIED_TREFOIL_Y = 22.4
+
 
 def _text(
     parent: ET.Element,
@@ -435,7 +452,7 @@ def _draw_cell(
         group,
         str(element.atomic_number),
         x + pad,
-        y + 4.0 if simplified else y + 3.2,
+        y + 4.0 if simplified else y + FULL_TOP_BASELINE,
         top_number_class,
     )
     mass = atomic_weight(element, decimal)
@@ -443,7 +460,7 @@ def _draw_cell(
         group,
         mass,
         right,
-        y + 4.0 if simplified else y + 3.2,
+        y + 4.0 if simplified else y + FULL_TOP_BASELINE,
         top_mass_class,
         anchor="end",
         max_width=_fit_width(
@@ -451,12 +468,22 @@ def _draw_cell(
         ),
     )
     if element.has_no_stable_isotopes.value:
-        _radioactive_symbol(group, centre, y + 2.35, locale["labels"]["radioactive"])
+        if simplified:
+            trefoil_x = x + SIMPLIFIED_TREFOIL_X
+            trefoil_y = y + SIMPLIFIED_TREFOIL_Y
+        else:
+            # The enlarged number and mass leave no room in the middle of the
+            # top row, so the symbol sits left of centre instead.
+            trefoil_x = x + FULL_TREFOIL_X
+            trefoil_y = y + FULL_TOP_BASELINE - FULL_NUMBER_SIZE * 0.36
+        _radioactive_symbol(
+            group, trefoil_x, trefoil_y, locale["labels"]["radioactive"]
+        )
     _text(
         group,
         element.symbol,
         centre,
-        y + (13.4 if simplified else 9.2),
+        y + (13.4 if simplified else FULL_SYMBOL_BASELINE),
         "symbol simplified-symbol" if simplified else "symbol",
         anchor="middle",
     )
@@ -466,7 +493,7 @@ def _draw_cell(
         group,
         name,
         centre,
-        y + (19.2 if simplified else 12.5),
+        y + (19.2 if simplified else FULL_NAME_BASELINE),
         "name simplified-name" if simplified else "name",
         anchor="middle",
         max_width=_fit_width(
@@ -505,12 +532,14 @@ def _draw_cell(
 # Element-cell text sizes and weights, in cascade order. They generate the
 # stylesheet rules and size the knock-outs behind text in hatched cells.
 CELL_FONTS: tuple[tuple[tuple[str, ...], dict[str, str]], ...] = (
-    (("atomic-number",), {"font-size": "2.55px", "font-weight": "600"}),
-    (("atomic-weight",), {"font-size": "2.35px", "font-weight": "600"}),
-    (("symbol",), {"font-size": "6.2px", "font-weight": "700"}),
+    (("atomic-number",), {"font-size": f"{FULL_NUMBER_SIZE}px", "font-weight": "600"}),
+    (("atomic-weight",), {"font-size": f"{FULL_MASS_SIZE}px", "font-weight": "600"}),
+    (("symbol",), {"font-size": "6.8px", "font-weight": "700"}),
     (("name",), {"font-size": "2.3px"}),
-    (("simplified-top-number",), {"font-size": "3.55px", "font-weight": "650"}),
-    (("atomic-weight", "simplified-top-number"), {"font-size": "2.35px"}),
+    (
+        ("simplified-top-number",),
+        {"font-size": f"{SIMPLIFIED_TOP_SIZE}px", "font-weight": "650"},
+    ),
     (("simplified-symbol",), {"font-size": "9.5px"}),
     (("simplified-name",), {"font-size": "3.1px", "font-weight": "500"}),
     (("property",), {"font-size": "2.05px"}),
@@ -723,13 +752,13 @@ def _uranium_guide(
     left_value_edge = x + 0.4
     right_value_edge = x + width - 0.4
     simplified = content == "simplified"
-    top_baseline = y + factor * (4.0 if simplified else 3.2)
-    # Simplified cells enlarge the atomic number but keep the mass compact to
-    # clear the radioactive symbol. Centre each leader on its own font size.
-    number_line_y = top_baseline - factor * 3.55 * 0.26 if simplified else y + 3.0
-    mass_line_y = top_baseline - factor * 2.35 * 0.26 if simplified else y + 3.0
-    symbol_baseline = y + factor * (13.4 if simplified else 9.2)
-    name_baseline = y + factor * (19.2 if simplified else 12.5)
+    top_baseline = y + factor * (4.0 if simplified else FULL_TOP_BASELINE)
+    top_line_y = (
+        top_baseline - factor * SIMPLIFIED_TOP_SIZE * 0.26 if simplified else y + 3.4
+    )
+    number_line_y = mass_line_y = top_line_y
+    symbol_baseline = y + factor * (13.4 if simplified else FULL_SYMBOL_BASELINE)
+    name_baseline = y + factor * (19.2 if simplified else FULL_NAME_BASELINE)
     name = locale["element_names"][uranium.symbol]
     # Estimate the rendered half-width from the name length so the leader
     # clears both short names such as "uran" and longer ones such as "uranium".
@@ -768,22 +797,13 @@ def _uranium_guide(
         anchor="start",
     )
     if simplified:
-        _text(
+        _guide_callout(
             root,
             locale["labels"]["radioactive_sign"],
-            x + width / 2,
-            y - 2.2,
-            "guide-label",
-            anchor="middle",
-        )
-        _node(
-            root,
-            "line",
-            x1=x + width / 2,
-            y1=y - 1.4,
-            x2=x + width / 2,
-            y2=y + 1.2,
-            **{"class": "guide-line"},
+            right,
+            y + factor * SIMPLIFIED_TREFOIL_Y,
+            right_value_edge,
+            anchor="start",
         )
         return
     _guide_callout(
@@ -826,12 +846,13 @@ def _uranium_guide(
         "guide-label",
         anchor="middle",
     )
+    trefoil_x = x + factor * FULL_TREFOIL_X
     _node(
         root,
         "line",
-        x1=x + width / 2,
+        x1=f"{trefoil_x:.2f}",
         y1=y - 1.4,
-        x2=x + width / 2,
+        x2=f"{trefoil_x:.2f}",
         y2=y + 1.2,
         **{"class": "guide-line"},
     )

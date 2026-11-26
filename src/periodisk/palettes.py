@@ -186,18 +186,20 @@ PALETTES = {
         "actinide": "#77AADD",
         "unknown-chemistry": "#FFFFFF",
     },
-    # Clearly separated neutral steps for black-and-white output. Metals, the
-    # largest class, are white for maximum text contrast; incompletely
-    # characterised elements are white with hatching (see HATCHED_UNKNOWN).
+    # Clearly separated neutral steps for black-and-white output. The steps
+    # grow towards the dark end so that neighbouring nonmetals and noble gases
+    # stay apart. Metals, the largest class, are white for maximum text
+    # contrast; incompletely characterised elements are white with hatching
+    # (see HATCHED_UNKNOWN).
     "broad-grey": {
         "alkali-metal": "#FFFFFF",
         "alkaline-earth-metal": "#FFFFFF",
         "transition-metal": "#FFFFFF",
         "post-transition-metal": "#FFFFFF",
-        "metalloid": "#E6E6E6",
-        "reactive-nonmetal": "#CCCCCC",
-        "halogen": "#CCCCCC",
-        "noble-gas": "#B3B3B3",
+        "metalloid": "#E2E2E2",
+        "reactive-nonmetal": "#C4C4C4",
+        "halogen": "#C4C4C4",
+        "noble-gas": "#A3A3A3",
         "lanthanide": "#FFFFFF",
         "actinide": "#FFFFFF",
         "unknown-chemistry": "#FFFFFF",

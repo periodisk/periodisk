@@ -294,9 +294,9 @@ def test_broad_grey_uses_distinct_neutral_steps_per_broad_class(tmp_path) -> Non
     ).getroot()
     expected = {
         "Fe": "#FFFFFF",
-        "B": "#E6E6E6",
-        "O": "#CCCCCC",
-        "Ne": "#B3B3B3",
+        "B": "#E2E2E2",
+        "O": "#C4C4C4",
+        "Ne": "#A3A3A3",
         "Og": "#FFFFFF",
     }
     for symbol, colour in expected.items():
@@ -439,6 +439,21 @@ def test_cell_positions_mass_radioactivity_and_unlabelled_properties(tmp_path) -
     )
 
 
+def test_radioactive_symbols_line_up_in_full_cells(tmp_path) -> None:
+    root = ET.parse(render_svg(tmp_path / "table.svg")).getroot()
+    offsets = set()
+    for symbol in ("Tc", "Bi", "U", "Og"):
+        cell = root.find(f".//{{{SVG}}}g[@id='element-{symbol}']")
+        assert cell is not None
+        rect = cell.find(f"{{{SVG}}}rect[@class='element-cell']")
+        trefoil = cell.find(f"{{{SVG}}}g[@class='radioactive']")
+        assert rect is not None and trefoil is not None
+        trefoil_x = float(trefoil.attrib["transform"].split("(")[1].split()[0])
+        offsets.add(round(trefoil_x - float(rect.attrib["x"]), 2))
+    # One offset for two- and three-digit atomic numbers alike.
+    assert len(offsets) == 1
+
+
 def test_unheaded_uranium_guide_and_period_numbers_are_present(tmp_path) -> None:
     root = ET.parse(render_svg(tmp_path / "table.svg")).getroot()
     assert root.find(f".//{{{SVG}}}g[@id='guide-U']") is not None
@@ -461,10 +476,15 @@ def test_unheaded_uranium_guide_and_period_numbers_are_present(tmp_path) -> None
         if line.attrib["y1"] == line.attrib["y2"]
     }
     top_lines = sorted(
-        (line for line in leaders if float(line.attrib["y1"]) == 45.0),
+        (line for line in leaders if float(line.attrib["y1"]) == 45.4),
         key=lambda line: float(line.attrib["x1"]),
     )
     atomic_number_line, mass_line = top_lines
+    (radioactive_line,) = (
+        line for line in leaders if line.attrib["x1"] == line.attrib["x2"]
+    )
+    # The leader ends above the radioactive symbol, left of the cell centre.
+    assert float(radioactive_line.attrib["x1"]) == pytest.approx(136.0 + 1.35 * 9.2)
     assert float(atomic_number_line.attrib["x2"]) <= 136.5
     assert float(mass_line.attrib["x2"]) >= 165.5
     oxidation_line = horizontal_by_y[66.8]
@@ -497,7 +517,8 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     assert name is not None
     style = root.find(f"{{{SVG}}}style")
     assert style is not None and style.text is not None
-    assert ".atomic-weight.simplified-top-number { font-size: 2.35px; }" in style.text
+    # Atomic number and atomic weight share one size.
+    assert ".atomic-weight.simplified-top-number" not in style.text
 
     guide_labels = {
         node.text: node
@@ -516,12 +537,30 @@ def test_simplified_guide_leaders_follow_scaled_symbol_and_name(tmp_path) -> Non
     mass_line_y = float(guide_labels[mass_label].attrib["y"]) - 0.9
     assert symbol_line_y == pytest.approx(42.0 + 1.35 * float(symbol.attrib["y"]) - 3.5)
     assert name_line_y == pytest.approx(42.0 + 1.35 * float(name.attrib["y"]) - 1.2)
+    # The radioactive symbol sits in the bottom-right corner, and its leader
+    # runs at the symbol's height and stops just short of it.
+    trefoil = guide.find(f"{{{SVG}}}g[@class='radioactive']")
+    assert trefoil is not None
+    trefoil_x, trefoil_y = map(
+        float, trefoil.attrib["transform"].split("(")[1].split(")")[0].split()
+    )
+    assert (trefoil_x, trefoil_y) == (20.0, 22.4)
+    radioactive_line_y = (
+        float(guide_labels[locale_labels["radioactive_sign"]].attrib["y"]) - 0.9
+    )
+    assert radioactive_line_y == pytest.approx(42.0 + 1.35 * trefoil_y)
+    (radioactive_line,) = (
+        line
+        for line in root.findall(f".//{{{SVG}}}line[@class='guide-line']")
+        if float(line.attrib["y1"]) == pytest.approx(radioactive_line_y)
+    )
+    assert float(radioactive_line.attrib["x2"]) > 136.0 + 1.35 * (trefoil_x + 1.23)
     expected_number_line_y = (
         42.0 + 1.35 * float(atomic_number.attrib["y"]) - 1.35 * 3.55 * 0.26
     )
     assert atomic_weight.attrib["y"] == atomic_number.attrib["y"]
     expected_mass_line_y = (
-        42.0 + 1.35 * float(atomic_weight.attrib["y"]) - 1.35 * 2.35 * 0.26
+        42.0 + 1.35 * float(atomic_weight.attrib["y"]) - 1.35 * 3.55 * 0.26
     )
     assert number_line_y == pytest.approx(expected_number_line_y, abs=0.01)
     assert mass_line_y == pytest.approx(expected_mass_line_y, abs=0.01)
@@ -644,8 +683,8 @@ def test_broad_grey_hatches_incompletely_characterised_elements(tmp_path) -> Non
     assert default.find(f".//{{{SVG}}}g[@class='unknown-hatch']") is None
     assert default.find(f".//{{{SVG}}}*[@class='hatch-knockout']") is None
     style = default.find(f"{{{SVG}}}style").text
-    assert ".symbol { font-size: 6.2px; font-weight: 700; }" in style
-    assert ".atomic-weight.simplified-top-number { font-size: 2.35px; }" in style
+    assert ".symbol { font-size: 6.8px; font-weight: 700; }" in style
+    assert ".atomic-weight.simplified-top-number" not in style
 
 
 def test_broad_tol_pale_is_a_lighter_broad_tol_light(tmp_path) -> None:
